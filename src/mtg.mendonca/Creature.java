@@ -3,145 +3,110 @@ package mtg.mendonca;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Creature{
-    private String name;
-    private String color;
-    private String manaCost;
-    private String subType;
+public class Creature extends Card {
     private int attack;
-    private int  life;
-    private String effects;
-
-    public Creature(String name, String color, String manaCost, String subType, int attack, int  life, String effects) {
-        this.name = name;
-        this.color = color;
-        this.manaCost = manaCost;
-        this.subType = subType;
-        this.attack = attack;
-        this. life =  life;
-        this.effects = effects;
-    }
-
-    public List showCard() {  //Create the card
-
-        List<String> card = new ArrayList<String>();
-
-        String inicioFim = "---------------------------------";
-        card.add(inicioFim);
-
-        String segundoPenultimo = "|                               |";
-        card.add(segundoPenultimo);
-
-        String nameString = "";                  //linha do nome
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                nameString += "| Name: " + name;
-            } else if(i == 31) {
-                nameString += "|";
-            } else if (i== nameString.length()-1  ){
-                nameString += " ";
-            }
-        }
-        card.add(nameString);
-
-        String colorString = "";                 //linha da cor da carta
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                colorString += "| Color: " + color;
-            } else if(i == 31) {
-                colorString += "|";
-            } else if (i== colorString.length()-1  ){
-                colorString += " ";
-            }
-        }
-        card.add(colorString);
-
-        String manaCostString = "";              //linha da manaCost da carta
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                manaCostString += "| ManaCost: " + manaCost;
-            } else if(i == 31) {
-                manaCostString += "|";
-            } else if (i== manaCostString.length()-1  ){
-                manaCostString += " ";
-            }
-        }
-        card.add(manaCostString);
-
-        String typeString = "";              //linha do tipo da carta
-        for(int i = 0; i<32;i++) {
-            if(i ==0 ) {
-                String type = "Creature";
-                typeString += "| Type: " + type;
-            } else if(i == 31) {
-                typeString += "|";
-            } else if (i== typeString.length()-1  ){
-                typeString += " ";
-            }
-        }
-        card.add(typeString);
-
-        String subTypeString = "";              //linha do subtipo da carta
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                subTypeString += "| Subtype: " + subType;
-            } else if(i == 31) {
-                subTypeString += "|";
-            } else if (i== subTypeString.length()-1  ){
-                subTypeString += " ";
-            }
-        }
-        card.add(subTypeString);
-
-        String attackString = "";              //linha do ataque da carta
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                attackString += "| Attack: " + attack;
-            } else if(i == 31) {
-                attackString += "|";
-            } else if (i== attackString.length()-1  ){
-                attackString += " ";
-            }
-        }
-        card.add(attackString);
-
-        String  lifeString = "";              //linha da defesa da carta
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                 lifeString += "|  life: " +  life;
-            } else if(i == 31) {
-                 lifeString += "|";
-            } else if (i==  lifeString.length()-1  ){
-                 lifeString += " ";
-            }
-        }
-        card.add( lifeString);
-
-        String effectsString = "";              //linha dos efeitos da carta
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                effectsString += "| Effects: " + effects;
-            } else if(i == 31) {
-                effectsString += "|";
-            } else if (i== effectsString.length()-1  ){
-                effectsString += " ";
-            }
-        }
-        card.add(effectsString);
-        card.add(segundoPenultimo);
-        card.add(inicioFim);
-        return card;
-    }
+    private int defense;
+    private String subType;
+    private boolean dead = false;
 
     public int getAttack() {
         return this.attack;
     }
 
-    public int getLife() {
-        return this.life;
+    public int getDefense() {
+        return this.defense;
     }
 
-    public void doAttack(Player player) {
-        player.loseLife(this.attack);
+    public boolean isDead() {
+        return this.dead;
+    }
+
+    public Creature(String name, String color, String manaCost, String effect, int attack, int defense, String subType) {
+        super(name, color, manaCost, "Creature", effect);
+        this.attack = attack;
+        this.defense = defense;
+        this.subType = subType;
+    }
+
+    public void doDefense(Creature creatura) {
+        if(super.isTapped()){
+            System.out.println("You can not use this card to defend this turn.");
+        } else{
+            this.defense -= creatura.getAttack();
+            if(this.defense <= 0) {
+                this.dead = true;
+            }
+        }
+    }
+
+    public void doAttack(Player nome){
+        if(super.isTapped()){
+            System.out.println("You can not use this card to attack this turn.");
+        } else{
+            nome.loseLife(this.attack);
+            System.out.println(nome + " lost " + this.attack + " of life.");
+            super.tap();
+        }
+    }
+
+    public void doAttack(Creature creatura) {
+        if(super.isTapped()){
+            System.out.println("You can not use this card to attack this turn.");
+        } else{
+            this.defense -= creatura.getAttack();
+            if(this.defense <= 0) {
+                this.dead = true;
+            } else {
+                super.tap();
+            }
+        }
+    }
+
+    @Override
+    public String[] getCard () {  //creates a String array containing the contents of the card
+        String[] carta = new String[15];
+        List caracteristicas = new ArrayList();
+        caracteristicas.add("Name: " + super.getName());
+        caracteristicas.add("Color: " + super.getColor());
+        caracteristicas.add("ManaCost: " + super.getManaCost());
+        caracteristicas.add("Type: " + super.getType());
+        caracteristicas.add("SubType: " + this.subType);
+        caracteristicas.add("Attack: " + this.attack);
+        caracteristicas.add("Defense: " + this.defense);
+        String efeito = "Effect: " + super.getEffect();
+        if(efeito.length()+4 > 33) {
+            String a = "";
+            for(int i = 0; i < efeito.length(); i++) {
+                if( a.length() < 29 & i != efeito.length()-1) {
+                    a += efeito.charAt(i);
+                } else {
+                    caracteristicas.add(a);
+                    a = "";
+                }
+            }
+        } else {
+            caracteristicas.add(efeito);
+        }
+
+        for(int i = 0; i<15; i++){
+            if(i==0 || i==14) {
+                carta[i] = "---------------------------------";
+            } else if (i > 1 & i <caracteristicas.size() + 2 ) {
+                String valor = "";
+                for(int j = 0; j < 33; j++){
+                    if(j==0 || j == 32){
+                        valor += "|";
+                    } else if( j > 1 && j < ((String) caracteristicas.get(i-2)).length() + 2) {
+                        valor += ((String) caracteristicas.get(i-2)).charAt(j-2);
+                    } else {
+                        valor += " ";
+                    }
+                }
+                carta[i] = valor;
+            } else {
+                carta[i] = "|                               |";
+            }
+        }
+        return carta;
     }
 }

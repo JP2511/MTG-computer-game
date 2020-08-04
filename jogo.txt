@@ -3,164 +3,38 @@ Carta:
 -cor
 -custo
 -tipo
--virada?
+-virada
 -efeito
-
-set Type
 
 get Nome
 get Cor
 get Custo
+get Tipo
+get Efeito
 get Virada
 
-construtor para nome, cor, custo e virada?
-construtor para nome, cor e custo com desvirada como default
+construtor para nome, cor, custo, tipo e efeito com desvirada como default
 
-showCard <- mostra a carta individual
-getCard <- permite obter a carta para mostrar com outras cartas
+isTapped() #devolve true se a carta tiver virada
+tap()
+untap()
+getCard()
+showCard()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-package mtg.mendonca;
+Creatura:
+-características da carta
++ataque
++defesa
++subtipo
++dead
 
-import java.util.ArrayList;
-import java.util.List;
+get Attack
+get Defense
+isDead()
 
-public class Creature extends Card {
+construtor para tudo
 
-    public Creature(String name, String color, String manaCost, String type) {
-        super(name, color, manaCost, type);
-    }
-
-    public List getCard() {  //Create the card
-
-        List<String> card = new ArrayList<String>();
-
-        String inicioFim = "---------------------------------";
-        card.add(inicioFim);
-
-        String segundoPenultimo = "|                               |";
-        card.add(segundoPenultimo);
-
-        String nameString = "";                  //linha do nome
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                nameString += "| Name: " + super.name;
-            } else if(i == 31) {
-                nameString += "|";
-            } else if (i== nameString.length()-1  ){
-                nameString += " ";
-            }
-        }
-        card.add(nameString);
-
-        String colorString = "";                 //linha da cor da carta
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                colorString += "| Color: " + color;
-            } else if(i == 31) {
-                colorString += "|";
-            } else if (i== colorString.length()-1  ){
-                colorString += " ";
-            }
-        }
-        card.add(colorString);
-
-        String manaCostString = "";              //linha da manaCost da carta
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                manaCostString += "| ManaCost: " + manaCost;
-            } else if(i == 31) {
-                manaCostString += "|";
-            } else if (i== manaCostString.length()-1  ){
-                manaCostString += " ";
-            }
-        }
-        card.add(manaCostString);
-
-        String typeString = "";              //linha do tipo da carta
-        for(int i = 0; i<32;i++) {
-            if(i ==0 ) {
-                String type = "Creature";
-                typeString += "| Type: " + type;
-            } else if(i == 31) {
-                typeString += "|";
-            } else if (i== typeString.length()-1  ){
-                typeString += " ";
-            }
-        }
-        card.add(typeString);
-
-        String subTypeString = "";              //linha do subtipo da carta
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                subTypeString += "| Subtype: " + subType;
-            } else if(i == 31) {
-                subTypeString += "|";
-            } else if (i== subTypeString.length()-1  ){
-                subTypeString += " ";
-            }
-        }
-        card.add(subTypeString);
-
-        String attackString = "";              //linha do ataque da carta
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                attackString += "| Attack: " + attack;
-            } else if(i == 31) {
-                attackString += "|";
-            } else if (i== attackString.length()-1  ){
-                attackString += " ";
-            }
-        }
-        card.add(attackString);
-
-        String  lifeString = "";              //linha da defesa da carta
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                 lifeString += "|  life: " +  life;
-            } else if(i == 31) {
-                 lifeString += "|";
-            } else if (i==  lifeString.length()-1  ){
-                 lifeString += " ";
-            }
-        }
-        card.add( lifeString);
-
-        String effectsString = "";              //linha dos efeitos da carta
-        for(int i = 0; i<32; i++) {
-            if(i == 0) {
-                effectsString += "| Effects: " + effects;
-            } else if(i == 31) {
-                effectsString += "|";
-            } else if (i== effectsString.length()-1  ){
-                effectsString += " ";
-            }
-        }
-        card.add(effectsString);
-        card.add(segundoPenultimo);
-        card.add(inicioFim);
-        return card;
-    }
-
-    public int getAttack() {
-        return this.attack;
-    }
-
-    public int getLife() {
-        return this.life;
-    }
-
-    public void doAttack(Player player) {
-        player.loseLife(this.attack);
-    }
-
-    public void doAttack(Creature creature) {  //return true if the creature survives after being defended
-        if(this.life <= creature.getAttack()){
-
-            this.alive = false;
-            System.out.println(this.name + " has died.");
-
-        } else {
-            
-        }
-    }
-}
+doDefese(creature)  #damage taken is permanent
+doAttack(player)    #damage taken is permanent
+doAttack(creature)  #damage taken is permanent
