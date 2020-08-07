@@ -1,0 +1,14 @@
+Field:
++list of creatures
++list of artifacts
++list of enchantments
++list of planeswalkers
+
+while an Artifact, a Creature, an Enchantment, a Land or a Planeswalker are on the field, they are considered a planeswalker.
+
+
+A spell is any card that has been played and thus placed on the stack(doesn't apply to lands, since lands don't go through the stack). A card is only a spell when it is on the stack.
+
+The stack is the game zone where spells and abilities are put when they are played and where they wait to resolve. Spells and abilities are put on top of the stack as the first step in being played, and are removed from it as the last step of resolving.
+
+Any spell or ability that uses the stack can be 'responded to' by all players, meaning players have a chance to play spells and abilities with it still on the stack. Since the stack resolves in order from top to bottom, those spells and abilities will resolve before the spell they were played "in response" to. Spells and abilities on the stack resolve one at a time, with a chance for each player to play spells and abilities in between each resolution. Actions that do not use the stack, such as paying costs, playing mana abilities, or turning a face-down creature with morph face-up, cannot be responded to.

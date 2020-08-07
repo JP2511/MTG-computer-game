@@ -1,1 +1,4 @@
-MTG computer game is a multiplayer Magic The Gathering computer game meant to play on the same computer with the players taking turns playing
+<h2> My version of a Magic: The Gathering computer version game </h2>
+
+This game is still in the workings...
+Some key definitions and processes are still being developed.

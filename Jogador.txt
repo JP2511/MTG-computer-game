@@ -1,9 +1,12 @@
 Jogador:
 +vida
++name
 
-construtor para a vida
+get Life
+get Name
 
-getLife()
+construtor para vida e nome
+
 loseLife()
 gainLife()
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -8,6 +8,8 @@ public class Creature extends Card {
     private int defense;
     private String subType;
     private boolean dead = false;
+    private boolean permanent = false;
+    private boolean spell;
 
     public int getAttack() {
         return this.attack;
@@ -21,11 +23,34 @@ public class Creature extends Card {
         return this.dead;
     }
 
-    public Creature(String name, String color, String manaCost, String effect, int attack, int defense, String subType) {
+    public void setPermanent(boolean permanent) {
+        this.permanent = permanent;
+    }
+
+    public boolean isPermanent() {
+        return this.permanent;
+    }
+
+    public void setSpell(boolean spell) {
+        this.spell = spell;
+    }
+
+    public boolean isSpell() {
+        return spell;
+    }
+
+    public Creature(String name, String color, String manaCost, String type, String effect, int attack, int defense, String subType, boolean dead, boolean permanent, boolean spell) {
         super(name, color, manaCost, "Creature", effect);
         this.attack = attack;
         this.defense = defense;
         this.subType = subType;
+        this.dead = dead;
+        this.permanent = permanent;
+        this.spell = spell;
+    }
+
+    public Creature(String name, String color, String manaCost, String effect, int attack, int defense, String subType) {
+        this(name, color, manaCost, "Creature", effect, attack, defense, subType, false, false, false);
     }
 
     public void doDefense(Creature creatura) {
@@ -44,8 +69,17 @@ public class Creature extends Card {
             System.out.println("You can not use this card to attack this turn.");
         } else{
             nome.loseLife(this.attack);
-            System.out.println(nome + " lost " + this.attack + " of life.");
+            System.out.println(nome.getName() + " lost " + this.attack + " of life." + nome.getName() + " now has " + nome.getLife() + " of life.");
             super.tap();
+        }
+    }
+
+    public void doAttack(Plainswalker jake){
+        if(super.isTapped()){
+            System.out.println("You can not use this card to attack this turn.");
+        } else{
+            jake.setLife(jake.getLife() - this.attack);
+            System.out.println(jake.getName() + " lost " + this.attack + " of life. And therefore it now has " + jake.getLife() + " of life.");
         }
     }
 

@@ -2,13 +2,19 @@ package mtg.mendonca;
 
 public class Player {
     private int life;
+    private String name;
 
-    public Player(int life) {
+    public Player(int life, String name) {
         this.life = life;
+        this.name = name;
     }
 
-    public Player() {
-        this(20);
+    public Player(String name) {
+        this(20, name);
+    }
+
+    public String getName() {
+        return name;
     }
 
     public int getLife() {
