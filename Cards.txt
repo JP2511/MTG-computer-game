@@ -1,0 +1,148 @@
+Carta:
+-nome
+-cor
+-custo
+-tipo
+-virada
+-efeito
+
+get Nome
+get Cor
+get Custo
+get Tipo
+get Efeito
+get Virada
+
+construtor para nome, cor, custo, tipo e efeito com desvirada como default
+
+isTapped() #devolve true se a carta tiver virada
+tap()
+untap()
+getCard()
+showCard()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Creature:
+-características da carta
++ataque
++defesa
++subtipo
++dead
++permanent
++spell
+
+get Attack
+get Defense
+set Permanent
+set Spell
+isDead()
+isPermanent()?
+isSpell()?
+
+construtor para tudo
+construtor com type, dead, permanent e spell default
+
+doAttack(player)       
+doAttack(plainswalker) 
+doAttack(creature)  #damage taken is permanent
+doDefese(creature)  #damage taken is permanent
+
+@Override:showCard()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Artifact:
+-características da carta
++permanent
++spell
+
+set Permanent
+set spell
+isPermanent()?
+isSpell()?
+
+construtor para tudo
+construtor com type, permanent e spell default
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Enchantment:
+-características da carta
++subType
++permanent
++spell
+
+set Permanent
+isPermanent()?
+set Spell
+isSpell()?
+
+construtor para tudo
+construtor com type, permanent e spell default
+
+@Override: showCard()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Land:
+-características da carta
++subType
++permanent
+
+set Permanent
+isPermanent()?
+
+construtor para tudo
+construtor com type e permanent default
+
+@Override: showCard()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Plainswalker:
+-características da carta
++life
++permanent
++spell
++dead
+
+set Life
+set Permanent
+set Spell´
+set Dead
+get Life
+isPermanent()?
+isSpell()?
+isDead()?
+
+constructor para tudo
+constructor com type, permanent, spell e dead default
+
+addLife()
+looseLife()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Instant:
+-características da carta
++spell
+
+set Spell
+isSpell()?
+
+construtor para tudo
+construtor com type e spell default
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Sorcery:
+-características da carta
++spell
+
+set Spell
+isSpell()?
+
+construtor para tudo
+construtor com type e spell como default
+

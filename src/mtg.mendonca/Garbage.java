@@ -12,7 +12,7 @@ public class Garbage {
         this.lixo.add(artifact);
     }
 
-    public void sendToGarbage(Plain plain) {
+    public void sendToGarbage(Land plain) {
         this.lixo.add(plain);
     }
 

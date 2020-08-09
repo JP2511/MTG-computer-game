@@ -1,0 +1,22 @@
+Player:
++vida
++name
+
+get Life
+get Name
+
+construtor para vida e nome
+
+loseLife()
+gainLife()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Field:
++list all creatures and their respective enchantments
++list of artifacts
++list of lands
+
+removeFromField(creature)                          #removes from allcreatures list the specified creature and its attached enchantments
+removeFromField(Artifacts)
+removeFromField(Lands)
+removeFromFieldEnchantments(creature, enchantment) #removes the enchantment of the specified creature from allcreatures list
