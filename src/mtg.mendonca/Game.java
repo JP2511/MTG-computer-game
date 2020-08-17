@@ -2,6 +2,7 @@ package mtg.mendonca;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Game {
@@ -14,21 +15,17 @@ public class Game {
         List cartas = new ArrayList();
         cartas.add(joao);
         cartas.add(gg);
-        cartas.add(sofiaslover);cartas.add(joao);
+        cartas.add(sofiaslover);
+        cartas.add(joao);
         cartas.add(gg);
-        cartas.add(sofiaslover);cartas.add(joao);
+        cartas.add(sofiaslover);
+        cartas.add(joao);
         cartas.add(gg);
         cartas.add(sofiaslover);
         Deck bloodRush = new Deck(cartas);
-        List numeros = new ArrayList();
-        numeros.add(0);
-        numeros.add(1);
-        numeros.add(2);
-        numeros.add(3);
-        numeros.add(4);
-        numeros.add(5);
-        numeros.add(6);
-        bloodRush.showCards(numeros);
+        Hand miguel = new Hand();
+        miguel.sendToHand(bloodRush.drawOrRemoveCards(7));
+        miguel.showHand(7);
     }
 
 }

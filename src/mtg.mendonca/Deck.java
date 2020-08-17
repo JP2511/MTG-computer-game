@@ -1,11 +1,16 @@
 package mtg.mendonca;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 class Deck {
     private List<Card> deck;
+
+    public int getSize() {
+        return this.deck.size();
+    }
 
     public Deck(List<Card> deck) {
         this.deck = deck;
@@ -17,13 +22,14 @@ class Deck {
         }
     }
 
-    public ArrayList<Card> drawOrRemoveCards(List numeros) {
-        ArrayList<Card> cartas = new ArrayList();
-        for (int i = 0; i < numeros.size(); i++) {
-            cartas.add(this.deck.get((int) numeros.get(i)));
-            this.deck.remove(i);
+    public ArrayList<Card> drawOrRemoveCards(int n) {
+        n = this.deck.size() < n ? this.deck.size() : n;
+        ArrayList<Card> cards = new ArrayList<>();
+        for(int i = 0; i < n; i++) {
+            cards.add(this.deck.get(0));
+            this.deck.remove(0);
         }
-        return cartas;
+        return cards;
     }
 
     public ArrayList<Card> drawOrRemoveCards(ArrayList<String> nomesDasCartas) {
@@ -60,7 +66,6 @@ class Deck {
     public void showCards(List indexes) {
         int numeroDeListasNaLista = (int) Math.floor(indexes.size() / 5);
         numeroDeListasNaLista += indexes.size() % 5 != 0 ? 1 : 0;
-        List[] stackedCards = new List[numeroDeListasNaLista];
 
         for (int i = 0; i < numeroDeListasNaLista; i++) {
             ArrayList<String> stackedCardsLine = new ArrayList<>();
@@ -70,34 +75,26 @@ class Deck {
                         stackedCardsLine.add(this.deck.get((int) indexes.get(j)).getCard()[h]);
                     }
                 }
-                stackedCards[i] = stackedCardsLine;
+                int[] orderOfCards = createListOfIndexForOrderCards(5);
+                for(int j = 0; j < orderOfCards.length; j++) {
+                    if((j+1) % 5 != 0) {
+                        System.out.print(stackedCardsLine.get(orderOfCards[j]) + "   ");
+                    } else {
+                        System.out.println(stackedCardsLine.get(orderOfCards[j]));
+                    }
+                }
             } else {
                 for (int j = 0 + 5 * i; j < (indexes.size() % 5) + 5 * i; j++) {
                     for (int h = 0; h < 15; h++) {
                         stackedCardsLine.add(this.deck.get((int) indexes.get(j)).getCard()[h]);
                     }
                 }
-                stackedCards[i] = stackedCardsLine;
-            }
-        }
-
-        for(int i = 0; i < numeroDeListasNaLista; i++) {
-            if( i != numeroDeListasNaLista - 1 || indexes.size() % 5 == 0) {
-                int[] orderOfCards = createListOfIndexForOrderCards(5);
-                for(int j = 0; j < orderOfCards.length; j++) {
-                    if((j+1) % 5 != 0) {
-                        System.out.print(stackedCards[i].get(orderOfCards[j]) + "   ");
-                    } else {
-                        System.out.println(stackedCards[i].get(orderOfCards[j]));
-                    }
-                }
-            } else {
                 int[] orderOfCards = createListOfIndexForOrderCards(indexes.size()%5);
                 for(int j = 0; j < orderOfCards.length; j++) {
                     if((j+1) % (indexes.size() % 5) != 0) {
-                        System.out.print(stackedCards[i].get(orderOfCards[j]) + "   ");
+                        System.out.print(stackedCardsLine.get(orderOfCards[j]) + "   ");
                     } else {
-                        System.out.println(stackedCards[i].get(orderOfCards[j]));
+                        System.out.println(stackedCardsLine.get(orderOfCards[j]));
                     }
                 }
             }
