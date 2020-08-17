@@ -3,6 +3,7 @@ package mtg.mendonca;
 public class Player {
     private int life;
     private String name;
+    private Deck deck;
 
     public Player(int life, String name) {
         this.life = life;
@@ -28,4 +29,5 @@ public class Player {
     public void gainLife(int extra) {
         this.life += extra;
     }
+
 }

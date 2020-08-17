@@ -48,7 +48,7 @@ doAttack(plainswalker)
 doAttack(creature)  #damage taken is permanent
 doDefese(creature)  #damage taken is permanent
 
-@Override:showCard()
+@Override:getCard()
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -81,7 +81,7 @@ isSpell()?
 construtor para tudo
 construtor com type, permanent e spell default
 
-@Override: showCard()
+@Override: getCard()
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -96,7 +96,7 @@ isPermanent()?
 construtor para tudo
 construtor com type e permanent default
 
-@Override: showCard()
+@Override: getCard()
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

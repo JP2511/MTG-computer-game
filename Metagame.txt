@@ -9,6 +9,7 @@ construtor para vida e nome
 
 loseLife()
 gainLife()
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Field:
@@ -19,4 +20,21 @@ Field:
 removeFromField(creature)                          #removes from allcreatures list the specified creature and its attached enchantments
 removeFromField(Artifacts)
 removeFromField(Lands)
-removeFromFieldEnchantments(creature, enchantment) #removes the enchantment of the specified creature from allcreatures list
+removeFromFieldEnchantments(creature, enchantment) #removes the enchantment of the specified creature from the allCreatures list
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Deck:
++list of all cards belonging to the deck
+
+constructor
+addCards()
+
+drawOrRemoveCards(list)          	      #gets access to the cards with the specified indexes and removes them from the deck
+drawOrRemoveCards(arrayList<string>)          #gets access to the cards with the specified names and removes the first instance of the specified cards from the deck
+drawOrRemoveAllCards(arrayList<string>)       #gets access to the cards with the specified names and removes all instances of the specified cards from the deck
+
+shuffleDeck()
+
+showCards(list)                               #shows the cards of the deck of the specified indexes
+createListOfIndexForOrderCards(int)           #creates a list of ordered numbers used to format the cards

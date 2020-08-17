@@ -51,7 +51,7 @@ public class Enchantment extends Card {
                     a += efeito.charAt(i);
                 } else {
                     caracteristicas.add(a);
-                    a = "";
+                    a = ""+efeito.charAt(i);
                 }
             }
         } else {
