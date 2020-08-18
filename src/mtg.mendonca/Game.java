@@ -27,6 +27,5 @@ public class Game {
         miguel.sendToHand(bloodRush.drawOrRemoveCards(7));
         miguel.showHand(7);
     }
-
 }
 

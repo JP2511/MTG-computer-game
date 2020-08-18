@@ -4,14 +4,16 @@ public class Player {
     private int life;
     private String name;
     private Deck deck;
+    private Hand hand;
 
-    public Player(int life, String name) {
+    public Player(int life, String name, Deck deck) {
         this.life = life;
         this.name = name;
+        this.deck = deck;
     }
 
-    public Player(String name) {
-        this(20, name);
+    public Player(String name, Deck deck) {
+        this(20, name, deck);
     }
 
     public String getName() {
@@ -28,6 +30,14 @@ public class Player {
 
     public void gainLife(int extra) {
         this.life += extra;
+    }
+
+    public void drawCards(int n) {
+        this.hand.sendToHand(this.deck.drawOrRemoveCards(n));
+    }
+
+    public void playCard(int i) {
+
     }
 
 }

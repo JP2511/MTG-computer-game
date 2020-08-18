@@ -1,26 +1,41 @@
 Player:
-+vida
++life
 +name
++deck
++hand
 
 get Life
 get Name
 
-construtor para vida e nome
+constructor for life, name and deck
 
 loseLife()
 gainLife()
+
+drawCards(int)    #moves a card from the deck to the hand
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Field:
 +list all creatures and their respective enchantments
 +list of artifacts
++list of plainswalkers
 +list of lands
++list of basicLands
 
-removeFromField(creature)                          #removes from allcreatures list the specified creature and its attached enchantments
-removeFromField(Artifacts)
-removeFromField(Lands)
-removeFromFieldEnchantments(creature, enchantment) #removes the enchantment of the specified creature from the allCreatures list
+removeCreatureFromField(int)              #removes the creature at index i from allcreatures list the specified creature and its attached enchantments
+removeArtifactFromField(int)              #removes the artifact at index i from artifactos list
+removeEnchantmentFromField(int, int)      #removes the enchantment at index j of the creature at index i from the allCreatures list
+removePlainswalkerFromField(int)          #removes the plainswalker at index i of the plainswalker list
+removeBasicLandFromField(String)          #removes a basic land of the specified color from the basicLands list
+removeLandFromField(int)                  #removes the land at index i of the lands list
+
+addCreatureToField(creature)              #adds the creature to the allcreatures list
+addArtifactToField(artifact)              #adds the artifact to the artifactos list
+addEnchantmentToField(enchantment, int)   #adds the enchantment at index i to the allCreatures list
+addPlainswalkerToField(painswalker)       #adds the plainswalker to the plainswalker list
+addBasicLandToField(basicLand)            #adds a basic land to the basicLands list
+addLandToField(land)                      #adds the land to the lands list
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

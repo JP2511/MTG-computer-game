@@ -11,18 +11,10 @@ public class Hand {
         }
     }
 
-    public ArrayList<Card> removeFromHand(ArrayList<String> names) {
-        ArrayList<Card> cardsToRemove = new ArrayList<>();
-        for(int i = 0; i < names.size(); i++) {
-            for(int j = 0; j < this.hand.size(); j++) {
-                if(this.hand.get(j).getName() == names.get(i)) {
-                    cardsToRemove.add(this.hand.get(j));
-                    this.hand.remove(j);
-                    break;
-                }
-            }
-        }
-        return cardsToRemove;
+    public Card removeFromHand(int n) {
+        Card cardToRemoveFromHand = this.hand.get(n);
+        this.hand.remove(n);
+        return cardToRemoveFromHand;
     }
 
     public void showHand(int n) {
