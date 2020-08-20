@@ -10,4 +10,5 @@ if [ $i == $(ls | wc -l) ] ; then
     echo "The total number of lines of the whole program is" $b "lines."
 fi
 done
+cat $(ls) | wc -l
 sleep 5
