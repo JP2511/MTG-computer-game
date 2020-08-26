@@ -15,7 +15,7 @@ def getNames(filesWithCompleteNames):
         data = openingAFile(i).splitlines()
         for j in data:
             if(j.startswith("<title")):
-                title.append(j.split(">")[1].split(" |")[0].split(" Spoiler")[0])
+                title.append(j.split(">")[1].split(" |")[0].split(" Spoiler")[0].replace(" ",""))
                 break
     return title
 
@@ -50,5 +50,5 @@ createFilesWithCardsURLs(titles, listOfListOfURLs)
 
 #create a text file with the names of the created text files
 file = open("commanderDecks\\commanderDecksCardsURLs.txt", "w+")
-file.write("_".join(['"' + i + '".txt' for i in titles]) + "_n")
+file.write("_".join([i + '.txt' for i in titles]) + "_n")
 file.close()
