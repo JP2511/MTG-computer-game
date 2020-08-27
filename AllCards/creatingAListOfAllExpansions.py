@@ -71,7 +71,7 @@ def createNameOfFilesFile(fileName, namesOfFiles):
     file = open(fileName, "w+")
     file.write("_".join(namesOfFiles)+"_n")
     file.close()
-
+    
 #creating the files with the commanderDeck links and a file with the name of all of the created files
 createFiles(wholeCommanderDecksLinks, nameOfCommanderDeckExpansions)
 createNameOfFilesFile("commanderDecksURL.txt", nameOfCommanderDeckExpansions)
@@ -81,5 +81,9 @@ expansionsWithNoise = getContent(commanderDecksAndNoise, "<!---->")
 expansionsWithoutNoise = restrictNoise(expansionsWithNoise, "</table>")
 expansionsLinksWNoise = onlyLinks(expansionsWithoutNoise)
 expansionsCleanedLinks = links(expansionsLinksWNoise)
+wholeExpansionsLinks = completLinks(expansionsCleanedLinks)
+expansionFiles = [i.split("/")[0] + ".txt" for i in expansionsCleanedLinks]
 
-
+#creating a file with the links concatenated and creating a file with the names of the files to deposit the respective html pages
+createNameOfFilesFile("expansions\\expansionsURLs.txt", wholeExpansionsLinks)
+createNameOfFilesFile("expansions\\expansionHTMLFiles.txt", expansionFiles)
