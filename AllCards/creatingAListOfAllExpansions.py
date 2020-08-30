@@ -1,89 +1,50 @@
-#reads the main page of the website
-with open("mainpage.txt") as datafile:
-    data = datafile.read()
+#open a file
+def openFile(path):
+    with open(path) as datafile:
+        data = datafile.read().splitlines()
+    return data
 
-#gets the content after the first appearance of the introduced string
-def getContent(data, x):
-    j=0
-    content=[]
-    for i in range(len(data)):
-        if(data[i].strip().startswith(x) and j == 0):
-            j=i
-        if(i>j and j != 0):
-            content.append(data[i])
-    return content
-
-#gets the content of the website that is inside the body tag
-mainNav = getContent(data.splitlines(), "<!--MAIN NAVIGATION-->")
-
-#gets the content of the website that is inside of the outside center tags
-content = getContent(mainNav, "<!--CONTENT-->")
-
-#removes extra content from list
-def restrictNoise(data, string):
-    content=[]
+#reduce page content
+def reduceHTML(data):
+    reduced_HTML = []
+    j = 0
     for i in data:
-        if(i.startswith(string)):
+        if i.startswith("<!--CONTENT-->"):
+            j = 1
+        if i.startswith("<!--END CONTENT-->"):
             break
-        content.append(i)
-    return content
-
-#return only lines which are links
-def onlyLinks(data):
-    content=[]
+        if j == 1:
+            reduced_HTML.append(i)
+    return reduced_HTML
+            
+#get the link tags
+def getCompleteLinks(data):
+    links = []
     for i in data:
-        if(i.startswith("<a")):
-            content.append(i)
-    return content
+        if i.startswith("<a ") and "http://mythicalspoiler.com/" + i.split('"')[1] not in links:
+            links.append("http://mythicalspoiler.com/" + i.split('"')[1])
+    return links
 
-
-#creates a list of the ending of the links to later fetch
-def links(data):
-    link=[]
+#get the names of the files
+def getNamesOfFiles(data):
+    names = []
     for i in data:
-        link.append(i.split('"')[1])
-    return link
+        if i.split("/")[3] == "con":
+            names.append("ccon.txt")
+        else:
+            names.append(i.split("/")[3]+".txt")
+    return names
 
-#adds the rest of the link
-def completLinks(data):
-    completeLinks=[]
-    for i in data:
-        completeLinks.append("http://mythicspoiler.com/"+i)
-    return completeLinks
-
-#getting the commander decks
-commanderDecksAndNoise = getContent(content,"<!---->")
-commanderDeck = restrictNoise(commanderDecksAndNoise, "<!---->")
-commanderDeckLinks = onlyLinks(commanderDeck)
-commanderDecksCleanedLinks = links(commanderDeckLinks)
-wholeCommanderDecksLinks = completLinks(commanderDecksCleanedLinks)
-nameOfCommanderDeckExpansions = [i.split("/")[0]+".txt" for i in commanderDecksCleanedLinks]
-
-#creates a number of text files each one with an URL   
-def createFiles(urls, nameOfFile):
-    for i in range(len(urls)):
-        file = open(nameOfFile[i], "w+")
-        file.write(urls[i])
-        file.close()
-        
-#creates a text file with the name of all the files created with an URL in it
-def createNameOfFilesFile(fileName, namesOfFiles):
-    file = open(fileName, "w+")
-    file.write("_".join(namesOfFiles)+"_n")
+#create a file with the elements of a list concatenated and an added meaningless element
+def createFiles(folder, name, list_of_names_or_URLs):
+    file = open(folder + "\\" + name, "w+")
+    file.write("_".join(list_of_names_or_URLs) + "_n")
     file.close()
     
-#creating the files with the commanderDeck links and a file with the name of all of the created files
-createFiles(wholeCommanderDecksLinks, nameOfCommanderDeckExpansions)
-createNameOfFilesFile("commanderDecksURL.txt", nameOfCommanderDeckExpansions)
-
-#getting the expansions
-expansionsWithNoise = getContent(commanderDecksAndNoise, "<!---->")
-expansionsWithoutNoise = restrictNoise(expansionsWithNoise, "</table>")
-expansionsLinksWNoise = onlyLinks(expansionsWithoutNoise)
-expansionsCleanedLinks = links(expansionsLinksWNoise)
-wholeExpansionsLinks = completLinks(expansionsCleanedLinks)
-expansionFiles = [i.split("/")[0] + ".txt" for i in expansionsCleanedLinks]
-
-#creating a file with the links concatenated and creating a file with the names of the files to deposit the respective html pages
-createNameOfFilesFile("expansions\\expansionsURLs.txt", wholeExpansionsLinks)
-createNameOfFilesFile("expansions\\expansionHTMLFiles.txt", expansionFiles)
+#applying the functions to the mainpage.txt
+mainpage = openFile("mainpage.txt")
+reduced_mainpage = reduceHTML(mainpage)
+complete_links = getCompleteLinks(reduced_mainpage)
+names_of_files = getNamesOfFiles(complete_links)
+createFiles("temps", "allExpansionsURLs.txt", complete_links)
+createFiles("temps", "allExpansionsFileNames.txt", names_of_files)

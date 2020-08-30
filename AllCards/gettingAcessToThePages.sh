@@ -3,25 +3,25 @@
 #get the main page that contains the links to all expansions
 curl http://mythicspoiler.com/sets.html |
 cat >>mainpage.txt
-python creatingAListOfAllExpansions.py #returns a lot of text files each one with a link to webpage and two text files with the names of the created text files with URLs
-rm mainpage.txt
+python creatingAListOfAllExpansions.py #creates two files in the temps folder: one contains all the URLs for all the expansions and the other contains all the names
+rm mainpage.txt                        #of the files for each expansion                   
 
-#get the pages from the links of the commander Decks
-number=$(awk -F\_ '{ print NF - 1}' commanderDecksURL.txt) #counts the number of _ in the file
-for i in $(seq $number) ; do
-    curl $(cat $(cat commanderDecksURL.txt | cut --delimiter=_ -f$i)) >>$(cat commanderDecksURL.txt | cut --delimiter=_ -f$i)
-done
-mv $(ls | grep "c..\.txt") commanderDecks/
+# #get the pages from the links of the commander Decks
+# number=$(awk -F\_ '{ print NF - 1}' commanderDecksURL.txt) #counts the number of _ in the file
+# for i in $(seq $number) ; do
+#     curl $(cat $(cat commanderDecksURL.txt | cut --delimiter=_ -f$i)) >>$(cat commanderDecksURL.txt | cut --delimiter=_ -f$i)
+# done
+# mv $(ls | grep "c..\.txt") commanderDecks/
 
-#get the pages from the links of the expansions
-cd expansions/
-numberOfExpansions=$(awk -F_ '{ print NF - 1}' expansionsURLs.txt)
-for i in $(seq $numberOfExpansions) ; do
-    curl $(cat expansionsURLs.txt | cut --delimiter=_ -f$i) >>$(cat expansionHTMLFiles.txt | cut --delimiter=_ -f$i)
-done
-mv con.txt ccon.txt
-rm expansionsURLs.txt
-cd ..
+# #get the pages from the links of the expansions
+# cd expansions/
+# numberOfExpansions=$(awk -F_ '{ print NF - 1}' expansionsURLs.txt)
+# for i in $(seq $numberOfExpansions) ; do
+#     curl $(cat expansionsURLs.txt | cut --delimiter=_ -f$i) >>$(cat expansionHTMLFiles.txt | cut --delimiter=_ -f$i)
+# done
+# mv con.txt ccon.txt
+# rm expansionsURLs.txt
+# cd ..
 
 # #creates text files inside the commanderDecks folder that contain URLs to the cards and a text file that contains the names of the files createds
 # python creatingCommanderCardsURLs.py
