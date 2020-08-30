@@ -6,25 +6,26 @@ cat >>mainpage.txt
 python creatingAListOfAllExpansions.py #creates two files in the temps folder: one contains all the URLs for all the expansions and the other contains all the names
 rm mainpage.txt                        #of the files for each expansion                   
 
-# #get the pages from the links of the commander Decks
-# number=$(awk -F\_ '{ print NF - 1}' commanderDecksURL.txt) #counts the number of _ in the file
-# for i in $(seq $number) ; do
-#     curl $(cat $(cat commanderDecksURL.txt | cut --delimiter=_ -f$i)) >>$(cat commanderDecksURL.txt | cut --delimiter=_ -f$i)
-# done
-# mv $(ls | grep "c..\.txt") commanderDecks/
+#get the pages from the links of the expansions
+mkdir temps
+cd temps/
+numberOfExpansions=$(awk -F_ '{ print NF - 1}' allExpansionsFileNames.txt)
+for i in $(seq $numberOfExpansions) ; do
+    curl $(cat allExpansionsURLs.txt | cut --delimiter=_ -f$i) >>$(cat allExpansionsFileNames.txt | cut --delimiter=_ -f$i)
+done
+rm allExpansionsURLs.txt
+cd ..
 
-# #get the pages from the links of the expansions
-# cd expansions/
-# numberOfExpansions=$(awk -F_ '{ print NF - 1}' expansionsURLs.txt)
-# for i in $(seq $numberOfExpansions) ; do
-#     curl $(cat expansionsURLs.txt | cut --delimiter=_ -f$i) >>$(cat expansionHTMLFiles.txt | cut --delimiter=_ -f$i)
-# done
-# mv con.txt ccon.txt
-# rm expansionsURLs.txt
-# cd ..
+#creates text files named after their expansion containing the URLs to all cards of that expansion
+python creatingExpansionFilesWithCardURLs.py
+cd temps/
+rm $(ls | grep "^...\.txt$")
+mv $(ls | grep "^Commander") ../commanderDecks/
+mv ./* ../expansions/
+cd ..
+rmdir temps
 
 # #creates text files inside the commanderDecks folder that contain URLs to the cards and a text file that contains the names of the files createds
-# python creatingCommanderCardsURLs.py
 # cd commanderDecks
 # for i in $(seq $number) ; do
 #     rm $(cat ../commanderDecksURL.txt | cut --delimiter=_ -f$i)

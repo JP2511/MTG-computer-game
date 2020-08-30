@@ -21,8 +21,8 @@ def reduceHTML(data):
 def getCompleteLinks(data):
     links = []
     for i in data:
-        if i.startswith("<a ") and "http://mythicalspoiler.com/" + i.split('"')[1] not in links:
-            links.append("http://mythicalspoiler.com/" + i.split('"')[1])
+        if i.startswith("<a ") and "http://mythicspoiler.com/" + i.split('"')[1] not in links:
+            links.append("http://mythicspoiler.com/" + i.split('"')[1])
     return links
 
 #get the names of the files
