@@ -15,6 +15,8 @@ def getNameOfExpansion(data):
         name = "Magic2012"
     if name == "M14":
         name = "Magic2014"
+    if ":" in name:
+        name = name.replace(":",";")
     return name.title()
 
 #reduce the content of the html page
@@ -35,16 +37,22 @@ def getLinks(data, name):
     return links
 
 #write files
-def writeFile(name, URLs):
-    file = open("temps\\" + name + ".txt", "w+")
+def writeFile(folder, name, URLs):
+    file = open(folder + name + ".txt", "w+")
     file.write("_".join(URLs) + "_n")
     file.close()
 
 #parsing the html of each expansion and creating a text file with the name of the expansion and with the links to all the cards of each expansion
 main_file = openFile("allExpansionsFileNames.txt")
+all_expansions = []
 for i in main_file.split("_")[:-1]:
     expansion = openFile(i)
     title_of_expansion = getNameOfExpansion(expansion)
+    if title_of_expansion.startswith("Commander"):
+        all_expansions.append("commanderDecks/" + title_of_expansion)
+    else:
+        all_expansions.append("expansions/" + title_of_expansion)
     reduced_HTML_page = reduceHTML(expansion)
     links = getLinks(reduced_HTML_page, i.split(".txt")[0])
-    writeFile(title_of_expansion, links)
+    writeFile("temps\\", title_of_expansion, links)
+    writeFile("", "allExpansions", all_expansions)

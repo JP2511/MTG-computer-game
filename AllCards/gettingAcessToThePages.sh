@@ -3,11 +3,11 @@
 #get the main page that contains the links to all expansions
 curl http://mythicspoiler.com/sets.html |
 cat >>mainpage.txt
+mkdir temps
 python creatingAListOfAllExpansions.py #creates two files in the temps folder: one contains all the URLs for all the expansions and the other contains all the names
 rm mainpage.txt                        #of the files for each expansion                   
 
 #get the pages from the links of the expansions
-mkdir temps
 cd temps/
 numberOfExpansions=$(awk -F_ '{ print NF - 1}' allExpansionsFileNames.txt)
 for i in $(seq $numberOfExpansions) ; do
@@ -19,18 +19,13 @@ cd ..
 #creates text files named after their expansion containing the URLs to all cards of that expansion
 python creatingExpansionFilesWithCardURLs.py
 cd temps/
+rm ccon.txt allExpansionsFileNames.txt
 rm $(ls | grep "^...\.txt$")
 mv $(ls | grep "^Commander") ../commanderDecks/
 mv ./* ../expansions/
 cd ..
 rmdir temps
 
-# #creates text files inside the commanderDecks folder that contain URLs to the cards and a text file that contains the names of the files createds
-# cd commanderDecks
-# for i in $(seq $number) ; do
-#     rm $(cat ../commanderDecksURL.txt | cut --delimiter=_ -f$i)
-# done
-# rm ../commanderDecksURL.txt
 
 # #opens each of the files that contains the URLs of the cards for the commander decks and creates a file with the content of the html page for each card
 # numberOfUnderscores=$(awk -F\_ '{ print NF - 1 }' commanderDecksCardsURLs.txt)
