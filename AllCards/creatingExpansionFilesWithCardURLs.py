@@ -27,13 +27,18 @@ def reduceHTML(data):
 def getLinks(data, name):
     links = []
     for i in data:
-        if i.startswith('<a '):
+        if i.strip().startswith('<a '):
             if "cards" in i:
                 if name.split(".txt")[0] == "ccon":
                     expansion = "con"
                 else:
                     expansion = name.split(".txt")[0]
-                links.append("http://mythicspoiler.com/" + expansion + "/" + i.split('ref="')[1].split('"')[0])
+                complete_link_ending = expansion + "/" + i.split('ref="')[1].split('"')[0]
+                if expansion + "/../" in complete_link_ending:
+                    complete_link = "http://mythicspoiler.com/" + complete_link_ending.split(expansion + "/../")[1]
+                else:
+                    complete_link = "http://mythicspoiler.com/" + complete_link_ending
+                links.append(complete_link)
     return links
 
 #write files
@@ -42,16 +47,16 @@ def writeFile(folder, name, URLs):
     file.write("_".join(URLs) + "_n")
     file.close()
 
-#parsing the html of each expansion and creating a text file with the name of the expansion and with the links to all the cards of each expansion
+# parsing the html of each expansion and creating a text file with the name of the expansion and with the links to all the cards of each expansion
 main_file = openFile("allExpansionsFileNames.txt")
 all_expansions = []
 for i in main_file.split("_")[:-1]:
     expansion = openFile(i)
     title_of_expansion = getNameOfExpansion(expansion)
     if title_of_expansion.startswith("Commander"):
-        all_expansions.append("commanderDecks/" + title_of_expansion)
+        all_expansions.append("commanderDecks/" + title_of_expansion + ".txt")
     else:
-        all_expansions.append("expansions/" + title_of_expansion)
+        all_expansions.append("expansions/" + title_of_expansion + ".txt")
     reduced_HTML_page = reduceHTML(expansion)
     links = getLinks(reduced_HTML_page, i.split(".txt")[0])
     writeFile("temps\\", title_of_expansion, links)

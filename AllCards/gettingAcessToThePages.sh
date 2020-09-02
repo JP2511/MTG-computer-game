@@ -24,18 +24,18 @@ rm $(ls | grep "^...\.txt$")
 mv $(ls | grep "^Commander") ../commanderDecks/
 mv ./* ../expansions/
 cd ..
-rmdir temps
 
-
-# #opens each of the files that contains the URLs of the cards for the commander decks and creates a file with the content of the html page for each card
-# numberOfUnderscores=$(awk -F\_ '{ print NF - 1 }' commanderDecksCardsURLs.txt)
+#opens each of the files that contains the URLs of the cards for the commander decks and creates a file with the content of the html page for each card
+# numberOfUnderscores=$(awk -F\_ '{ print NF - 1 }' allExpansions.txt)
 # for i in $(seq $numberOfUnderscores) ; do
-#     numberForEachFile=$(awk -F\_ '{ print NF - 1 }' $(cat commanderDecksCardsURLs.txt | cut --delimiter=_ -f$i))
+#     numberForEachFile=$(awk -F\_ '{ print NF - 1 }' $(cat allExpansions.txt | cut --delimiter=_ -f$i))
 #     for j in $(seq $numberForEachFile) ; do
-#         curl $(cat $(cat commanderDecksCardsURLs.txt | cut --delimiter=_ -f$i) | cut --delimiter=_ -f$j) >>$(cat commanderDecksCardsURLs.txt | cut --delimiter=_ -f$i | cut --delimiter=\. -f1)_$(cat $(cat commanderDecksCardsURLs.txt | cut --delimiter=_ -f$i) | cut --delimiter=_ -f$j | cut --delimiter=/ -f6 | cut --delimiter=\. -f1).txt
+#         curl $(cat $(cat allExpansions.txt | cut --delimiter=_ -f$i) | cut --delimiter=_ -f$j) >>temps/$(cat allExpansions.txt | cut --delimiter=_ -f$i | cut --delimiter=\. -f1 | cut --delimiter=/ -f2)_$(cat $(cat allExpansions.txt | cut --delimiter=_ -f$i) | cut --delimiter=_ -f$j | cut --delimiter=/ -f6 | cut --delimiter=\. -f1).txt
 #     done
 # done
+# sleep 10
 
+########################################################################################
 # #removes the previous files with the html page of each commander Deck expansion
 # for i in $(seq $numberOfUnderscores) ; do
 #     rm $(cat commanderDecksCardsURLs.txt | cut --delimiter=_ -f$i)
