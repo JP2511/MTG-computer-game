@@ -1,198 +1,140 @@
-#opens a file from its path
-def openingAFile(filepath, encodingt):
-    with open("commanderDecks/" + filepath,encoding=encodingt, errors = "ignore") as datafile:
+#opens the specified file
+def openFile(path):
+    with open(path, encoding = "utf8") as datafile:
         data = datafile.read()
     return data
 
-#reduce html context to between tags of <!--Content--> and <!--END CARD TEXT-->
-def reduceHTMLPage(data):
-    reducedHTMLpage = []
-    j = 0
-    for i in data:
-        if(i.startswith("<!--CONTENT-->") or j != 0):
-            j = 1
-            reducedHTMLpage.append(i)
-        if(i.startswith("<!--END CARD TEXT-->")):
-            reducedHTMLpage.append(i)
-            break
-    return reducedHTMLpage
-
-#get card Name
-def cardName(data):
-    reducedEvenMoreHTML = []
-    j = 0
-    for i in data:
-        if(i.startswith("<!--CARD NAME-->")):
-            j = 1
-        if(i.startswith("</font") and j != 0):
-            break
-        if( j != 0 and not i.startswith("<!--CARD NAME-->")):
-            reducedEvenMoreHTML.append(i)
-    return reducedEvenMoreHTML[0]
-
-#get manaCost
-def getManaCost(data):
-    reducedEvenMoreHTML = []
-    j = 0
-    for i in data:
-        if(i.startswith("<!--MANA COST-->")):
-            j = 1
-        if(i.startswith("</td") and j != 0):
-            break
-        if( j != 0 and not i.startswith("<!--MANA COST-->")):
-            reducedEvenMoreHTML.append(i)
-    return reducedEvenMoreHTML[0]
-
-#get type and subtype of card
-def getTypeAndSubtype(data):
-    reducedEvenMoreHTML = []
-    j = 0
-    for i in data:
-        if(i.startswith("<!--TYPE-->")):
-            j = 1
-        if(i.startswith("</td") and j != 0):
-            break
-        if( j != 0 and not i.startswith("<!--TYPE-->")):
-            reducedEvenMoreHTML.append(i)
-    return reducedEvenMoreHTML[0]
-
-#get type
-def getType(data):
-    typeAndSubtype = getTypeAndSubtype(data)
-    if(typeAndSubtype.split(" - ")[0].startswith("Legendary ")):
-        theType = typeAndSubtype.split(" - ")[0].split("Legendary ")[1]
+#reduces the size of the html page to the bare necessities
+def reduceHTML(data):
+    if len(data) == 0:
+        reduced_html = ""
+    elif "<!--CONTENT-->" in data:
+        reduced_html = data.split("<!--CONTENT-->")[32].split("<!--END CONTENT-->")[0]
     else:
-        theType = typeAndSubtype.split(" - ")[0]
-    return theType
+        reduced_html = ""
+    return reduced_html
 
-#get subtype
-def getSubtype(data):
-    typeAndSubtype = getTypeAndSubtype(data)
-    if(typeAndSubtype.count("-") == 0):
+#returns the name of the card
+def getCardName(data):
+    if len(data) == 0:
+        name = ""
+    elif "<!--CARD NAME-->" not in data:
+        name = ""
+    else:
+        name = data.split("<!--CARD NAME-->")[1].split("</font")[0].strip().replace(" ","%")
+    return name
+
+#returns the mana cost of the card
+def getManaCost(data):
+    if len(data) == 0:
+        manaCost = ""
+    elif "<!--MANA COST-->" not in data:
+       manaCost = ""
+    else:
+       manaCost = data.split("<!--MANA COST-->")[1].split("</td")[0].strip()
+    return manaCost
+
+#returns the type and subtype of the card together
+def getTypeAndSubtype(data):
+    if len(data) == 0:
+        type_and_subtype = ""
+    elif "<!--TYPE-->" not in data:
+        type_and_subtype = ""
+    else:
+        type_and_subtype = data.split("<!--TYPE-->")[1].split("</td")[0].strip()
+    return type_and_subtype
+
+#returns the type of the card
+def getType(data):
+    if "-" not in data:
+        type_of_card = data
+    else:
+        type_of_card = data.split("-")[0].strip()
+        if "Legendary" in type_of_card:
+            type_of_card = type_of_card.split("Legendary ")[1]
+    return type_of_card
+
+#returns the subtype of the card
+def getSubType(data):
+    if "-" not in data:
         subType = ""
     else:
-        subType = typeAndSubtype.split(" - ")[1]
+        subType = data.split("-")[1].strip()
     return subType
 
-#get the effects of the card
-def cardText(data):
-    reducedEvenMoreHTML = []
-    j = 0
-    for i in data:
-        if(i.startswith("<!--TYPE-->")):
-            j = 1
-        if(i.startswith("<!--CARD TEXT-->") and j == 1):
-            j = 2
-        if( j == 2 and not i.startswith("<!--CARD TEXT-->")):
-            reducedEvenMoreHTML.append(i)
-        if(i.startswith("</td>") and j ==2 ):
-            break
-    text = []
-    for i in reducedEvenMoreHTML:
-        if(i.count("<") != 0):
-            g = i.split("<")[0]
-        else:
-            g = i
-        if(not(g.startswith("<")) and len(g) != 0):
-            text.append(g)
-    return text
+#get the card's effects
+def getEffect(data):
+    if len(data) == 0:
+        effect = ""
+    elif "<!--CARD TEXT-->" not in data:
+        effect = ""
+    elif "<!--TYPE-->" not in data:
+        effect = data.split("<!--CARD NAME-->")[1].split("<!--CARD TEXT-->")[1].split("</td")[0].strip().replace("<br />","@").replace("\n","")
+    elif "<!--CARD TEXT-->" not in data.split("<!--TYPE-->")[1]:
+        effect = ""
+    else:
+        effect = data.split("<!--TYPE-->")[1].split("<!--CARD TEXT-->")[1].split("</td")[0].strip().replace("<br />","@").replace("\n","")
+    return effect
 
-#get card power and life/defense
+#return power and life of a card if it has any
 def getPowerAndLife(data):
-    reducedEvenMoreHTML = []
-    j = 0
-    for i in data:
-        if(i.startswith("<!--P/T-->")):
-            j = 1
-        if(i.startswith("<!--END CARD TEXT-->")):
-            break
-        if(j == 1 and not i.startswith("<!--P/T-->")):
-            reducedEvenMoreHTML.append(i)
-    if(len(reducedEvenMoreHTML)==0):
-        result = ""
+    if len(data) == 0:
+        power_and_life = ""
+    elif "<!--P/T-->" not in data:
+        power_and_life = ""
     else:
-        result = reducedEvenMoreHTML[0]
-    return result
+        power_and_life = data.split("<!--P/T-->")[1].split("<!--END CARD TEXT-->")[0].strip()
+    return power_and_life
 
-#get life/defense
-def getLife(data):
-    powerAndLife = getPowerAndLife(data)
-    if(powerAndLife.count("/") != 0):
-        life = powerAndLife.split("/")[1]
-    else:
-        life = powerAndLife
-    return life
-
-#get power
+#returns the power of a creature card
 def getPower(data):
-    powerAndLife = getPowerAndLife(data)
-    if(powerAndLife.count("/") != 0):
-        power = powerAndLife.split("/")[0]
-    else:
+    if "/" not in data:
         power = ""
+    else:
+        power = data.split("/")[0]
     return power
 
-#getting the expansions of the files
-def namesOfExpansions(files):
-    listOfNamesOfExpansions = []
-    for i in files:
-        if(i.split("_")[0] not in listOfNamesOfExpansions):
-            listOfNamesOfExpansions.append(i.split("_")[0])
-    return listOfNamesOfExpansions
+#returs the life of a creature card
+def getLife(data):
+    if "/" not in data:
+        if "[" in data:
+            life = data.split("[")[1].split("]")[0]
+        else:
+            life = ""
+    else:
+        life = data.split("/")[1]
+    return life
 
-#organizing the cards into various list separated by expansion
-def listSeparatedByExpansions(files, namesOfExpansions):
-    listOfListsOfExpansions = []
-    for i in namesOfExpansions:
-        listOfCards = []
-        for j in files:
-            if(j.split("_")[0]==i):
-                listOfCards.append(j)
-        listOfListsOfExpansions.append(listOfCards)
-    return listOfListsOfExpansions       
- 
-#returns a list of lists with strings each string has all information regarding a card and each list has all cards of an expansion
-def getListOfCardInformationPerExpansion(listOfListOfCommanderCards):
-    listOfListOfCardsPerExpansion = []
-    for i in listOfListOfCommanderCards:
-        listOfCardsPerExpansion = []
-        for j in i:
-            card = ""
-            cardInformation = []
-            a = openingAFile(j,"utf8")
-            b = a.splitlines()
-            b = reduceHTMLPage(b)
-            if(len(b)==0):
-                next
-            else:
-                if(len(cardName(b))==0):
-                    name = j.split("_")[1].split(".")[0]
-                else:
-                    name = cardName(b)
-                cardInformation.append(name)
-                cardInformation.append(getManaCost(b))
-                cardInformation.append(getType(b))
-                cardInformation.append(getSubtype(b))
-                cardInformation.append("@".join(cardText(b)))
-                cardInformation.append(getLife(b))
-                cardInformation.append(getPower(b))
-                card = "_".join(cardInformation)
-                listOfCardsPerExpansion.append(card)
-        listOfListOfCardsPerExpansion.append(listOfCardsPerExpansion)
-    return listOfListOfCardsPerExpansion
-
-#create a text file with the specified name and with the elements of list separated by lines
-def writeFile(informationAboutCards, nameOfExpansion):
-    file = open(nameOfExpansion + "Cards.txt", "w+")
-    for i in informationAboutCards:
-        file.write(i + "\n")
+#write files with information about all cards
+def writeFile(path, list_of_cards):
+    file = open("final\\" + path, "w+")
+    for i in list_of_cards:
+        if len(i.strip()) != 0:
+            file.write(i + "\n")
     file.close()
 
-#creates a file for each expansion of the commander decks and fills it with their cards
-files = openingAFile("cardsHTMLcommander.txt", "utf-8").splitlines()
-namesOfCommanderExpansions = namesOfExpansions(files)
-listOfListOfCommanderCards = listSeparatedByExpansions(files, namesOfCommanderExpansions)
-listOfListOfCardsPerCommanderExpansion = getListOfCardInformationPerExpansion(listOfListOfCommanderCards)
-for j in range(len(namesOfCommanderExpansions)):
-    writeFile(listOfListOfCardsPerCommanderExpansion[j], namesOfCommanderExpansions[j])
-
+expansion_names = openFile("allExpansionNames.txt").splitlines()
+cards_names_all_expansions = openFile("cardsNames.txt").splitlines()
+for i in expansion_names:
+    expansion_all_cards = []
+    for j in cards_names_all_expansions:
+        card_information_line = ""
+        if j.startswith(i.split(".")[0]):
+            card_information = []
+            try:
+                file = openFile("temps\\" + j)
+            except:
+                next
+            html = reduceHTML(file)
+            card_information.append(getCardName(html))
+            card_information.append(getManaCost(html))
+            type_and_subtype = getTypeAndSubtype(html)
+            card_information.append(getType(type_and_subtype))
+            card_information.append(getSubType(type_and_subtype))
+            card_information.append(getEffect(html))
+            power_and_life_of_card = getPowerAndLife(html)
+            card_information.append(getPower(power_and_life_of_card))
+            card_information.append(getLife(power_and_life_of_card))
+            card_information_line = "_".join(card_information)
+        expansion_all_cards.append(card_information_line)
+    writeFile(i, expansion_all_cards)

@@ -3,7 +3,6 @@
 #get the main page that contains the links to all expansions
 curl http://mythicspoiler.com/sets.html |
 cat >>mainpage.txt
-mkdir temps
 python creatingAListOfAllExpansions.py #creates two files in the temps folder: one contains all the URLs for all the expansions and the other contains all the names
 rm mainpage.txt                        #of the files for each expansion                   
 
@@ -26,31 +25,21 @@ mv ./* ../expansions/
 cd ..
 
 #opens each of the files that contains the URLs of the cards for the commander decks and creates a file with the content of the html page for each card
-# numberOfUnderscores=$(awk -F\_ '{ print NF - 1 }' allExpansions.txt)
-# for i in $(seq $numberOfUnderscores) ; do
-#     numberForEachFile=$(awk -F\_ '{ print NF - 1 }' $(cat allExpansions.txt | cut --delimiter=_ -f$i))
-#     for j in $(seq $numberForEachFile) ; do
-#         curl $(cat $(cat allExpansions.txt | cut --delimiter=_ -f$i) | cut --delimiter=_ -f$j) >>temps/$(cat allExpansions.txt | cut --delimiter=_ -f$i | cut --delimiter=\. -f1 | cut --delimiter=/ -f2)_$(cat $(cat allExpansions.txt | cut --delimiter=_ -f$i) | cut --delimiter=_ -f$j | cut --delimiter=/ -f6 | cut --delimiter=\. -f1).txt
-#     done
-# done
-# sleep 10
+numberOfUnderscores=$(awk -F\_ '{ print NF - 1 }' allExpansions.txt)
+for i in $(seq $numberOfUnderscores) ; do
+    numberForEachFile=$(awk -F\_ '{ print NF - 1 }' $(cat allExpansions.txt | cut --delimiter=_ -f$i))
+    for j in $(seq $numberForEachFile) ; do
+        curl $(cat $(cat allExpansions.txt | cut --delimiter=_ -f$i) | cut --delimiter=_ -f$j) >>temps/$(cat allExpansions.txt | cut --delimiter=_ -f$i | cut --delimiter=\. -f1 | cut --delimiter=/ -f2)_$(cat $(cat allExpansions.txt | cut --delimiter=_ -f$i) | cut --delimiter=_ -f$j | cut --delimiter=/ -f6 | cut --delimiter=\. -f1).txt
+    done
+done
 
-########################################################################################
-# #removes the previous files with the html page of each commander Deck expansion
-# for i in $(seq $numberOfUnderscores) ; do
-#     rm $(cat commanderDecksCardsURLs.txt | cut --delimiter=_ -f$i)
-# done
-# rm commanderDecksCardsURLs.txt
+#creates the files with the names of the expansions and cleans unnecessary files
+ls expansions/ >>allExpansionNames.txt
+ls commanderDecks >>allExpansionNames.txt
+rm -r expansions/
+rm -r commanderDecks/
+ls temps/ >>cardsNames.txt
+rm allExpansions.txt
 
-# #creating a file that contains all the names of the cards
-# ls | cat >>cardsHTMLcommander.txt
-# sleep 6
-
-# #creating files with the cards' information for each expansion
-# cd ..
-# python creatingFilesWithInformationAboutCards.py
-# cd commanderDecks/
-# rm *
-# cd ..
-# rm cardsHTMLcommander.txtCards.txt
-# mv *Cards.txt commanderDecks/
+#executes the python script to create the files that contain information of all cards for that particular expansion
+python creatingFilesWithInformationAboutCards.py
