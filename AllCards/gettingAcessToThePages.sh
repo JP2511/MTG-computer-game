@@ -4,7 +4,8 @@
 curl http://mythicspoiler.com/sets.html |
 cat >>mainpage.txt
 python creatingAListOfAllExpansions.py #creates two files in the temps folder: one contains all the URLs for all the expansions and the other contains all the names
-rm mainpage.txt                        #of the files for each expansion                   
+rm mainpage.txt                        #of the files for each expansion
+mkdir temps/ expansions/ commanderDecks/
 
 #get the pages from the links of the expansions
 cd temps/
@@ -43,3 +44,5 @@ rm allExpansions.txt
 
 #executes the python script to create the files that contain information of all cards for that particular expansion
 python creatingFilesWithInformationAboutCards.py
+rm -r temps/
+rm allExpansionNames.txt cardsNames.txt

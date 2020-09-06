@@ -68,12 +68,18 @@ def getEffect(data):
         effect = ""
     elif "<!--CARD TEXT-->" not in data:
         effect = ""
-    elif "<!--TYPE-->" not in data:
-        effect = data.split("<!--CARD NAME-->")[1].split("<!--CARD TEXT-->")[1].split("</td")[0].strip().replace("<br />","@").replace("\n","")
-    elif "<!--CARD TEXT-->" not in data.split("<!--TYPE-->")[1]:
-        effect = ""
+    elif "<!--TYPE-->" not in data and "<!--CARD NAME-->" in data:
+        if "<!--CARD TEXT-->" not in data.split("<!--CARD NAME-->")[1]:
+            effect = ""
+        else:
+            effect = data.split("<!--CARD NAME-->")[1].split("<!--CARD TEXT-->")[1].split("</td")[0].strip().replace("<br />","@").replace("\n","")
+    elif "<!--TYPE-->" in data:
+         if "<!--CARD TEXT-->" not in data.split("<!--TYPE-->")[1]:
+             effect = ""
+         else:
+             effect = data.split("<!--TYPE-->")[1].split("<!--CARD TEXT-->")[1].split("</td")[0].strip().replace("<br />","@").replace("\n","")
     else:
-        effect = data.split("<!--TYPE-->")[1].split("<!--CARD TEXT-->")[1].split("</td")[0].strip().replace("<br />","@").replace("\n","")
+        effect = ""
     return effect
 
 #return power and life of a card if it has any
@@ -136,5 +142,7 @@ for i in expansion_names:
             card_information.append(getPower(power_and_life_of_card))
             card_information.append(getLife(power_and_life_of_card))
             card_information_line = "_".join(card_information)
-        expansion_all_cards.append(card_information_line)
-    writeFile(i, expansion_all_cards)
+        if not card_information_line.startswith("<!--END%CARD%TEXT-->") and card_information_line != "____@__" and card_information_line != "______" and len(card_information_line) > 0:
+            expansion_all_cards.append(card_information_line)
+    if len(expansion_all_cards) > 0:
+        writeFile(i, expansion_all_cards)
