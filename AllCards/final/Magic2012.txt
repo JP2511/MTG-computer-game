@@ -1,0 +1,4 @@
+Doom%Blade_1B_Instant__Destroy target nonblack creature.@__
+Gideon%Jura_3WW_Planeswalker_Gideon_[+2]: During target opponent's next turn, creatures that player controls attack Gideon Jura if able.@<br>[-2]: Destroy target tapped creature.<br><br>[0]: Until end of turn, Gideon Jura becomes a 6/6 Human Soldier creature that's still a planeswalker. Prevent all damage that would be dealt to him this turn.__6
+Griffin%Sentinel_2W_Creature_Griffin_Flying@@Vigilance <i>(Attacking doesn't cause this creature to tap.)</i>_1_3
+Shock_R_Instant__Shock deals 2 damage to target creature or player.@__

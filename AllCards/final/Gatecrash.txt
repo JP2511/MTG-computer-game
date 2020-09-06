@@ -1,0 +1,130 @@
+Adaptive%Snapjaw_4G_Creature_Lizard Beast_Evolve <i>(Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</i>@_6_2
+Alms%Beast_2WB_Creature_Beast_Creatures blocking or blocked by Alms Beast have lifelink.@_6_6
+Arrows%of%Justice_2 R/W_Instant__Arrows of Justice deals 4 damage to target attacking or blocking creature.@__
+Assemble%the%Legion_3RW_Enchantment__At the beginning of your upkeep, put a muster counter on Assemble the Legion. Then put a 1/1 red and white Soldier creature token with haste onto the battlefield for each muster counter on Assemble the Legion.@__
+Aurelia's%Fury_XRW_Instant__Aurelia's Fury deals X damage divided as you choose among any number of target creatures and/or players. Tap each creature dealt damage this way. Players dealt damage this way can't cast noncreature spells this turn.@__
+Aurelia,%the%Warleader_2RRWW_Creature_Angel_Flying, vigilance, haste@Whenever Aurelia, the Warleader attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase._3_4
+Basilica%Guards_2W_Creature_Human Soldier_Defender@Extort <i>(Whenever you cast a spell, you may pay . If you do, each opponent loses 1 life and you gain that much life.)</i>_1_4
+Basilica%Screecher_1B_Creature_Bat_Flying@Extort <i>(Whenever you cast a spell, you pay . If you do, each opponent loses 1 life and you gain that much life.)</i>_1_2
+Beckon%Apparition_B/W_Instant__Exile target card from a graveyard. Put a 1/1 white and black Spirit creature token with flying onto the battlefield.@__
+Biomass%Mutation_X [G/U] [G/U]_Instant__Creatures you control become X/X until end of turn.@__
+Bioshift_[G/U]_Instant__Move any number of +1/+1 counters from target creature onto another target creature with the same controller.@__
+Blind%Obedience_1W_Enchantment__Extort (Whenever you cast a spell, you may pay [W/B] . If you do, each opponent loses 1 life and you gain that much life.)@Artifacts and creatures your opponents control enter the battlefield tapped.@__
+Bomber%Corps_1R_Creature_Human Soldier_<i>Battalion</i> - Whenever Bomber Corps and at least two other creatures attack, deal 1 damage to target creature or player.@_1_2
+Borborygmos%Enraged_4RRGG_Creature_Cyclops_Trample@Whenever Borborygmous Enraged deals combat damage to a player, reveal the top three cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.@Discard a land card: Borborygmos Enraged deals 3 damage to target creature or player._7_6
+Boros%Charm_RW_Instant__Choose one - Boros Charm deals 4 damage to target player; or permanents you control are indestructible this turn; or target creature gains double strike until end of turn.@__
+Boros%Elite_W_Creature_Human Soldier_Battalion - Whenever Boros Elite and at least two other creatures attack, Boros Elite gets +2/+2 until end of turn.@_1_1
+Boros%Guild%Gate__Land_Gate_Boros Guildgate enters the battlefield tapped.@T: Add W or R to your mana pool.__
+Boros%Keyrune_3_Artifact__T: Add R or W to your mana pool.@RW: Boros Keyrune becomes a 1/1 red and white Soldier artifact creature with double strike until end of turn.__
+Boros%Reckoner_[R/W] [R/W] [R/W]_Creature_Minotaur Wizard_Whenever Boros Reckoner is dealt damage, it deals that much damage to target creature or player.@[R/W]: Boros Reckoner gains first strike until end of turn._3_3
+Breeding%Pool__Land_Forest Island_<i>(T: Add G or U to your Mana Pool)</i>@As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breeding Pool enters the battlefield tapped.__
+Burning%Tree%Emissary_(R/G)(R/G)_Creature_Human Shaman_When Burning-Tree Emissary enters the battlefield, add RG to your mana pool.@_2_2
+Call%of%the%Nightwing_2UB_Sorcery__Put a 1/1/ blue and black Horror creature token with flying onto the battlefield.@Cipher <i>(Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)</i>__
+Cartel%Aristocrat_WB_Creature_Human Advisor_Sacrifice another creature: Cartel Aristocrat gains protection from the color of your choice until end of turn.@_2_2
+Clan%Defiance_XRG_Sorcery__Choose one or more - Clan Defiance deals X damage to target creature with flying; Clan Defiance deals X damage to target creature without flying; and/or Clan Defiance deals X damage to target player.@__
+Clinging%Anemones_3U_Creature_Jellyfish_Defender@Evolve <i>(Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</i>_1_4
+Cloudfin%Raptor_U_Creature_Bird Mutant_Flying@Evolve<i> (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</i>_0_1
+Coerced%Confession_4[U/B]_Sorcery__Target player puts the top four cards of his or her library into his or her graveyard. You draw a card for each creature card put into a graveyard this way.@__
+Consuming%Aberration_3UB_Creature_Horror_Consuming Aberration's power and toughness are each equal to the number of cards in your opponents' graveyards.@Whenever you cast a spell, each opponent reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.__
+Croconura_2G_Creature_Crocodile Frog_Reach@Evolve <i>(Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</i>_1_3
+Crypt%Ghast_3B_Creature_Spirit_Extort <i>(Whenever you cast a spell, you may pay B/W. If you do, each opponent loses 1 life and you gain that much life.).</i>@Whenever you tap a Swamp for mana, you may add  B to your mana pool_2_2
+Daring%Skyjek_1W_Creature_Human Knight_<i>Battalion</i> - Whenever Daring Skyjek and at least two other creatures attack, Daring Skyjek gains flying until end of turn.@_3_1
+Deathcult%Rogue_1[U/B][U/B]_Creature_Human Rogue_Deathcult Rogue can't be blocked except by Rogues.@_2_2
+Deathpact%Angel_3WBB_Creature_Angel_Flying@When Deathpact Angel dies, put a 1/1 white and black Cleric creature token onto the battlefield. It has "3WBB, T, Sacrifice this creature: Return a card named Deathpact Angel from your graveyard to the battlefield."_5_5
+Dimir%Charm_UB_Instant__Choose one - Counter target sorcery spell; or destroy target creature with power 2 or less; or look at the top three cards of target player's library, then put one back and the rest into that player's graveyard.@__
+Dimir%Guildgate__Land_Gate_Dimir Guildgate enters the battlefield tapped.@T: Add U or B to your manapool.__
+Dimir%Keyrune_3_Artifact__T: Add U or B to your mana pool.@UB: Dimir Keyrune becomes a 2/2 blue and black Horror until end of turn and is unblockable this turn.__
+Disciple%of%the%Old%Ways_1G_Creature_Human Warrior_R: Disciple of the Old Ways gains first strike until end of turn.@_2_2
+Domri%Rade_1RG_Planeswalker_Domri_+1: Look at the top card of your library. If it's a creature card, you may reveal it and put it into your hand.@-2: Target creature you control fights another target creature.@-7: You get an emblem with "Creatures you control have double strike, trample, hexproof and haste."__
+Drakewing%Krasis_1GU_Creature_Lizard Drake_Flying, trample@_3_1
+Duskmantle%Guildmage_UB_Creature_Human Wizard_1UB: Whenever a card is put into an opponent's graveyard from anywhere this turn, that player loses 1 life.@2UB: Target player puts the top two cards of his or her library into his or her graveyard._2_2
+Duskmantle%Seer_2UB_Creature_Vampire Wizard_Flying@At the beginning of your upkeep, each player reveals the top card of his or her library, loses life equal to that card's converted mana cost, then puts it into his or her hand._4_4
+Dutiful%Thrull_W_Creature_Thrull_B: Regenerate Dutiful Thrull.@_1_1
+Elusive%Krasis_1UG_Creature_Fish Mutant_Elusive Krasis is unblockable.@Evolve <i>(Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</i>_0_4
+Executioner's%Swing_WB_Instant__Target creature that dealt damage this turn gets -5/-5 until end of turn.@__
+Experiment%One_G_Creature_Human Ooze_Evolve <i>(Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</i>@Remove two +1/+1 counters from Experiment One: Regenerate Experiment One._1_1
+Fathom%Mage_2GU_Creature_Human Wizard_Evolve <i>(Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</i>@Whenever a +1/+1 counter is placed on Fathom Mage, you may draw a card._1_1
+Firefist%Striker_1R_Creature_Human Soldier_<i>Battalion</i> - Whenever Firefist Striker and at least two other creatures attack, target creature can't block this turn.@_2_1
+Firemane%Avenger_2RW_Creature_Angel_Flying@<i>Battalion</i> - Whenever Firemane Avenger and at least two other creatures attack, Firemane Avenger deals 3 damage to target creature or player and you gain 3 life._3_3
+Fortress%Cyclops_3RW_Creature_Cyclops Soldier_Whenever Fortress Cyclops attacks, it gets +3/+0 until end of turn.@Whenever Fortress Cyclops blocks, it gets +0/+3 until end of turn._3_3
+Foundry%Champion_4RW_Creature_Elemental Soldier_When Foundry Champion enters the battlefield, it deals damage to target creature or player equal to the number of creatures you control.@R: Foundry Champion gets +1/+0 until end of turn.@W: Foundry Champion gets +0/+1 until end of turn._4_4
+Frenzied%Tilling_3RG_Sorcery__Destroy target land. Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library.@__
+Frilled%Oculus_1U_Creature_Homunculus_1G: Frilled Oculus gets +2/+2 until end of turn. Activate this ability only once each turn.@_1_3
+Frontline%Medic_2W_Creature_Human Cleric_<i>Battalion</i> - Whenever Frontline Medic and at least two other creatures attack, creatures you control are indestructible this turn.@Sacrifice Frontline Medic: Counter target spell with X in its mana cost unless its controller pays 3._3_3
+Ghor-Clan%Rampager_2RG_Creature_Beast_Trample@Bloodrush - RG, Discard Ghor-Clan Rampager: Target attacking creature gets +4/+4 and gains trample until end of turn._4_4
+Gift%of%Orzhova_1[W/B][W/B]_Enchantment_Aura_Enchant creature@Enchanted creature gets +1/+1 and has flying and lifelink.__
+Godless%Shrine__Land_Plains Swamp_(T: <i>Add W or B to your mana pool.)</i>@As Godless Shrine enters the battlefield, you may pay 2 life. If you don't, Godless Shrine enters the battlefield tapped.__
+Ground%Assault_RG_Sorcery__Ground Assault deals damage to target creature equal to the number of lands you control.@__
+Gruul%Charm_RG_Instant__Choose one - Creatures without flying can't block this turn; or gain control of all permanents you own; or Gruul Charm deals 3 damage to each creature with flying.@__
+Gruul%Guildgate__Land_Gate_Gruul Guildgate enters the battlefield tapped.@T: Add R or G to your mana pool.__
+Gruul%Keyrune_3_Artifact__T: Add R or G to your mana pool.@RG: Gruul Keyrune becomes a 3/2 red and green Beast artifact creature with trample until end of turn.__
+Gruul%Ragebeast_5RG_Creature_Beast_Whenever Gruul Ragebeast or another creature enters the battlefield under your control, that creature fights target creature an opponent controls.@_6_6
+Gyre%Sage_1G_Creature_Elf Druid_Evolve <i>(Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</i>@T: Add G to your mana pool for each +1/+1 counter on Gyre Sage._1_2
+Hands%of%Binding_1U_Sorcery__Tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.@Cipher <i>(Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)</i>__
+High%Priest%of%Penance_WB_Creature_Human Cleric_Whenever High Priest of Penance is dealt damage, you may destroy target nonland permanent.@_1_1
+Hydroform_GU_Instant__Target land becomes a 3/3 Elemental creature with flying until end of turn. It's still a land.@__
+Immortal%Servitude_X [B/W] [B/W] [B/W]_Sorcery__Return each creature with converted mana cost X from your graveyard to the battlefield.@__
+Kingpin's%Pet_1WB_Creature_Thrull_Flying@Extort (Whenever you cast a spell, you may pay [W/B]. If you do, each opponent loses 1 life and you gain that much life.)_2_2
+Knight%of%Obligation_3W_Creature_Human Knight_Vigilance@Extort <i>(Whenever you cast a spell, you may pay . If you do, each opponent loses 1 life and you gain that much life.)</i>_2_4
+Lazav%Dimir%Mastermind_UUBB_Creature_Shapeshifter_Hexproof@Whenever a creature card is put into an opponent's graveyard from anywhere, you may have Lazav, Dimir Mastermind become a copy of that card except it's name is still Lazav, Dimir Mastermind, it's legendary in addition to it's other types, and it gains hexproof and this ability._3_3
+Legion%Loyalist_X [G/U] [G/U]_Creature_Goblin Soldier_Haste@Battalion - Whenever Legion Loyalist and at least two other creatures attack, creatures you control gain first strike and trample until end of turn and can't be blocked by tokens this turn._1_1
+Martial%Glory_RW_Instant__Target creature gets +3/+0 until end of turn.@Target creature gets +0/+3 until end of turn.__
+Master%Biomancer_2GU_Creature_Elf Wizard_Each creature you control enters the battlefield with a number of additional +1/+1 counters on it equal to Master Biomancer's power and as a Mutant in addition to its other types.@_2_4
+Merciless%Eviction_4WB_Sorcery__Choose one - Exile all artifacts; or exile all creatures; or exile all enchantments; or exile all planeswalkers.@__
+Merfolk%of%the%Depths_4 [G/U] [G/U]_Creature_Merfolk Soldier_Flash@_4_2
+Mind%Grind_XUB_Sorcery__Each opponent reveals cards from the top of his or her library until he or she reveals X land cards, then puts all cards revealed this way into his or her graveyard. X can't be 0.@__
+Nav%Squad%Commandos_4W_Creature_Human Soldier_<i>Battalion</i> - Whenever Nav Squad Commandos and at least two other creatures attack, Nav Squad Commandos gets +1/+1 until end of turn. Untap it.@_3_5
+Nightveil%Specter_[U/B] [U/B] [U/B]_Creature_Specter_Flying@Whenever Nightveil Specter deals combat damage to a player, that player exiles the top card of his or her library.@You may play cards exiled with Nightveil Specter.__
+Nimbus%Swimmer_XGU_Creature_Leviathan_Flying@Nimbus Swimmer enters the battlefield with X +1/+1 counters on it._0_0
+Obzedat,%Ghost%Council_1WWBB_Creature_Spirit Advisor_When Obzedat, Ghost Council enters the battlefield, target opponent loses 2 life and you gain 2 life.@At the beginning of your end step you may exile Obzedat. If you do, return it to the battlefield under it's owner's control at the beginning of your next upkeep. It gains haste._5_5
+One%Thousand%Lashes_2WB_Enchantment_Aura_Enchant Creature@Enchanted creature can't attack or block, and its activated abilities can't be activated.@At the beginning of the upkeep of enchanted creature's controller, that player loses 1 life.__
+Ordruun%Veteran_2RW_Creature_Minotaur Soldier_<i>Battalion</i> - Whenever Ordruun Veteran and at least two other creatures attack, Ordruun Veteran gains double strike until end of turn. <i>(It deals both first-strike and regular combat damage.)</i>@_3_1
+Orzhov%Charm_WB_Instant__Choose one - Return target creature you control and all Auras you control attached to it to their owners' hands; or destroy target creature and you lose life equal to that creature's toughness; or return target creature card with converted mana cost 1 or less from your graveyard to the battlefield.@__
+Orzhov%Guildgate__Land_Gate_Orzhov Guildgate enters the battlefield tapped.@T: Add W or B to your mana pool.__
+Orzhov%Keyrune_3_Artifact__T: Add W or B to your mana pool.@WB: Orzhov Keyrune becomes a 1/4 white and black Thrull artifact creature with lifelink until end of turn.__
+Pit%Fight_1 [R/G]_Instant__Target creature you control fights another target creature.@__
+Primal%Visitation_3RG_Enchantment_Aura_Enchant creature@Enchanted creature gets +3/+3 and has haste.__
+Prime%Speaker%Zegana_2GGUU_Creature_Merfolk Wizard_Prime Speaker Zegana enters the battlefield with X +1/+1 counters on it, where X is the greatest power among other creatures you control.@When Prime Speaker Zegana enters the battlefield, draw cards equal to its power._1_1
+Purge%the%Profane_2WB_Sorcery__Target opponent discards two cards and you gain 2 life.@__
+Rubblebelt%Raiders_1 [R/G] [R/G] [R/G]_Creature_Human Warrior_Whenever Rubblebelt Raiders attacks, put a +1/+1 counter on it for each attacking creature you control.@_3_3
+Rubblehulk_4RG_Creature_Elemental_Rubblehulk's power and toughness are each equal to the number of lands you control.@<i>Bloodrush</i> - 1RG, Discard Rubblehulk: Target attacking creature gets +X/+X until end of turn, where X is the number of lands you control._*_*
+Ruination%Wurm_4RG_Creature_Wurm_@_7_6
+Sacred%Foundry__Land_Mountain Plains_<i>(T: Add R or W to your mana pool.)</i>@As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacred Foundry enters the battlefield tapped.__
+Scab-Clan%Charger_3G_Creature_Centaur Warrior_Bloodrush - 1G, Discard Scab-Clan Charger: Target attacking creature gets +2/+4 until end of turn.@_2_4
+Scorchwalker_3R_Creature_Elemental_<i>Bloodrush</i> - 1RR, Discard Scorchwalker: Target attacking creature gets +5/+1 until end of turn.@_5_1
+Shambleshark_GU_Creature_Fish Crab_Flash@Evolve <i>(Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</i>_2_1
+Shattering%Blow_1 [R/W]_Instant__Exile target artifact.@__
+Signal%the%Clans_RG_Instant__Search your library for three creature cards and reveal them. If you reveal three cards with different names, choose one of them at random and put that card into your hand. Shuffle the rest into your library.@__
+Simic%Charm_GU_Instant__Choose one - Target creature gets +3/+3 until end of turn; permanents you control gain hexproof until end of turn; or return target creature to its owner's hand.@__
+Simic%Fluxmage_2U_Creature_Merfolk Wizard_Evolve <i>(Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</i>@1U, T: Move a +1/+1 counter from Simic Fluxmage onto target creature._1_2
+Simic%Guildgate__Land_Gate_Simic Guildgate enters the battlefield tapped.@T: Add U or G to your mana pool.__
+Simic%Keyrune_3_Artifact__T : Add G or U to your mana pool.@UG : Simic Keyrune becomes a 2/3 green and blue Crab artifact creature with hexproof until end of turn.__
+Simic%Manipulator_1UU_Creature_Mutant Wizard_Evolve <i>(Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</i>@T, Remove one or more +1/+1 counters from Simic Manipulator: Gain control of target creature with power less than or equal to the number of +1/+1 counters removed this way._0_1
+Skarrg%Goliath_6GG_Creature_Beast_Trample@Bloodrush - 5GG, Discard Skarrg Goliath: Target attacking creature gets +9/+9 and gains trample until end of turn._9_9
+Skarrg%Guildmage_RG_Creature_Human Shaman_RG : Creatures you control gain trample until end of turn.@1RG : Target land you control becomes a 4/4 Elemental creature until end of turn. It's still a land._2_2
+Skinbrand%Goblin_1R_Creature_Goblin Warrior_Bloodrush - R, Discard Skinbrand Goblin: Target attacking creature gets +2/+1 until end of turn.@_2_1
+Slaughterhorn_2G_Creature_Beast_Bloodrush - G, Discard Slaughterhorn: Target attacking creature gets +3/+2 until end of turn.@_3_2
+Soul%Ransom_2UB_Enchantment_Aura_Enchant creature@You control enchanted creature@Discard two cards: Soul Ransom's controller sacrifices it, then draws two cards. Only an opponent may activate this ability.__
+Spark%Trooper_1RRW_Creature_Elemental Soldier_Trample, lifelink, haste@At the beginning of the end step, sacrifice Spark Trooper._6_1
+Stolen%Identity_4UU_Sorcery__Put a token onto the battlefield that's a copy of target artifact or creature.@Cipher <i>(Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)</i>__
+Stomping%Ground__Land_Mountain Forest_<i>(T: Add  R or G to your mana pool.)</i>@As Stomping Ground enters the battlefield, you may pay 2 life. If you don't, Stomping Ground enters the battlefield tapped.__
+Sunhome%Guildmage_RW_Creature_Human Wizard_1WR: Creatures you control get +1/+0 until end of turn.@2WR: Put a 1/1 red and white Soldier creature token with haste onto the battlefield._2_2
+Syndicate%Enforcer_3B_Creature_Human Rogue_Extort <i>(Whenever you cast a spell, you may pay [B/W]. If you do, each opponent loses 1 life and you gain that much life.)</i>@_3_2
+Syndic%of%Tithes_1W_Creature_Human Cleric_Extort <i>(Whenever you cast a spell, you may pay . If you do, each opponent loses 1 life and you gain that much life.)</i>@_2_2
+Thrull%Parasite_B_Creature_Thrull_Extort <i> (Whenever you cast a spell, you may pay . If you do, each opponent loses 1 life and you gain that much life.)</i>@T , Pay 2 life: Remove a counter from target nonland permanent._1_1
+Towering%Thunderfist_4R_Creature_Giant Soldier_W : Towering Thunderfist gains vigilance until end of turn.@_4_4
+Treasury%Thrull_4WB_Creature_Thrull_Extort <i>(Whenever you cast a spell, you may pay . If you do, each opponent loses 1 life and you gain that much life.)</i>@Whenever Treasury Thrull attacks, you may return target artifact, creature, or enchantment card from your graveyard to your hand._4_4
+Truefire%Paladin_RW_Creature_Human Knight_Vigilance@RW: Truefire Paladin gets +2/0 until end of turn.@RW: Truefire Paladin gets first strike until end of turn._2_2
+Undercity%Plague_4BB_Sorcery__Target player loses 1 life, discards a card, then sacrifices a permanent.@__
+Urban%Evolution_3GU_Sorcery__Draw three cards. You may play an additional land this turn.@As the Simic released more of their krasis experiments, they required new habitats, always at the expense of the locals.__
+Viashino%Shanktail_3R_Creature_Viashino Warrior_First strike@Bloodrush - 2R , Discard Viashino Shanktail: Target attacking creature gets +3/+1 and gains first strike until end of turn._3_1
+Vizkopa%Confessor_3WB_Creature_Human Cleric_Extort W/B <i>(Whenever you cast a spell, you may pay W/B. If you do, each opponent loses 1 life and you gain that much life.)</i>@When Vizkopa Confessor enters the battlefield, pay any amount of life. Target opponent reveals that many cards from his or her hand. You choose one of them and exile it._1_3
+Vizkopa%Guildmage_WB_Creature_Human Wizard_1WB: Target creature gains lifelink until end of turn.@1WB: Whenever you gain life this turn, each opponent loses that much life._2_2
+_Warmind Infantry_Creature_Elemental Soldier_<i>Battalion</i> - Whenever Warmind Infantry and at least two other creatures attack, Warmind Infantry gets +2/+0 until end of turn.@_2_3
+Wasteland%Viper_G_Creature_Snake_Deathtouch@<i>Bloodrush</i> - G, Discard Wasteland Viper: Target attacking creature gets +1/+2 and gains deathtouch until end of turn._1_2
+Watery%Grave__Land_Island Swamp_<i>(T: Add  U or B to your mana pool.)As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery Grave enters the battlefield tapped.</i>@__
+Whispering%Madness_2UB_Sorcery__Each player discards his or her hand, then draws cards equal to the greatest number of cards a player discarded this way.@Cipher <i>(Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)</i>__
+Wojek%Halberdiers_RW_Creature_Human Soldier_<i>Battalion</i> - Whenever Wojek Halberdiers and at least two other creatures attack, Wojek Halberdiers gains first strike until end of turn.@_3_2
+Wrecking%Ogre_4R_Creature_Ogre Warrior_Double Strike@<i>Bloodrush</i> - 3RR, Discard Wrecking Ogre: Target attacking creature gets +3/+3 and gains double strike until end of turn._3_3
+Zameck%Guildmage_UG_Creature_Elf Wizard_UG : This turn, each creature you control enters the battlefield with an additional +1/+1 counter on it.@UG, Remove a +1/+1 counter from a creature you control: Draw a card._2_2
+Zhur-Taa%Swine_3RG_Creature_Boar_Bloodrush - 1RG , Discard Zhur-Taa Swine: Target attacking creature gets +5/+4 until end of turn.@_5_4

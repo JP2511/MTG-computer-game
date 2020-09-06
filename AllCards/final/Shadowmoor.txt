@@ -1,0 +1,1 @@
+Kitchen%Finks_1[G/W][G/W]_Creature_Ouphe_When Kitchen Finks enters the battlefield, you gain 2 life.@@Persist <i>(When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)</i>_3_2

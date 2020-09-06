@@ -1,0 +1,166 @@
+Acolyte's%Reward_1W_Instant__Prevent the next X damage that would be dealt to target creature this turn, where X is your devotion to white. If damage is prevented this way, Acolyte's Reward deals that much damage to target creature or player. <i>(Each W in the mana costs of permanents you control counts toward your devotion to white.)</i>@__
+Aerie%Worshippers_3U_Creature_Human Cleric_<i>Inspired</i> - Whenever Aerie Worshippers becomes untapped, you may pay 2U. If you do, put a 2/2 blue bird enchantment creature token with flying onto the battlefield.@_2_4
+Akroan%Conscriptor_4R_Creature_Human Shaman_<i>Heroic</i> - Whenever you cast a spell that targets Akroan Conscriptor, gain control of another target creature until end of turn. Untap that creature. It gains haste until end of turn.@_3_2
+Akroan%Phalanx_3W_Creature_Human Soldier_Vigilance@@2R: Creatures you control get +1/+0 until end of turn._3_3
+Akroan%Skyguard_1W_Creature_Human Soldier_Flying@@<i>Heroic</i> - Whenever you cast a spell that targets Akroan Skyguard, put a +1/+1 counter on Akroan Skyguard._1_1
+Arbiter%of%the%Ideal_4UU_Creature_Sphinx_Flying@Inspired - Whenever Arbiter of the Ideal becomes untapped, reveal the top card of your library. If it's an artifact, creature or land card you may put it onto the battlefield with a manifestation counter on it. That permanent is an enchantment in addition to its other types._4_5
+Archetype%of%Aggression_1RR_Enchantment Creature_Human Warrior_Creatures you control have trample.@@Creatures your opponents control lose trample and can't have or gain trample._3_2
+Archetype%of%Courage_1WW_Enchantment Creature_Human Soldier_Creatures you control have first strike.@@Creatures your opponents control lose first strike and can't have or gain first strike._2_2
+Archetype%of%Endurance_6GG_Enchantment Creature_Boar_Creatures you control have hexproof.@@Creatures your opponents control lose hexproof and can't have or gain hexproof._6_5
+Archetype%of%Finality_4BB_Enchantment Creature_Gorgon_Creatures you control have deathtouch.@@Creatures your opponents control lose deathtouch and can't have or gain deathtouch._2_3
+Archetype%of%Imagination_4UU_Enchantment Creature_Human Wizard_Creatures you control have flying.@Creatures your opponents control lose flying and can't have flying._3_2
+Ashiok's%Adept_2B_Creature_Human Wizard_Heroic - Whenever you cast a spell that targets Ashiok's Adept, each opponent discards a card.@_1_3
+Aspect%of%Hydra_G_Instant__Target creature gets +X/+X until end of turn, where X is your devotion to green. <i>(Each G in the mana costs of permanents you control counts toward your devotion to green.)</i>@__
+Asphyxiate_1BB_Sorcery__Destroy target untapped creature.@__
+Astral%Cornucopia_XXX_Artifact__Astral Cornucopia enters the battlefield with X charge counters on it.@@T: Choose a color. Add one mana of that color to your mana pool for each charge counter on Astral Cornucopia.__
+Bile%Blight_BB_Instant__Target creature and all other creatures with the same name as that creature get -3/-3 until end of turn.@__
+Black%Oak%of%Odunos_2B_Creature_Zombie Treefolk_Defender@@B, Tap another untapped creature you control: Black Oak of Odunos gets +1/+1 until end of turn._0_5
+Bolt%of%Keranos_1RR_Sorcery__Bolt of Keranos deals 3 damage to target creature and/or player. Scry 1.@__
+Brimaz,%King%of%Oreskos_1WW_Creature_Cat Soldier_Vigilance@@Whenever Brimaz, King of Oreskos attacks, put a 1/1 white Cat Soldier creature token with vigilance onto the battlefield attacking.@@Whenever Brimaz blocks a creature, put a 1/1 white Cat Soldier creature token with vigilance onto the battlefield blocking that creature._3_4
+Champion%of%Stray%Souls_4BB_Creature_Skeleton Warrior_3BB, T, Sacrifice X other creatures: Return X target creature cards from your graveyard to the battlefield.@@5BB: Put Champion of Stray Souls on top of your library from your graveyard._4_4
+Charging%Badger_G_Creature_Badger_Trample@@__
+Chorus%of%the%Tides_3U_Creature_Siren_Flying@@<i>Heroic</i> - Whenever you cast a spell that targets Chorus of the Tides, scry 1. <i>(To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)</i>_3_2
+Chromanticore_WUBRG_Enchantment Creature_Manticore_Bestow 2WUBRG <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@Flying, first strike, vigilance, trample, lifelink@@Enchanted creature gets +4/+4 and has flying, first strike, vigilance, trample, and lifelink._4_4
+Claim%of%Erebos_1B_Enchantment_Aura_Enchant creature@@Enchanted creature has "1B, T: Target player loses 2 life."__
+Courser%of%Kruphix_1GG_Enchantment Creature_Centaur_Play with the top card of your library revealed.@@You may play the top card of your library if it's a land card.@@Whenever a land enters the battlefield under your control, you gain 1 life._2_4
+Crypsis_1U_Instant__Target creature you control gains protection from creatures your opponents control until end of turn. Untap it.@__
+Culling%Mark_2G_Sorcery__Target creature blocks this turn if able.@__
+Cyclops%of%One-Eyed%Pass_2RR_Creature_Cyclops__5_2
+Dawn%to%Dusk_Sorcery_Sorcery__Choose one or both - Return target enchantment card from your graveyard to your hand; and/or destroy target enchantment.@__
+Deepwater%Hypnotist_1U_Creature_Merfolk Wizard_<i>Inspired</i> - Whenever Deepwater Hypnotist becomes untapped, target creature an opponent controls gets -3/-0 until end of turn.@_2_1
+Divination_2U_Sorcery__Draw two cards.@__
+Drown%in%Sorrow_1BB_Sorcery__All creatures get -2/-2 until end of turn. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>@__
+Eater%of%Hope_5BB_Creature_Demon_Flying@@B, Sacrifice another creature: Regenerate Eater of Hope.@@2B, Sacrifice two other creatures: Destroy target creature._6_4
+Eidolon%of%Countless%Battles_1WW_Enchantment Creature_Spirit_Bestow 2WW <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@Eidolon of Countless Battles and enchanted creature each get +1/+1 for each creature you control and +1/+1 for each Aura you control._0_0
+Elite%Skirmisher_2W_Creature_Human Soldier_<i>Heroic</i> - Whenever you cast a spell that targets Elite Skirmisher, you may tap target creature.@_3_1
+Ephara,%God%of%the%Polis_2WU_Enchantment Creature_God_Indestructible@@As long as your devotion to white and blue is less than seven, Ephara isn't a creature.@@At the beginning of each upkeep, if you had another creature enter the battlefield under your control last turn, draw a card._6_5
+Ephara's%Enlightenment_1WU_Enchantment_Aura_Enchant creature@@When Ephara's Enlightenment enters the battlefield, put a +1/+1 counter on enchanted creature.@@Enchanted creature has flying.@@Whenever a creature enters the battlefield under your control, you may return Ephara's Enlightenment to its owner's hand.__
+Ephara's%Radiance_W_Enchantment_Aura_Enchant creature@@Enchanted creature has "1W, T: You gain 3 life."__
+Epiphany%Storm_R_Enchantment_Aura_Enchant Creature@Enchanted Creature has "R, T, Discard a card: Draw a card.__
+Eternity%Snare_5U_Enchantment_Aura_Enchant creature@@When Eternity Snare enters the battlefield, draw a card.@@Enchanted creature doesn't untap during its controller's untap step.__
+Evanescent%Intellect_U_Enchantment_Aura_Enchant creature@@Enchanted creature has "1U, T: Target player puts the top three cards of his or her library into his or her graveyard."__
+Everflame%Eidolon_1R_Enchantment Creature_Spirit_Bestow 2R <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@R: Everflame Eidolon gets +1/+0 until end of turn. If it's an Aura, enchanted creature gets +1/+0 until end of turn instead.@@Enchanted creature gets +1/+1._1_1
+Excoriate_3W_Sorcery__Exile target tapped creature.@__
+Eye%Gouge_B_Instant__Target creature gets -1/-1 until end of turn. If it's a Cyclops, destroy it.@__
+Fall%of%the%Hammer_1R_Instant__Target creature you control deals damage equal to its power to another target creature.@__
+Fanatic%of%Xenagos_1RG_Creature_Centaur Warrior_Trample<Br />Tribute 1 <i>(As this creature enters the battlefield, an opponent of your choice may put a +1/+1 counter on it.)</i><Br />When Fanatic of Xenagos enters the battlefield, if its tribute wasn't paid, Fanatic of Xenagos gets +1/+1 and gains haste until end of turn@_3_3
+ <br 
+Fated%Conflagration_1RRR_Instant__Fated Conflagration deals 5 damage to target creature or planeswalker. If it is your turn, scry 2.@__
+Fated%Infatuation_UUU_Instant__Put a token onto the battlefield that's a copy of target creature you control. If it's your turn, scry 2.@<i>(Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>__
+Fated%Intervention_2GGG_Instant__Put two 3/3 green Centaur enchantment creature tokens onto the battlefield. If it's your turn, scry 2.@__
+Fated%Retribution_4WWW_Instant__Destroy all creatures and planeswalkers. If it's your turn, scry 2.@__
+Fated%Return_4BBB_Instant__Put target creature card from a graveyard onto the battlefield under your control. It gains indestructible. If it's your turn, scry 2. <i>(Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>@__
+Fate%Unraveler_3B_Enchantment Creature_Hag_Whenever an opponenet draws a card, Fate Unraveler deals 1 damage to that player.@_3_4
+Fearsome%Temper_2R_Enchantment_Aura_Enchant creature@@Enchanted creature gets +2/+2 and has "2R: Target creature can't block this creature this turn."__
+Felhide%Brawler_1B_Creature_Minotaur_Felhide Brawler can't block unless you control another Minotaur.@_2_2
+Felhide%Spiritbinder_3R_Creature_Minotaur Shaman_<i>Inspired</i> - Whenever Felhide Spiritbinder becomes untapped, you may pay 1R. If you do, put a token onto the battlefield that's a copy of another target creature except it's an enchantment in addition to its other types. It gains haste. Exile it at the beginning of the next end step.@_3_4
+Flame-Wreathed%Phoenix_2RR_Creature_Phoenix_Flying@@Tribute 2 <i> (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)</i>@When Flame-Wreathed Phoenix enters the battlefield, if tribute wasn't paid, it gains haste and "When this creature dies, return it to its owners hand."_3_3
+Flitterstep%Eidolon_1U_Enchantment Creature_Spirit_Bestow 5U <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@Flitterstep Eidolon can't be blocked.@@Enchanted creature gets +1/+1 and can't be blocked._1_1
+Floodtide%Serpent_4U_Creature_Serpent_Floodtide Serpent can't attack unless you return an enchantment you control to its owner's hand. <i>(This cost is paid as attackers are declared.)</i>@_4_4
+Forgestoker%Dragon_4RR_Creature_Dragon_Flying@1R: Forgestoker Dragon deals 1 damage to target creature. That creature can't block this combat. Activate this ability only if Forgestoker Dragon is attacking._5_4
+Forlorn%Pseudamma_3B_Creature_Zombie_Intimidate@@<i>Inspired</i> - Whenever Forlorn Pseudamma becomes untapped, you pay 2B. If you do, put a 2/2 black zombie enchantment creature token onto the battlefield._2_1
+Forsaken%Drifters_3B_Creature_Zombie_When Forsaken Drifters dies, put the top four cards of your library into your graveyard.@_4_2
+Ghostblade%Eidolon_2W_Enchantment Creature_Spirit_Bestow 5W <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@Double strike <i>(This creature deals both first-strike and regular combat damage.)</i>@@Enchanted creature gets +1/+1 and has double strike._1_1
+Gild_3B_Sorcery__Exile target creature. Put a colorless artifact token named Gold onto the battlefield. It has "Sacrifice this artifact: Add one mana of any color to your mana pool."@__
+Glimpse%the%Sun%God_XW_Instant__Tap X target creatures. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>@__
+God-Favored%General_1W_Creature_Human Soldier_<i>Inspired</i> - Whenever God-Favored General becomes untapped, you may pay 2W. If you do, put two 1/1 white Soldier enchantment creature tokens onto the battlefield.@_1_1
+Gorgon's%Head_1_Artifact_Equipment_Equipped creature has deathtouch. @Equip 2__
+Graverobber%Spider_3G_Creature_Spider_Reach@3B: Graverobber Spider +X/+X until end of turn, where X is the number of creature cards in your graveyard. Activate this ability only once each turn.@_2_4
+Great%Hart_3W_Creature_Elk_@_2_4
+Griffin%Dreamfinder_3WW_Creature_Griffin_Flying@@When Griffin Dreamfinder enters the battlefield, return target enchantment card from your graveyard to your hand._1_4
+Grisly%Transformation_2B_Enchantment_Aura_Enchant creature@@When Grisly Transformation enters the battlefield, draw a card.@@Enchanted creature has intimidate. <i>(It can't be blocked except by artifact creatures and/or creatures that share a color with it.)</i>__
+Heroes'%Podium_5_Legendary Artifact__Each legendary creature you control gets +1/+1 for each other legendary creature you control.@@X, T: Look at the top X cards of your library. You may reveal a legendary creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.@__
+Hero%of%Iroas_1W_Creature_Human Soldier_Aura spells you cast cost 1 less to cast.@@Heroic - Whenever you cast a spell that targets Hero of Iroas, put a +1/+1 counter on Hero of Iroas._2_2
+Hero%of%Leina%Tower_G_Creature_Human Warrior_Heroic - Whenever you cast a spell that targets Hero of Leina Tower, you may pay X. If you do, put X +1/+1 counters on Hero of Leina Tower.@_1_1
+Hold%at%Bay_1W_Instant__Prevent the next 7 damage that would be dealt to target creature or player this turn.@__
+Hunter's%Prowess_4G_Sorcery__Until end of turn, target creature gets +3/+3 and gains trample and "whenever this creature deals combat damage to a player, draw that many cards."@__
+Impetuous%Sunchaser_1R_Creature_Human Soldier_Flying, haste@@Impetuous Sunchaser attacks each turn if able.@_1_1
+Karametra,%God%of%Harvests_3GW_Enchantment Creature_God_Indestructible@@As long as your devotion to green and white is less than seven, Karametra isn't a creature.@@Whenever you cast a creature spell, you may search your library for a Forest or Plains card, put it onto the battlefield tapped, then shuffle your library._6_7
+Karametra's%Favor_1G_Enchantment_Aura_Enchant creature@@When Karametra's Favor enters the battlefield, draw a card.@@Enchanted creature has "T: Add one mana of any color to your mana pool."__
+Kiora's%Follower_GU_Creature_Merfolk_T: Untap another target permanent.@_2_2
+Kiora,%the%Crashing%Wave_2GU_Planeswalker_Kiora_[+1]: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.@@[-1]: Draw a card. You may play an additional land this turn.@@[-5]: You get an emblem with "At the beginning of your end step, put a 9/9 blue Kraken creature token onto the battlefield."__2
+Kragma%Butcher_2R_Creature_Minotaur Warrior_Inspired - Whenever Kragma Butcher becomes untapped, it gets +2/+0 until end of turn.@_2_3
+Kraken%of%the%Straits_5UU_Creature_Kraken_Creatures with power less than the number of Islands you control can't block Kraken of the Straits.@_6_6
+Lightning%Volley_3R_Instant__Until end of turn, creatures you control gain "T: This creture deals 1 damage to target creature or player."@__
+Loyal%Pegasus_W_Creature_Pegasus_Flying@@Loyal pegasus can't attack or block alone._2_1
+Marshmist%Titan_6B_Creature_Giant_Marshmist Titan costs X less to cast, where X is your devotion to black.@_4_5
+Meletis%Astronomer_1U_Creature_Human Wizard_Heroic - Whenever you cast a spell that targets Meletis Astronomer, look at the top three cards of your library. You may reveal an enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in any order.@_1_3
+Mindreaver_UU_Creature_Human Wizard_Heroic - Whenever you cast a spell that targets Mindreaver, exile the top three cards of target player's library.@@UU, Sacrifice Mindreaver: Counter target spell with the same name as a card exiled with Mindreaver._2_1
+Mischief%and%Mayhem_4G_Sorcery__Up to two target creatures each get +4/+4 until end of turn.@__
+Mogis,%God%of%Slaughter_2BR_Enchantment Creature_God_Indestructible@As long as your devotion to black and red is less than seven, Mogis isn't a creature.@<Br />At the beginning of each opponent's upkeep, Mogis deals 2 damage to that player unless he or she sacrifices a creature._7_5
+Mortal's%Ardor_W_Instant__Target creature gets +1/+1 and gains lifelink until end of turn. <i>(Damage dealt by the creature also causes its controller to gain that much life.)</i>@__
+Mortal's%Resolve_1G_Instant__Target craeture gets +1/+1 and gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)@__
+Necrobite_2B_Instant__Target creature gains deathtouch until end of turn. Regenerate it.@__
+Nessian%Demolok_3GG_Creature_Beast_Tribute 3<i> (As this creature enters the battlefield, an opponent of your choice may put three +1/+1 counters on it.)</i>@<Br />When Nessian Demolok enters the battlefield, if its tribute wasn't paid, destroy target noncreature permanent.@_3_3
+Nessian%Wilds%Ravager_4GG_Creature_Hydra_Tribute 6 <i>(As this creature enters the battlefield, an opponent of your choice may place 6 +1/+1 counters on it.)</i>@@When Nessian Wilds Ravager enters the battlefield, if the tribute wasn't paid, you may have Nessian Wilds Ravager fight another target creature._6_6
+Noble%Quarry_2G_Enchantement Creature_Unicorn_Bestow 5G@All creatures able to block Noble Quarry or enchanted creature do so.Enchanted creature gets +1/+1._1_1
+Nullify_UU_Instant__Counter target creature or Aura spell.@__
+Nyxborn%Eidolon_1B_Enchantment Creature_Spirit_Bestow 4B <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@Enchanted creature gets +2/+1._2_1
+Nyxborn%Rollicker_R_Enchantment Creature_Satyr_Bestow 1R <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@Enchanted creature gets +1/+1._1_1
+Nyxborn%Shieldmate_W_Enchantment Creature_Human Soldier_Bestow 2W <i>If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@Enchanted creature gets +1/+2_1_2
+Nyxborn%Triton_2U_Enchantment Creature_Merfolk_Bestow 4U <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@Enchanted creature gets +2/+3._2_3
+Nyxborn%Wolf_2G_Enchantment Creature_Wolf_Bestow 4G i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@Enchanted creature get +3/+1_3_1
+Odunos%River%Trawler_2B_Creature_Zombie_When Odunos River Trawler enters the battlefield, return target enchantment creature card from your graveyard to your hand.@W, Sacrifice Odunos River Trawler: Return target enchantment creature card from your graveyard to your hand.@_2_2
+Oracle%of%Bones_2RR_Creature_Minotaur Shaman_Haste@@Tribute 2 <i>(As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)</i>@@When Oracle of Bones enters the battlefield, if tribute wasn't paid, you may cast an instant or sorcery card from your hand without paying its mana cost._3_1
+Oracle's%Insight_3U_Enchantment_Aura_Enchant creature@@Enchanted creature has "T: Scry 1, then draw a card." <i>(To scry 1, look at the top card of your library, then you may put that card on the bottom of your library."</i>__
+Oreskos%Sun%Guide_1W_Creature_Cat Monk_<i>Inspired</i> - Whenever Oreskos Sun Guide becomes untapped, you gain 2 life.@_2_2
+Ornitharch_3WW_Creature_Archon_Flying@@Tribute 2 <i>(As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)</i>@@When Ornitharch enters the battlefield, if tribute wasn't paid, put two 1/1 white Bird creature tokens with flying onto the battlefield._3_3
+Pain%Seer_1B_Creature_Human Wizard_<i>Inspired</i> - Whenever Pain Seer becomes untapped, reveal the top card of your library and put that card into your hand. You lose life equal to that card's converted mana cost.@_2_2
+Peregrination_3G_Sorcery__Seach your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand. Shuffle your library, then scry 1@__
+Perplexing%Chimera_4U_Enchantment Creature_Chimera_Whenever an opponent casts a spell, you may exchange control of Perplexing Chimera and that spell. If you do, you may choose new targets for the spell. <i>(If the spell becomes a permanent, you control that permanent.)</i>@_3_3
+Pharagax%Giant_4R_Creature_Giant_Tribute 2 <i>(As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)</i>@@When Pharagax Giant enters the battlefield, if tribute wasn't paid, Pharagax Giant deals 5 damage to each opponent._3_3
+Phenax,%God%of%Deception_Phenax, God of Deception_Enchantment Creature_God_Indestructible@@As long as your devotion to blue and black is less than seven, Phenax isn't a creature.@@Creatures you control have "T: Target player puts the top X cards of his or her library into his or her graveyard, where X is this creature's toughness.."_4_7
+Pheres-Band%Raiders_5G_Creature_Centaur Warrior_Inspired - Whenever Pheres-Band Raiders becomes untapped, you may pay 2G. If you do, put a 3/3 green Centaur enchantment token onto the battlefield.@_5_5
+Pheres-Band%Tromper_3G_Creature_Centaur Warrior_Inspired - Whenever Pheres-Band Tromper becomes untapped, put a +1/+1 counter on it.@_3_3
+Pillar%of%War_3_Artifact Creature_Golem_Defender@As long as Pillar of War is enchanted it can attack as though it didn't have defender._3_3
+Pinnacle%of%Rage_4RR_Sorcery__Pinnacle of Rage deals 3 damage to each of two target creature and/or players.@__
+Plea%for%Guidance_5W_Sorcery__Search your library for up to two enchantment cards, reveal them, and put them into your hand. Then shuffle your library.@__
+Ragemonger_1BR_Creature_Minotaur Shaman_Minotaur spells you cast cost BR less to cast. This effect reduces only the amount of colored mana you pay. <i>(For example, if you cast a Minotaur spell with mana cost 2R, it costs 2 to cast.)</i>@_2_3
+Raised%by%Wolves_3GG_Enchantment_Aura_Enchant creature@@When Raised by Wolves enters the battlefield, put two 2/2 green Wolf creature tokens onto the battlefield.@@Enchanted creature gets +1/+1 for each Wolf you control.__
+Reap%what%is%Sown_1GW_Instant__Put a +1/+1 counter on each of up to three target creatures.@__
+Reckless%Reveler_1R_Creature_Satyr_R: Sacrifice Reckless Reveler: Destroy target artifact.@_2_1
+Retraction%Helix_U_Instant__Until end of turn, target creature gains "T: Return target nonland permanent to its owner's hand."@__
+Revoke%Existence_1W_Sorcery__Exile target artifact or enchantment.@__
+Rise%to%the%challenge_1R___Target creature gets +2/+0 and gains first strike until end of turn.@__
+Sanguimancy_4B_Sorcery__You draw X cards and you lose X life, where X is your devotion to black.@__
+Satyr%Firedancer_1R_Whenever an instant or sorcery spell you control deals damage to an opponent, Satyr Firedancer deals that much damage to target creature that player controls.__@_1_1
+Satyr%Nyx-smith_2R_Creature_Satyr Shaman_Haste@@Inspired - Whenever Satyr Nyx-smith becomes untapped, you may 2R. If you do, put a 3/1 red elemental token with haste onto the battlefield._2_1
+Satyr%Wayfinder_1G_Creature_Satyr_When Satyr Wayfinder enters the battlefield, reveal the top four cards of your library. You may put a land card from among them into your hand. Put the rest into your graveyard.@_1_1
+Scourge%of%Skola%Vale_2G_Creautre_Hydra_Trample@Scourge of Skola Vale enters the battlefield with two +1/+1 counters on it.@T, Sacrifice another creature: Put a number of +1/+1 counters on Scourge of Skola Vale equal to the sacrificed creature's toughness.@_0_0
+Scouring%Sands_1R_Sorcery__Scouring Sands deals 1 damage to each creature your opponents control. Scry 1.@__
+Searing%Blood_RR_Instant__Searing Blood deals 2 damage to target creature. When that creature dies this turn, Searing Blood deals 3 damage to the creature's controller.@__
+Servant%of%Tymaret_2B_Creature_Zombie_Inspired — Whenever Servant of Tymaret becomes untapped, each opponent loses 1 life. You gain life equal to the life lost this way.@2B: Regenerate Servant of Tymaret.@_1_3
+Setessan%Oathsworn_1GG_Creature_Satyr Warrior_Heroic - Whenever you cast a spell that targets Setessan Oathsworn, put two +1/+1 counters on Setessan Oathsworn.@_1_1
+Setessan%Starbreaker_3G_Creature_Human Warrior_When Setessa Starbreaker enters the battlefield, you may destroy target Aura.@_2_1
+Shrike%Harpy_3BB_Creature_Harpy_Flying@Tribute 2 <i>(As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)</i>@When Shrike Harpy enters the battlefield, if tribute wasn't paid, target opponent sacrifices a creature._2_2
+Silent%Sentinel_5WW_Creature_Archon_Flying@@Whenever Silent Sentinel attacks, you may return target enchantment card from your graveyard to the battlefield._4_6
+Siren%of%the%Silent%Song_1UB_Creature_Zombie Siren_Flying@@<i>Inspired</i> - Whenever Siren of Silent Song becomes untapped, each opponent discards a card and puts the top card of his or her library into his or her graveyard._2_1
+Siren%of%the%Fanged%Coast_3UU_Creature_Siren_Flying@@Tribute 3 <i>(As this creature enters the battlefield, an opponent of your choice may place three +1/+1 counters on it.)</i>@@When Siren of the Fanged Coast enters the battlefield, if tribute wasn't paid, gain control of target creature._1_1
+Siren%Song%Lyre_2_Artifact_Equipment_Equipped creature has "2, T: Tap target creature."@Equip: 2__
+Skyreaping_1G_Sorcery__Skyreaping deals damage to each creature with flying equal to your devotion to green. <i>(Each G in the mana costs of permanents you control counts toward your devotion to green.)</i>@__
+Snake%of%the%Golden%Grove_4G_Creature_Snake_Tribute 3 <i>(As this creature enters the battlefield, an opponent of your choice may place three +1/+1 counters on it.)</i>@When Snake of the Golden Grove enters the battlefield, if tribute wasn't paid, you gain 4 life.@_4_4
+Sphinx's%Disciple_3UU_Creature_Human Wizard_Flying@@<i>Inspired</i> - Whenever Sphinx's Disciple becomes untapped, draw a card._2_2
+Spirit%of%the%Labyrinth_1W_Enchantment Creature_Spirit_Each player can't draw more than one card each turn.@_3_1
+Spiteful%Returned_1B_Enchantment Creature_Zombie_Bestow 3B <i>If you case this for its bestow cost, it's an Aura spell with enchant creature. If becomes a creature again if it's not attached to a creature.</i>@@Whenever Spiteful Returned or enchanted creature attacks, defending player loses 2 life.@@Enchanted creature gets +1/+1__
+Springleaf%Drum_1_Artifact__T, Tap an untapped creature you control: Add one mana of any color to your mana pool.@__
+Stormcaller%of%Keranos_2R___Haste<Br />1U: Scry 1. (Look at the top card your library. Yo may put that card on the bottom of your library.)@_2_2
+Stratus%Walk_1U_Enchantment_Aura_Enchant creature@@When Stratus Walk enters the battlefield, draw a card.@@Enchanted creature has flying.@@Enchanted creature can block only creatures with flying.__
+Sudden%Storm_3U_Instant__Tap up to two target creatures. Those creatures don't untap during their controllers' next untap steps. Scry 1.@__
+Sunbond_3W_Enchantment_Aura_Enchant creature@@Enchanted creature has "Whenever you gain life, put that many +1/+1 counters on this creature."__
+Swordwise%Centaur_GG_Creature_Centaur Warrior_@_3_2
+Temple%of%Enlightenment__Land__Temple of Enlightenment enters the battlefield tapped.@@When Temple of Enlightenment enters the battlefield, scry 1.@@T: Add W or U to your mana pool.__
+Temple%of%Malice__Land__Temple of Malice enters the battlefield tapped.@@When Temple of Malice enters the battlefield, scry 1.@@T: Add B or R to your mana pool.__
+Temple%of%Plenty__Land__Temple of Plenty enters the battlefield tapped.@@When Temple of Plenty enters the battlefield, scry 1.@@T: Add G or W to your mana pool.__
+Thassa's%Rebuff_1U_Instant__Counter target spell unless its controller pays x, where X is your devotion to blue.@__
+Thunder%Brute_4RR_Creature_Cyclops_Trample@Tribute 3 <i>(As this creature enters the battlefield, an opponent of your choice may place three +1/+1 counters on it.)@</i>When Thunder Brute enters the battlefield, if tribute wasn't paid, it gains haste until end of turn.__
+Thunderous%Might_1R_Enchantment_Aura_Whenever enchanted creature attacks, it gets +X/+0 until end of turn, where X is your devotion to red.@@__
+Herald%of%Torment_1BB_Enchantment Creature_Demon_Bestow 3BB <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@Flying@@At the beginning of your upkeep, you loose 1 life.@@Enchanted creature gets +3/+3._3_3
+Tromokratis_5UU_Creature_Kraken_Tromokratis has hexproof unless it's attacking or blocking.@@Tromokratis can't be blocked unless all creatures defending player controls block it. <i>(If any creature that player controls doesn't block this creature, it can't be blocked.)</i>_8_8
+Unravel%the%Aether_1G_Instant__Choose target artifact or enchantment. Its owner shuffles it into his or her library.@__
+Vanguard%of%Brimaz_WW_Creature_Cat Soldier_Vigilance@@<i>Heroic</i> - Whenever you cast a spell that targets Vanguard of Brimaz, put a 1/1 white Cat Soldier creature token with vigilance onto the battlefield._2_2
+Vortex%Elemental_U_Creature_Elemental_U: Put Vortex Elemental and each creature blocking or blocked by it on top of their owners' libraries, then those players shuffle their libraries.@3UU: Target creature blocks Vortex Elemental this turn if able._0_1
+Warchanter%of%Mogis_3BB_Creature_Minotaur Shaman_Inspired - Whenever Warchanter of Mogis becomes untapped, target creature you control gains intimidate until end of turn.@_3_3
+Weight%of%the%Underworld_3B_Enchantment_Aura_Enchant creature@Enchanted creature gets -3/-2__
+Whelming%Wave_2UU_Sorcery__Return all creatures to their owners' hands except for Krakens, Leviathans, Octopuses, and Serpents.@__
+Whims%of%the%Fate_5R_Sorcery__Starting with you, each player separates all permanents he or she controls into three piles. Then each player chooses one of his or her piles at random and sacrifices those permanents. (Piles can be empty.)@__
+Xenagos,%God%of%Revels_3RG_Enchantment Creature_God_Indestructible@@As long as your devotion to red and green is less than seven, Xenagos isn't a creature.@@At the beginning of combat on your turn, another target creature you control gains haste and gets +X/+X until end of turn, where X is that creature's power._6_5

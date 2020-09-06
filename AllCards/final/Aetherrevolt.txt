@@ -1,0 +1,212 @@
+Aegis%Automaton_2_Artifact Creature_Construct_4W: Return another target creature you control to owner's hand.@_0_3
+Aerial%Modification_4W_Enchantment_Aura_Enchant creature or Vehicle@@As long as enchanted permanent is a Vehicle, it's a creature in addition to its other types.@@Enchanted creature gets +2/+2 and has flying.__
+Aeronaut%Admiral_3W_Creature_Human Pilot_Flying@@Vehicles you control have flying.@_3_1
+Aether%Chaser_1R_Creature_Human Artificer_First strike@@When Aether Chaser enters the battlefield, you get EE <i>(two energy counters)</i>.@@Whenever Aether Chaser attacks, you may pay EE. If you do, create a 1/1 colorless Servo artifact creature token.@_2_1
+Aethergeode%Miner_1W_Creature_Dwarf Scout_Whenever Aethergeode Miner attacks, you get EE <i>(two energy counters).</i>@@Pay EE: Exile Aethergeode Miner, then return it to the battlefield under its owner's control._3_1
+Aether%Herder_3G_Creature Elf Artificer Druid__When Aether Herder enters the battlefield, you get EE <i>(two energy counters)</i>.@@Whenever Aether Herder attacks, you may pay EE. If you do, create a 1/1 colorless Servo artifact creature token.@_3_3
+Aether%Inspector_3W_Creature_Dwarf Artificer_Vigilance@@When Aether Inspector enters the battlefield, you get EE <i>(two energy counters)</i>.@@Whenever Aether Inspector attacks, you may pay EE. If you do, create a 1/1 colorless Servo artifact creature token.@_2_3
+Aether%Poisoner_1B_Creature_Human Artificer_Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)@@When Aether Poisoner enters the battlefield, you get EE <i>(two energy counters)</i>.@@Whenever Aether Poisoner attacks, you may pay EE. If you do, create a 1/1 colorless Servo artifact creature token.@_1_1
+Aethersphere%Harvester_3_Artifact_Vehicle_Flying@@When Aethersphere Harvester enters the battlefield, you get EE <i>(two energy counters.)</i>@@Pay E: Aethersphere Harvester gains lifelink until end of turn.@@Crew 1 <i>(Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.) </i>_3_5
+Aetherstream%Leopard_2G_Creature_Cat_Trample@@When Aetherstream Leopardenters the battlefield, you get E <i>(an energy counter)</i>.@@Whenever Aetherstream Leopard attacks, you may pay E. If you do, it gets +2/+0 until end of turn.@_2_3
+Aether%Swooper_1U_Creature_Vedalken Artificer_Flying@@When Aether Swooper enters the battlefield, you get EE <i>(two energy counters)</i>.@@Whenever Aether Swooper attacks, you may pay EE. If you do, create a 1/1 colorless Servo artifact creature token.@_1_2
+Aethertide%Whale_4UU_Creature_Whale_Flying.@@When Aethertide Whale enters the battlefield, you get EEEEEE.@Pay EEEE: Return Aethertide Whale to its owner's hand._6_4
+Aetherwind%Basker_4GGG_Creature_Lizard_Trample@@Whenever Aetherwind Basker enters the battlefield or attacks, you get E <i>(an energy counter)</i> for each creature you control.@@Pay E: Aetherwind Basker gets +1/+1 until end of turn._7_7
+Aid%from%the%Cowl_3GG_Enchantment__<i>Revolt</i> - At the beginning of your end step, if a permanent you controlled left the battlefield this turn, you may reveal the top card of your library. If it is a permanent card, you may put it onto the battlefield. Otherwise place the card on the bottom of your library.@__
+Airdrop%Aeronauts_3WW_Creature_Dwarf Scout_Flying@@<i>Revolt</i> - When Airdrop Aeronauts enters the battlefield, if a permanent you controlled left the battlefield this turn, you gain 5 life._4_3
+Ajani's%Aid_2GW_Enchantment__When Ajani's Aid enters the battlefield, you may search your library and/or graveyard for a card named Ajani Valiant Protector, reveal it, and put it into your hand. If you search your library this way, shuffle it.@@Sacrifice Ajani's Aid: Prevent all combat damage a creature of your choice would deal this turn.@__
+Ajani's%Comrade_1G_Creature_Elf Soldier_Trample@@At the beginning of combat on your turn, if you control an Ajani planeswalker, put a +1/+1 counter on Ajani's Comrade.@_2_2
+Ajani%Unyielding_4GW_Planeswalker_Ajani_[+2]: Reveal the top three cards from your library. Put all nonland permanent cards revealed this way into your hand and the rest on the bottom of your library in any order.@@[-2]: Exile target creature. Its controller gains life equal its power.@@[-9]: Put five +1+1 counters on each creature you control and five loyalty counters on each other planeswalker you control.__4
+Ajani,%Valiant%Protector_4GW_Planeswalker_Ajani_[+2]: Put two +1/+1 counters on up to one target creature.@@[+1]: Reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order.@@[-11]: Put X +1/+1 counters on target creature, where X is your life total. That creature gains trample until end of turn.__4
+Alley%Evasion_W_Instant__Choose one - @@*Target creature you control gets +1/+2 until end of turn.@@*Return target creature you control to its owner's hand.__
+Alley%Strangler_2B_Creature_Aetherborn Rogue_Menace@_2_3
+Arcbound%Ravager_2_Artifact Creature_Beast_Sacrifice an artifact: Put a +1/+1 counter on Arcbound Ravager.@@Modular 1_0_0
+Audacious%Infiltrator_1W_Creature_Dwarf Rogue_Audacious Infiltrator can't be blocked by artifact creatures.@_3_1
+Augmenting%Automaton_1_Artifact Creature_Construct_1B: Augmenting Automaton gets +1/+1 until end of turn.@_1_1
+Baral,%Chief%of%Compliance_1U_Creature_Human Wizard_Instant and sorcery spells you cast cost 1 less to cast.@@Whenever a spell or ability you control counters a spell, you may draw a card.If you do, discard a card._1_3
+Baral's%Expertise_3UU_Sorcery__Return up to three target artifacts and/or creatures to their owner's hands.@@You may cast a card with converted mana cost 4 or less from your hand without paying its mana cost.__
+Barricade%Breaker_7_Artifact Creature_Juggernaut_Improvise @@Barricade Breaker attacks each combat if able._7_5
+Bastion%Enforcer_2W_Creature_Dwarf Soldier_@_3_2
+Bastion%Inventor_5U_Creature_Vedalken Artificer_Improvise@@Hexproof_4_4
+Battle%at%the%Bridge_XB_Sorcery__Improvise <i>(Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for 1.)</i>@@Target creature gets -X/-X until end of turn. You gain X life.@__
+Black%Vise_1_Artifact__As Black Vise enters the battlefield, choose an opponent.@@At the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in his or her hand minus 4.@__
+Call%for%Unity_3WW___<i>Revolt-</i> At the beginning of your end step, put a Unity counter on Call for Unity if a permanent you control left the battlefield this turn.@@Creatures you control get +1/+1 for each Unity counter on Call for Unity.__
+Caught%in%the%Brights_2W_Enchantment_Aura_Enchant creature@@Enchanted creature can't attack or block.@@When a Vehicle you control attacks, exile enchanted creature.__
+Chalice%of%the%Void_XX_Artifact__Chalice of the Void enters the battlefield with X charge counters on it.@@Whenever a player casts a spell with converted mana cost equal to the number of charge counters on Chalice of the Void, counter that spell.__
+Chandra's%Revolution_3R_Sorcery__Chandra's Revolution deals 4 damage to target creature. Tap target land. That land doesn't untap during its controller's next untap step.@__
+Cogwork%Assembler_3_Artifact Creature_Assembly_7: Create a token that's a copy of target artifact. That token gains haste. Exile it at the beginning of the next end step.@_2_3
+Consulate%Crackdown_3WW_Enchantment__When Consulate Crackdown enters the battlefield, exile all artifacts your opponents control until Consulate Crackdown leaves the battlefield.@__
+Consulate%Dreadnought_1_Artifact_Vehicle_Crew 6 <i>(Tap any number of creatures you control with total power 6 or more: This Vehicle becomes an artifact creature until end of turn.)</i>@_7_11
+Consulate%Turret_3_Artifact__T: You get E@@T, Pay EEE: Consulate Turret deals 2 damage to target player.@__
+Conviction_1W_Enchantment_Aura_Enchant creature @@Enchanted creature gets +1/+3.@@W: Return Conviction to its owner's hand.__
+Countless%Gears%Renegade_1W_Creature_Dwarf Artificer_<i>Revolt</i> - When Countless Gears Renegade enters the battlefield, if a permanent you controlled left the battlefield this turn, create a 1/1 colorless Servo artifact creature token.@_2_2
+Crackdown%Construct_4_Artifact Creature_Construct_Whenever you activate an ability of an artifact or creature that isn't a mana ability, Crackdown Construct gets +1/+1 until end of turn.@_2_2
+Cruel%Finality_2B_Instant__Target creature gets -2/-2 until end of turn. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>@__
+Daredevil%Dragster_3_Artifact_Vehicle_At end of combat, if Daredevil Dragster attacked or blocked this combat, put a velocity counter on it. Then if it has two or more velocity counters on it, sacrifice it and draw two cards.@@Crew 2_4_4
+Daring%Demolition_2BB_Sorcery__Destroy target creature or Vehicle.@__
+Dark%Intimations_2UBR_Sorcery__Each opponent sacrifices a creature or planeswalker, then discards a card. You return a creature or planeswalker card from your graveyard to your hand, the draw a card.@@When you cast a Bolas planeswalker spell, exile Dark Imitations from your graveyard. That planeswalker enters the battlefield with an additional loyalty counter on it.__
+Dawnfeather%Eagle_4W_Creature_Bird_Flying@@When Dawnfeather Eagle enters the battlefield, creatures you control get +1/+1 and gain vigilance until end of turn._3_3
+Deadeye%Harpooner_2W_Creature_Dwarf Warrior_<i>Revolt</i> - When Deadeye Harpooner enters the battlefield, if a permanent you controlled left the battlfield this turn destory target tapped creature an opponent controls.@_2_2
+Decommission_2W_Instant__Destroy target artifact or enchantment.@@<i>Revolt</i> - If a permanent you controlled left the battlefield this turn, you gain 3 life.__
+Defense%Gris_2_Artifact__Each spell costs 3 more to cast except during its controller's turn.@__
+Defiant%Salvager_2B_Creature_Aetherborn Artificer_Sacrifice an artifact or creature: Put a +1/+1 counter on Defiant Salvager. Activate this ability only any time you could cast a sorcery.@_2_2
+Deft%Dismissal_3W_Instant__Deft Dismissal deals 3 damage divided as you choose among one, two, or three target attacking or blocking creatures.@__
+Destructive%Tampering_2R_Sorcery__Choose one -@@*Destroy target artifact.@@*Creatures without flying can't block this turn.@__
+Disallow_1UU_Instant__Counter target spell, activated ability, or triggered ability. <i>(Mana abilities can't be targeted.)</i>@__
+Dispersal%Technician_4U_Creature_Vedalken Artificer_When Dispersal Technician enters the battlefield, you may return target artifact to its owner's hand.@_3_2
+Druid%of%the%Cowl_1G_Creature_Elf Druid_T: Add G to your mana pool.@_1_3
+Duplicant_6_Artifact Creature_Shapeshifter_<i>Imprint</i> - When Duplicant enters the battlefield, you may exile target nontoken creature.@@As long as a card exiled with Duplicant is a creature card, Duplicant has the power, toughness, and creature types of the last creature card exiled with Duplicant. It's still a Shapeshifter._2_4
+Efficient%Construction_3U_Enchantment__Whenever you cast an artifact spell, create a 1/1 colorless Thopter artifact creature token with flying.@__
+Embraal%Gear-Smasher_2R_Creature_Human Warrior_T, Sacrifice an artifact: Embraal Gear-Smasher deals 2 damage to each opponent.@_2_3
+Engineered%Explosives_X_Artifact__Sunburst <i>(This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)</i>@@2, Sacrifice Engineered Explosives: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Engineered Explosives.__
+Enraged%Giant_5R_Creature_Giant_Improvise <i>(Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for 1.)</i>@@Trample, haste@_4_4
+Ensnaring%Bridge_3_Artifact__Creatures with power greater than the number of cards in your hand can't attack.@__
+Exquisite%Archangel_5WW_Creature_Angel_Flying@@If you would lose the game, instead exile Equisite Archangel and your life total becomes equal to your starting life total._5_5
+Extraplanar%Lens_3_Artifact__<i>Imprint</i> - When Extraplanar Lens enters the battlefield, you may exile target land you control.@@Whenever a land with the same name as the exiled card is tapped for mana, its controller adds one mana to his or her mana pool of any type that land produced.@__
+Fatal%Push_B_Instant__Destroy target creature if it has converted mana cost 2 or less.@@<i>Revolt</i> - Destroy that creature if it has converted mana cost 4 or less instead if a permanent you controlled left the battlefield this turn.__
+Felidar%Guardian_3W_Creature_Cat Beast_When Felidar Guardian enters the battlefield, you may exile another target permanent you control, then return that card to the battlefield under its owner's control.@_1_4
+Fen%Hauler_6B_Creature_Insect_Improvise <i>(Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for 1.)</i>@@Fen Hauler can't be blocked by artifact creatures._5_5
+Filigree%Crawler_4_Artifact Creature_Insect_When Filigree Crawler dies, create a 1/1 colorless Thopter artifact creature token with flying.@_2_2
+Foundry%Assembler_5_Artifact Creature_Assembly_Improvise <i>(Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for 1.)</i>@_3_3
+Foundry%Hornet_3B_Creature_Insect_Flying@@When Foundry Hornet enters the battlefield, if you control a creature with a +1/+1 counter on it, creatures your opponents control get -1/-1 until end of turn._2_3
+Fourth%Bridge%Prowler_B_Creature_Human Rogue_When Fourth Bridge Prowler enters the battlefield, you may have target creature get -1/-1 until end of turn.@_1_1
+Freejam%Regent_4RR_Creature_Dragon_Improvise <i>(Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for 1.)</i>@@Flying@@1R: Freejam Regent gets +2/+0 until end of turn._4_4
+Frontline%Rebel_2R_Creature_Human Warrior_Frontline Rebel attacks each combat if able.@_3_3
+Ghirapur%Osprey_2W_Creature_Bird_Flying@_2_2
+Gifted%Aetherborn_BB_Creature_Aetherborn Vampire_Deathtouch, lifelink@_2_3
+Glint-Sleeve%Siphoner_1B_Creature_Human Rogue_Menace@Whenever Glitn-Sleeve Siphoner enters the battlefield or attacks, you get E. <i>(an energy counter).</i>@@At the beginning of your upkeep, you may pay EE. If you do, you draw a card and you lose 1 life._2_1
+Gonti's%Aether%Heart_6_Legendary Artifact__Whenever Gonti's Aether Heart or another artifact enters the battlefield under your control, you get EE <i>(two energy counters).</i>@@Pay EEEEEEEE, Exile Gonti's Aether Heart: Take an extra turn after this one.__
+Gonti's%Machinations_B_Enchantment__Whenever you lose life for the first time each turn, you get E. <i>(You get an energy counter. Damage causes loss of life.)</i>@@Pay EE, sacrifice Gonti's Machinations: Each opponent loses 3 life. You gain life equal to the life lost this way.__
+Greenbelt%Rampager_G_Creature_Elephant_When Greenbelt Rampager enters the battlefield, pay EE <i>(two energy counters)</i>. If you can't, return Greenbelt Rampager to its owner's hand and you get E.@_3_4
+Greenwheel%Liberator_1G_Creature_Elf Warrior_<i>Revolt</i> - Greenwheel Liberator enters the battlefield with two +1/+1 counters on it if a permanent you controlled left the battlefield this turn.@_2_1
+Gremlin%Infestation_3R_Enchantment_Aura_Enchant Artifact@@At the beginning of your end step, Gremlin Infestation deals 2 damage to enchanted artifact's controller.@@When enchanted artifact is put into a graveyard, create a 2/2 red Gremlin creature token.@__
+Grindstone_1_Artifact__3, T: Target player puts the top two cards of his or her library into his or her graveyard. If both cards share a color, repeat this process.@__
+Heart%of%Kiran_2_Artifact_Vehicle_Flying, vigilance@@Crew 3 <i>(Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)</i>@@You may remove a loyalty counter from a planeswalker you control rather than pay Heart of Kiran's crew cost._4_4
+Herald%of%Anguish_5BB_Creature_Demon_Improvise <i>(Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for 1.) </i>@@Flying@@At the beginning of your end step, each opponent discards a card.@@1B, Sacrifice an artifact: Target creature gets -2/-2 until end of turn._5_5
+"Heroic%Intervention"_1G_Instant__Permanents you control gain Hexproof and Indestructible until end of turn.@__
+Hidden%Herbalists_1G_Creature_Human Druid_<i>Revolt</i> - When Hidden Herbalists enters the battlefield, if a permanent you controlled left the battlefield this turn, add GG to your mana pool.@_2_2
+Hidden%Stockpile_BW_Enchantment__<i>Revolt</i> - At the beginning of your end step, if a permanent you controlled left the battlefield this turn, create a 1/1 colorless Servo artifact creature token.@@1, Sacrifice a creature: Scry 1.__
+Highspire%Infusion_1G_Instant__Target creature gets +3/+3 until end of turn. You get EE <i>(two energy counters)</i>.@__
+Hinterland%Drakr_2U_Creature_Drake_Flying@@Hinterland Drake can't block artifact creatures._2_3
+Hope%of%Ghirapur_1_legendary Artifact Creature_Thopter_Flying@@Sacrifice Hope of Ghirapur: Until your next turn, target player who was dealt combat damage by Hope of Ghirapur this turn can't cast noncreature spells._1_1
+Hungry%Flames_2R_Instant__Hungry Flames deals 3 damage to target creature and 2 damage to target player.@__
+Ice%Over_1U_Enchantment_Aura_Enchant artifact or creature@@Enchanted permanent doesn't untap during its controller's untap step.__
+Illusionist's%Stratagem_3U_Instant__Exile up to two target creatures you control, then return those cards to the battlefield under their owner's control.@@Draw a card.__
+Implement%of%Combustion_1_Artifact__R, Sacrifice Implement of Combustion: It deals 1 damage to target player.@@When Implement of Combustion is put into a graveyard from the battlefield, draw a card.__
+Implement%of%Examination_3_Artifact__U, Sacrifice Implement of Examination: Draw a card.@@When Implement of Examination is put into a graveyard from the battlefield, draw a card.__
+Implement%of%Ferocity_1_Artifact__G, Sacrifice Implement of Ferocity: Put a +1/+1 counter on target creature. Activate this ability only any time you could cast a sorcery.@@When Implement of Ferocity is put into a graveyard from the battlefield, draw a card.__
+Implement%of%Improvement_1_Artifact__W, Sacrifice Implement of Improvement: You gain 2 life.@@When Implement of Improvement is put into a graveyard from the battlefield, draw a card.__
+Implement%of%Malice_2_Artifact__B, Sacrifice Implement of Malice: Target player discards a card. Activate this ability only any time you could cast a sorcery.@@When Implement of Malice is put into a graveyard from the battlefield, draw a card.__
+Indomitable%Creativity_XRRR_Sorcery__Destroy X target artifacts and/or creatures. For each permanent destroyed this way, its controller reveals cards from the top of his or her library until an artifact or creature card is revealed and exiles that card. Those players put the exiled cards onto the battlefield, then shuffle their libraries.@__
+Inspiring%Roar_3W_Sorcery__Put a +1/+1 counter on each creature you control.@__
+Inspiring%Statuary_3_Artifact__Nonartifact spells you cast have improvise. <i>(Your artifacts can help cast those spells. Each artifact you tap after you're done activating mana abilities pays for 1.) </i>@__
+Invigorated%Rampage_1R_Instant__Choose one@@*Target creature gets +4/+0 and gains trample until end of turn.@@*Two target creatures each get +2/+0 and gain trample until end of turn.@__
+Ironclad%Revolutionary_4BB_Creature_Aetherborn Artificer_When ironclad Revolutionary enters the battlefield, you may sacrifice an artifact. If you do, put two +1/+1 counters on Ironclad Revolutionary and each opponent loses 2 life.@_4_4
+Irontread%Crusher_4_Artifact_Vehicle_Crew 3 @_6_6
+Kari%Zev's%Expertise_1RR_Sorcery__Gain control of target creature or Vehicle until end of turn. Untap it. It gains haste until end of turn.@@You may cast a card with converted mana cost 2 or less from your hand without paying its mana cost.__
+Kari%Zev,%Skyship%Raider_1R_Creature_Human Pirate_First strike, menace@@Whenever Kari Zev, Skyship Raider attacks, create a legendary 2/1 red Monkey creature token named Ragavan that's tapped and attacking. Exile that token at end of combat._1_3
+Lathnu%Sailback_4R___@_5_4
+Leave%in%the%Dust_3U_Instant__Return target nonland permanent to its owner's hand.@@Draw a card.__
+Lifecraft%Awakening_XG_Instant__Put X +1/+1 counters on target artifact you control. If it isn't a creature or Vehicle, it becomes a 0/0 Construct artifact creature.@__
+Lifecraft%Cavalry_4G_Creature_Elf Warrior_Trample@@<i>Revolt</i> - Lifecraft Cavalry enters the battlefield with two +1/+1 counters on it if a permanent you controlled left the battlefield this turn.@_4_4
+Lifecrafter's%Bestiary_3_Artifact__At the beginning of your upkeep, scry 1.@@Whenever you cast a creature spell, you may pay G. If you do, draw a card.__
+Lifecrafter's%Gift_3G_Instant__Put a +1/+1 counter on target creature, then put a +1/+1 counter on each creature you control with a +1/+1 counter on it.@__
+Lightning%Runner_3RR_Creature_Human Warrior_Double Strike, Haste@@Whenever Lightning Runner attacks, you get EE, then you may pay EEEEEEEE. If you do, untap all creatures you control and after this phase, there is an additional combat phase.__
+Maulfist%Revolutionary_1GG_Creature_Human Warrior_Trample@@When Maulfist Revolutionary enters the battlefield or dies, for each kind of counter on target permanent or player, give that permanent or player another counter of that kind.@_3_3
+Maverick%Thopterist_3UR_Creature_Human Artificer_Improvise <i>(Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for 1.) </i>@@When Maverick Thopterist enters the battlefield, create two 1/1  colorless Thopter artifact creature tokens with flying._2_2
+Mechanized%Production_2UU_Enchantment_Aura_Enchant artifact you control@@At the beginning of your upkeep, create a token that's a copy of enchanted artifact. Then if you control eight or more artifacts with the same name as one another, you win the game.__
+Meekstone_1_Artifact__Creatures with power 3 or greater don't untap during their controllers' untap steps.@__
+Merchant's%Dockhand_1_Artifact Creature_Construct_3U, T, Tap X untapped artifacts you control: Look at the top X cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.@_1_2
+Metallic%Mimic_2_Artifact Creature_Shapeshifter_As Metallic Mimic enters the battlefield, choose a creature type.@@Metallic Mimic is the chosen type in addition to its other types.@@Each other creature you control of the chosen type enters the battlefield with an additional +1/+1 counter on it.@_2_1
+Metallic%Rebuke_2U_Instant__Improvise <i>(Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for 1.)</i>@@Countert target spell unless its controller pays 3.__
+Midnight%Entourage_2BB_Creature_Aetherborn Rogue_Other Aetherborn you control get +1/+1.@@Whenever Midnight Entourage or another Aetherborn you control dies, you draw a card and lose 1 life._3_3
+Mobile%Garrison_3_Artifact_Vehicle_Whenever Mobile Garrison attacks, untap another target artifact or creature you control.@@Crew 2_3_4
+Monstrous%Onslaught_3GG_Sorcery__Monstrous Onslaught deals X damage divided as you choose among any number of target creatures, where X is the greatest power among creatures you control as you cast Monstrous Onslaught.@__
+Narnam%Renegade_G_Creature_Elf Warrior_Deathtouch@@<i>Revolt</i> - Narnam Renegade enters the battlefield with a +1/+1 counter on it if a permanent you controlled left the battlefield this turn.@_1_2
+Natural%Obsolescence_1G_Instant__Put target artifact on the bottom of its owner's library.@__
+Negate_1U_Instant__Counter target noncreature spell.@__
+Night%Market%Guard_3_Artifact Creature_Construct_Night Market Guard can block an additional creature each combat.@_3_1
+Oath%of%Ajani_GW_Legendary Enchantment__When Oath of Ajani enters the battlefield, put a +1/+1 counter on each creature you control.@@Planeswalker spells you cast cost 1 less to cast.__
+Oblivion%Stone_3_Artifact__4, T: Put a fate counter on target permanent.@@5, T, Sacrifice Oblivion Stone: Destory each nonland permanent without a fate counter on it, then remove all fate counters from all permamnents.__
+_0_Artifact Creature_Thopter_Flying@_0_2
+Outland%Boar_2RG_Creature_Boar_Outland Boar can't be blocked by creatures with power 2 or less.@_3_3
+Pacification%Array_1_Artifact__2, T: Tap target artifact or creature.@__
+Paradox%Engine_5_Legendary Artifact__Whenever you cast a spell, untap all nonland permanents you control.@__
+Peacewalker%Colossus_3_Artifact_Vehicle_1W: Another target Vehicle you control becomes an artifact creature until end of turn.@@Crew 4 <i>(Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)</i>_6_6
+Peema%Aetherseer_3G_Creature_Elf Druid_When Peema Aetherseer enters the battlefield, you get an amount of E <i>(energy counters)</i> equal to the greatest power among creatures you control.@@Pay EEE: Target creature blocks this turn if able.@_3_2
+Pendulum%of%Patterns_2_Artifact__When Pendulum of Patterns enters the battlefield, you gain 3 life.@@5, T, Sacrifice Pendulum of Patterns: Draw a card.@__
+Perilous%Predicament_4B_Instant__Each opponent sacrifices an artifact creature and a nonartifact creature.@__
+Pia's%Revolution_2R_Enchantment__Whenever a nontoken artifact is put into your graveyard from the battlefield, return that card to your hand unless target opponent has Pia's Revolution deal 3 damage to him or her.@__
+Pithing%Needle_1_Artifact__As Pithing Needle enters the battlefield, name a card.@@Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.__
+Planar%Bridge_6_Legendary Artifact__8, T: Search your library for a permanent card, put it onto the battlefield, then shuffle your library.@__
+_7_Artifact Creature_Angel_Flying@@You can't lose the game and your opponents can't win the game._4_4
+Precise%Strike_R_Instant__Target creature gets +1/+0 and gains first strike until end of turn.@__
+Prey%Upon_G_Sorcery__Target creature you control fights target creature you don't control. <i>(Each deals damage equal to its power to the other.)</i>@__
+Prizefighter%Construct_5_Artifact Creature_Construct_@_6_2
+Quicksmith%Rebel_3R_Creature_Human Artificer_When Quicksmith Rebel enters the battlefield, target artifact you control gains T: this artifact deals 2 damage to target creature or player" for as long as you control Quicksmith Rebel.@_3_2
+Quicksmith%Spy_3U_Creature_Human Artificer_When Quicksmith Spy enters the battlefield, target artifact you control gains "T: Draw a card" for as long as you control Quicksmith Spy.@_2_3
+Ravenous%Intruder_1R_Creature_Gremlin_Sacrifice an artifact: Revenous Intruder gets +2/+2 until end of turn.@_1_2
+Reckless%Racer_2R_Creature_Human Pilot_First strike@@Whenever Reckless Racer becomes tapped, you may discard a card. If you do, draw a card.@_2_3
+Release%the%Gremlins_XXR_Sorcery__Destroy X target artifacts. Create X 2/2 red Gremlin creature tokens.@__
+Renegade%Map_1_Artifact__Renegade Map enters the battlefield tapped.@@T, Sacrifice Renegade Map: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.__
+Renegade%Rallier_1GW_Creature_Human Warrier_<i>Revolt</i> - When Renegade Rallier enters the battlefield, if a permanent you controlled left the battlefield this turn, return target permanent card with converted mana cost 2 or less from your graveyard to the battlefield.@_3_2
+Renegade's%Getaway_2B_Instant__Target permanent gains indestructible until end of turn. Create a 1/1 colorless Servo artifact creature token. <i>(Effects that say "destroy" don't destroy a permanent with indestructible, and if it's a creature, it can't be destroyed by damage.)</i>@__
+Renegade%Wheelsmith_1RW_Creature_Dwarf Pilot_Whenever Renegade Wheelsmith becomes tapped, target creature can't block this turn.@_3_2
+Reservoir%Walker_5_Artifact Creature_Construct_When Reservoir Walker enters the battlefield, you gain 3 life and get EEE. @_3_3
+Resourceful%Return_1B_Sorcery__Return target creature card from your graveyard to your hand. If you control an artifact, draw a card.@__
+Restoration%Specialist_1W_Creature_Dwarf Artificer_W, Sacrifice Restoration Specialist: Return up to one target artifact card and up to one target enchantment card from your graveyard to your hand.@_2_1
+Reverse%Engineer_3UU_Sorcery__Improvise <i>(Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abiltiies pays for 1.)</i>@@Draw three cards.__
+Ridgescale%Tusker_3GG_Creature_Beast_When Ridgescale Tusker enters the battlefield, put a +1/+1 counter on each other creature you control.@_5_5
+Rishkar,%Peema%Renegade_2G_Creature_Elf Druid_When Rishkar, Peema Renegade enters the battlefield, put a +1/+1 counter on each of up to two target creatures.@@Each creature you control with a counter on it has "T: Add G to your mana pool."_2_2
+Rishkar's%Expertise_4GG_Sorcery__Draw cards equal to the greatest power among creatures you control.@@You may cast a card with converted mana cost 5 or less from your hand without paying its mana cost.@__
+Rogue%Refiner_1GU_Creature_Human Rogue_When Rogue Refiner enters the battlefield, draw a card and gain EE.@_3_2
+Salvage%Scuttler_4U_Creature_Crab_Whenever Salvage Scuttler attacks, return an artifact you control to its owner's hand.@_4_4
+Scrapper%Champion_3R_Creature_Human Artificer_Double strike <i>(This creature deals both first-strike and regular combat damage.)</i>@@When Scrapper Champion enters the battlefield, you get EE <i>(two energy counters)</i>.@@Whenever Scrapper Champion attacks, you may pay EE. If you do, put a +1/+1 counter on it.@_2_2
+Scrap%Trawler_3_Artifact Creature_Construct_Whenever Scrap Trawler or another artifact you control is put into a graveyard from the battlefield, return to your hand target artifact card in your graveyard with lesser converted mana cost.@_3_2
+Scrounging%Bandar_1G_Creature_Cat Monkey_Scrounging Bandar enters the battlefield with two +1/+1 counters on it.@@At the beginning of your upkeep, you may move any number of +1/+1 counters from Scrounging Bandar onto another target creature.@_0_0
+Secret%Salvage_3BB_Sorcery__Exile target nonland card from your graveyard. Search your library for any number of cards with the same name as that card, reveal them, and put them into your hand. Then shuffle your library.@__
+Servo%Schematic_2_Artifact__When Servo Schematic enters the battlefield, or is put into a graveyard from the battlefield, create a 1/1 colorless Servo artifact creature token.@__
+Shielded%Aether%Thief_1U_Creature_Vedalken Rogue_Flash <i>(You may cast this spell any time you could cast an instant.)</i>@@Whenever Shielded Aether Thief blocks, you get E.@@T, Pay EEE: Draw a card._0_4
+Shipwreck%Moray_3U_Creature_Fish_When Shipwreck Moray enters the battlefield, you get EEEE <i>(four energy counters)</i>.@@ Pay E: Shipwreck Moray gets +2/-2 until end of turn.@_0_5
+Shock_R_Instant__Deal 2 damage to target creature or player.@__
+Siege%Modification_1RR_Enchantment_Aura_Enchant creature or Vehicle@@As long as enchanted permanent is a Vehicle, it's a creature in addition to its other types.@@Enchanted creature gets +3/+0 and has first strike.__
+Silkweaver%Elite_2G_Creature_Elf Archer_Reach <i>(This creature can block creatures with flying.)</i><Br />@<i>Revolt</i> - When Silkweaver Elite enters the battlefield, if a permanent you controlled left the battlefield this turn, draw a card.@_2_2
+Skyship%Plunderer_1U_Creature_Human Pirate_Flying@@Whenever Skyship Plunderer deals combat damage to a player, for each kind of counter on target permanent or player, give that permanent or player another counter of that kind._2_1
+Sly%Requisitioner_4B_Creature_Human Artificer_Improvise <i>(Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for 1.) </i>@@Whenever a nontoken artifact you control is put into a graveyard from the battlefield, create a 1/1 colorless Servo artifact creature token._2_2
+Solemn%Recruit_1WW_Creature_Dwarf Soldier_Double strike@@<i>Revolt</i> - At the beginning of your end step, if a permanent you controlled left the battlefield this turn, put a +1/+1 counter on Solemn Recruit._2_2
+Sphere%of%Resistance_2_Artifact__Spells cost 1 more to cast. @__
+Spire%of%Industry__Land__T: Add &loz; to your mana pool.@@T, Pay 1 life: Add one mana of any color to your mana pool. Activate this ability only if you control an artifact.__
+Spire%Patrol_2WU_Creature_Human Soldier_Flying@@Wthen Spire Patrol enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.@_3_2
+Sram,%Senior%Edificer_1W_Creature_Dwarf Advisor_Whenever you cast an Aura, Equipment, or Vehicle spell, draw a card.@_2_2
+Sram's%Expertise_2WW_Sorcery__Create three 1/1 colorless Servo artifact creature tokens.@@You may cast a card with converted mana cost 3 or less from your hand without paying its mana cost.__
+Staff%of%Domination_3_Artifact__1: Untap Staff of Domination.@@2, T: You gain 1 life.@@3, T: Untap target creature. @@4, T: Tap target creature.@@5, T: Draw a card.__
+Submerged%Boneyard__Land__Submerged Boneyard enters the battlefield tapped.@@T: Add U or B to your mana pool.@__
+Sundering%Titan_8_Artifact Creature_Golem_When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.@_7_10
+Sword%of%Body%and%Mind_3_Artifact_Equipment_Equipped creature gets +2/+2 and has protection from green and blue.@@Whenever equipped creature deals combat damage to a player, you create a 2/2 green Wolf creature token and that player puts the top ten cards of his or her library into his or her graveyard.@@Equip 2__
+Sword%of%War%and%Peace_3_Artifact_Equipment_Equipped creature gets +2/+2 and has protection from red and white.@@Whenever equipped creature deals combat damage to a player, Sword of War and Peace deals damage to that player equal to the number of cards in his or her hand and you gain 1 life for each card in your hand.@@Equip 2__
+Take%into%Custody_U_Instant__Tap Target creature. It doesn't untap during its controller's next untap step.@__
+Tezzeret,%Master%of%Metal_4UB_Planeswalker_Tezzeret_[+1]: Reveal cards from the top of your library until you reveal an artifact card. Put that card into your hand and the rest on the bottom of your library in a random order.@@[-3]: Target opponent loses life equal to the number of artifacts you control.@@[-8]: Gain control of all artifacts and creatures target opponent controls.__5
+Tezzeret's%Betrayal_3UB_Sorcery__Destroy target creature. You may search your library and/or graveyard for a card named Tezzeret, Master of Metal, reveal it, and put it into your hand. If you search your library this way, shuffle it.@__
+Tezzeret's%Simulacrum_3_Artifact Creature_Golem_T: Target opponent loses 1 life. If you control a Tezzeret planeswalker, that player loses 3 life instead.@_2_3
+Tezzeret's%Touch_1UB_Enchantment_Aura_Enchant Artifact@@Enchanted artifact is a creature with base power and toughness 5/5 in addition to its other types.@@When enchanted artifact is put into a graveyard, return that card to its owner's hand.@__
+Tezzeret%the%Schemer_2UB_Planeswalker_Tezzeret_[+1]: Create a colorless artifact token named Etherium Cell with "T,  Sacrifice this artifact: Add one mana of any color to your mana pool."@@[-2]: Target creature get +X/-X until end of turn, where X is the number of artifacts you control.@@[-7]: You get an emblem with "At the beginning of combat on your turn, target artifact you control becomes an artifact creature with base power and toughness 5/5."__5
+Thopter%Arrest_2W_Enchantment__When Thopter Arrest enters the battlefield, exile target artifact or creature an opponent controls until Thopter Arrest leaves the battlefield.@__
+Tranquil%Expanse__Land__Tranquil Expanse enters the battlefield tapped.@@T: Add G or W to your mana pool.@__
+Treasure%Keeper_4_Artifact Creature_Construct_When Treasure Keeper dies, reveal cards from the top of your library until you reveal a nonland card with converted mana cost 3 or less. You may cast that card without paying its mana cost. Put all revealed cards not cast this way on the bottom of your library in a random order.@_3_3
+Trinisphere_3_Artifact__As long as Trinisphere is untapped, each spell that would cost less than three mana to cast costs three mana to cast.@__
+Trophy%Mage_2U_Creature_Human Wizard_When Trophy Mage enters the battlefield, you may serach your library for an artifact card with converted mana cost 3, reveal it, put it into your hand, then shuffle your library.@_2_2
+Unbridled%Growth_G_Enchantment_Aura_Enchant land@@Enchanted land has "T: Add one mana of any color to your mana pool."@@Sacrifice Unbridled Growth: Draw a card.@__
+Universal%Solvent_1_Artifact__7, T, Sacrifice Universal Solvent: Destroy target permanent.@__
+Untethered%Express_4_Artifact_Vehicle_Trample@@Whenever Untethered Express attacks, put a +1/+1 counter on it.@@Crew 1 <i>(Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</i>@_4_4
+_3_Artifact__You may choose not to untap Vedalken Shackles during your untap step.@@2, T: Gain control of target creature with power less than or equal to the number of Islands you control for as long as Vedalken Shackles remains tapped.__
+Vengeful%Rebel_2B_Creature_Aetherborn Warrior_<i>Revolt</i> - When Vengeful Rebel enters the battlefield, if a permanent you controlled left the battlefield this turn, target creature an opponent controls gets -3/-3 until end of turn.@_3_2
+Verdant%Automaton_2_Artifact Creature_Construct_3G: Put a +1/+1 counter on Verdant Automaton.@_1_2
+Walking%Ballista_XX_Creature_Construct_Walking Ballista enters the battlefield with X +1/+1 counters on it.@@4: Put a +1/+1 counter on Walking Ballista.@@Remove a +1/+1 counter: Walking Ballista deals 1 damage to target creature or player of your choice.@_0_0
+Watchful%Automaton_3_Artifact Creature_Construct_2U: Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>@@_2_2
+Welder%Automaton_2_Artifact Creature_Construct_3R: Welder Automaton deals 1 damage to each opponent.@_2_1
+Weldfast%Engineer_1BR_Creature__At the beginning of your combat phase, target artifact creature you control gets +2/+0 until end of turn.@_3_3
+Whir%of%Invention_XUUU_Instant__Improvise <i>(Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for 1.)</i>@@Search your library for an artifact card with converted mana cost X or less, put it onto the battlefield, then shuffle your library.__
+Winding%Constrictor_BG_Creature_Snake_If one or more counters would be placed on an artifact or creature you control, that many counters plus one are placed that permanent instead. @@If you would get one or more counters you get that mny of those counters plus one instead._2_3
+Windkin%Raiders_4UU_Creature_Human Artificer_Improvise@@Flying_4_3
+Wurmcoil%Engine_6_Artifact Creature_Wurm_Deathtouch, lifelink@@When Wurmcoil Engine dies, create a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink._6_6
+Yahenni's%Expertise_2BB_Sorcery__All creatures get -3/-3 until end of turn.@@You may cast a card with converted mana cost 3 or less from your hand without paying its mana cost.__
+Yahenni,%Undying%Partisan_2B_Creature_Aetherborn Vampire_Haste@@Whenever a creature an opponent controls dies, put a +1/+1 counter on Yahenni, Undying Partisan.@@Sacrifice another creature: Yahenni gains indestructible until end of turn._2_2

@@ -1,0 +1,5 @@
+Divination_2U_Sorcery__Draw two cards.@__
+Flames%of%the%Firebrand_2R_Sorcery__Flames of the Firebrand deals 3 damage divided as you choose among one, two, or three target creatures and/or players.@__
+Serra%Angel_3WW_Creature_Angel_Flying@@Vigilance <i>(attacking doesn't cause this creature to tap.)</i>_4_4
+Serra%Angel_3WW_Creature_Angel_Flying@@Vigilance <i>(attacking doesn't cause this creature to tap.)</i>_4_4
+Wind%Drake_2U_Creature_Drake_Flying@_2_2

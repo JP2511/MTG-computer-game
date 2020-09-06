@@ -1,0 +1,5 @@
+Bloodgift%Demon_3BB_Creature_Demon_Flying@@At the beginning of your upkeep, target player draws a card and loses 1 life._5_4
+Liliana%of%the%Veil_1BB_Planeswalker_Liliana_[+1]: Each player discards a card.@@[-2]: Target player sacrifices a creature.@@[-6]: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of his or her choice.__3
+Midnight%Haunting_2W_Instant__Put two 1/1 White Spirit creature tokens with flying onto the battlefield.@__
+Reaper%from%the%Abyss_3BBB_Creature_Demon_Flying@@<i>Morbid</i> - At the beginning of each end step, if a creature died this turn, destroy target non-Demon creature._6_6
+Snapcaster%Mage_1U_Creature_Human Wizard_Flash@@When Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its converted mana cost. <i>(You may cast that card from your graveyard for its flashback cost. Then exile it.)</i>_2_1

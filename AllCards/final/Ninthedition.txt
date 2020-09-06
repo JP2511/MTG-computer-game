@@ -1,0 +1,3 @@
+<font%color="00000">
+Greater%Good_<font color="00000">2GG_<font color="00000">
+Enchantment__<font color="00000">Sacrifice a creature: Draw cards equal to the sacrificed creature's power, then discard three cards.@__

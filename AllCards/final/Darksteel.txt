@@ -1,0 +1,2 @@
+Echoing%Courage_1G_Instant__Target creature and all other creatures with the same name as that creature get +2/+2 until end of turn.@__
+Echoing%Truth_1U_Instant__Return target nonland permanent and all other permanents with the same name as that permanent to their owners' hands.@__

@@ -1,0 +1,4 @@
+Cryptic%Command_1UUU_Instant__Choose two - Counter target spell; or return target permanent to its owner's hand; or tap all creatures your opponents control; or draw a card.@__
+Pestermite_2U_Creature_Faerie Rogue_Flash@@Flying@@When Pestermite enters the battlefield, you may tap or untap target permanent._2_1
+Spellstutter%Sprite_1U_Creature_Faerie Wizard_Flash@@Flying@@When Spellstutter Sprite enters the battlefield, counter target spell with converted mana cost X or less, where X is the number of Faeries you control._1_1
+Thoughtseize_B_Sorcery__Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.@__

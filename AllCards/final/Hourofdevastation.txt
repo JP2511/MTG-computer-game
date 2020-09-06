@@ -1,0 +1,220 @@
+Abandoned%Sarcophagus_3_Artifact__You may cast nonland cards with cycling from your graveyard.@@If a card with cycling would be put into your graveyard from anywhere and it wasn't cycled, exile it instead.__
+Abrade_1R_Instant__Choose one - @@* Abrade deals 3 damage to target creature.@@* Destroy target artifact.__
+Accursed%Horde_3B_Creature_Zombie_1B: Target attacking zombie gains indestructible until end of turn. <i>(Damage and effects that say "destroy" don't destroy it. If its toughness is 0 or less, it's still put into it's owner's graveyard.)</i>@_3_3
+Act%of%Heroism_1W_Instant__Untap target creature. It gets +2/+2 until end of turn and can block an additional creature this turn.@__
+Adorned%Pouncer_1W_Creature_Cat_Double Strike@@Eternalize 3WW <i>(3WW, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie cat with no mana cost. Eternalize only as a sorcery.)</i>_1_1
+Aerial%Guide_2U_Creature_Drake_Flying@@Whenever Aerial Guide attacks, another target attacking creature gains flying until end of turn._2_2
+Ambuscade_2G_Instant__Target creature you control gets +1/+0 until end of turn. It deals damage equal to its power to target creature an opponent controls.@__
+"Ammit%Eternal"_2B_Creature_Zombie Crocodile Demon_Afflict 3@@Whenever an opponent casts a spell, put a -1/-1 counter on Ammit Eternal.@@Whenever Ammit Eternal deals combat damage to a player, remove all -1/-1 counters from it._5_5
+Angel%of%Condemnation_2WW_Creature_Angel_Flying, vigilance@@2W, T: Exile another target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.@@2W, T, Exert Angel of Condemnation: Exile another target creature until Angel of Condemnation leaves the battlefield._3_3
+Angel%of%the%God-Pharaoh_4WW_Creature_Angel_Flying@@Cycling 2 <i>(2, Discard this card: Draw a card.)</i>_4_4
+Apocalypse%Demon_4BB_Creature_Demon_Flying @@Apocalypse Demon's power and toughness are equal to the number of cards in your graveyard.@@At the beginning of your upkeep, tap Apocalypse Demon unless you sacrifice another creature.@_*_*
+Appeal%//%Authority_G // 1W_Sorcery__Appeal@@Until end of turn, target creature gains trample and gets +X/+X, where X is the number of creatures you control.@@Authority@@Aftermath <i>(Cast this spell only from your graveyard. Then exile it.) </i>@@Tap up to two target creatures your opponents control. Creatures you control gain vigilance until end of turn.@__
+Armageddon_3W_Sorcery__Destroy all lands.@__
+Avatar%of%Woe_6BB_Creature_Avatar_If there are ten or more creature cards in all graveyards, Avatar of Woe costs 6 less to cast.@@Fear@@T: Destroy target creature. It can't be regenerated.@_6_5
+Aven%of%Enduring%Hope_4W_Creature_Bird Cleric_Flying@@When Aven of Enduring Hope enters the battlefield, you gain 3 life._3_3
+Aven%Reedstalker_3U_Creature_Bird Warrior_Flash@@Flying_2_3
+Avid%Reclaimer_2G_Creature_Human Druid_T: Add G or U to your mana pool. If you control a Nissa planeswalker, you gain 2 life.@_2_2
+Banewhip%Punisher_2B_Creature_Human Warrior_When Banewhip Punisher enters the battlefield, you may put a -1/-1 counter on target creature.@@B, Sacrifice Banewhip Punisher: Destroy target creature that has a -1/-1 counter on it._2_2
+Beneath%the%Sands_2G_Sorcery__Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.@@Cycling 2 <i>(</i>2<i>, Discard this card: Draw a card.)</i>@__
+Bitterbow%Sharpshooters_4G_Creature_Jackal Warrior_Vigilance, reach@_4_4
+_2R_Enchantment__Nonbasic lands are Mountains.@@__
+Bloodwater%Entity_1UR_Creature_Elemental_Flying@@Prowess <i>(Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</i>@@When Bloodwater Entity enters the battlefield, you may put target instant or sorcery from your graveyard on top of your library._2_2
+Blur%of%Blades_1R_Instant__Put  -1/-1 counter on target creature. Blur of Blades deals 2 damage to that creauture's controller.@__
+Boil_3R_Instant__Destroy all islands.@__
+Bontu's%Last%Reckoning_1BB_Sorcery__Destroy all creatures. Lands you control don't untap during your next untap step.@__
+Brambleweft%Behemoth_4GG_Creature_Elemental_Trample <i>(This creature can deal excess combat damage to defending player or planeswalker while attacking.)</i>@_6_6
+Burning-Fist%Minotaur_1R_Creature_Minotaur Wizard_First strike@@1R, Discard a card: Burning-Fist Minotaur gets +2/+0 until end of turn._2_1
+Capsize_1UU_Instant__Buyback 3@@Return target permanent to its owner's hand.@__
+Carrion%Screecher_3B_Creature_Zombie Bird_Flying@_3_1
+Champion%of%Wits_2U_Creature_Naga Wizard_When Champion of Wits enters the battlefield, you may draw cards equal to its power. If you do, discard two cards.@@Eternalize 5UU <i>(5UU, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Naga Wizard with no mana cost. Eternalize only as a sorcery.)_2_1
+Chandra's%Defeat_R_Instant__Chandra's Defeat deals 5 damage to target red creature or red planeswalker. If it was a Chandra planeswalker, you may discard a card. If you do, draw a card.@__
+Chaos%Maw_5RR_Creature_Hellion_When Maw of Chaos enters the battlefield, it deals 3 damage to each other creature.@_6_6
+Choke_2G_Enchantment__Islands don't untap during their controllers' untap steps.@__
+Cinder%Barrens__Land__Cinder Barrens enters the battlefield tapped.@@T: Add B or R to your mana pool.@__
+Claim%//%Fame_B // 1R_Sorcery__Claim@@Return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.@@Fame@@Aftermath <i>(Cast this spell only from your graveyard. Then exile it.)</i>@@Target creature gets +2/+0 and gains haste until end of turn.__
+Consign%//%Oblivion_1U // 4B_Instant // Sorcery__Consign@@Return target nonland permanent to its owner's hand.@@Oblivion@@Aftermath <i>(Cast this spell only from your graveyard. Then exile it.)</i>@@Target opponent discards two cards.__
+Countervailing%Winds_2U_Instant__Counter target spell unless its controller pays 1 for each card in your graveyard.@@Cycling 2 <i>(2, Discard this card: Draw a card.)</i>__
+Crash%Through_R_Sorcery__Creatures you control gain trample until end of turn.@@Draw a card.__
+Crested%Sunmare_3WW_Creature_Horse_Other Horses you control have indestructible.@@At the beginning of each end step, if you gained life this turn, create a 5/5 white Horse creature token.@_5_5
+Crook%of%Condemnation_2_Artifact__1, T: Exile target card from a graveyard.@@1, Exile Crook of Condemnation: Exile all cards from all graveyards.@__
+Crypt%of%the%Eternals__Land__When Crypt of the Eternals enters the battlefield, you gain 1 life.@@T: Add &loz; to your mana pool.@@1, T: Add U, B, or R to your mana pool.@__
+Cunning%Survivor_1U_Creature_Human Warrior_Whenever you cycle or discard a card, Cunning Survivor gets +1/+0 until end of turn and can't be blocked this turn.@_1_3
+Dagger%of%the%Worthy_2_Artifact_Equipment_Equipped creature gets +2/+0 and has afflict 1. <i>(Whenever it becomes blocked, defending player loses 1 life.)</i>@@Equip 2 <i>(</i>2<i>: Attach to target creature you control. Equip only as a sorcery.)</i>@__
+Damnation_2BB_Sorcery__Destroy all creatures. They can't be regenerated.@__
+Dauntless%Aven_2W_Creature_Bird Warrior_Flying@@Whenever Dauntless Aven attacks, untap target creature you control._2_1
+Defiant%Khenra_1R_Creature_Jackal Warrior_@_2_2
+Desert%of%the%Fervent__Land_Desert_Desert of the Fervent enters tapped.@@T: Add R to your mana pool.@@Cycling 1R <i>(</i>1R<i>, Discard this card: Draw a card.)</i>@__
+Desert%of%the%Glorified__Land_Desert_Desert of the Glorified enters the battlefield tapped.@@T: Add B to your mana pool.@@Cycling 1B <i>(</i>1B<i>, Discard this card: Draw a card.)</i>@__
+Desert%of%the%Indomitable__Land_Desert_Desert of the Indomitable enters the battlefield tapped.@@T: Add G to your mana pool.@@Cycling 1G <i>(</i>1G<i>, Discard this card: Draw a card.)</i>@__
+Desert%of%the%Mindful__Land_Desert_Desert of the Mindful enters the battlefield tapped.@@T: Add U to your mana pool.@@Cycling 1U <i>(</i>1U<i>, Discard this card: Draw a card.)</i>@__
+Desert%of%the%True__Land_Desert_Desert of the True enters the battlefield tapped.@@T: Add W to your mana pool.@@Cycling 1W <i>(</i>1W<i>, Discard this card: Draw a card.)</i>@__
+Desert's%Hold_2W_Enchantment_Aura_Enchant creature.@@When Desert's Hold enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, gain 3 life.@@Enchanted creature can't attack or block, and its activated abilities can't be activated.@__
+Desolation%Angel_3BB_Creature_Angel_Kicker WW <i>(You may pay an additional WW as you cast this spell.)</i>@@Flying@@When Desolation Angel enters the battlefield, destroy all lands you control. If it was kicked, destroy all lands instead._5_4
+Devotee%of%Strength_2G_Creature_Naga Wizard_4G: Target creature gets +2/+2 until end of turn.@_3_2
+Diabolic%Edict_1B_Instant__Target player sacrifices a creature.@__
+Disposal%Mummy_2W_Creature_Zombie Jackal_When Disposal Mummy enters the battlefield, exile target card from an opponent's graveyard.@_2_3
+Djeru's%Renunciation_1W_Instant__Tap up to two target creatures.@@Cycling W <i>(W, Discard this card: Draw a card.)</i>__
+Djeru,%With%Eyes%Open_3WW_Creature_Human Warrior_Vigilance@@When Djeru, With Eyes Open enters the battlefield, you may search your library for a planeswalker card, reveal it, put it into your hand, then shuffle your library.@@If a source would damage to a Planeswalker you control, prevent 1 of that damage._4_3
+Doomfall_2B_Sorcery__Choose one - @@* Target opponent exiles a creature he or she controls.@@* Target opponent reveals his or her hand. You choose a nonland card from it. Exile that card.__
+Doomsday_BBB_Sorcery__Search your library and graveyard for five cards and exile the rest. Put the chosen cards on top of your library in any order. You lose half your life, rounded up.@__
+Dreamstealer_2B_Creature_Human Wizard_Menace@@Whenever Dreamstealer deals combat damage to a player, that player discards that many cards.@@Eternalize 4BB <i>(</i>4BB<i>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 Black Zombie Human Wizard with no mana cost. Eternalize only as a sorcery.)@_1_2
+Driven_1G_Sorcery__Until end of turn, creatures you control gain trample and "Whenever this creature deals combat damage to a player, draw a card."@@<!--CARD NAME--><font size="4">Despair</font></b>__
+Dune%Diviner_2G_Creature_Naga Cleric_1, Tap an untapped Desert you control: You gain 1 life.@_2_3
+Dunes%of%the%Dead__Land_Desert_T: Add &loz; to your mana pool.@@When Dunes of the Dead is put into a graveyard from the battlefield, create a 2/2 black Zombie creature token.@__
+Dutiful%Servants_3W_Creature_Zombie_@_2_5
+Earthshaker%Khenra_1R_Creature_Jackal Khenra_Haste@@When Earthshaker Khenra enters the battlefield, target creature with power less than or equal to Earthshaker Khenra's power can't block this turn.@@Eternalize 4RR <i>(4RR, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.)</i>_2_1
+Endless%Sands__Land_Desert_T: Add &loz; to your mana pool.@@2, T: Exile target creature you control.@@4, T, Sacrifice Endless Sands: Return each creature card exiled with Endless Sands to the battlefield under its owner's control.@__
+Eternal%of%Harsh%Truths_2U_Creature_Zombie Cleric_Afflict 2 <i>(Whenever this creature becomes blocked, defending player loses 2 life.)</i>@@Whenever Eternal of Harsh Truths attacks and isn't blocked, draw a card._1_3
+Farm%//%Market_2W // 2U_Instant // Sorcery__Farm@@Instant@@Destroy target attacking or blocking creature.@@Market@@Sorcery@@Aftermath <i>(Cast this spell only from your graveyard. Then exile it.)</i>@@Draw two cards, then discard two cards.__
+Feral%Prowler_1G_Creature_Cat_When Feral Prowler dies, draw a card.@_1_3
+Fervent%Paincaster_2R_Creature_Human Wizard_T: Fervent Paincaster deals 1 damage to target player.@@T, Exert Fervent Paincaster: it deals 1 damage to target creature._3_1
+Firebrand%Archer_1R_Creature_Human Archer_Whenever you cast a noncreature spell, Firebrand Archer deals 1 damage to each opponent.@_2_1
+Forbid_1UU_Instant__Buyback - Discard two cards.@@Counter target spell.@__
+Forest____@__
+Fraying%Sanity_2U_Enchantment_Aura Curse_Enchant Player@@At the beginning of each end step, enchanted player puts X cards from the top of his or her library into their graveyard, where X is the number of cards that went to their graveyard from anywhere this turn.@__
+Frilled%Sandwalla_G_Creature_Lizard_1G: Frilled Sandwalla gets +2/+2 until end of turn. Activate this ability only once each turn.@_1_1
+Frontline%Devastator_3R_Creature_Zombie Minotaur Warrior_Afflict 2 <i>(Whenever this creature becomes blocked, defending player loses 2 life.)</i>@@1R: Frontline Devastator gets +1/+0 until end of turn._3_3
+Gideon's%Defeat_W___Exile target white creature that's attacking or blocking. If it was a Gideon planeswalker, you gain 5 life.@__
+Gift%of%Stength_1G_Instant__Target creature gets +3/+3 and gains reach until end of turn.@__
+Gilded%Cerodon_4R_Creature_Beast_Whenever Gilded Cerodon attacks, if you control a Desert or there is a Desert card in your graveyard, target creature can't block this turn.@_4_4
+God-Pharaoh's%Faithful_W_Creature_Human Wizard_Whenever you cast a blue, black, or red spell, you gain 1 life.@_0_4
+God-Pharaoh's%Gift_7_Artifact__At the beginning of combat on your turn, you may exile a creature card from your graveyard. If you do, create a token that's a copy of that card, except it's a 4/4 black Zombie. It gains haste until end of turn.@__
+Granitic%Titan_4RR_Creature_Elemental_Menace@@Cycling 2 <i>(2, Discard this card: Draw a card.)</i>_5_4
+Graven%Abomination_3_Artifact Creature_Horror_Whenever Graven Abomination attacks, exile target card from defending player's graveyard.@_3_1
+Grind%//%Dust_1B // 3W_Sorcery__Grind@@Put a -1/-1 counter on each of up to two target creatures.@@Dust@@Aftermath <i>(Cast this spell only from your graveyard. THen exile it.)</i>@@Exile any number of target creatures that have -1/-1 counters on them.__
+Grisly%Survivor_2B_Creature_Minotaur Warrior_Whenever you cycle or discard a card, Grisly Survivor gets +2/+0 until end of turn.@_2_3
+Harrier%Naga_2G_Creature_Naga Warrior_@_3_3
+Hashep%Oasis__Land_Desert_T: Add &loz; to your mana pool.@@T, Pay 1 life: Add G to your mana pool.@@1GG,T, Sacrifice a Desert: Target creature gets +3/+3 until end of turn. Activate this ability only any time you could cast a sorcery.__
+Hazoret's%Undying%Fury_4RR_Sorcery__Shuffle your library, then exile the top four cards. You may cast any number of nonland cards with converted cost 5 or less from among them without paying their mana costs. Lands you control don't untap during your next untap step.@__
+Hollow%One_5_Artifact Creature_Golem_Hollow One costs 2 less to cast for each card you've cycled or discarded this turn.@@Cycling 2 <i>(</i>2<i>, Discard this card: Draw a card.)</i>@_4_4
+Hope%Tender_1G_Creature_Human Druid_1, T: Untap target land.@@1, T, Exert Hope Tender: Untap two target lands. <i>(An exerted creature won't untap during your next untap step.)</i>_2_2
+Hostile%Desert__Land_Desert_T: Add &loz; to your mana pool.@@2, Exile a land card from your graveyard: Hostile Desert becomes a 3/4 elemental creature until end of turn. It is still a land.@__
+Hour%of%Devastation_3RR_Sorcery__All creatures lose indestructible until end of turn. Hour of Devastation deals 5 damage to each creature and each non-Bolas planeswalker.@__
+Hour%of%Eternity_XXUUU_Sorcery__Exile X target creature cards from your graveyard. For each card exiled this way, create a token that's a copy of that card, except it's a 4/4 black Zombie.@__
+Hour%of%Glory_3B_Instant__Exile target creature. If that creature is a God, its controller reveals his or her hand and exiles all cards from it with the same name as that creature.@__
+Hour%of%Promise_4G_Sorcery__Search your library for up to two land cards, put them onto the battlefield tapped, then shuffle your library. Then if you control three or more Deserts, create two 2/2 black Zombie creature tokens.@__
+Hour%of%Revelation_3WWW_Sorcery__Hour of Revelation costs 3 less to cast if there are ten or more nonland permanents on the battlefield.@@Destroy all nonland permanents.__
+Ifnir%Deadlands__Land_Desert_T: Add &loz; to your mana pool.@@T, Pay 1 life: Add B to your mana pool.@@2BB, T, Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls. Activate this ability only any time you could cast a sorcery.__
+Imaginary%Threats_2UU_Instant__Creatures target opponent controls attack this turn if able. During that player's next untap step, creatures he or she controls don't untap.@@Cycling 2 <i>(2, Discard this card: Draw a card.)</i>__
+Imminent%Doom_2R_Enchantment__Imminent Doom enters the battlefield with a doom counter on it.@@Whenever you cast a spell with converted mana cost equal to the number of doom counters on Imminent Doom, Imminent Doom deals that much damage to target creature or player. then put a doom counter on Imminent Doom.__
+Inferno%Jet_5R_Sorcery__Inferno Jet deals 6 damage to target opponent.@@Cycling 2 <i>(2, Discard this card: Draw a card.)</i>__
+Ipnu%Rivulet__Land_Desert_T: Add &loz; to your mana pool.@@T, Pay 1 life: Add U to your mana pool.@@1U, T, Sacrifice a Desert: Target player puts the top four cards of his or her library into his or her graveyard.__
+Island____@__
+Jace's%Defeat_1U_Instant__Counter target blue spell. If it was a Jace planeswalker spell, scry 2.@__
+Kefnet's%Last%Word_2UU_Sorcery__Gain control of target artifact, creature, or enchantment. Lands you control don't untap during your next untap step.@__
+Khenra%Eternal_1B_Creature_Zombie Jackal Warrior_Afflict 1 <i>(Whenever this creature becomes blocked, defending player loses 1 life.)</i>@_2_2
+Khenra%Scrapper_2R_Creature_Jackal Warrior_Menace@@You may exert Khenra Scrapper as it attacks. When you do, it gets +2/+0 until end of turn. <i>(An exerted creature won't untap during your next untap step.)@_2_3
+Kindled%Fury_R_Instant__@Target creature gets +1/+0 and gains first strike until end of turn.__
+Leave%//%Chance_1W // 3R_Instant // Sorcery__Leave@@Return any number of target permanents you own to your hand.@@Chance@@Aftermath<i> (Cast this spell only from your graveyard. Then exile it.)</i>@@Discard any number of cards, then draw that many cards.__
+Lethal%Sting_2B_Sorcery__As an additional cost to cast Lethal Sting, put a -1/-1 counter on a creature you control. Destroy target creature.@__
+Life%Goes%On_G_Instant__You gain 4 life. If a creature died this turn, you gain 8 life instead.@__
+Liliana's%Defeat_B_Sorcery__Destroy target black creature or black planeswalker. If it was a Liliana planeswalker, it's controller loses 3 life.@__
+Lord%of%Extinction_3BG_Creature_Elemental_Lord of Extinction's power and toughness are equal to the number of cards in all graveyards.@_*_*
+Lurching%Rotbeast_3B_Creature_Zombie Beast_Cycling B <i>(B, Discard this card: Draw a card.)</i>@_4_2
+Magmaroth_3R_Creature_Elemental_At the beginning of your upkeep, put a -1/-1 counter on Magmaroth.@@Whenever you cast a noncreature spell, remove a -1/-1 counter from Magmaroth._5_5
+Majestic%Myriarch_4G_Creature_Chimera_Majestic Myriarch's power power and toughness are each equal to twice the number of creatures you control.@@At the beginning of each combat, if you control a creature with flying, Majestic Myriarch gains flying until end of turn. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance._*_*
+Manalith_3_Artifact__T: Add one mana of any color to your mana pool.@__
+Manticore%Eternal_3RR_Creature_Zombie Manticore_Afflict 3 <i>(Whenever this creature becomes blocked, defending player loses 3 life.)</i>@@Manticore Eternal attacks each combat if able._5_4
+Maurading%Boneslasher_2B_Creature_Zombie Minotaur_Maurading Boneslasher can't block unless you control another Zombie.@_3_3
+Merciless%Eternal_2B_Creature_Zombie Cleric_Afflict 2 <i>(Whenever this creature becomes blocked, defending player loses 2 life.)</i>@@2B, Discard a card: Merciless Eternal gets +2/+2 until end of turn._2_2
+Mirage%Mirror_3_Artifact__2: Mirage Mirror becomes a copy of target artifact, creature, enchantment, or land until end of turn.	@__
+Moaning%Wall_2B_Creature_Zombie Wall_Defender@@Cycling 2 <i>(2, Discard this card: Draw a card.)</i>_0_5
+Mountain____@__
+Mummy%Paramount_1W_Creature_Zombie_Whenever another Zombie enters the battlefield under your control, Mummy Paramount gets +1/+1 until end of turn.@_2_2
+Neheb,%the%Eternal_3RR_Creature_Zombie Minotaur Warrior_Afflict 3 <i>(Whenever this creature becomes blocked, defending player loses 3 life.)</i>@@At the beginning of your postcombat main phase, add R to your mana pool for each 1 life your opponents have lost this turn._4_6
+Nicol%Bolas,%God-Pharaoh_4UBR_Planeswalker_Bolas_[+2]: Target opponent exiles cards from the top of his or her library until he or she exiles a nonland card. Until end of turn, you may cast that card without paying its mana cost.@@[+1]: Each opponent exiles two cards from his or her hand.@@[-4]: Nicol Bolas, God-Pharaoh deals 7 damage to target opponent or creature an opponent controls.@@[-12]: Exile each nonland permanent your opponents control.__7
+Nicol%Bolas,%the%Deceiver_5UBR_Planeswalker_Bolas_[+3]: Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.@@[-3]: Destroy a creature. Draw a card.@@[-11]: Nicol Bolas, the Deciever deals 7 damage to each opponent. You draw seven cards.@__
+Nimble%Obstructionist_2U_Creature_Bird Wizard_Flash @@Flying@@Cycling 2U <i>(2U, Discard this card: Draw a card.)</i>@@When you cycle Nimble Obstructionist, counter target activated ability you don't control._3_1
+Nissa,%Genesis%Mage_5GG_Planeswalker_Nissa_[+2]: Untap up to two target creatures and up to two target lands.@@[-3]: Target creature gets +5/+5 until end of turn.@@[-10]: Look at the top ten cards of your library. You may put any number of creature and/or land cards from among them onto the battlefield. Put the rest on the bottom of your library in a random order.@__
+Nissa's%Defeat_2G_Sorcery__Destroy target forest, green enchantment, or green planeswalker. If the permanent destroyed this way is a Nissa Planeswalker, draw 1 card.@__
+Nissa's%Encouragement_5G_Sorcery__Search your library and graveyard for a card named Nissa, Genesis Mage. Reveal those cards, put them into your hand, then shuffle your library.@__
+No%Mercy_2BB_Enchantment__Whenever a creature deals damage to you, destroy it.@__
+Oasis%Ritualist_3G_Creature_Naga Druid_T: Add one mana of any color to your mana pool.@@T, Exert Oasis Ritualist: Add to mana of any one color to your mana pool.@_2_4
+Obelisk%Spider_1BG_Creature_Spider_Reach@@Whenever Obelisk Spider deals combat damage to a creature, put a -1/-1 counter on that creature.@@Whenever you put one or more -1/-1 counters on a creature, each opponent loses 1 life and you gain 1 life.@_1_4
+Oketra's%Avenger_1W_Creature_Human Warrior_You may exert Oketra's Avenger as it attacks. When you do, prevent all combat damage that would be dealt to it this turn. <i>(An exerted creature won't untap during your next untap step.)</i>@_3_1
+Oketra's%Last%Mercy_1WW_Sorcery__Your life total becomes equal to your starting life total. Lands you control don't untap during your next untap step.@__
+Ominous%Sphinx_3UU_Creature_Sphinx_Flying@@Whenever you cycle or discard a card, target creature an opponent contols gets -2/-0 until end of turn.@_4_4
+Omniscience_7UUU_Enchantment__You may cast spells from your hand without paying their mana costs.@__
+Open%Fire_2R_Instant__Open Fire deals 3 damage to target creature or player.@__
+Opposition_2UU_Enchantment__Tap an untapped creature you control: Tap target artifact, creature, or land.@__
+Overcome_3GG_Sorcery__Creatures you control get +2/+2 and gain trample until end of turn.@__
+Overwhelming%Splendor_6WW_Enchantment_Aura Curse_Ennchant player@@Creatures enchanted player controls lose all abilities and have base power and toughness 1/1.@@Enchanted player can't activate abilities that aren't mana abilities or loyalty abilities.@__
+Plains____@__
+Pride%Sovereign_2G_Creature_Cat_Pride Sovereign gets +1/+1 for each other Cat you control.@@W, T, Exert Pride Sovereign: Create two 1/1 white Cat creature tokens with Lifelink. <i>(An exerted creature won't untap during your next untap step.</i>@_2_2
+Proven%Combatant_U_Creature_Human Warrior_Eternalize 4UU <i>(4UU, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Warrior with no mana cost. Eternalize only as a sorcery.)</i>@_1_1
+Puncturing%Blow_2RR_Sorcery__Puncturing Blow deals 5 damage to target creature. If that creature would die this turn, exile it instead.@__
+Quarry%Beetle_4G_Creature_Insect_When Quarry Beetle enters the battlefield, you may return target land card from your graveyard to the battlefield.@_4_5
+Rampaging%Hippo_4GG_Creature_Hippo_Trample@@Cycling 2 <i>(</i>2<i>, Discard this card: Draw a card.)</i>@_5_6
+Ramunap%Excavator_2G_Creature_Naga Cleric_You may play land cards from your library.@_2_3
+Ramunap%Hydra_3G_Creature_Hydra_Vigilance, reach, trample@@As long as you control a Desert, Ramunap Hydra gets +1/+1.@@As long as there is a Desert card in your graveyard, Ramunap Hyra gets +1/+1._3_3
+Ramunap%Ruins__Land_Desert_T: Add &loz; to your mana pool.@@T, Pay 1 life: Add R to your mana pool.@@2RR, T, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent.__
+Razaketh's%Rite_3BB_Sorcery__Search your library for a card and put it into your hand. Shuffle your library.@@Cycling B <i>(</i>B<i>, Discard this card: Draw a card.)</i>@__
+Razaketh,%the%Foulblooded_5BBB_Creature_Demon_Flying, trample@@Pay 2 life, Sacrifice another creature: Search your library for a card and put that into your hand. Then shuffle your library.@_8_8
+Reason%//%Believe_U // 4G_Sorcery // Sorcery__Reason@@Scry 3@@__
+Refuse%//%Cooperate_3R // 2U_Instant__Refuse@@Refuse deals damage to target spell's controller equal to that spell's converted mana cost.@@Cooperate@@Aftermath <i>(Cast this spell only from your graveyard. Then exile it.) </i>@@Copy target instant or sorcery spell. You may choose new targets for the copy.__
+Resilient%Khenra_1G_Creature_Jackal Wizard_When Resilient Khenra enters the battlefield, you may have target creature get +X/+X until end of turn, where X is Resilient Khenra's power.@@Eternalize 4GG <i>(</i>4GG<i>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Jackal Wizard with no mana cost. Eternalize only as a sorcery.)</i>@_2_2
+Resolute%Survivors_1RW_Creature_Human Warrior_You may exert Resolute Survivors as it attacks. <i>(It won't untap during your next untap step.)</i>@@Whenever you exert a creature, Resolute Survivors deals 1 damage to each opponent and you gain 1 life._3_3
+Rhonas's%Last%Stand_GG_Sorcery__Create a 5/4 green Snake creature token. Lands you control don't untap during your next untap step.@__
+Rhonas's%Stalwart_1G_Creature_Human Warrior_You may evert Rhonas's Stalwart as it attacks. When you do, it gets +1/+1 until end of turn and it can't be blocked by creatures with power 2 or less this turn. <i>(An exerted creature won't untap during your next untap step.)</i>@_2_2
+Riddleform_1U_Enchantment__Whenever you cast a noncreature spell, you may have Riddleform become a 3/3 Sphinx creature with flying in addition to its other types until end of turn.@@2U: Scry 1.@__
+River%Hoopoe_GU_Creature_Bird_Flying@@3GU: You gain 2 life and draw a card._1_3
+Ruin%Rat_1B_Creature_Rat_Deathtouch@@When Ruin Rat dies, exile target crad from an opponent's graveyard._1_1
+Samut,%the%Tested_2RG_Planeswalker_Samut_[+1]: Up to one target creature gains double strike until end of turn.@@[-2]: Samut, the Tested deals 2 damage divided as you choose among one of two target creatures and/or players.@@[-7]: Search your library for up to two creatures and/or planeswalker cards, put them onto the battlefield, then shuffle your library.__4
+Sandblast_2W_Instant__Sandblast deals 5 damage to target attacking or blocking creature.@__
+Sand%Strangler_3R_Creature_Beast_When Sand Strangler enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, you may have Sand Strangler deal 3 damage to target creature.@_3_3
+Saving%Grace_1W_Enchantment_Aura_Flash@@Enchant creature you control@@When Saving Grace enters the battlefield, all damage that would be dealt this turn to you and permanents you control is dealt to enchanted creature instead.@@Enchanted creature gets +0/+3.__
+Scavenger%Grounds__Land_Desert_T: Add &loz; to your mana pool.@@2, T, Sacrifice a desert: Exile all cards from all graveyards.__
+Scrounger%of%Souls_4B_Creature_Horror_Lifelink <i>(Damage dealt by this creature also causes you to gain that much life.)</i>@_3_4
+Seer%of%the%Last%Tomorrow_2U_Creature_Naga Cleric_U, T, Discard a card: Target player puts the top three cards of his or her library into his or her graveyard.@_1_4
+Shatterstorm_2RR_Sorcery__Destroy all artifacts. They can't be regenerated.@__
+Shefet%Dunes__Land_Desert_T: Add &loz: to your mana pool.@@T, Pay 1 life: Add W to your mana pool.@@2WW, T, Sacrifice a Desert: Creatures you control get +1/+1 until end of turn. Activate this ability only any time you could cast a sorcery.__
+Sidewinder%Naga_2G_Creature_Naga Warrior_As long as you control a Desert or there is a Desert card in your graveyard, Sidewinder Naga gets +1/+0 and has trample.@_3_2
+Sifter%Wurm_5GG_Creature_Wurm_Trample@@When Sifter Wurm enters the battlefield, scry 3, then reveal the top card of your library. You gain life equal to that card's converted mana cost.@_7_7
+Sinuous%Striker_2U_Creature_Naga Warrior_U: Sinuous Striker gets +1/-1 until end of turn.@@Eternalize-3UU, Discards a card. <i>(</i>3UU<i>, Discard a card, Exile this card from your graveyard.: Create a token that's a copy of it, except it's a 4/4 black Zombie Naga Warrior with no mana cost. Eternalize only as a sorcery.@_2_2
+Slaughter%Pact_0_Instant__Destroy target nonblack creature.@@At the beginning of your next upkeep, pay 2B. If you don't, you lose the game.@__
+Solemnity_2W_Enchantment__Players can't get counters.@@Counters can't be put on artifacts, creatures, enchantments, or lands.@__
+Solitary%Camel_2W_Creature_Camel_Solitary Camel has lifelink as long as you control a Desert or there is a Desert card in your graveyard. <i>(Damage dealt by this creature also causes you to gain that much life.)</i>@_3_2
+Spellweaver%Eternal_1U_Creature_Zombie Naga Wizard_Prowess <i>(Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</i>@@Afflict 2 <i>(Whenever this creature becomes blocked, defending player loses 2 life.)</i>@_2_1
+Steadfast%Sentinel_3W_Creature_Human Cleric_Vigilance@@Eternalize 4WW <i>(4WW, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Cleric with no mana cost. Eternalize only at a sorcery.)</i>_2_3
+Steward%of%Solidarity_1W_Creature_Human Warrior_T, Exert Steward of Solidarity: Create a 1/1 white Warrior creature token with vigilance. <i>(An exerted creature won't untap during your next untap step.)</i>@_2_2
+Strategic%Planning_1U_Sorcery__Look at the top three cards of your library. Put one of them into your hand the rest into your graveyard.@__
+Striped%Riverwinder_6U_Creature_Serpent_Hexproof <i>(This creature can't be the target of spells or abilities your opponents control.)</i>@@Cycling U <i>(</i>U<i>, Discard this card: Draw a card.)</i>@_5_5
+Struggle%//%Survive_2R // 1G_Instant // Sorcery__Struggle@@Instant@@Struggle deals damage to target creature equal to the number of lands you control.@@Survive@@Sorcery@@Aftermath <i>(Cast this spell only from your graveyard. Then exile it.)</i>@@Each player shuffles his or her graveyard into his or her library.__
+Sunder_3UU_Instant__Return all lands to their owners' hands.@__
+Sunscourge%Champion_2W_Creature_Human Wizard_When Sunscourge Champion enters the battlefield, you gain life equal to its power.@@Eternalize-2WW, Discard a card. <i>(</i>2WW<i>, Discard a card, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Wizard with no mana cost. Eternalize only as a sorcery.)</i>@_2_3
+Sunset%Pyramid_2_Artifact__Sunset Pyramid enters the battlefield with three brick counters on it.@@2, T, Remove a brick counter from Sunset Pyramid: Draw a card.@@2, T: Scry 1.__
+Supreme%Will_2U_Instant__Choose 1-@@- Counter target spell unless its controller pays 3.@@-Look at the top 4 cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.@__
+Survivor's%Encampment__Land_Desert_T: Add &loz; to your mana pool.@@T, Tap an untapped creature you control: Add one mana of any color to your mana pool.__
+Swamp____@__
+Swarm%Intelligence_6U_Enchantment__Whenever you cast an instant or sorcery spell, you may copy that spell. You may choose new targets for the copy.@__
+Tenacious%Hunter_2GG_Creature_Crocodile_As long as a creature has a -1/-1 counter on it, Tenacious Hunter has vigilance and deathtouch.@_4_4
+The%Locust%God_4UR_Creature_God_Flying@@Whenever you draw a card, create a 1/1 blue and red Insect creature token with flying and haste.@@2UR: Draw a card, then discard a card.@@When The Locust God dies, return it to its owner's hand at the beginning of the next end step._4_4
+The%Scarab%God_3UB_Creature_God_At the beginning of your upkeep, each opponent loses X life and you scry X, where X is the number of Zombies you control.@@2UB: Exile target creature card from a graveyard. Create a token that's a copy of it, except it's a 4/4 black Zombie.@@When The Scarab God dies, return it to its owner;s hand at the beginning of the next end step._5_5
+The%Scorpion%God_3BR_Creature_God_Whenever a creature with -1/-1 counter on it dies, draw a card.@@1BR: Put a -1/-1 counter on another target creature. @@When the Scorpion God dies, return it to its owner's hand at the beginning of the next end step._6_5
+Thorned%Moloch_2R_Creature_Lizard_Prowess <i>(Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</i>@@Thorned Moloch has first strike as long as it's attacking._2_2
+Thoughtseize_B_Sorcery__Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.@__
+Threads%of%Disloyalty_1UU_Enchantment_Aura_Enchant creature with converted mana cost 2 or less@@You control enchanted creature.__
+Through%the%Breach_4R_Instant_Arcane_You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.@@Splice into Arcane 2RR__
+Torment%of%Hailfire_XBB_Sorcery__Repeat the following process X times. Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.@__
+Torment%of%Scarabs_3B_Enchantment_Aura Curse_Enchant player@@At the beginning of enchanted player's upkeep, that player loses 3 life unless he or she sacrifices a nonland permanent or discards a card.@__
+Torment%of%Venom_2BB_Instant__Put three -1/-1 counters on target creature. Its controller loses 3 life unless he or she sacrifices another nonland permanent or discards a card.@__
+Tragic%Lesson_2U_Instant__Draw two cards. Then discard a card unless you return a land you control to its owner's hand.@__
+Traveler's%Amulet_1_Artifact__1, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.@__
+Uncage%the%Menagerie_XGG_Sorcery__Search your library for up to X creature cards with different names that each have converted mana cost X, reveal them, put them into your hand, then shuffle your library.@__
+Unconventional%Tactics_2W_Sorcery__Target creature gets +3/+3 and gains flying until end of turn.@@Whenever a Zombie enters the battlefield under your control, you may pay W. If you do, return Unconventional Tactics from your graveyard to your hand.__
+Unesh,%Criosphinx%Sovereign_4UU_Creature_Sphinx_Flying@@Sphinx spells you cast cost 2 less to cast.@@Whenever Unesh, Criosphinx Sovereign or another Sphinx enters the battlefield under your control, reveal the top four cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard._4_4
+Unquenchable%Thirst_1U_Enchantment_Aura_Enchant creature@@When Unquenchable Thirst enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, tap enchanted creature.@@Enchanted creature doesn't untap during its controller's untap step.@__
+Unraveling%Mummy_1WB_Creature_Zombie_1W: Target attacking Zombie gains lifelink until end of turn.@@1B: Target attacking Zombie gains deathtouch until end fo turn._2_3
+Unsummon_U_Instant__Return target creature to its owner's hand.@__
+Vile%Manifestation_1B_Creature_Horror_Vile Manifestation gets +1/+0 for each card with cycling in your graveyard.@@Cycling 2 <i>(2, Discard this card: Draw a card.)</i>_0_4
+Visage%of%Bolas_4_Artifact__When Visage of Bolas enters the battlefield, you may search your library and/or graveyard for a card named Nicol Bolas, the Deceiver, reveal it, and put it into your hand. If you search your library this way, shuffle it.@@T: Add U, B, or R to your mana pool.@__
+Vizier%of%the%Anointed_3U_Creature_Human Cleric_When Vizier of the Anointed enters the battlefield, search your library for a card with Embalm or Eternalize, put it into your graveyard, then shuffle your library.@@ Whenever you Eternalize or Embalm, draw a card.@_2_4
+Vizier%of%the%True_3W_Creature_Human Cleric_You may exert Vizier of the True as it attacks. <i>(It won't untap during your next untap step.)</i>@@Whenever you exert a creature, tap target creature an opponent controls._3_2
+Wall%of%Forgotten%Pharaohs_2_Artifact Creature_Wall_Defender@@T: Wall of Forgotten Pharaohs deals 1 damage to target player. Activate this ability only if you control a Desert or there is a Desert card in your graveyard.@_0_4
+Wasp%of%the%Bitter%End_1B_Creature_Insect Horror_Flying@@Whenever you cast a Bolas planeswalker, you may sacrifice Wasp of the Bitter End. If you do, destroy target creature.@_2_1
+Wildfire%Eternal_3R_Creature_Zombie Jackal Cleric_Afflict 4 <i>(Whenever this creature becomes blocked, defending player loses 4 life.)</i>@@Whenever Wildfire Eternal attacks and isn't blocked, you may cast an instant or sorcery card from your hand without paying its mana cost._1_4
+Without%Weakness_1B_Instant__Target creature you control gains indestructible until end of turn. <i>(Damage and effects that say "destroy" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)</i>@@Cycling 2 <i>(2, Discard this card: Draw a card.)</i>__
+Woodland%Stream__Land__Woodland Stream enters the battlefield tapped.@@T: Add G or U to your mana pool.@__
+Wretched%Camal_1B_Creature_Zombie Camel_When Wretched Camal dies, if you control a Desert or there is a Desert card in your graveyard, target player discards a card.@_2_1
+Zealot%of%the%God-Pharoah_3R_Creature_Minotaur Archer_4R: Zealot of the God-Pharoah deals 2 damage to target opponent.@_4_3

@@ -1,0 +1,249 @@
+Acid-Spewer%Dragon_5B_Creature_Dragon_Flying, deathtouch@Megamorph 5RR (You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)@When Stormwing Dragon is turned face up, put a +1/+1 counter on each other Dragon creature you control.@_3_3
+Aerie%Bowmasters_2GG_Creature_Hound Archer_Reach <i>(This creature can block creatures with flying.)</i>@@Megamorph 5G <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up at any time for its megamorph cost and put a +1/+1 counter on it.)</i>_3_4
+Ainok%Artillerist_2G_Creature_Hound Archer_Ainok Artillerist has reach as long as it has a +1/+1 counter on it. <i>(It can block creatures with flying.)</i>@_4_1
+Ainok%Survivalist_1G_Creature_Hound Shaman_Megamorph 1G <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>@@When Ainok Survivalist is turned face up, destroy target artifact or enchantment an opponent controls._2_1
+Ambuscade%Shaman_2B_Creature_Orc Shaman_Whenever Ambuscade Shaman or another creature enters the battlefield under your control, that creature gets +2/+2 until end of turn. @@Dash 3B <i>(You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</i>_2_2
+Anafenza,%Kin-Tree%Spirit_WW_Creature_Spirit Soldier_Whenever another nontoken creature enters the battlefield under your control, bolster 1. <i>(Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.) </i>@_2_2
+Ancestral%Statue_4_Artifact Creature_Golem_When Ancestral Statue enters the battlefield, return a nonland permanent you control to its owner's hand.@_3_4
+Ancient%Carp_4U_Creature_Fish_"Why eat now what could one day grow into a feast?"@-Ojutai, translated from Draconic@_2_5
+Anticipate_1U_Instant__Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.@__
+Arashin%Foremost_1WW_Creature_Human Warrior_Double strike@@Whenever Arashin Foremost enters the battlefield or attacks, another target Warrior creature you control gains double strike until end of turn._2_2
+Arashin%Sovereign_5GW_Creature_Dragon_Flying @@When Arashin Sovereign dies, you may put it on top or bottom of its owner's library._6_6
+Artful%Maneuver_1W_Instant__Target creature gets +2/+2 until end of turn.@@Rebound <i>If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</i>__
+Assault%Formation_1G_Enchantment__Each creature you control assigns comabt damage equal to its toughness rather than its power.@@G: Target creature with defender can attack this turn as though it didn't have defender.@@2G: Creatures you control get +0/+1 until end of turn.__
+Atarka%Beastbreaker_1G_Creature_Human Warrior_<i>Formidable</i> - 4G: Atarka Beastbreaker gets +4/+4 until end of turn. Activate this ability only if creatures you control have total power 8 or geater.@_2_2
+Atarka%Efreet_3R_Creature_Efreet Shaman_Megamorph 2R <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>@@When Atarka Efreet is turned face up, it deals 1 damage to target creature or player._5_1
+Atarka%Monument_3_Artifact__T: Add R or G to your mana pool.@@4RG: Atarka Monument becomes a 4/4 red and green Dragon artifact creature with flying until end of turn.__
+Atarka%Pummeler_4R_Creature_Ogre Warrior_<i>Formidable</i> - 3RR: Each creature you control can't be blocked this turn except by two or more creatures. Activate this ability only if creatures you control have total power 8 or greater.@_4_5
+Atarka's%Command_RG_Instant__Choose two - @@* Your opponents can't gain life this turn.@@* Atarka's Command deals 3 damage to each opponent.@@* You may put a land card from your hand onto the battlefield.@@* Creatures you control get +1/+1 and gain reach until end of turn.__
+Avatar%of%the%Resolute_GG_Creature_Avatar_Reach, trample@@Avatar of the Resolute enters the battlefield with a +1/+1 counter on it for each other creature you control with a +1/+1 counter on it._3_2
+Aven%Sunstriker_1WW_Creature_Bird Warrior_Flying@@Double strike <i>(This creature deals both first-strike and regular combat damage.)</i>@@Megamorph 4W<i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up at any time for its megamorph cost and put a +1/+1 counter on it.)</i>_1_1
+Aven%Tactician_4W_Creature_Bird Soldier_Flying@@When Aven Tactician enters the battlefield, bolser 1. <i>(Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)</i>_2_3
+Battle%Mastery_2W_Enchantment_Aura_Enchant creature@@Enchanted creature has double strike.<i>(It deals both first-strike and regular combat damage.)</i>__
+Belltoll%Dragon_5U_Flying, Hexproof__Megamorph 5UU@@Whem Belltoll Dragon is turned face up, put a +1/+1 counter on each other Dragon creature you control._3_3
+Berserker's%Onslaught_3RR_Enchantment__Attacking creatures you control have double strike.@__
+Blessed%Reincarnation_3U_Instant__Exile target creature an opponent controls. That player reveals cards from the top of his or her library until a creature card is revealed. The player puts that card onto the battlefield, then shuffles the rest into his or her library.@@Rebound <i>(If you cast this spell from your hand exile it as it resolves. At the beginning of your next upkeep, you may cast this card from your exile without paying its mana cost.)</i>__
+Blood-Chin%Fanatic_1BB_Creature_Orc Warrior_1B, Sacrifice another warrior creature: Target player loses X life and you gain X life, where X is the sacrificed creature's power.@_3_3
+Blood-Chin%Rager_1B_Creature_Human Warrior_Whenever Blood-Chin Rager attacks, each Warrior creature you control can't be blocked this turn except by two or more creatures.@_2_2
+Boltwing%Marauder_3BR_Creature_Dragon_Flying@@Whenever another creature enters the battlefield under you control, target creature gets +2/+0 until end of turn._5_4
+Butcher's%Glee_2B_Instant__Target creature gets +3/+0 and gains lifelink until end of turn. Regenerate it. <i>(Damage dealt by a creature with lifelink also causes its controller to gain that much life.)</i>@__
+Center%Soul_1W_Instant__Target creature you control gains protection rom the color of your choice until end of turn.@@Rebound <i>(If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from your exile without paying its mana cost.)</i>__
+Champion%of%Arashin_3W_Creature_Hound Warrior_Lifelink <i>(Damage dealt by this creature also cause you to gain that much life.)</i>@@_3_2
+Circle%of%Elders_2GG_Creature_Human Shaman_Vigilance@@<i>Formidable</i> - T: Add 3 to your mana pool. Activate this ability only if creatures you control have total power 8 or greater._2_4
+Clone%Legion_7UU_Sorcery__For each creature target player controls, put a token onto the battlefield that's a copy of that creature.@__
+Coat%with%Venom_B_Instant__Target creature gets +1/+2 and gains deathtouch until end of turn. <i>(Any amount of damage it deals to a creature is enough to destroy it.)</i>@__
+Collected%Company_3G_Instant__Look at the top six cards of your library. Put up to two creature cards with converted mana cost 3 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.@__
+Colossodon%Yearling_2G_Creature_Beast_@_2_4
+Commune%with%Lava_XRR_Instant__Exile the top X cards of your library. Until the end of your next turn, you may play those cards.@__
+Conifer%Strider_3G_Creature_Elemental_Hexproof <i>(This creature can't be the target of spells or abilities your opponents control.)</i>@_5_1
+Contradict_3UU_Instant__Counter target spell.@@Draw a card.__
+Corpseweft_2B_Enchantment__1B, Exile one or more creature cards from your graveyard: Put an X/X black Zombie Horror creature token onto the battlefield tapped, where X is twice the number of cards exiled this way.@@__
+Crater%Elemental_2R_Creature_Elemental_R, T, Sacrifice Crater Elemental: Crater Elemental deals 4 damage to target creature.@@<i>Formidable</i> - 2R: Crater Elemental has base power 8 until end of turn. Activate this ability only if creatures you control have total power 8 or greater._0_6
+Cunning%Breezedancer_4WU_Creature_Dragon_Flying@@Whenever you cast a noncreature spell, Cunning Breezedancer gets +2/+2 until end of turn._4_4
+Custodian%of%the%Trove_3_Artifact Creature_Golem_Defender@@Custodian of the Trove enters the battlefield tapped._2_5
+Damnable%Pact_XBB_Sorcery__Target player draws X cards and loses X life.@__
+Dance%of%the%Skywise_1U_Instant__Until end of turn, target creature you control becomes a blue Dragon Illusion with base power and toughness 4/4, lose all abilities, gains flying.@__
+Deadly%Wanderings_3BB_Enchantment__As long as you control exactly one creature, that creature gets +2/+0 and has deathtouch and lifelink.@__
+Deathbringer%Regent_5BB_Creature_Dragon_Flying@@When Deathbringer Regent enters the battlefield, if you cast it from your hand and there are five or more other creatures on the battlefield, destroy all other creatures._5_6
+Deathmist%Raptor_1GG_Creature_Lizard Beast_Deathtouch@@Whenever another permanent you control is turned face up, you may return Deathmist Raptor from the graveyard face up or face down.@@Megamorph 4G <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>_3_3
+Death%Wind_XB_Instant__Target creature gets -X/-X until end of turn.@__
+Defeat_1B_Sorcery__Destroy target creature with power 2 or less.@__
+Den%Protector_1G_Creature_Human Warrior_Creatures with power less than Den Protector's pwer can't block it.@@Megamorph 1G <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>@@When Den Protector is turned face up, return target card from your graveyard to your hand._2_1
+Descent%of%the%Dragons_4RR_Sorcery__Target any number of creatures. For each creature targeted this way, destroy it. Its controller puts a 4/4 red dragon token with flying onto the battlefield.@__
+Dirgur%Nemesis_5U_Creature_Serpent_Defender @@Megamorph 6U <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>_6_5
+Display%of%Dominance_1G_Instant__Choose one - @@-Destroy target blue or black noncreature permanent.@@-Permanents you control can't be the targets of blue of black spells your opponents control this turn.__
+Draconic%Roar_1R_Instant__As an additional cost to cast Draconic Roar, you may reveal a Dragon card from your hand.@@Draconic Roar deals 3 damage to target creature. If you revealed a Dragon card or controlled a Dragon as you cast Draconic Roar, Draconic Roar deals 3 damage to that creature's controller.__
+Dragon%Fodder_1R_Sorcery__Put two 1/1 red Goblin creature tokens onto the battlefield.@__
+Dragon%Hunter_W_Creature_Human Warrior_Protection from Dragons@@Dragon Hunter can block Dragons as though it had reach.@_2_1
+Dragonloft%Idol_4_Artifact Creature = Gargoyle__As long as you control a Dragon, Dragonloft Idol gets +1/+1 and has flying and trample.@_3_3
+Dragonlord%Atarka_5RG_Creature_Elder Dragon_Flying, trample@@When Dragonlord Atarka enters he battlefield, it deals 5 damage divided as you choose among any number of target creatures and/or planeswalkers your opponents control._8_8
+Dragonlord%Dromoka_4GW_Creature_Elder Dragon_Dragonlord Dromoka can't be countered.@@Flying, lifelink@@Your opponents can't cast spells during your turn._5_7
+Dragonlord%Kolaghan_4BR_Creature_Elder Dragon_Flying, Haste@@Other creatures you control have haste.@@Whenever an opponent casts a creature or planeswalker spell with the same name as a card in their graveyard, that player loses 10 life._6_5
+Dragonlord%Ojutai_3WU_Creature_Elder Dragon_Flying@@Dragonlord Ojutai has hexproof as long as it's untapped.@@Whenever Dragonlord Ojutai deals combat damage to a player, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order._5_4
+Dragonlord%Silumgar_4UB_Creature_Elder Dragon_Flying, deathtouch@@When Dragonlord Silumgar enters the battlefield, gain control of target creature or planeswalker for as long as you control Dragonlord Silumgar._3_5
+Dragonlord's%Prerogative_4UU_Instant__As an additional cost to cast Dragonlord's Prerogative, you may reveal a Dragn card from your hand.@@If you revealed a Dragon card or controlled a Dragon as you cast Dragonlord's Prerogative, Dragonlord's Prerogative can't be countered.@@Draw four cards.__
+Dragonlord's%Servant_1R_Creature_Goblin Shaman_Dragon spells you cast cost 1 less to cast.@_1_3
+Dragon-Scarred%Bear_2G_Creature_Bear_<i>Formidable</i> - 1G: Regenerate Dragon-Scarred Bear. Activate this ability only if creatures you control have total power 8 or greater.@_3_2
+Dragon's%Eye%Sentry_W_Creature_Human Monk_Defender, First strike@_1_3
+Dragon%Tempest_1R_Enchantment__Whenever a creature with flying enters the battlefield under your control, it gains haste until the end of turn. @@Whenever a Dragon enters the battlefield under your control, it deals X damage to target creature or player, where X is the number of Dragons you control.__
+Dragon%Whisperer_RR_Creature_Human Shaman_R: Dragon Whisperer gains flying until end of turn.@@1R: Dragon Whisperer gets +1/+0 until end of turn.@@<i>Formidable</i> - 4RR: Put a 4/4 red Dragon creature token with flying onto the battlefield. Activate this ability only if creatures you control have total power 8 or greater._2_2
+Dromoka%Captain_2W_Creature_Human Soldier_First strike@@Whenever Dromoka Captain attacks, bolster 1. <i>(Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)</i>_1_1
+Dromoka%Dunecaster_W_Creature_Human Wizard_1W, T: Tap target creature without flying.@_0_2
+Dromoka%Monument_3_Artifact__T: Add G or W to your mana pool.@@4GW: Dromoka Monument becomes a 4/4 green and white Dragon artifact creature with flying until end of turn.__
+Dromoka's%Command_GW_Instant__Choose two- @@*Prevent all damage target instant or sorcery spell would deal this turn.@@*Target Player sacrifices an enchantment. @@*Put a +1/+1 counter on target creature. @@*Target creature you control fights target creature you don't control.__
+Dromoka's%Gift_4G_Instant__Bolster 4. <i>(Choose a creature with the least toughness among creatures you control and put four +1/+1 counters on it.)</i>@__
+Dromoka%Warrior_1W_Creature_Human Warrior_@_3_1
+Duress_B_Sorcery__Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.@__
+Dutiful%Attendant_2B_Creature_Human Warrior_When Dutiful Attendant dies, return another target creature card from your graveyard to your hand.@_1_2
+Echoes%of%the%Kin%Tree_1W_Enchantment__2W: Bolster 1. <i>(Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)</i>@@__
+Elusive%Spellfist_1U_Creature_Human Monk_Whenever you cast a noncreature spell, Elusive Spellfist gets +1/+0 until end of turn and can't be blocked this turn.@_1_3
+Encase%in%Ice_1U_Enchantment_Aura_Flash <i>(You may cast this spell any time you could cast an instant.)</i>@@Enchant red or green creature@@When Encase in Ice enters the battlefield, tap enchanted creature.@@Enchanted creature doesn't untap during its controller's untap step.__
+Enduring%Scalelord_4GW_Creature_Dragon_Flying@@Whenever one or more +1/+1 counters are placed on another creature you control, you may put a +1/+1 counter on Enduring Scalelord._4_4
+Enduring%Victory_4W_Instant__Destroy target attacking or blocking creature. Bolster 1. <i>(Choose a creature with the least toughness among creatures you control and out a +1/+1 counter on it.)</i>@__
+Epic%Confrontation_1G_Sorcery__Target creature you control gets +1/+2 until end of turn. It fights target creature you don't control. <i>(Each deals damage equal to its power to the other.)</i>@__
+Evolving%Wilds__Land__T, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.@__
+Explosive%Vegetation_3G_Sorcery__Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library.@__
+Fate%Forgotten_2W_Instant__Exile target artifact of enchantment.@__
+Flatten_3B_Instant__Target creature gets -4/-4 until end of turn.@__
+Foe-Razer%Regent_5GG_Creature_Dragon_Flying@@When Foe-Razer Regent enters the battlefield, you may have it fight target creature you don't control. @@Whenever a creature you control fights, put two +1/+1 counters on it at the beginning of the next end step._4_5
+Foul%Renewal_3B_Instant__Return target creature card from your graveyard to your hand. Target creature gets -X/-X until end of turn, where X is the toughness of the card returned this way.@__
+Foul-Tongue%Invocation_2B_Instant__As an additional cost to cast Foul-Tongue Invocation, you may reveal a Dragon card from your hand.@@Target player sacrifices a creature. If you revealed a Dragon card or controlled a Dragon card as you cast Foul-Tongue Invocation, you gain 4 life.@__
+Foul-Tongue%Shriek_B_Instant__Target opponent loses 1 life for each attacking creature you control. You gain that much life.@__
+Gate%Smasher_3_Artifact_Equipment_Gate Smasher can be attached to only a creature with toughness 4 or greater.@@Equipped creature gets +3/+0 and has trample@@Equip 3__
+Glade%Watcher_1G_Creature_Elemental_Defender@@<i>Formidable</i> - G: Glade Watcher can attack this turn as though it didn't have defender. Activate this ability only if creatures you control have total power 8 or greater._3_3
+Glaring%Aegis_W_Enchantment_Aura_Enchant creature@@When Glaring Aegis enters the battlefield, tap target creature an opponent controls. @@Enchanted creature gets +1/+3.__
+Gleam%of%Authority_1W_Enchantment_Aura_Enchant creature@@Enchanted creature gets +1/+1 for each +1/+1 counter on other creatures you control.@@Enchanted creature has vigilance and "W, T: Bolster 1." <i>(To bolster 1, choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)</i>__
+Glint_1U_Instant__Target creature you control gets +0/+3 and gains hexproof until end of turn. <i>(It can't be the target of spells or abilities your opponenets control.)</i>@__
+Graceblade%Artisan_2W_Creatue_Human Monk_Graceblade Artisan gets +2/+2 for each Aura attached to it. @_2_3
+Gravepurge_2B_Instant__Put any number of target creature cards from your graveyard on top of your library. @@Draw a card.__
+Great%Teacher's%Decree_3W_Sorcery__Creatures you control get +2/+1 until end of turn.@@Rebound <i>(If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</i>__
+Guardian%Shield-Bearer_1G_Creature_Human Soldier_Megamorph 3G <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>@@When Guardian Shield-Bearer is turned face up, put a +1/+1 counter on another target creature you control._2_1
+Gudul%Lurker_U_Creature_Salamander_Gudul Lurker can't be blocked.@@Megamorph U <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorh cost and put a +1/+1 counter on it.)</i>_1_1
+Gurmag%Drowner_3U_Creature_Naga Wizard_Exploit <i>(When this creature enters the battlefield, you may sacrifice a creature.)</i>@@When Gurmag Drowner exploits a creature, look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard._2_4
+Hand%of%Silumgar_1B_Creature_Human Warrior_Deathtouch <i>(Any amount of damage this deals to a creatue is enough to destroy it.)</i>@_2_1
+Harbinger%of%the%Hunt_3RG_Creature_Dragon_Flying@@2R: Harbinger of the Hunt deals 1 damage to each creature without flying.@@2G: Harbinger of the Hunt deals 1 damage to each other creature with flying._5_3
+Hardened%Berserker_2R_Creature_Human Berserker_Whenever Hardened Berseker attacks, the next spell you cast this turn costs 1 less to cast.@@"Just let him loose and follow the charge."@@-Yikarov, Atarka warrior__
+Haven%of%the%Spirit%Dragon__Land__T: Add 1 to your mana pool.@@T: Add one mana of any color to your mana pool. Spend this mana only to cast a Dragon creature spell.@@2, T, Sacrifice Haven of the Spirit Dragon: Return target Dragon creature card or Ugin planeswalker card from your graveyard to your hand.__
+Hedonist's%Trove_5BB_Enchantment__When Hedonist's Trove enteres the battlefield, exile all cards in target opponent's graveyard.@@You may play land cards exiled by Hedonist's Trove.@@One per turn, you may cast a nonland card exiled by Hedonist's Trove.__
+Herald%of%Dromoka_1W_Creature_Human Warrior_Vigilance@@Other Warrior creatures you control have vigilance_2_2
+Herdchaser%Dragon_5G_Creature_Dragon_Flying, Trample@@Megamorph 5GG <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>@@When Herdchaser Dragon is turned face up, put a +1/+1 counter on each other Dragon creature you control._3_3
+Hidden%Dragonslayer_Lifelink_Creature_Human Warrior_Megamorph 2W <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.@@When Hidden Dragonslayer is turned face up, destroy target creature with power 4 or greature an opponent controls._2_1
+Icefall%Regent_3UU_Creature_Dragon_Flying@@When Icefall Regent enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's untap step for as long as you control Icefall Regent.@@Spells your opponents cast that target Icefall Regent cost 2 more to cast._4_3
+Illusory%Gains_3UU_Enchantment_Aura_Enchant creature @@You control enchanted creature.@@Whenever a creature enters the battlefield under an opponent's control, attach Illusory Gains to that creature.__
+Impact%Tremors_1R_Enchantment__Whenever a creature enters the battlefield under your control, Impact Tremors deals 1 damage to each opponent.@__
+Inspiring%Call_2G_Instant__Draw a card for each creature you control with a +1/+1 counter on it. Those creatures gain indestructible until end of turn. <i>(Damage and effects that say "destroy" don't destroy them.)</i>@__
+Ire%Shaman_1R_Creature_Orc Shaman_Ire Shaman can't be blocked except by two or more creatures.@@Megamorph R@@When Ire Shaman is turned face up, exile the top card of your library. Until end of turn, you may play that card._2_1
+Keeper%of%the%Lens_1_Artifact Creature_Golem_You may look at face-down creatures you don't control. <i> You may do this at any time.)@@_1_2
+Kindled%Fury_R_Instant__Target creature gets +1/+0 and gains first strike until end of turn.@@__
+Kolaghan%Aspirant_1R_Creature_Human Warrior_Whenever Kolaghan Aspirant becomes blocked by a creature, Kolaghan Aspirant deals 1 damage to that creature.@@_2_1
+Kolaghan%Forerunners_2R_Creature_Human Berserker_Trample@@Kolaghan Forerunner's power is equal to the number of creatures you control.@@Dash 2R__
+Kolaghan%Monument_3_Artifact__T: Add B or R to your mana pool.@@4BR: Kolaghan Monument becomes a 4/4 black and red Dragon artifact creature with flying until end of turn.__
+Kolaghan's%Command_1BR_Instant__Choose two - @@* Return target creature card from your graveyard to your hand.@@* Target player discards a card.@@*Destroy target artifact.@@* Kolaghan's Comman deals 2 damage to target creature or player.__
+Kolaghan%Skirmisher_1B_Creature_Human Warrior_Dash 2B <i>(You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</i>@_2_2
+Kolaghan%Stormsinger_R_Creature_Human Shaman_Haste@@Megamorph R@@When Kolaghan is turned face up, target creature gains haste until end of turn._1_1
+Learn%From%the%Past_3U_Instant__Target player shuffles his or her graveyeard into his or her library.@@Draw a card.__
+Lightning%Berserker_R_Creature_Human Berserker_R: Lightning Berserker gets +1/+0 until end of turn.@@Dash R <i>(You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</i>_1_1
+Lightwalker_1W_Creature_Human Warrior_Lightwalker has flying as long as it has a +1/+1 counter on it.@_2_1
+Living%Lore_3U_Creature_Avatar_As Living Lore enters the battlefield, exile an instant or sorcery card from your graveyard.@@Living Lore's power and toughness are each equal to the exiled card's converted mana cost.@@Whenever Living Lore deals combat damage, you may sacrifice it. If you do, you may cast the exiled card without paying its mana cost._*_*
+Lose%Calm_3R_Sorcery__Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn and can't be blocked this turn except by two or more creatures.@@__
+Lurking%Arynx_4G_Creature_Cat Beast_<i>Formidable</i> - 2G: Target creature blocks Lurking Arynx this turn if able. Activate this ability only if creatures you control have total power 8 or greater.@_3_5
+Magmatic%Chasm_1R_Sorcery__Creatures without flying can't block this turn.@__
+Marang%River%Skeleton_1B_Creature_Skeleton_B: Regenerate Marang River Skeleton@@Megamorph 3B <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>_1_1
+Marsh%Hulk_4BB_Creature_Zombie Ogre_Megamorph 6B <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put +1/+1 counter on it.)</i>@_4_6
+Mind%Rot_2B_Sorcery__Target player discards two cards.@__
+Minister%of%Pain_2B_Creature_Human Shaman_Exploit <i>(When this creature enters the battlefield, you may sacrifice a creature.)</i>@@When Minister of Pain exploits a creature, creatures your opponents control get -1/-1 until end of turn._2_3
+Mirror%Mockery_1U_Enchantment_Aura_Enchant creature@@Whenever enchanted creature attacks, you may put a token onto the battlefield that's a copy of that creature. Exile that token at the end of combat.__
+Misthoof%Kirin_2W_Creature_Kirin_Flying, vigilance@@Megamorph 1W <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>_2_1
+Monastery%Loremaster_3U_Creature_Djinn Wizard_Megamorph 5U <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>@@When Monastery Loremaster is turned face up, return target noncreature, nonland card from your graveyard to your hand._3_2
+Mystic%Meditation_3U_Sorcery__Draw three cards. Then discard two cards unless you discard a creature card.@__
+Myth%Realized_W_Enchantment__@__
+Narset%Transcendent_2WU_Planeswalker_Narset_[+1]: Look at the top card of your library. If it's a noncreature, nonland card, you may reveal it and put it into your hand.@@[-2]: When you cast your next instant or sorcery spell from your hand this turn, it gains rebound.@@[-9]: You get an emblem with "Your opponents can't cast noncreature spells."__6
+Naturalize_1G_Instant__Destroy target artifact or enchantment.@__
+Necromaster%Dragon_3UB_Creature_Dragon_Flying@@Whenever Necromaster Dragon deals combat damage to a player you may pay 2. If you do, put a 2/2 black Zombie creature token onto the battlefield and each opponent puts the top two cards of his or her library into his or her graveyard._4_4
+Negate_1U_Instant__Counter target noncreature spell.@__
+Obscuring%Aether_G_Enchantment__Face-down creature spells you cast cost 1 less to cast.@@1G: Turn Obscuring Aether face down. <i>(It becomes a 2/2 creature.)</i>__
+Ojutai%Exemplars_2WW_Creature_Human Monk_Whenever you cast a noncreature spell, choose one - @@* Tap target creature.@@* Ojutai Exemplars gains first strike and lifelink until end of turn.@@* Exile Ojutai Exemplars, then return it to the battlefield tapped under its owner's control._4_4
+Ojutai%Interceptor_3U_Creature_Bird Soldier_Flying@@Megamorph 3U <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>_3_1
+Ojutai%Monument_3_Artifact__T: Add W or U to your mana pool.@@4WU: Ojutai Monument becomes a 4/4 white and blue Dragon artifact creature with flying untill end of turn.__
+Ojutai's%Breath_2U_Instant__Tap target creature. It doesn't untap during its controller's next untap step.@@Rebound <i>(If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from your exile without paying its mana cost.)</i>__
+Ojutai's%Command_2WU_Instant__Choose two -@@* Return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.@@* You gain 4 life.@@* Counter target creature spell.@@* Draw a card.__
+Ojutai's%Summons_3UU_Sorcery__Put a 2/2 blue Djinn Monk creature token with flying onto the battlefield.@@Rebound <i>(If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</i>__
+Orator%of%Ojutai_1W_Creature_Bird Monk_Defender, flying@@As an additional cost to cast Orator of Ojutai, you may reveal a Dragon card from your hand.@@When Orator of Ojutai enters the battlefield, if you revealed a Dragon card or controlled a Dragon as you cast Orator of Ojutai, draw a card._0_4
+Pacifism_1W_Enchantment_Aura_Enchant creature@@Enchanted creature can't attack or block.__
+Palace%Familiar_1U_Creature_Bird_Flying@@When Palace Familiar dies, draw a card._1_1
+Pinion%Feast_4G_Instant__Destroy target creature with flying. Bolster 2. <i>(Choose a creature with the least toughness among creatures you control and put two +1/+1 counters on it.)</i>@__
+Pitiless%Horde_2B_Creature_Orc Berserker_At the beginning of your upkeep, lose 2 life.@@Dash 2BB <i>(You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</i>_5_3
+Press%the%Advantage_2GG_Instant__Up to two target creatures each get +2/+2 and gain trample until end of turn.@__
+Pristine%Skywise_4WU_Creature_Dragon_Flying@@Whenever you cast a noncreature spell, untap Pristine Skywise. It gains protection from the color of your choice until the end of turn._6_4
+Profaner%of%the%Dead_3U_Creature_Naga Wizard_Exploit <i>When this creature enters the battlefield, you may sacrifice a creature.)</i>@@When Profaner of the Dead exploits a creature, return to their owners' hands all creatures your opponents control with toughness less than the exploited creature's toughness._3_3
+Profound%Journey_5WW_Sorcery__Return target permanent card from your graveyard to the battlefield.@@Rebound <i>(If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)__
+Qal%Sisma%Behemoth_2R_Creature_Ogre Warrior_Qal Sisma Behemoth can't attack or block unless you pay 2.@_5_5
+Qarsi%Deceiver_1U_Creature_Naga Wizard_T: Add 1 to your mana pool. Spend this mana only to cast a face-down creature spell, pay a mana cost to turn a manifested creature face up, or pay a morph cost. <i>(A megamorph cost is a morph cost.)</i>@_0_4
+Qarsi%Sadist_1B_Creature_Human Cleric_Exploit <i>(When this creature enters the battlefield, you may sacrifice a creature.)</i>@@When Qarsi Sadist exploits a creature, target opponent loses 2 life and you gain 2 life._1_3
+Radiant%Purge_1W_Instant__Exile target multicolored creature or multicolored enchantment.@__
+Rakshasa%Gravecaller_4B_Creature_Cat Demon_Exploit <i>(When this creature enters the battlefield, you may sacrifice a creature.)</i>@_3_6
+Reckless%Imp_2B_Creature_Imp_Flying@@Reckless Imp can't block.@@Dash 1B <i>(You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</i>_2_2
+Reduce%in%Stature_3U_Enchantment_Aura_Enchant creature @@Enchanted creature has base power and toughness 0/2.__
+Rending%Volley_R_Instant__Rending Volley can't be countered by spells or abilities.@@Rending Volley deals 4 damage to target white or blue creature.__
+Resupply_5W_Instant__You gain 6 life.@@Draw a card.__
+Revealing%Wind_2G_Instant__Prevent all combat damage that would be dealt this turn. You may look at each face-down creature that's attacking or blocking.@__
+Risen%Executioner_2BB_Creature_Zombie Warrior_Risen Executioner can't block@@Other zombie creatures you control get +1/+1@@You may cast Risen Executioner from your graveyard if you pay an additional 1 for each other creature in your graveyard._4_3
+Roast_1R_Sorcery__Roast deals 5 damage to target creature without flying. @__
+Ruthless%Deathfang_4UB_Creature_Dragon_Flying@@Whenever you sacrifice a creature, target opponent sacrifices a creature._4_4
+Sabertooth%Outrider_3R_Creature_Human Warrior_Trample@@<i>Formidable - </i> Whenever Sabertooth Outrider attacks, if creatures you control have total power 8 or greater, Sabertooth Outrider gains first strike until end of turn,_4_2
+Salt%Road%Ambushers_3G_Creature_Hound Warrior_Whenever another permanent you control is turned face up, if it's a creature, put two +1/+1 counters on it.@@Megamorph 3GG <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>_3_3
+Salt%Road%Quartermasters_2G_Creature_Human Soldier_Salt Road Quartermasters enters the battlefield with two +1/+1 counters on it.@@2G, Remove a +1/+1 counter from Salt Road Quartermasters: Put a +1/+1 counter on target creature._1_1
+Sandcrafter%Mage_2W_Creature_Human Wizard_When Sandcrafter Mage enters the battlefield, bolster 1. <i>(Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)</i>@_2_2
+Sandsteppe%Scavenger_4G_Creature_Hound Scout_When Sandsteppe Scavenger enters the battlefield, bolster 2. <i>(Choose a creature with the least toughness among creatures you control and put two +1/+1 counters on it.)</i>@@_2_2
+Sandstorm%Charger_4W_Creature_Beast_Megamorph 4W <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>@_3_4
+Sarkhan's%Rage_4R_Instant__Sarkhan's Rage deals 5 damage to target creature or player. If you control no Dragons, Sarkhan's Rage deals 2 damage to you.@@__
+Sarkhan's%Triumph_2R_Instant__Search your library for a Dragon creature card, reveal it, put it into your hand, then shuffle your library.@__
+Sarkhan%Unbroken_2GUR_Planeswalker_Sarkhan_[+1]: Draw a card, then add one mana of any color to your mana pool.@@[-2]: Put a 4/4 red Dragon creature token with flying onto the battlefield.@@[-8]: Search your library for any number of Dragon creature cards and put them onto the battlefield. Then shuffle your library.__4
+Savage%Ventmaw_4RG_Creature_Dragon_Flying@@Whenever Savage Ventmaw attacks, add RRRGGG to your mana pool. Until end of turn, this mana doesn't empty from your mana pool as steps and phases end._4_4
+Scale%Blessing_3W_Instant__Bolster 1, then put a +1/+1 counter on each creature you control with a +1/+1 counter on it. <i>(To bolster 1, choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)</i>@__
+Scaleguard%Sentinels_GG_Creature_Human Soldier_As an additional cost to cast Scaleguard Sentinels, you may reveal a Dragon card from your hand.@@Scaleguard Sentinels enters the battlefield with a +1/+1 counter on it if you revealed a Dragon card or controlled a Dragon as you cast Scaleguard Sentinels._2_3
+Scion%of%Ugin_6_Creature_Dragon Spirit_Flying@@_4_4
+Screamreach%Brawler_2R_Creature_Orc Berserker_Dash 1R@_2_3
+Secure%the%Wastes_XW_Instant__Put X 1/1 whie Warrior creature tokens onto the battlefield.@__
+Segmented%Krotiq_5G_Creature_Insect_Megamorph 6G <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>@_6_5
+Seismic%Rupture_2R_Sorcery__Seismic Rupture deals 2 damage to each creature without flying.@__
+Self-Inflicted%Wound_1B_Sorcery__Target opponent sacrifices a green or white creature. If that player does, he or she loses 2 life.@__
+Servant%of%the%Scale_G_Creature_Human Soldier_Servant of the Scale enters the battlefield with a +1/+1 counter on it.@@When Servant of the Scale dies, put X +1/+1 counters on target creature you control, where X is the number of +1/+1 counters on Servant of the Scale._0_0
+Shaman%of%Forgotten%Ways_2G_Creature_Human Shaman_T: Add two mana in any combination of colors to your mana pool. Spend this mana only to cast creature spells.@@<i>Formidable</i> - 9GG, T: Each player's life total becomes the number of creatures he or she controls. Activate this ability only if creatures you control have total power 8 or greater._2_3
+Shambling%Goblin_B_Creature_Zombie Goblin_When Shambling Goblin dies, target creature an opponent controls gets -1/-1 until end of turn.@_1_1
+Shape%the%Sands_G_Instant__Target creature gets +0/+5 and gains reach until end of turn. <i>(It can block creatures with flying.)</i>@__
+Sheltered%Aerie_2G_Enchantment_Aura_Enchant land@@Enchanted land has "T: Add two mana of any one color to your mana pool."__
+Shieldhide%Dragon_5W_Creature_Dragon_Flying, lifelink@@Megamorph 5WW <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>@@When Shieldhide Dragon is turned face up, put a +1/+1 counter on each other Dragon creature you control._3_3
+Shorecrasher%Elemental_UUU_Creature_Elemental_U: Exile Shorecrasher Elemental, then return it to the battlefield face down under its owner's control.@@1: Shorecrasher Elemental gets +1/-1 or -1/+1 until end of turn.@@Megamorph 4U <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>_3_3
+Sibsig%Icebreakers_2B_Creature_Zombie_When Sibsig Icebreakers enters the battlefield, each player discards a card.@_2_3
+Sidisi's%Faithful_U_Creature_Naga Wizard_Exploit <i>(When this creature enters the battlefield, you may sacrifice a creature.)</i>@@When Sidisi's Faithful exploits a creature, return target creature to its owner's hand._0_4
+Sidisi,%Undead%Vizier_3BB_Creature_Zombie Naga_Deathtouch@@Exploit <i>(When this creature enters the battlefield, you may sacrifice a creature.)</i>@@When Sidisi, Undead Vizier exploits a creature, you may search your library for a card, put it into your hand, then shuffle your library._4_6
+Sight%Beyond%Sight_3U_Sorcery__Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.@@Rebound <i>(If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</i>__
+Sight%of%the%Scalelords_4G_Enchantment__At the beginning of combat on your turn, creatures you control with toughness 4 or greater get +2/+2 and gain vigilance until end of turn.@__
+Silkwrap_1W_Enchantment__When Silkwrap enters the battlefield, exile target creature with converted mana cost 3 or less an opponent controls until Silkwrap leaves the battlefield. <i>(That creature returns under its owner's control.)</i>@__
+Silumgar%Assassin_1B_Creature_Human Assassin_Creatures with power greater than Silumgar's Assassin's power can't block it.@@Megamorph 2B <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up at any time for its megamorph cost and put a +1/+1 counter on it.)</i>@@When Silumgar Assassin is turned face up, destroy target creature with power 3 or less an opponent controls.__
+Silumgar%Butcher_4B_Creature_Zombie Djinn_Exploit <i>(When this creature enters the battlefield, you may sacrifice a creature.)</i>@@When Silumgar Butcher exploits a creature, target creature gets -3/-3 until end of turn._3_3
+Silumgar%Monument_3_Artifact__T: Add U or B to your mana pool.@@4UB: Silumgar Monument becomes a 4/4 blue and black Dragon artifact creature with flying until end of turn.__
+Silumgar's%Command_3UB_Instant__Choose two - @@* Counter target noncreature spell.@@* Return target permanent to its owner's hand.@@* Target creature gets -3/-3 until end of turn.@@* Destroy target planeswalker.__
+Silumgar%Sorcerer_1UU_Creature_Human Wizard_Flash <i>(You may cast this spell any time you could cast an instant.)</i>@@Flying@@Exploit <i>(When this creature enters the battlefield, you may sacrifice a creature.)</i>@@When Silumgar Sorcerer exploits a creature, counter target creature spell._2_1
+Silumgar%Spell-Eater_2U_Creature_Naga Wizard_Megamorph 4U <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>@@When Silumgar Spell-Eater is turned face up, counter target spell unless its controller pays 3._2_3
+Silumgar's%Scorn_UU_Instant__As an additional cost to cast Silumgar's Scorn, you may reveal a Dragon card from your hand.@@Counter target spell unless its controller pays 1. If you revealed a Dragon card or controlled a Dragon as you cast Silumgar's Scorn, counter that spell instead.__
+Skywise%Teachings_3U_Enchantment__Whenever you cast a noncreature spell, you may pay 1U. If you do, put a 2/2 blue Djinn Monk creature token with flying onto the battlefield.@__
+Spidersilk%Net_0_Artifact Equipment__Equipped creature gets +0/+2 and has reach.@@Equip 2__
+Sprinting%Warbrute_4R_Creature_Ogre Berserker_Sprinting Warbrute attacks each turn if able.@@Dash 3R <i>(You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)_5_4
+Stampeding%Elk%Herd_3GG_Creature_Elk_<i>Formidable</i> - Whenever Stampeding Elk Herd attacks, if creatures you contorl have total power 8 or greater, creatures you control gain trample until end of turn.@_5_5
+Stormcrag%Elemental_5R_Creature_Elemental_Trample@@Megamorph 4RR <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)</i>_5_5
+Stormrider%Rig_2_Artifact_Equipment_Equipped creature gets +1/+1@@Whenever a creature enters the battlefield under your control, you may attach Stormrider Rig to it.@@Equip 2__
+Stormwing%Dragon_5R_Creature_Dragon_Flying, first strike@@Megamorph 5RR (You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)@When Stormwing Dragon is turned face up, put a +1/+1 counter on each other Dragon creature you control._3_3
+Stratus%Dancer_1U_Creature_Djinn Monk_Flying@@Megamorph 1U <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.) </i>@@When Stratus Dancer is turned face up, counter target instant or sorcery spell._2_1
+Strongarm%Monk_4W_Creature_Human Monk_Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn.@_3_3
+Student%of%Ojutai_3W_Creature_Human Monk_Whenever you cast a noncreature spell, you gain 2 life. @_2_4
+Summit%Prowler_2RR_Creature_Yeti_@_4_3
+Sunbringer's%Touch_2GG_Sorcery__Bolster X, where X is the number of cards in your hand. Each creature you control with a +1/+1 counter on it gains trample until end of turn. <i>(To bolster X, choose a creature with the least toughness among creatures you control and put X +1/+1 counters on it.)</i>@__
+Sunscorch%Regent_3WW_Creature_Dragon_Flying@@Whenever an opponent casts a spell, put a +1/+1 counter on Sunscorch Regent and you gain 1 life._4_3
+Surge%of%Righteousness_1W_Instant__Destroy target black or red creature that's attacking or blocking. You gain 2 life.@__
+Surrak,%the%Hunt%Caller_2GG_legendary Creature__Formidable - At the beginning of combat on your turn, if creatures you control have total power 8 or greater, target creature you control gains haste until end of turn.@_5_4
+Swift%Warkite_4BR_Creature_Dragon_Flying@@When Swift Warkite enters the battlefield, you may put a creature card with converted mana cost 3 or less from your hand or gaveyard onto the battlefield. That creature gains haste. Return it to your hand at the beginning of the next end step._4_4
+Taigam's%Strike_3U_Sorcery__Target creature gets +2/+0 until end of turn and can't be blocked this turn. @@Rebound <i>(If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</i>__
+Tail%Slash_Target creature you control deals damage equal to its power to target creature you don't control.___@__
+Tapestry%of%the%Ages_4_Artifact__2, T: Draw a card. Activate this ability only if you've cast a noncreature spell this turn.@__
+Territorial%Roc_1W_Creature_Bird_Flying@_1_3
+Thunderbreak%Regent_2RR_Creature_Dragon_Flying@@Whenever a dragon you control becomes the target of a spell or ability your opponent controls, Thunderbreak Regent deals 3 damage to that player._4_4
+Tormenting%Voice_1R_Sorcery__As an additional cost to cast Tormenting Voice, discard a card.@@Draw two cards.__
+Tread%Upon_1G_Instant__Target creature gets +2/+2 and gains trample until end of turn.@__
+Twin%Bolt_1R_Instant__Twin Bolt deals 2 damage divided as you choose among one or two target creatuers and/or players.@__
+Ukud%Cobra_3B_Creature_Snake_Deathtouch@_2_5
+Ultimate%Price_1B_Instant__Destroy target monocolored creature.@__
+Updraft%Elemental_2U_Creature_Elemental_Flying@_1_4
+Vandalize_4R_Sorcery__Choose one or both --@@*Destroy target artifact.@@*Destroy target land. @__
+Vial%of%Dragonfire_2_Artifact__2, T, Sacrifice Vial of Dragonfire: Vial of Dragonfire deals 2 damage to target creature.@__
+Virulent%Plague_2B_Enchantment__Creature tokens get -2/-2.@__
+Void%Squall_4U_Sorcery__Return target nonland permanent to its owner's hand. @@Rebound <i>(If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)</i>__
+Volcanic%Rush_4R_Instant__Attacking creatures get +2/+0 and gain trample until end of turn.@@__
+Volcanic%Vision_5RR_Sorcery__Return target instant or sorcery card from your graveyard to your hand. Volcanic Vision deals damage equal to that card's converted mana cost to each creature your opponents control. Exile Volcanic Vision.@__
+Vulturous%Aven_3B_Creature_Bird Shaman_Flying@@Exploit <i>(When this creature enters the battlefield, you may sacrifice a creature.)</i>@@When Vulturous Aven exploits a creature, you draw two cards and you lose 2 life._2_3
+>Wandering%Tombshell_3B_Creature_Zombie Turtle_@_1_6
+Warbringer_3R_Creature_Orc Berserker_Dash costs you pay costs 2 less <i>(as long as this creature is on the battlefield).</i>@@Dash 2R <i>You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</i>_3_3
+Youthful%Scholar_3U_Creature_Human Wizard_When Youthful Scholar dies, draw two cards.@_2_2
+Zephyr%Scribe_2U_Creature_Human Monk_U, T: Draw a card, then discard a card.@@Whenever you cast a noncreature spell, untap Zephyr Scribe._2_1
+Zurgo%Bellstriker_R_Creature_Orc Warrior_Zurgo Bellstriker can't block creatures with power 2 or greater.@@Dash 1R <i>(You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)</i>_2_2

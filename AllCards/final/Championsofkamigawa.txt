@@ -1,0 +1,7 @@
+Azusa,%Lost%but%Seeking_2G_Creature_Human Monk_You may play two additional lands on each of your turns.@_1_2
+Jugan,%the%Rising%Star_3GGG_Creature_Dragon Spirit_Flying@@When Jugan, the Rising Star dies, you may distribute five +1/+1 counters among any number of target creatures._5_5
+Keiga,%the%Tide%Star_5U_Creature_Dragon Spirit_Flying@@When Keiga, the Tide Star dies, gain control of target creature._5_5
+Kiki-Jiki,%Mirror%Breaker_2RRR_Creature_Goblin Shaman_Haste@@T: Put a token that's a copy of target nonlegendary creature you control onto the battlefield. That token has haste. Sacrifice it at the beginning of the next end step._2_2
+Kokusho,%the%Evening%Star_4BB_Creature_Dragon Spirit_Flying@@When Kokusho, the Evening Star dies, each opponent loses 5 life. You gain life equal to the life lost this way._5_5
+Ryusei,%the%Falling%Star_5R_Creature_Dragon Spirit_Flying@@When Ryusei, the Falling Star is put into a graveyard from the battlefield, it deals 5 damage to each creature without flying._5_5
+Yosei,%the%Morning%Star_4WW_Creature_Dragon Spirit_Flying@@When Yosei, the Morning Star dies, target player skips his or her next untap step. Tap up to five target permanents that player controls._5_5

@@ -1,0 +1,3 @@
+Jace%Beleren_1UU_Planeswalker_Jace_[+2]: Each player draws a card.@<br>[-1]: Target player draws a card.<br><br>[-10]: Target player puts the top twenty cards of his or her library into his or her graveyard.__3
+Liliana%Vess_3BB_Planeswalker_Liliana_+1: Target player discards a card.@@-2: Search your library for a card, then shuffle your library and put that card on top of it.@@-8: Put all creature cards from all graveyards onto the battlefield under your control.__
+Quag%Sickness_2B_Enchantment_Aura_Enchant creature@@Enchanted creature gets -1/-1 for each Swamp you control.__

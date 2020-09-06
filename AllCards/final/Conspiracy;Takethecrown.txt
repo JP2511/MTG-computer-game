@@ -1,0 +1,218 @@
+Absorb%Vis_6B_Sorcery__Target player loses 4 life and you gain 4 life.@@Basic landcycling 1B <i>((1B, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</i>__
+Adriana,%Captain%of%the%Guard_3RW_Creature_Human Knight_Melee <i>(Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked with a creature this combat.)</i>@@Other creatures you control have melee. <i>(If a creature has multiple instances of melee, each triggers separately.)</i>_4_4
+Adriana's%Valor__Conspiracy__Hidden Agenda <i>(Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)</i>@@Whenever a creature you control with the chosen name attacks, you may pay W. If you do, that creature gains indestructable until end of turn. <i>(Damage and effects that say "destory" don't destroy it.)</i>__
+Affa%Guard%Hound_2W_Creature_Hound_Flash@@When Affa Guard Hound enters the battlefield, target creature gets +0/+3 until end of turn._2_2
+Akroan%Hoplite_RW_Creature_Human Soldier_Whenever Akroan Hoplite attacks, it gets +X/+0 until end of turn, where X is the number of attacking creatures you control. @_1_2
+Altar's%Reap_1B_Instant__As an additional cost to cast Altar's Reap, sacrifice a creature.@@Draw two cards.__
+Animus%of%Predation_4G_Creature_Avatar_Draft Animus of Predation face up.@@As you draft a card, you may remove it from the draft face up. <i>(Those cards aren't in your card pool.)</i>@@If you removed a creature card with flying from the draft with cards named Animus of Predation, Animus of Predation has flying. The same is ture for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, and vigilance._4_4
+Arcane%Savant_3UU_Creature_Human Wizard_Before you shuffle your deck to start the game, you may reveal this card from your deck and exile an instant or sorcery card you drafted that isn't in your deck.@@When Arcane Savant enters the battlefield, copy a card you exiled with cards named Arcane Savant. You may cast the copy without paying its mana cost._3_3
+Archdemon%of%Paliano_2BB_Creature_Demon_Draft Archdemon of Paliano face up. @@As long as Archdemon of Paliano is face up during the draft, you can't look at booster packs and must draft cards at random. After you draft three cards this way, turn Archdemon of Paliano face down. <i>(You may look at cards as you draft them.)</i>@@Flying_5_4
+Ascended%Lawmage_2WB_Creature_Vedalken Wizard_Flying, hexproof@_3_2
+Assemble%the%Rank%and%Vile_Conspiracy_Hidden agenda <i>(Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)</i><br /><br />Creatrues you control with the chosen name have "When this creature dies, you may pay B. If you do, put a 2/2 black Zombie creature token onto the battlefield tapped."__@__
+Avatar%of%Woe_6BB_Creature_Avatar_If there are ten or more creature cards total in all graveyards, Avatar of Woe costs 6 less to cast.@@Fear <i>(This creature can't be blocked except by artifact creatures and/or black creatures.)</i>@@T: Destroy target creature. It can't be regenerated._6_5
+Ballot%Broker_2W_Creature_Human Advisor_While voting, you may vote an additional time. <i>(The votes can be for different choices or for the same choice.)</i>@_2_3
+Beast%Within_2G_Instant__Destroy target permanent. Its controller puts a 3/3 green Beast creature token onto the battlefield.@__
+Berserk_G_Instant__Cast Berserk only before the combat damage step.@@Target creature gains trample and gets +X/+0 until end of turn, where X is its power. At the beginning of the next end step, destroy that creature if it attacked this turn.__
+Besmirch_1RR_Sorcery__Until end of turn, gain control of target creature and it gains haste. Untap and goad that creature. <i>(Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)</i>@__
+Birds%of%Paradise_G_Creature_Bird_Flying@@T: Add one mana of any color to your mana pool._0_1
+_2B_Creature_Harpy_Flying@@When Blood-Toll Harpy enters the battlefield, each player loses 1 life._2_1
+Bonds%of%Quicksilver_3U_Enchantment_Aura_Flash@@Enchant creature@@Enchanted creature doesn't untap during its controller's untap step.__
+Borderland%Explorer_1G_Creature_Elf Scout_When Borderland Explorer enters the battlefield, each player may discard a card. Each player who discarded a card this way may search his or her library for a basic land card, reveal it, put it into his or her hand, then shuffle his or her library.@_3_1
+Bronze%Sable_2_Artifact Creature_Sable_@_2_1
+Brushstrider_1G_Creature_Beast_Vigilance@_3_1
+Burgeoning_G_Enchantment__Whenever an opponent plays a land, you may put a land card from your hand onto the battlefield.@__
+_4R_Instant__Burn Away deals 6 damage to target creature. When that creature dies this turn, exile all cards from its controller's graveyard.@__
+Burning%Wish_1R_Sorcery__You may choose a sorcery card you own from outside the game, reveal that card, and put it into your hand. Exile Burning Wish.@__
+Caller%of%Gales_U_Creature_Merfolk Wizard_1U,T: Target creature gains flying until end of turn.@_1_1
+Caller%of%the%Untamed_3G_Creature_Elf Shaman_Before you shuffle your deck to start the game, you may reveal this card from your deck and exile a creature card you drafted that isn't in your deck.@@X, T: Put a token onto the battlefield that's a copy of a card you exiled with cards named Caller of the Untamed. X is the converted mana cost of that card._2_4
+Canal%Courier_5U_Creature_Human Rogue_When Canal Courier enters the battlefield, you become the monarch.@@Whenever Canal Courier and another creature attack different players, Canal Courier can't be blocked this combat._3_5
+Capital%Punishment_4BB_Sorcery__<i>Council's dilemma </i> - Starting with you, each player votes for death of taxes. Each opponent sacrifices a creature for each death vote and discards a card for each teaxes vote. @__
+Carnage%Gladiator_2BR_Creature_Skeleton Warrior_Whenever a creature blocks, that creature's controller loses 1 life.@@1BR: Regenerate Carnage Gladiator._4_2
+Charmbreaker%Devils_5R_Creature_Devils_At the beginning of your upkeep, return an instant or sorcery card at random from your graveyard to your hand.@@Whenever you cast an instant or sorcery spell, Charmbreaker Devils gets +4/+0 until end of turn._4_4
+Child%of%Night_1B_Creature_Vampire_Lifelink <i>(Damage dealt by this creature also causes you to gain that much life.)</i>@_2_1
+Cloaked%Siren_3U_Creature_Siren_Flash <i>(You may cast this spell any time you could cast an instant.)</i>@@Flying_3_2
+Coiling%Oracle_GU_Creature_Snake Elf Druid_When Coiling Oracle enters the battlefield, reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put that card into your hand.@_1_1
+_R_Instant__Up to two target creatures each get +1/+0 and gain first strike until end of turn.@__
+Copperhorn%Scout_G_Creature_Elf Scout_Whenever Copperhorn Scout attacks, untap each other creature you control.@_1_1
+Covenant%of%Minds_4U_Sorcery__Reveal the top three cards of your library. Target opponent may choose to put those cards into your hand. If he or she doesn't, put those cards into your graveyard and draw five cards.@__
+Coveted%Peacock_3UU_Creature_Bird_Flying@@Whenever Coveted Peacock attacks, you may goad target creature defending player controls. <i>(Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)</i>_3_4
+Crown-Hunter%Hireling_4R_Creature_Ogre Mercenary_When Crown-Hunter Hireling enters the battlefield, you become the monarch. @@Crown-Hunter Hireling can't attack unless defending player is the monarch.@_4_4
+Custodi%Lich_3BB_Creature_Zombie Cleric_When Custodi Lich enters the battlefield, you become the monarch.@@Whenever you become the monarch, target player sacrifices a creature.__
+Custodi%Peacekeeper_2W_Creature_Human Cleric_Reveal Custodi Peacekeeper as you draft it and note how many cards you've drafted this round, including Custodi Peacekeeper.@@W, T: Tap target creature with power less then or equal to the highest number you noted for cards named Custodi Peacekeeper._2_3
+Custodi%Soulcaller_1WW_Creature_Human Cleric_Melee <i>(Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked with a creature this combat.)</i>@@Whenever Custodi Soulcaller attacks, return target creautre card with converted mana cost X or less from your graveyard to the battlefield, where X is the number of players you attacked with a creature this combat._1_2
+Daretti,%Ingenious%Iconoclast_1BR_Planeswalker_Daretti_[+1]: Put a 1/1 colorless Construct artifact creature token with defender onto the battlefield.@@[-1]: You may sacrifice an artifact. If you do, destroy target artifact or creature.@@[-6]: Choose target artifact card in a graveyard or artifact on the battlefield. Put three tokens that are copies of it onto the battlefield.__3
+Deadly%Designs_1B_Enchantment__2: Put a plot counter on Deadly Designs. Any player may activate this ability.@@When there are five or more plot counters on deadly Designs, sacrifice it. If you do, destroy up to two target creatures.__
+Death%Wind_XB_Instant__Target creature gets -X/-X until end of turn.@__
+____Flash <i>(You may cast this spell any time you could cast an instant.)</i>@@When Deceiver Exarch enters the battlefield, choose one -@@* Untap target permanent you control.@@* Tap target permanent an opponent controls.@_1_4
+Deputized%Protestor_2R_Creature_Human Warrior_Menace <i>(This creature can't be blocked except by two or more creature.)</i> @@Melee <i>(Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked with a creature this combat.)</i>_2_1
+Desertion_3UU_Instant__Counter target spell. If an artifact or creature spell is countered this way, put that card onto the battlefield under your control instead of into its owner's graveyard.@__
+_2BB_Sorcery__Search your library for a card and put that card into your hand. Then shuffle your library.@__
+Disenchant_1W_Instant__Destroy target artifact or enchantment.@__
+Dismiss_2UU_Instant__Counter target spell.@@Draw a card.__
+Divination_2U_Sorcery__Draw two cards.@__
+Domesticated%Hydra_2GG_Creature_Hydra_XGGG: Monstrosity X. <i>(If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.)</i>@@As long as Domesticated Hydra is monstrous, it has trample._3_3
+Doomed%Traveler_W_Creature_Human Soldier_When Doomed Traveler dies, put a 1/1 white Spirit creature token with flying onto the battlefield.@_1_1
+Dragonlair%Spider_2RRGG_Creature_Spider_Reach@@Whenever an opponent casts a spell, put a 1/1 green Insect creature token onto the battlefield._5_6
+Dread%Statuary__Land__T: Add &loz; to your mana pool.@@4: Dread Statuary becomes a 4/2 Golem artifact creature until end of turn. It's still a land.__
+Driver%of%the%Dead_3B_Creature_Vampire_When Driver of the Dead dies, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.@_3_2
+Duskmantle%Seer_2UB_Creature_Vampire Wizard_Flying@@At the beginning of your upkeep, each player reveals the top card of his or her library, loses life equal to that card's converted mana cost, then puts it into his or her hand._4_4
+Echoing%Boon__Conspiracy__Hidden agenda <i> (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.) </i>@@Whenever you cast an instant or sorcery spell, if it targets a creature you control with the chosen name, you may copy that spell and may choose new targets for the copy.__
+Ember%Beast_2R_Creature_Beast_Ember Beast can't attack or block alone.@_3_4
+Emissary's%Ploy__Conspiracy__<i>(Start the game with this conspiracy face up in the command zone.)</i>@@Before drawing your opening hand, choose 1, 2, or 3.@@You may spend mana as though it were mana of any color to cast creature spells with converted mana cost equal to the chosen number.__
+Entourage%of%Trest_4G_Creature_Elf Soldier_When Entourage of Trest enters the battlefield, you become the monarch.@@Entourage of Trest can block an additional creature each combat as long as you're the monarch._4_4
+Evolving%Wilds__Land__T, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.@__
+Exotic%Orchard__Land__T: Add to your mana pool one mana of any color that a land an opponent controls could produce.@__
+Explosive%Vegetation_3G_Sorcery__Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library.@__
+Expropriate_7UU_Sorcery__<i>Council's dilemma</i> - Starting with you, each player votes time or money. For each time vote, take an extra turn after this one. For each money vote, choose a permanent owned by the voter and gain control of it. Exile Expropriate.@__
+Fade%into%Antiquity_2G_Sorcery__Exile target artifact or enchantment.@__
+Faith's%Reward_3W_Instant__Return to the battlefield all permanent cards in your graveyard that were put there from the battlefield this turn.@__
+Fang%of%the%Pack_5G_Creature_Wolf_Melee <i>(Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked with a creature this combat.)</i>@@At the beginning of combat on your turn, another target creature you control gains melee until end of turn. <i>(If a creature has multiple instances of melee, each triggers separately.)</i>_5_3
+Farbog%Boneflinger_4B_Creature_Zombie_When Farbog Boneflinger enters the battlefield, target creature gets -2/-2 until end of turn.@_2_2
+Festergloom_2B_Sorcery__Nonblack creatures get -1/-1 until end of turn.@__
+Fiery%Fall_5R_Instant__Fiery Fall deals 5 damage to target creature.@@Basic landcycling  1R <i>(1R, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</i>__
+Flame%Slash_R_Sorcery__Flame Slash deals 4 damage to target creature.@__
+Fleeting%Distraction_U_Instant__Target creature gets -1/-0 until end of turn.@@Draw a card.__
+Fleshbag%Marauder_2B_Creature_Zombie Warrior_When Fleshbag Marauder enters the battlefield, each player sacrifices a creature.@_3_1
+Followed%Footsteps_3UU_Enchantment_Aura_Enchant creature@@At the beginning of your upkeep, put a token that's a copy of enchanted creature onto the battlefield.__
+Forgotten%Ancient_3G_Creature_Elemental_Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient.@@At the beginning of your upkeep, you may move any number of +1/+1 counters from Forgotten Ancient onto other creatures._0_3
+Garbage%Fire_2R_Instant__Reveal Garbage Fire as you draft it and note how many cards you've drafted this draft round, including Garbage Fire.@@Garbage Fire deals damage to target creature equal to the highest number you noted for cards named Garbage Fire.__
+Garrulous%Sycophant_2B_Creature_Human Advisor_At the beginning of your end step, if you're the monarch, each opponent loses 1 life and you gain 1 life.@_1_4
+Ghostly%Possession_2W_Enchantment_Aura_Enchant creature@@Enchanted creature has flying.@@Prevent all combat damage that would be dealt to and dealt by enchanted creature.__
+Ghostly%Prison_2W_Enchantment__Creatures can't attack you unless their controller pays 2 for each creature he or she controls that's attacking you.@__
+Gleam%of%Resistance_4W_Instant__Creatures you control get +1/+2 until end of turn. Untap those creatures.@@Basic landcycling 1W <i>(1W, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</i>__
+Goblin%Balloon%Brigade_R_Creature_Goblin Warrior_R: Goblin Balloon Brigade gains flying until end of turn.@_1_1
+Goblin%Racketeer_3R_Creature_Goblin Rogue_Whenever Goblin Racketeer attacks, you may goad target creature defending player controls. <i>(Until your next tunr, that creature attacks each combat if able and attacks a player other than you if able.)</i>@_4_2
+Goblin%Tunneler_1R_Creature_Goblin Rogue_T: Target creature with power 2 or less can't be blocked this turn.@_1_1
+God's%Willing_W_Instant__Target creature you control gains protection from the color of your choice until end of turn. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>@__
+Gratuitous%Violence_2RRR_Enchantment__If a creature you control would deal damage to a creature or player, it deals double that damage to that creature or player instead.@__
+Grenzo,%Havoc%Raiser_RR_Creature_Goblin Rogue_Whenever a creature you control deals combat damage to a player, choose one-@@* Goad target creature that player controls.@@* Exile the top card of that player's library. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast it._2_2
+Gruul%War%Chant_2RG_Enchantment__Each attacking creature you control gets +1/+0 and can't be blocked except by two or more creatures.@__
+Guardian%of%the%Gateless_4W_Creature_Angel_Flying@@Guardian of the Gateless can block any number of creatures.@@Whenever Guardian of the Gateless blocks, it gets +1/+1 until end of turn for each creature it's blocking._3_3
+Guttersnipe_2R_Creature_Goblin Shaman_Whenever you cast an instant or sorcery spell, Guttersnipe deals 2 damage to each opponent.@_2_2
+Guul%Draz%Specter_2BB_Creature_Specter_Flying@@Guul Draz Specter gets +3/+3 as long as an opponent has no cards in hand.@@Whenever Guul Draz Scpecter deals combat to a player, that player discards a card._2_2
+Hail%of%Arrows_XW_Instant__Hail of Arrows deals X damage divided as you choose among any number of target attacking creatures.@__
+Hallowed%Burial_3WW_Sorcery__Put all creatures on the bottom of their owner's libraries.@__
+Hamletback%Goliath_6R_Creature_Giant Warrior_Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Golaith, where X is that creature's power.@_6_6
+Harvester%of%Souls_4BB_Creature_Demon_Deathtouch@@Whenever another nontoken creature dies, you may draw a card._5_5
+Havengul%Vampire_3R_Creature_Vampire_Whenever Havengul Vampire deals combat damage to a player, put a +1/+1 counter on it.@@Whenever another creature dies, put a +1/+1 counter on Havengul Vampire._2_2
+Hedron%Matrix_4_Artifact_Equipment_Equipped creature gets +X/+X, where X is its converted mana cost.@@Equip 4__
+Hexplate%Golem_7_Artifact Creature_Golem_@_5_7
+Hired%Heist__Conspiracy__Hidden agenda <i>(Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)</i>@@Whenever a creature you control with the chosen name deals combat damage to a player, you may pay U. If you do, draw a card.__
+Hold%the%Perimeter__Conspiracy__<i>(Start the game with this conspiracy face up in the command zone.)</i>@@At the beginning of your first upkeep, put a 1/2 white Soldier creature token with defender onto the battlefield.@@At the beginning of each other player's first upkeep, that player puts a 1/1 red Goblin creature token onto the battlefield with "This creature can't block."__
+Hollowhenge%Spirit_3W_Creature_Spirit_Flash@@Flying@@When Hollowhenge Spirit enters the battlefield, remove target attacking or blocking creature from combat._2_2
+Horn%of%Greed_3_Artifact__Whenever a player plays a land, that player draws a card.@__
+Hundred%Handed%One_2WW_Creature_Giant_Vigilance@3WWW: Monstrosity 3. <i> (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i>@As long as Hundred-Handed One is monstrous, it has reach and can block an additional ninety-nine creatures each combat._3_5
+Hymn%of%the%Wilds__Conspiracy__<i>(Start the game with this conspiracy face up in the command zone.)</i>@@The first creature spell you cast each turn costs 1 less to cast.@@You can't cast instant or sorcery spells.__
+_3R_Creature_Cyclops_Trample@@5R: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i>_3_3
+Illusionary%Informant_1U_Creature_Bird illusion_Draft Illusionary Informant face up.@@During the draft, you turn Illusionary Informant face down. If you do, look at the next card drafted by a player fo your choice.@@Flying_1_3
+Illusion%of%Choice_U_Instant__You choose how each player votes this turn. @@Draw a card.__
+Incendiary%Dissent__Conspiracy__Hidden agenda <i> (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.) </i>@@Creatures you control with the chosen name have "R: This creature gets +1/+0 until end of turn."__
+Infest_1BB_Sorcery__All creatures get -2/-2 until end of turn.@__
+Inquisition%of%Kozilek_B_Sorcery__Target player reveals his or her hand. You choose a nonland card from it with converted mana cost 3 or less. That player discards that card.@__
+Into%the%Void_3U_Sorcery__Return up to two target creatures  to their owners' hands.@__
+Irresistible%Prey_G_Sorcery__Target creature must be blocked this turn if able.@@Draw a card.__
+Jeering%Homunculus_1U_Creature_Homunculus_When Jeering Homunculus enters the battlefield, you may goad target creature. <i>(Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)</i>@_0_4
+Juniper%Order%Ranger_3GW_Creature_Human Knight_Whenever another creature enters the battlefield under your control, put a +1/+1 counter on that creature and a +1/+1 counter on Juniper Order Ranger.@_2_4
+Kami%of%the%Crescent%Moon_UU_Creature_Spirit_At the beginning of each player's draw step, that player draws an additional card.@@_1_3
+Kaya,%Ghost%Assassin_2WB_Planeswalker_Kaya_[0]: Exile Kaya, Ghost Assassin or up to one target creature. Return that card to the battlefield under its owner's control at the beginning of your next upkeep. You lose 2 life.@@[-1]: Each opponent loses 2 life and you gain 2 life.@@[-2]: Each opponent discards a card and you draw a card.__5
+Keeper%of%Keys_3UU_Creature_Human Rogue Mutant_When Keeper of Keys enters the battlefield, you become the monarch.@@At the beginning of your upkeep, if you're the monarch, creatures you control can't be blocked this turn._4_4
+Keepsake%Gorgon_3BB_Creature_Gorgon_Deathtouch@5BB: Monstrosity 1@@When Keepsake Gorgon becomes monstrous, destroy target non-Gorgon creature an opponent controls._2_5
+Kill%Shot_2W_Instant__Destroy target attacking creature.@__
+Kiln%Fiend_1R_Creature_Elemental Beast_Whenever you cast an instant or sorcery spell, Kiln Fiend gets +3/+0 until end of turn.@_1_2
+Kitesail_2_Artifact_Equipment_Equipped creature gets +1/+0 and has flying.@@Equip 2__
+Knights%of%the%Black%Rose_3WB_Creature_Human Knight_When Knights of the Black Rose enters the battlefield, you become the monarch.@@Whenever an opponent becomes the monarch, if you were the monarch as the turn began, that player loses 2 life and you gain 2 life._4_4
+Lace%with%Moonglove_2G_Instant__Target creature gains deathtouch until end of turn. <i>(Any amount of damage it deals to a creature is enough to destroy that creature.)</i>@__
+Lay%of%the%Land_G_Sorcery__Search your library for a basic land card, reveal that card, and put it into your hand. Then shuffle your library.@__
+Leovold,%Emissary%of%Trest_BGU_Creature_Elf Advisor_Each opponent can't draw more than one card each turn.@@Whenever you or a permanent you control becomes the target of a spell or ability an opponent controls, you may draw a card._3_3
+Leovold's%Operative_2G_Creature_Elf Rogue_Draft Leovold's Operative face up.@@As you draft a card, you may draft an additional card from that booster pack. If you do, turn Leovold's Operative face down, then pass the next boost pack without drafting a card from it. <i>(You may look at that booster pack.)</i>_3_2
+Lieutenants%of%the%Guard_4W_Creature_Human Soldier_<i>Council's dilemma</i> - When Lieutenants of the Guard enters the battlefield, starting with you, each player votes for strength or numbers. Put a +1/+1 counter on Lieutenants of the Guard for each strength vote and put a 1/1 white Soldier creature token onto the battlefield for each numbers vote.@_2_2
+Manaplasm_2G_Creature_Ooze_Whenever you cast a spell, Manaplasm gets +X/+X until end of turn, where X is that spell's converted mana cost.@_1_1
+Marchesa's%Decree_3B_Enchantment__When Marchesa's Decree enters the battlefield, you become the monarch.@@Whenever a creature attacks you or a planeswalker you control, the controller of that creature loses 1 life.__
+Mausoleum%Turnkey_3B_Creature_Ogre Rogue_When Mausoleum Turnkey enters the battlefield, return target creature card of an opponent's choice from your graveyard to your hand.@_3_2
+Menagerie%Liberator_3G_Creature_Human Warrior_Trample@@Melee <i>(THwnever this creature attacks, it gets +1/+1 until end of turn for each oppoenent you attacked with a creature this combat.)</i>_3_2
+Merfolk%Looter_1U_Creature_Merfolk Rogue_T: Draw a card, then discard a card.@_1_1
+Merfolk%Skyscout_2UU_Creature_Merfolk Scout_Flying@@Whenever Merfolk Skyscout attacks or blocks, untap target permanent.__
+Messenger%Jays_4U_Creature_Bird_Flying@@<i>Council's dilemma</i> - When Messenger Jays enters the battlefield, starting with you, each player votes for feather or quill. Put a +1/+1 counter on Messenger Jays for each feather vote and draw a card for each quill vote. For each card drawn this way, discard a card.@_2_1
+Mnemonic%Wall_4U_Creature_Wall_Defender@@When Mnemonic Wall enters the battlefield, you may return target instant or sorcery card from your graveyard to your hand._0_4
+_1BB_Instant__Destroy target creature.@__
+Natural%Unity__Conspiracy__Hidden agenda <i>(Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)</i>@@Creatures you control with the chosen name have "At the beginning of comabt on your turn, you may pay G. If you do, put a +1/+1 counter on this creature."__
+Negate_1U_Instant__Counter target noncreature spell.@__
+Nessian%Asp__Creature_Snake_Reach@6G: Monstrosity 4. <i>(If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.)</i>_4_5
+Netcaster%Spider_2G_Creature_Spider_Reach <i>(This creature can block creatures with flying.)</i>@@Whenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +2/+0 until end of turn._2_3
+Noble%Banneret_2WW_Creature_Human Knight_Draft Noble Banneret face up.@@As you draft a creature card, you may reveal it, note its name, then turn Noble Banneret face down.@@As long as you control one or more creatures with a name you noted for cards named Noble Banneret, Noble Banneret and those creatures get +1/+1 and have lifelink._3_3
+Ogre%Sentry_1R_Creature_Ogre Warrior_@Defender_3_3
+Omenspeaker_1U_Creature_Human Wizard_When Omenspeaker enters the battlefield, scry 2. <i>(Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>@_1_3
+Opaline%Unicorn_3_Artifact Creature_Unicorn_T: Add one mana of any color to your mana pool.@_1_2
+Orchard%Elemental_5G_Craeture_Elemental_<i>Council's dilemma</i> - When Orchard Elemental enters the battlefield, starting with you, each player votes for sprout or harvest. Put two +1/+1 counters on Orchard Elemental for each sprout vote. You gain 3 life for each harvest vote.@_2_2
+Overrun_2GGG_Sorcery__Creatures you control get +3/+3 and gain trample until end of turn.@__
+Palace%Jailer_2WW_Creature_Human Soldier_When Palace Jailer enters the battlefield, you become the monarch.@@When Palace Jailer enters the battlefield, exile target creature an opponent controls until an opponent becomes the monarch.<i> (That creature returns under its owner's control.)</i>_2_2
+Palace%Sentinels_3W_Creature_Human Soldier_When Palace Sentinels enters the battlefield, you become the monarch.@_2_4
+Paliano%Vanguard_1W_Creature_Human Soldier_Draft Paliano Vanguard face up.@@As you draft a creature card, you may reveal it, note its creature types, then turn Paliana Vanguard face down.@@Other creatures you control of a type you noted for cards named Paliano Vanguard get +1/+1._2_2
+Pariah_2W_Enchantment_Aura_Enchant creature <i>(Target a creature as you cast this. This card enters the battlefield attached to that creature.)</i>@@All damage that would be dealt to you is dealt to enchanted creature instead.__
+Pharika's%Mender_3BG_Creature_Gorgon_When Pharika's Mender enters the battlefield, you may return target creature or enchantment card from your graveyard to your hand.@_4_3
+Phyrexian%Arena_1BB_Enchantment__At the beginning of your upkeep, you draw a card and you lose 1 life.@__
+Platinum%Angel_7_Artifact Creature_Angel_Flying@@You can't lose the game and your opponents can't win the game._4_4
+Plummet_1G_Instant__Destroy target creature with flying.@__
+Prey%Upon_G_Sorcery__Target creature you control fights target creauture you don't control.@__
+Protector%of%the%Crown_5W_Creature_Giant Soldier_When Protector of the Crown enters the battlefield, you become the monarch.@@All damage that would be dealt to you is dealt so Protector of the Crown instead._2_5
+Psychosis%Crawler_5_Artifact Creature_Horror_Psychosis Crawler's power and toughness are each equal to the number of cards in your hand.@@Whenever you draw a card, each opponent loses 1 life._*_*
+Public%Execution_5B_Instant__Destroy target creature an opponent controls. Each other creature that player controls gets -2/-0 until end of turn.@__
+Pyretic%Hunter_4R_Creature_Elemental Cat_Reveal Pyretic Hunter as you draft it and note how many cards you've drafted this draft round, including Pyretic Hunter.@@Menace <i>(This creature can't be blocked except by two or more creatures.)</i>@@Pyretic Hunter enters the battlefield with X +1/+1 counters on it, where X is the highest number you noted for cards named Pyretic Hunter._0_0
+Queen%Marchesa_1RWB_Creature_Human Assassin_Deathtouch, haste@@When Queen Marchesa enters the battlefield, you become the monarch.@@At the beginning of your upkeep, if an opponent is the monarch, put a 1/1 black Assassin creature token with deathtouch and haste onto the battlefield._3_3
+Raise%Dead_B_Sorcery__Return target creature card from your graveyard to your hand.@__
+Raise%the%Alarm_1W_Instant__Put two 1/1 white Soldier creature tokens onto the battlefield.@__
+Ravenous%Leucrocota_3G_Creature_Beast_Vigilance@6G: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)_2_4
+Recruiter%of%the%Guard_2W_Creature_Human Soldier_When Recruiter of the Guard enters the battlefield, you may search your library for a creature card with toughness 2 or less, reveal it, put it into your hand, then shuffle your library.@_1_1
+Regal%Behemoth_4GG_Creature_Lizard_Trample@@When Regal Behemoth enters the battlefield, you become the monarch.@@Whenever you tap a land for mana while you're the monarch, add one mana of any color to your mana pool <i> (in addition to the mana the land produces).</i>_5_5
+Regicide_B_Instant__Reveal regicide as you draft it. The player to your right chooses a color, you choose another color, then the player to your left chooses a third color.@@Destroy target creature that's one or more of the colors chosen as you drafted cards named Regicide.__
+Repulse_2U_Instant__Return target creature to its owner's hand.@@Draw a card.__
+Reviving%Dose_2W_Instant__You gain 3 life.@@Draw a card.__
+Rogue's%Passage__Land__T: Add 1 to your mana pool.@@4, T: Target creature can't be blocked this turn.__
+Runed%Servitor_2_Artifact Creature_Construct_When Runed Servitor dies, each player draws a card.@_2_2
+Sanctum%Prelate_1WW_Creature_Human Cleric_As Sanctum Prelate enters the battlefield, choose a number. @@Noncreature spells with converted mana cost equal to the chosen number can't be cast._2_2
+Sangromancer_2BB_Creature_Vampire Shaman_Flying@@Whenever a creature an opponent controls is put into a graveyard from the battlefield, you may gain 3 life.@@Whenever an opponent discards a card, you may gain 3 life.__
+Selvala,%Heart%of%the%Wilds_1GG_Creature_Elf Scout_Whenever another creature enters the battlefield, its controller may draw a card if its power is greater than each other creature's power.@@G, T: Add X mana in any combination of colors to your mana pool, where X is the greatest power among creatures you control._2_3
+Selvala's%Stampede_4GG_Sorcery__<i>Council's dilemma </i> - Starting with you, each player votes for wild or free. Reveal cards from the top of your library until you reveal a creature card for each wild vote. Put those creatures cards onto the battlefield, then shuffle the rest into your library. You may put a permanent card from your hand onto the battlefield for each free vote.@__
+Serum%Visions_U_Sorcery__Draw a card. Scry 2. <i>(Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>@__
+Shambling%Goblin_B_Creature_Zombie Goblin_When Shambling Goblin dies, target creature an opponent controls gets -1/-1 until end of turn.@_1_1
+Shimmering%Grotto__Land__T: Add 1 to your mana pool.@@1, T: Add one mana of any color to your mana pool.__
+Shipwreck%Singer_UB_Creature_Siren_Flying@@1U: Target creature an opponent controls attacks this turn if able.@@1B, T: Attacking creatures get -1/-1 until end of turn._1_2
+Show%and%Tell_2U_Sorcery__Each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield.@__
+Sinuous%Vermin_1B_Creature_Rat Horror_2BB: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i>@@As long as Sinuous Vermin is monstrous, it has menace.<i> (It can't be blocked except by two or more creatures.)</i>_2_2
+Skittering%Crustacean_2U_Creature_Crab_6U: Monstrosity 4. <i>(If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.)</i>@@As long as Skittering Crustacean is monstrous, it has hexproof.<i> (It can't be the target of spells or abilities your opponents control.)</i>_2_3
+Skyline%Despot_5RR_Creature_Dragon_Flying@@When Skyline Dragon enters the battlefield, you become the monarch.@@At the beginning of your upkeep if you're the monarch, put a 5/5 red Dragon creature token with flying onto the battlefield._5_5
+Smuggler%Captain_3B_Creature_Human Pirate_Draft Smuggler Captain face up.@@As you draft a card, you may reveal it, note its name, then turn Smuggler Captain face down.@@When Smuggler Captain enters the battlefield, you may search your library for a card with a name you noted for cards named Smuggler Captain, reveal it, put it into your hand, then shuffle your library._2_2
+Sovereign's%Realm__Conspiracy__<i>(Start the game with this conspiracy face up in the command zone.)</i>@@Your deck can't have basic land cards and your starting hand size is five.@@Exile a card from your hand: This turn, you may play basic land cards from outside the game.@@Basic lands you control have "T: Add one mana of any color to your mana pool."__
+Spectral%Grasp_1W_Enchantment_Aura_Enchant creature@@Enchanted creature can't attack you or a planeswalker you control.@@Enchanted creature can't block creatures you control.__
+Sphinx%of%Magosi_3UUU_Creature_Sphinx_Flying <i>(This creature can't be blocked except by creatures with flying or reach.)</i>@@2U: Draw a card, then put a +1/+1 counter on Sphinx of Magosi._6_6
+Spire%Phantasm_2UU_Creature_Gargoyle Illusion_Reveal Spire Phantasm as you draft it. The next time a player drafts a card from this booster pack, guess that card's name. Then that player reveals the drafted card.@@Flying@@When Spire Phantasm enters the battlefield, if you guessed correctly for a card named Spire Phantasm, draw a card._3_2
+Spirit%of%the%Hearth_4WW_Creature_Cat Spirit_Flying@@You have hexproof. <i>(You can't be the target of spells or abilities your opponents control.)</i>@_4_5
+Splitting%Slime_3GG_Creature_Ooze_4GG: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i>@@When Splitting Slime becomes monstrous, put a token onto the battlefield that's a copy of Splitting Slime. <i>(The token has no counters and isn't monstrous.)</i>_3_3
+Spy%Kit_2_Artifact_Equipment_Equipped creature gets +1/+1 and has all names of nonlegendary creature cards in addition to its name.@@Equip 2__
+Stoneshock%Giant_3RR_Creature_Giant_6RR: Monstrosity 3.<i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i>@When Stoneshock Giant becomes monstrous, creatures without flying your opponents control can't block this turn._5_4
+Stormchaser%Chimera_2UR_Creature_Chimera_Flying@@2UR: Scry 1, then reveal the top card of your library. Stormchaser Chimera gets +X/+0 until end of turn, where X is that card's converted mana cost. <i>(To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)</i>_2_3
+Strength%in%Numbers_1G_Instant__Until end of turn, target creature gains trample and gets +X/+X, where X is the number of attacking creatures.@__
+Stromkirk%Patrol_4B_Creature_Vampire Soldier_Whenever Stromkirk Patrol deals combat damage to a player, put a +1/+1 counter on it.@_4_3
+Stunt%Double_3U_Creature_Shapeshifter_Flash@You may have Stunt Double enter the battlefield as a copy of any creature on the battlefield._0_0
+Subterranean%Tremors_XR_Sorcery__Subterranean Tremors deals X damage to each creature without flying. If X is 4 or more, destroy all artifacts. If X is 8 or more, put an 8/8 red Lizard creature token onto the battlefield.@__
+Sulfurous%Blast_2RR_Instant__Sulfurous Blast deals 2 damage to each creature and each player. If you cast this spell during your main phase, Sulfurous Blast deals 3 damage to each creature and each player instead.@__
+Summoner's%Bond__Conspiracy__Double agenda <i>(Start the game with this conspiracy face down in the command zone and secretly name two different cards. You may turn this conspiracy face up any time and reveal the chosen names.)</i>@@Whenever you cast a creature spell with one of the chosen names, you may search your library for a creature card with the other chosen anme, reveal it, put it in your hand and shuffle your library.__
+Sylvan%Bounty_5G_Instant__Target player gains 8 life.@@Basic landcycling 1G <i>(1G, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</i>__
+Thorn%of%the%Black%Rose_3B_Creature_Human Assassin_Deathtouch <i>(Any amount of damage this deals to a creature is enough to destroy it.)</i>@@When Thorn of the Black Rose enters the battlefield, you become the monarch._1_3
+Throne%of%the%High%City__Land__T: Add &loz; to your mana pool.@@4, T, Sacrifice Throne of the High City: You become the monarch.__
+Throne%Warden_1W_Creature_Human Soldier_At the beginning of your end step, if you're the monarch, put a +1/+1 counter on Throne Warden.@_2_2
+Tormenting%Voice_1R_Sorcery__As an additional cost to cast Tormenting Voice, discard a card.@@Draw two cards.__
+Traumatic%Visions_3UU_Instant__Counter target spell.@@Basic landcycling 1U <i>(1U, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</i>__
+Trumpet%Blast_2R_Instant__Attacking creatures get +2/+0 until end of turn.@__
+Twin%Bolt_1R_Instant__Twin Bolt deals 2 damage divided as you choose among one or two target creatuers and/or players.@__
+Unnerve_3B_Sorcery__Each opponent discards two cards.@__
+Vaporkin_1U_Creature_Elemental_Flying@@Vaporkin can block only creatures with flying._2_1
+Vertigo%Spawn_1U_Creature_Illusion_Defender <i>(This creature can't attack.)</i>@@Whenever Vertigo Spawn blocks a creature, tap that creature. It doesn't untap during its controller's next untap step._0_3
+Volatile%Chimera_2R_Creature_Elemental Chimera_Before you shuffle your deck to start the game, you may reveal this card from your deck and exile three or more creature cards you drafted that aren't in your deck.@@1R: Choose a card at random you exiled with cards named Volatile Chimera. Volatile Chimera becomes a copy of that card and gains this ability._3_2
+Voyaging%Satyr_1G_Creature_Satyr Druid_T: Untap target land.@_1_2
+Weight%Advantage__Conspiracy__<i>(Start the game with this conspiracy face up in the command zone.)</i>@@Each creature you control assigns combat damage equal to its toughness rather than its power.__
+Wild%Griffin_2W_Creature_Griffin_Flying@_2_2
+Wild%Pair_4GG_Enchantment__Whenever a creature enters the battlefield, if you cast it from your hand, you may search your library for a creature card with the same total power and toughness and put it onto the battlefield. If you do, shuffle your library.@__
+Windborne%Charge_2WW_Sorcery__Two target creatures you control each get +2/+2 and gain flying until end of turn.@__
+Wings%of%the%Guard_1W_Creature_Bird_Flying@@Melee <i>(Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked with a creature this combat.)</i>_1_1
+Zealous%Strike_1W_Instant__@Target creature gets +2/+2 and gains first strike until end of turn.__

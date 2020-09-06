@@ -1,0 +1,249 @@
+Aim%High_1G_Instant__Untap target creature. It gets +2/+2 and gains reach until end of turn. <i>(It can block creatures with flying.)</i>@__
+Angelic%Chorus_3WW_Enchantment__Whenever a creature enters the battlefield under your control, you gain life equal to its toughness.@__
+Angelic%Gift_1W_Enchantment_Aura_Enchant creature@@When Angelic Gift enters the battlefield, draw a card.@@Enchanted creature has flying.__
+Angel%of%Retribution_6W_Creature_Angel_Flying, first strike@_5_5
+Apocalypse%Hydra_XRG_Creature_Hydra_Apocalypse Hydra enters the battlefield with X +1/+1 counters on it. If X is 5 or more, it enters the battlefield with an additional X +1/+1 counters on it.@@1R, Remove a +1/+1 counter from Apocalypse Hydra: Apocalypse Hydra deals 1 damage to target creature or player._0_0
+Arcane%Artisan_2U_Creature_Human Wizard_2U, T: Target player draws a card, then exiles a card from their hand. If a creature card is exiled this way, that player creates a token that's a copy of that card.@@When Arcane Artisan leaves the battlefield, exile all tokens created with it at the beginning of the next end step.@_0_3
+Archfiend%of%Despair_6BB_Creature_Demon_Flying@@Your opponents can't gain life.@@At the beginning of each end step, each opponent loses life equal to the life that player lost this turn. <i>(Damage causes loss of life.)</i>@_6_6
+Archon%of%Valor's%Reach_4GW_Creature_Archon_Flying, vigilance, trample@@As Archon of Valor's Reach enters the battlefield, choose artifact, enchantment, instant, sorcery, or planeswalker.@@Players can't cast spells of the chosen type._5_6
+Arena%Rector_3W_Creature_Human Cleric_When Arena Rector dies, you may exile it. If you do, search your library for a planeswalker card, put it onto the battlefield, then suffle your library.@_1_2
+Assassinate_2B_Sorcery__Destroy target tapped creature.@__
+Assassin's%Strike_4BB_Sorcery__Destroy target creature. Its controller discards a card.@__
+Auger%Spree_1BR_Instant__Target creature gets +4/-4 until end of turn.@__
+Aurora%Champion_2W_Creature_Elf Warrior_Whenever Aurora Champion attacks, if your team controls another Warrior, tap target creature.@_3_2
+Azra%Bladeseeker_2R_Creature_Azra Bladeseeker_When Azra Bladeseeker enters the battlefield, each player on your team may discard a card, then each player who discarded a card this way draws a card.@_3_2
+Azra%Oddsmaker_1BR_Creature_Azra Warrior_At the beginning of combat on your turn, you may discard a card. If you do, choose a creature. Whenever that creature deals damage to a player this turn, you may draw two cards.@_3_3
+Bathe%in%Dragonfire_2R_Sorcery__Bathe in Dragonfire deals 4 damage to target creature.@__
+Battle%Mastery_2W_Enchantment_Aura_Enchant creature@@Enchanted creature has double strike.<i>(It deals both first-strike and regular combat damage.)</i>__
+Battle%Rampart_2R_Creature_Wall_Defender@@T: Target creature gains haste until end of turn.@_1_3
+Battle-Rattle%Shaman_3R_Creature_Goblin Shaman_At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn.@_2_2
+Beast%Within_2G_Instant__Destroy target permanent. Its controller puts a 3/3 green Beast creature token.@__
+Benthic%Giant_5U_Creature_Giant_Hexproof <i>(This creature can't be the target of spells or abilities your opponents control.)</i>@_4_5
+Blaring%Captain_3B_Creature_Azra Warrior_Partner with Blaring Recruiter <i>(When this creature enters the battlefield, target player may put Blaring Recruiter into their hand from their library, then shuffle.)</i>@@Whenever Blaring Captain attacks, attacking Warriors get +1/+1 until end of turn._2_2
+Blaring%Recruiter_3W_Creature_Elf Warrior_Partner with Blaring Captain <i>(When this creature enters the battlefield, target player may put Blaring Captain into their hand from their library, then shuffle.) </i>@@2W: Create a 1/1 white Warrior creature token._2_2
+Blaze_XR_Sorcery__Blaze deals X damage to any target.@__
+Bloodborn%Scoundrels_5B_Creature_Vampire Rogue_Assist <i>(Another player can pay up to 5 of this spell's cost.)</i>@@When Bloodborn Scoundrels enters the battlefield, target opponent loses 2 life and you gain 2 life.@_4_4
+Blood%Feud_4RR_Sorcery__Target creature fights another target creature. <i>(Each deals damage equal to its power to the other.)</i>@__
+Boldwyr%Intimidator_5RR_Creature_Giant Warrior_Cowards can't block Warriors.@@R: Target creature's type becomes Coward until end of turn.@@2R: Target creature's type becomes Warrior until end of turn._5_5
+Bonus%Round_1RR_Sorcery__Until end of turn, whenever a player casts an instant or sorcery spell, that player copies it and may choose new targets for the copy.@__
+Borderland%Marauder_1R_Creature_Human Warrior_Whenever Borderland Marauder attacks, it gets +2/+0 until end of turn.@_1_2
+Bountiful%Promenade__Land__Bountiful Promenade enters the battlefield tapped unless you have two or more opponents.@@T: Add G or W.@__
+Bramble%Sovereign_2GG_Creature_Dryad_Whenever another nontoken creature enters the battlefield, you may pay 1G. If you do, that creature's controller creates a token that's a copy of that creature.@_4_4
+Brightling_1WW_Creature_Shapeshifter_W: Brightling gains vigilance until end of turn@@W: Brightling gains lifelink until end of turn.@@W: Return Brightling to its owner's hand.@@1: Brightling gets +1/-1 or -1/+1 until end of turn.@_3_3
+Bring%Down_3W_Sorcery__Assist <i>(Another player can pay up to 3 of this spell's cost.)@@Destroy target creature with power 4 or greater.@__
+Bull-Rush%Bruiser_3R_Creature_Minotaur Warrior_Whenever Bull-Rush Bruiser attacks, if your team controls another Warrior, Bull-Rush Bruiser gains first strike until end of turn.@_4_3
+Call%to%Heel_1U_Instant__Return target creature to its owner's hand. Its controller draws a card.@__
+Canopy%Spider_1G_Creature_Spider_Reach<i> (This creature can block creatures with flying.)</i>@_1_3
+Centaur%Healer_1GW_Creature_Centaur Cleric_When Centaur Healer enters the battlefield, you gain 3 life.@_3_3
+Chain%Lightning_R_Sorcery__Chain Lightning deals 3 damage to target creature or player. Then that player or creature's controller may pay RR. If the player does, he or she may copy this spell and may choose a new target for that copy.@__
+Chakram%Retriever_4U_Creature Elemental Hound__Partner with Chakram Slinger <i>(When this creature enters the battlefield, target player may put Chakram Slinger into their hand from their library, then shuffle.)</i>@@Whenever you cast a spell during your turn, untap target creature.@_2_4
+Chakram%Slinger_4R_Creature_Human Warrior_Partner with Chakram Retriever <i>(When this creature enters the battlefield, target player may put Chakram Retriever into their hand from their library, then shuffle.)</i>@@R, T: Chakram Slinger deals 2 damage to target player or planeswalker.@_2_4
+Champion%of%Arashin_3W_Creature_Hound Warrior_Lifelink <i>(Damage dealt by this creature also cause you to gain that much life.)</i>@@_3_2
+Charging%Binox_7G_Creature_Beast_Assist <i>(Another player can pay up to 7 of this spell's cost.)</i>@<br>Trample_7_5
+Charging%Rhino_3GG_Creature_Rhino_Charging Rhino can't be blocked by more than one creature.@_4_4
+Cheering%Fanatic_1R_Creature_Goblin_Whenever Cheering Fanatic attacks, choose a card name. Spells with the chosen name cost 1 less to cast this turn.@_2_2
+Claustrophobia_1UU_Enchantment_Aura_Enchant creature@@When Claustrophobia enters the battlefield, tap enchanted creature.@@Enchanted creature doesn't untap during its controller's untap step.__
+Combo%Attack_2G_Sorcery__Two target creatures your team controls each deal damage equal to their power to target creature.@__
+Consulate%Skygate_2_Artifact Creature_Wall_Defender@@Reach_0_4
+Coralhelm%Guide_1U_Creature_Merfolk Scout Ally_4U: Target creature can't be blocked this turn.@_2_1
+Cowl%Prowler_4GG_Creature_Wurm_@_6_6
+Culling%Dais_2_Artifact__T, Sacrifice a creature: Put a charge counter on Culling Dais.@@1, Sacrifice Culling Dais: Draw a card for each charge counter on Culling Dais.__
+Daggerback%Basilisk_2G_Creature_Basilisk_Deathtouch <i>(Any amount of damage this deals to a creature is enough to destroy it.)</i>@_2_2
+Daggerdrome%Imp_1B_Creature_Imp_Flying@@Lifelink <i>(Damage dealt by this creature also causes you to gain that much life.)</i>_1_1
+Decorated%Champion_1G_Creature_Elf Warrior_Whenever another Warrior enters the battlefield under your team's control, put a +1/+1 counter on Decorated Champion.@_2_2
+Diabolic%Intent_1B_Sorcery__As an additional cost to cast this spell, sacrifice a creature.@@Search your library for a card and put that card into your hand, then shuffle your library.__
+Dinrova%Horror_4UB_Creature_Horror_When Dinrova Horror enters the battlefield, return target permanent to its owner's hand, then that player discards a card.@_4_4
+Doomed%Dissenter_1B_Creature_Human_When Doomed Dissenter dies, create a 2/2 black Zombie creature token.@_1_1
+Doomed%Traveler_W_Creature_Human Soldier_When Doomed Traveler dies, put a 1/1 white Spirit creature token with flying onto the battlefield.@_1_1
+Doubling%Season_4G_Enchantment__If an effect would create one or more tokens onto the battlefield under your control, it creates twice that many of those tokens onto the battlefield instead.@@If an effect would put one or more counters on a permanent you control, it puts twice that many of those counters on that permanent instead.__
+Dragon%Breath_1R_Enchantment_Aura_Enchant creature@@Enchanted creature has haste.@@R: Enchanted creature gets +1/+0 until end of turn.@@When a creature with converted mana cost 6 or greater enters the battlefield, you may return Dragon Breath from your graveyard to the battlefield attached to that creature.@__
+Dragon%Hatchling_1R_Creature_Dragon_Flying@@R: Dragon Hatchling gets +1/+0 until end of turn._0_1
+Dwarven%Lightsmith_5W_Creature_Dwarf Cleric_Assist <i>(Another player can pay up to 5 of this spell's cost.)</i>@@When Dwarven Lightsmith enters the battlefield, creatures your team controls get +1/+1 until end of turn.@_3_4
+Eager%Construct_2_Artifact Creature_Construct_When Eager Construct enters the battlefield, each player may scry 1. @@_2_2
+Earth%Elemental_3RR_Creature_Elemental_@__
+Elvish%Visionary_1G_Creature_Elf Shaman_When Elvish Visionary enters the battlefield, draw a card.@_1_1
+Ember%Beast_2R_Creature_Beast_Ember Beast can't attack or block alone.@_3_4
+Enduring%Scalelord_4GW_Creature_Dragon_Flying@@Whenever one or more +1/+1 counters are placed on another creature you control, you may put a +1/+1 counter on Enduring Scalelord._4_4
+Enthralling%Victor_3R_Creature_Human Warrior_When Enthralling Victor enters the battlefield, gain control of target creature an opponent controls with power 2 or less until end of turn. Untap that creature. It gains haste until end of turn. <i>(It can attack and T this turn.)</i>@_3_2
+Evil%Twin_2UB_Creature_Shapeshifter_You may have Evil Twin enter the battlefield as a copy of any creature on the battlefield, except it gains "UB, Tap: Destroy target creature with the same name as this creature."@_0_0
+Expedite_R_Instant__Target creature gains haste until end of turn.@@Draw a card.__
+Expedition%Raptor_3WW_Creature_Bird_Flying@@When Expedition Raptor enters the battlefield, support 2. <i>(Put a +1/+1 counter on each of up to two other target creatures.)</i>_2_2
+Eyeblight%Assassin_2B_Creature_Elf Assassin_When Eyeblight Assassin enters the battlefield, target creature an opponent controls gets -1/-1 until end of turn.@_2_2
+Fan%Favorite_3B_Creature_Human Rogue_Assist <i>(Another player can pay up to 3 of this spell's cost.)</i>@<br>2: Fan Favorite gets +1/+1 until end of turn. Any player may activate this abilitiy._2_2
+Feral%Hydra_XG_Creature_Hydra Beast_Feral Hydra enters the battlefield with X +1/+1 counters on it.<br>@3: Put a +1/+1 counter on Feral Hydra. Any player may activate this ability._0_0
+Fertile%Ground_G_Enchantment_Aura_Enchant land<br>@Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.__
+Fertilid_2G_Creature_Elemental_Fertilid enters the battlefield with two +1/+1 counters on it.<br>@1G, Remove a +1/+1 counter from Fertilid: target player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles their library._0_0
+Fill%with%Fright_3B_Sorcery__Target player discards two cards.@<br>Scry 2. <i>Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>__
+Flamewave%Invoker_2R_Creature_Goblin Mutant_7R: Flamewave Invoker deals 5 damage to target player or planeswalker.@_2_2
+Fog%Bank_1U_Creature_Wall_Defender, flying@@Prevent all combat damage that would be dealt to and dealt by Fog Bank._0_2
+Frost%Lynx_2U_Creature_Elemental Cat_When Frost Lynx enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.@_2_2
+Fumble_1U_Instant__Return target creature to its owner's hand. Gain control of all Auras and Equipment that were attached to it, then attach them to another creature.@__
+Game%Plan_5U_Sorcery__Assist <i>(Another player can pay up to 5 of this spell's cost.)</i>@<br>Each player shuffles their hand and graveyard into their library, then draws seven cards. Exile Game Plan.__
+Gang%Up_XB_Instant__Assist <i>(Another player can pay up to X of this spell's cost. You choose the value of X.)</i>@@Destroy target creature with power X or less.@__
+Generous%Patron_2G_Creature_Elf Advisor_When Generous Patron enters the battlefield, support 2. <i>(Put a +1/+1 counter on each of up to two other target creatures.)</i>@@Whenever you put one or more counters on a creature you don't control, draw a card.@_1_4
+Genesis%Chamber_2_Artifact__Whenever a nontoken creature enters the battlefield, if Genesis Chamber is untapped, that creature's controller creates a 1/1 colorless Myr artifact creature token.@__
+Giant%Growth_G_Instant__Target creature gets +3/+3 until end of turn.@__
+Goblin%Razerunners_2RR_Creature_Goblin Warrior_1R, Sacrifice a land: Put a +1/+1 counter on Goblin Razerunners.@@At the beginning of your end step, you may have Goblin Razerunners deal damage equal to the number of +1/+1 counters on it to target player or planeswalker.@_3_4
+Gold-Forged%Sentinel_6_Artifact Creature_Chimera_Flying@_4_4
+Gorm%the%Great_3G_Creature_Giant Warrior_Partner with Virtus the Veiled <i>(When this creature enters the battlefield, target player may put Virtus into their hand from their library, then shuffle)</i>@<br>Vigilance<br><br>Gorm the Great must be blocked if able, and Gorm must be blocked by two or more creature if able._2_7
+Greater%Good_2GG_Enchantment__Sacrifice a creature: Draw cards equal to the sacrificed creature's power, then discard three cards.@__
+Grotesque%Mutation_1B_Instant__Target creature gets +3/+1 and gains lifelink until end of turn.@__
+Grothama,%All-Devouring_3GG_Creature_Wurm_Other creatures have "Whenever this creature attacks, you may have it fight Grothama, All-Devouring."@@When Grothama leaves the battlefield, each player draws cards equal to the amount of damage dealt to Grothama this turn by sources they controlled.@_10_8
+Gwafa%Hazid%Profiteer_1WU_Creature_Human Rogue_WU, T: Put a bribery counter on target creature you don't control. Its controller draws a card.@@Creatures with bribery counters on them can't attack or block.@_2_2
+Hand%of%Silumgar_1B_Creature_Human Warrior_Deathtouch <i>(Any amount of damage this deals to a creatue is enough to destroy it.)</i>@_2_1
+Hexplate%Golem_7_Artifact Creature_Golem_@_5_7
+Huddle%Up_2U_Sorcery__Assist <i>(Another player can pay up to 2 of this spell's cost)</i>@<br>Two target players each draw a card.__
+Hunted%Wumpus_3G_Creature_Beast_When Hunted Wumpus enters the battlefield, each other player may put a creature card from their hand onto the battlefield.@_6_6
+Impetuous%Protege_2R_Creature_Human Warrior_Partner with Proud Mentor <i>(When this creature enters the battlefield, target player may put Proud Mentor into their hand from their library, then shuffle.)</i>@@Whenever Impetuous Protege attacks, it gets +X/+0 until end of turn, where X is the greatest power among tapped creatures your opponents control.@_0_4
+Impulse_1U_Instant__Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.@__
+Inner%Demon_2BB_Enchantment_Aura_Enchant creature@@Enchanted creature gets +2/+2, has flying, and is a Demon in addition to its other types.@@When Inner Demon enters the battlefield, all non-Demon creatures get -2/-2 until end of turn.@__
+Jelenn%Sphinx_3WU_Creature_Sphinx_Flying, vigilance@@Whenever Jelenn Sphinx attacks, other attacking creatures get +1/+1 until end of turn._1_5
+Jubilant%Mascot_2W_Creature_Homunculus_At the beginning of combat on your turn, you may pay 3W. If you do, support 2. <i>(Put a +1/+1 counter on each of up to two other target creatures.)</i>@_1_1
+Juggernaut_4_Artifact Creature_Juggernaut_Juggernaut attacks each turn if able.@@Juggernaut can't be blocked by Walls._5_3
+Jungle%Wayfinder_2G_2G__When Jungle Wayfinder enters the battlefield, each player may search their library for a basic land card, reveal it, put it into their hand, then shuffle their library.@_3_3
+Karametra's%Favor_1G_Enchantment_Aura_Enchant creature@@When Karametra's Favor enters the battlefield, draw a card.@@Enchanted creature has "T: Add one mana of any color to your mana pool."__
+Khorvath%Brightflame_5R_Creature_Dragon_Partner with Sylvia Brightspear <i>(When this creature enters the battlefield, target player may put Sylvia into their hand from their library, then shuffle.)</i>@@Flying, haste@@Knights your team controls have flying and haste.@_3_4
+Khorvath's%Fury_4R_Sorcery__For each player, choose friend or foe. Each friend discards all cards from their hand, then draws that many cards plus one. Khorvath's Fury deals damage to each foe equal to the number of cards in their hand.@__
+Kiss%of%the%Amesha_4WU_Sorcery__Target player gains 7 life and draws two cards.@__
+Kitesail%Corsair_1U_Creature_Human Pirate_Kitesail Corsair has flying as long as it's attacking.@_2_1
+Kor%Spiritdancer_1W_Creature_Kor Wizard_Kor Spiritdancer gets +2/+2 for each Aura attached to it.@@Whenever you cast an Aura spell, you may draw a card.@_0_2
+Kraken%Hatchling_U_Creature_Kraken_@_0_4
+Kraul%Warrior_1G_Creature_Insect Warrior_5G: Kraul Warrior gets +3/+3 until end of turn.@_2_2
+Krav,%the%Unredeemed_4B_Creature_Demon_Partner with Regna, the Redeemer <i>(When this creature enters the battlefield, target player may put Regna into their hand from their library, then shuffle.)</i>@<br>B, Sacrifice X creatures: Target player draws X cards and gains X life. Put X +1/+1 counters on Krav, the Unredeemed._3_3
+Land%Tax_W_Enchantment__At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for up to three basic land cards, reveal them, put them into your hand, then shuffle your library.@__
+Last%Gasp_1B_Instant__Target creature gets -3/-3 until end of turn.@__
+Last%One%Standing_1BR_Sorcery__Choose a creature at random, then destroy the rest.@__
+Lava-Field%Overlord_7RR_Creature_Dragon_Assist <i>(Another player can pay up to 7 of this spell's cost.)</i>@@Flying@@When Lava-Field Overlord enters the battlefield, it deals 4 damage to target creature an opponent controls.@_5_4
+Lead%by%Example_1G_Instant__Support 2. <i>(Put a +1/+1 counter on each of up to two target creatures.)</i>@__
+Ley%Weaver_3G_Creature_Human Druid_Partner with Lore Weaver <i>(When this creature enters the battlefield, target player may put Lore Weaver into their hand from their mibrary, then shuffle.)</i>@@T: Untap two target lands.@_2_2
+Lightning%Talons_2R_Enchantment_Aura_Enchant creature@@Enchanted creature gets +3/+0 and has first strike.__
+Lightwalker_1W_Creature_Human Warrior_Lightwalker has flying as long as it has a +1/+1 counter on it.@_2_1
+Liturgy%of%Blood_3BB_Sorcery__Destroy target creature. Add BBB to your mana pool.@__
+Long%Road%Home_1W_Instant__Exile target creature. At the beginning of the next end step, return that card to the battlefield under its owner's control with a +1/+1 counter on it. @__
+Lore%Weaver_3U_Creature_Human Wizard_Partner with Ley Walker <i>(When this creature enters the battlefield, target player may put Ley Weaver into their hand from their library, then shuffle.)</i>@@5UU: Target player draws two cards.@_2_2
+Loyal%Pegasus_W_Creature_Pegasus_Flying@@Loyal pegasus can't attack or block alone._2_1
+Luxury%Suite__Land__Luxury Suite enters the battlefield tapped unless you have two or more opponents.@@T: Add B or R.@__
+Magma%Hellion_6R_Creature_Hellion_Assist <i>(Another player can pay up to 6 of this spell's cost.)@@Trample, haste@_5_4
+Magmatic%Force_5RRR_Creature_Elemental_At the beginning of each upkeep, Magmatic Force deals 3 damage to any target._7_7
+Magus%of%the%Candelabra_G_Creature_Human Wizard_X, T: Untap X target lands.@_1_2
+Mangara%of%Corondor_1WW_Creature_Human Wizard_T: Exile Mangara of Corondor and target permanent.@_1_1
+Midnight%Guard_2W_Creature_Human Soldier_Whenever another creature enters the battlefield, untap Midnight Guard.@_2_3
+Millennial%Gargoyle_4_Artifact Creature_Gargoyle_Flying@_2_2
+Mindblade%Render_1B_Creature_Azra Warrior_Whenever your opponents are dealt combat damage, if any of that damage was dealt by a Warrior, you draw a card and you lose 1 life.@_1_3
+Mind's%Eye_5_Artifact__Whenever an opponent draws a card, you may pay 1. If you do, draw a card.@__
+Morbid%Curiosity_1BB_Sorcery__As an additional to cast Morbid Curiosity, sacrifice an artifact or creature.@__
+Morphic%Pool__Land__Morphic Pool enters the battlefield tapped unless you have two or more opponents.@@T: Add U or B.@__
+Mycosynth%Lattice_6_Artifact__All permanents are artifacts in addition to their other types.@@All cards that aren't on the battlefield, spells, and permanents are colorless.@@Players may spend mana as though it were mana of any color.@__
+Mystic%Confluence_3UU_Instant__Choose three. You may choose the same mode more than once.@@* Counter target spell unless its controller pays 3.@@* Return target creature to its owner's hand.@@* Draw a card.__
+Najeela,%the%Blade-Blossom_2R_Creature_Human Warrior_Whenever a Warrior attacks, you may have its controller create a 1/1 white Warrior creature token that's tapped and attacking.@@WUBRG: Untap all attacking creatures. They gain trample, lifelink, and have haste until end of turn. After this phase, there is an additional combat phase. Activate this ability only during combat.@_3_2
+Negate_1U_Instant__Counter target noncreature spell.@__
+Night%Market%Guard_3_Artifact Creature_Construct_Night Market Guard can block an additional creature each combat.@_3_1
+Nimbus%Champion_%U_Creature_Avatar Warrior_Flying<br>@Whenever Nimbus Champion attacks, you may return target creature to its owner's hand if that creature's power is less than or equal to the number of Warriors your team controls._4_4
+Nimbus%of%the%Isles_4U_Creature_Elemental_Flying <i>(This creature can't be blocked except by creatures with flying or reach.</i>@_3_3
+Nirkana%Revenant_4BB_Creature_Vampire Shade_Whenever you tap a Swamp for mana, add B to your mana pool <i>(in addition to the mana the land produces)</i>.@@B: Nirkana Revenant hets +1/+1 until end of turn.@_4_4
+Noosegraf%Mob_4BB_Creature_Zombie_Noosegraf Mob enters the battlefield with five +1/+1 counters on it.@@Whenever a player casts a spell, remove +1/+1 counter from Noosegraf Mob. If you do, put a 2/2 black Zombie creature token onto the battlefield._0_0
+Noxious%Dragon_4BB_Creature_Dragon_Flying@@When Noxious Dragon dies, you may destroy target creature with converted mana cost 3 or less._4_4
+Nyxathid_1BB_Creature_Elemental_As Nyxathid enters the battlefield, choose an opponent. @<br>Nyxathid gets -1/-1 for each card in the chosen player's hand._7_7
+Okaun,%Eye%of%Chaos_4R_Creature_Cyclops Berserker_Partner with Zndrsplt, Eye of Wisdom <i>(When this creature enters the battlefield, target player may put Zndrsplt into their hand from their library, then shuffle.)</i>@<br>At the beginning of combat on your turn, flip a coin until you lose a flip.<br><br>Whenever a player wins a coin flip, double Okaun's power and toughness until end of turn._3_3
+Omenspeaker_1U_Creature_Human Wizard_When Omenspeaker enters the battlefield, scry 2. <i>(Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>@_1_3
+Opportunity_4UU_Instant__Target player draws four cards.@__
+Oracle's%Insight_3U_Enchantment_Aura_Enchant creature@@Enchanted creature has "T: Scry 1, then draw a card." <i>(To scry 1, look at the top card of your library, then you may put that card on the bottom of your library."</i>__
+Oreskos%Explorer_1W_Creature_Cat Scout_When Oreskos Explorer enters the battlefield, search your library for up to X Plains cards, where X is the number of players who control more lands than you. Reveal those cards, put them into your hand, then shuffle your library.@_2_2
+Out%of%Bounds_3U_Instant__Assist <i>(Another olayer can pay up to 3 of this spell's cost.)</i>@@Counter target target spell.@__
+Pacifism_1W_Enchantment_Aura_Enchant creature@@Enchanted creature can't attack or block.__
+Painful%Lesson_2B_Sorcery__Target player draws two cards and loses 2 life.@__
+Pathmaker%Initiate_1R_Creature_Human Wizard_T: Target creature with power 2 or less can't be blocked this turn.@_2_1
+Peace%Strider_4_Artifact Creature__When Peace Strider enters the battlefield, you gain 3 life.@_3_3
+Peregrine%Drake_4U_Creature_Drake_Flying@@When Peregrine Drake enters the battlefield, untap up to five lands._2_3
+Phantom%Warrior_1UU_Creature_Illusion Warrior_Phantom Warrior is unblockable.@_2_2
+Pierce%Strider_4_Artifact Creature_Construct_When Pierce Strider enters the battlefield, target opponent loses 3 life.@_3_3
+Pir,%Imaginative%Rascal_2G_Creature_Human_Partner with Toothy, Imaginary Friend <i>(When this creature enters the battlefield, target player may put Toothy into their hand from their library, then shuffle.)</i>@@If one or more counters would be put on a permanent your team controls, that many plus one of each of those kinds of counters are put on that permanent instead.@_1_1
+Pir's%Whim_3G_Sorcery__For each player, choose a friend or foe. Each friend searches their library for a land card, puts it onto the battlefield tapped, then shuffles their library. Each foe sacrifices an artifact or enchantment they control.@__
+Plated%Crusher_4GGG_Creature_Beast_Trample, hexproof@_7_6
+Play%of%the%Game_6WW_Sorcery__Assist <i>(Another player can pay up to 6 of this spell's cost.)</i>@@Exile all nonland permanents.@__
+Prakhata%Club%Secruity_3B_Creature_Aetherborn Warrior_@_3_4
+Primal%Huntbeast_3G_Creature_Beast_Hexproof <i>(This creature can't be the target of spells or abilities your opponents control.)</i>@_3_3
+Proud%Mentor_2W_Creature_Human Warrior_Partner with Impetuous Protege <i>(When this creature enters the battlefield, target player may put Impetuous Protege into their hand from their library, then shuffle.)</i>@@W, T: Tap target creature.@_1_1
+Pulse%of%Murasa_2G_Instant__Return target creature or land card from a graveyard to its owner's hand. You gain 6 life. @__
+Quest%for%the%Gravelord_B_Enchantment__Whenever a creature dies, you may put a quest counter on Quest for the Gravelord.<br>@Remove three quest counters from Quest for the Gravelord and sacrifice it: Create a 5/5 black Zombie Giant creature token.__
+Raptor%Companion_1W_Creature_Dinosaur_@_3_1
+Rebuke_2W_Instant__Destroy target attacking creature.@__
+Reckless%Reveler_1R_Creature_Satyr_R: Sacrifice Reckless Reveler: Destroy target artifact.@_2_1
+Reckless%Scholar_1U_Creature_Human Wizard_T: Target player draws a card, then discards a card.@_2_1
+Regna's%Sanction_3W_Sorcery__For each player, choose friend or foe. Each friend puts a +1/+1 counter on each creature they control. Each foe chooses one untapped creature they control, then taps the rest.@__
+Regna,%the%Redeemer_5W_Creature_Angel_Partner with Krav, the Unredeemed <i>(When this creature enters the battlefield, target player may put Krav into their hand from thei library, then shuffle.)</i>@<br>Flying<br><br>At the beginning of each end step, if your team gained life this turn, create two 1/1 white Warrior creature tokens._4_4
+Relentless%Hunter_1RG_Creature_Human Warrior_1RG: Relentless Hunter gets +1/+1 and gains trample until end of turn.@@_3_3
+Return%to%the%Earth_3G_Instant__Destroy target artifact, enchantment, or creature with flying.@__
+Rhox%Brute_2RG_Creature_Rhino Warrior_@_4_4
+Riptide%Crab_1WU_Creature_Crab_Vigilance@@When Riptide Crab dies, draw a card.@_1_3
+Rotfeaster%Maggot_4B_Creature_Insect_When Rotfeaster Maggot enters the battlefield, exile target creature card from a graveyard. You gain life equal to that card's toughness.@_3_3
+Rowan%Kenrith_4RR_Planeswalker_Rowan_[+2]: During target player's next turn, each creature that player controls attacks if able.@@[-2]: Rowan Kenrith deals 3 damage to each tapped creature target player controls.@@[-8]: Target player gets an emblem with "Whenever you activate an ability that isn't a mana ability, copy it. You may choose new targets for the copy."@@Partner with Will Kenrith@@Rowan Kenrith can be your commander.@__4
+Royal%Trooper_2W_Creature_Human Soldier_Whenever Royal Trooper blocks, it gets +2/+2 until end of turn.@_2_2
+Rushblade%Commander_BR_Creature_Azra Warrior_Warriors your team controls have haste.@_2_2
+Saddleback%Lagac_3G_Creature_Lizard_When Saddleback Lagac enters the battlefield, support 2. <i>(Put a +1/+1 counter on each of up to two other target creatures.)@_3_1
+Saltwater%Stalwart_3U_Creature_Merfolk Warrior_Whenever Saltwater Stalwart deals damage to an opponent, target player draws a card.@_2_4
+Savage%Ventmaw_4RG_Creature_Dragon_Flying@@Whenever Savage Ventmaw attacks, add RRRGGG to your mana pool. Until end of turn, this mana doesn't empty from your mana pool as steps and phases end._4_4
+Screeching%Buzzard_3B_Creature_Bird_Flying@<br>When Screeching Buzzard dies, each opponent discards a card._2_2
+Sea%of%Clouds__Land__Sea of Clouds enters the battlefield tapped unless you have two or more opponents.@@T: Add W or U.@__
+Seedborn%Muse_3GG_Creature_Spirit_Untap all permanents you control during each other player's untap step.@_2_4
+Seer's%Lantern_3_Artifact__T: Add &loz; to your mana pool. <i>(&loz; represents colorless mana.)</i>@@2, T: Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>__
+Sentinel%Tower_4_Artifact__Whenever an instant or sorcery spell is cast during your turn, Sentinel Tower deals damage to any target equal to 1 plus the number of instant and sorcery spells cast before that spell this turn.@__
+Shambling%Ghoul_1B_Creature_Zombie_Shambling Ghoul enters the battlefield tapped.@_2_3
+Shock_R_Instant__Deal 2 damage to target creature or player.@__
+Shoulder%to%Shoulder_2W_Sorcery__Support 2. <i>(Put a +1/+1 counter on each of up to two target creatures.)</i>@@Draw a card.__
+Sickle%Dancer_2B_Creature_Human Warrior_Whenever Sickle Dancer attacks, if your team controls another Warrior, Sickle Dancer gets +1/+1 until end of turn.@_3_2
+Silverchase%Fox_1W_Creature_Fox_1W, Sacrifice Silverchase Fox: Exile target enchantment.@_2_2
+Skyshroud%Claim_3G_Sorcery__Search your library for up to two Forest cards, put them onto the battlefield, then shuffle your library.@__
+Skystreamer_4W_Creature_Griffin_Assist <i>(Another player can pay up to 4 of this spell's cost.)</i>@<br>Flying<br><br>When Skystreamer enters the battlefield, target player gains 4 life._3_2
+Slum%Reaper_3B_Creature_Horror_When Slum Reaper enters the battlefield, each player sacrifices a creature.@_4_2
+Soaring%Show-Off_2U_Creature_Bird Warrior_Flying<br>@When Soaring Show-Off enters the battlefield, each player draws a card._2_2
+Solemn%Offering_2W_Sorcery__Destroy target artifact or enchantment.@You gain 4 life.__
+Soulblade%Corrupter_4B_Creature_Human Warrior_Partner with Soulblade Renewer <i>(When this creature enters the battlefield, target player may put Soulblade Renewer into their hand from their library, then shuffle.)</i>@@	Deathtouch@@Whenever a creature with a +1/+1 counter on it attacks one of your opponents, that creature gains deathtouch until end of turn.@_3_3
+Soulblade%Renewer_4G_Creature_Elf Warrior_Partner with Soulblade Corrupter <i>(When this creature enters the battlefield, target player may put Soulblade Corrupter into their hand from their library, then shuffle.)</i>@@When Soulblade Renewer enters the battlefield, support 2. <i>(Put a +1/+1 counter on each of up to two other target creatures.)</i>@_2_2
+Sower%of%Temptation_2UU_Creature_Faerie Wizard_Flying<br>@When Sower of Temptation enters the battlefield, gain control of target creature for as long as Sower of Temptation remains on the battlefield._2_2
+Sparring%Mummy_3W_Creature_Zombie_When Sparring Mummy enters the battlefield, untap target creature.@_3_3
+Spectral%Searchlight_3_Artifact__T: Choose a player. That player adds one mana of any color he or she chooses to his or her mana pool.@__
+Spellseeker_2U_Creature_Human Wizard_When Spellseeker enters the battlefield, search may your library for an instant or sorcery card with converted mana cost 2 or less, reveal it, put it into your hand, then shuffle your library.@_1_1
+Spell%Snare_U_Instant__Counter target spell with converted mana cost 2.@__
+Spellweaver%Duo_6U_Creature_Human Wizard_Assist <i>(Another player can pay up to 6 of this spell's cost.)@@When Spellweaver Duo enters the battlefield, you may return target tapped creature to its owner's hand.@_4_4
+Spire%Garden__Land__Spire Garden enters the battlefield tapped unless you have two or more opponents.@@T: Add R or G.@__
+Stadium%Vendors_3R_Creature_Goblin_When Stadium Vendors enters the battlefield, choose a player. That player adds two mana of any one color they choose.@_3_3
+Steppe%Glider_4W_Creature_Elemental_Flying, vigilance@@1W: Target creature with a +1/+1 counter on it gains flying and vigilance until end of turn._2_4
+Stolen%Strategy_4R_Enchantment__At the beginning of your upkeep, exile the top card of each opponent's library. Until end of turn, you may cast nonland cards from among those exiled cards and you may spend mana of any color to cast those spells.@__
+Stone%Golem_4_Artifact Creature_Golem_@_4_4
+Stunning%Reversal_3B_Instant__The next time you would lose the game this turn, instead draw seven cards and your life total becomes 1.@@Exile Amazing Comeback.@__
+Swarm%of%Bloodflies_4B_Creature_Insect_Flying @@Swarm of Bloodflies enters the battlefield with two +1/+1 counters on it.@@Whenver another creatures dies put a +1/+1 counter on Swarm of Bloodflies._0_0
+Switcheroo_4U_Sorcery__Exchange control of two target creatures.@__
+Swords%to%Plowshares_W_Instant__Exile target creature. Its controller gains life equal to its power.@__
+Sylvia%Brightspear_2W_Legendary Creature Human Knight__Partner with Khorvath Brightflame <i>(When this creature enters the battlefield, target player may put Khorvath into their hand from their library, then shuffle.)</i>@@Double strike@@Dragons your team controls have double strike.@_2_2
+Take%Up%Arms_4W_Instant__Put three 1/1 white Warrior creature tokens onto the battlefield.@__
+Tandem%Tactics_1W_Instant__Up to two target creatures get +1/+2 until end of turn. You gain 2 life.@__
+Tavern%Swindler_1B_Creature_Human Rogue_T, Pay 3 life: Flip a coin. If you win the flip, you gain 6 life.@_2_2
+Tenacious%Dead_B_Creature_Skeleton Warrior_When Tenacious Dead dies, you may pay 1B. If you do, return it to the battlefield tapped under its owner's control.@_1_1
+The%Crowd%Goes%Wild_XG_Sorcery__Assist <i>(Another player can pay up to X of this spell's cost. You choose the value of X.)</i>@@Support X. <i>(Put a +1/+1 counter on each of up to X target creatures.)</i>@@Each creature with a +1/+1 counter on it gains trample until end of turn.@__
+Thrasher%Brute_3B_Creature_Orc Warrior_Whenever Thrasher Brute or another Warrior enters the battlefield under your team's control, target opponent loses 1 life and you gain 1 life.@_4_3
+Thrilling%Encore_4B_Instant__Put onto the battlefield under your control all creature cards in all graveyards that were put there from the battlefield this turn.@__
+Thunder%Strike_1R_Instant__Target creature gets +2/+0 and gains first strike until end of turn. <i>(It deals combat damage before creatures without first strike.)</i>@__
+Tidespout%Tyrant_5UUU_Creature_Djinn_Flying<br>@Whenever you cast a spell, return target permanent to its owner's hand._5_5
+Together%Forever_WW_Enchantment__When Together Forever enters the battlefield, support 2. <i>(Put a +1/+1 counter on each of up to two target creatures.)</i>@@1: Choose target creature with a counter on it. When that creature dies this turn, return that card to its owner's hand.@__
+Toothy,%Imaginary%Friend_3U_Creature_Illusion_Partner with Pir, Imaginative Rascal <i>(When this creature enters the battlefield, target player may put Pir into their hand from their library, then shuffle.)</i>@@Whenever you draw a card, put a +1/+1 counter on Toothy, Imaginary Friend.@@When Toothy leaves the battlefield, draw a card for each +1/+1 counter on it.@_1_1
+Totally%Lost_4U_Instant__Put target nonland permanent on top of its owner's library.@__
+True-Name%Nemesis_1UU_Creature_Merfolk Rogue_As True-Name Nemesis enters the battlefield, choose a player.@@True-Name Nemesis has protection from the chosen player. <i>(This creature can't be blocked, targeted, dealt damage, or enchanted by anything controlled controlled by that player.)</i>_3_1
+Trumpet%Blast_2R_Instant__Attacking creatures get +2/+0 until end of turn.@__
+Tyrant's%Machine_2_Artifact__4, T: Tap target creature.@__
+Unflinching%Courage_1GW_Enchantment_Aura_Enchant creature@@Enchanted creature gets +2/+2 and has trample and lifelink.__
+Urborg%Drake_1UB_Creature_Drake_Flying@@Urborg Drake attacks each combat if able.@_2_3
+Vampire%Charm%Seeker_6UB_Creature_Vampire Wizard_Assist <i>(Another player can pay up to 6 of this spells cost.)</i>@@Flying@@When Vampire Charm Seeker enters the battlefield, return target instant, sorcery, or creature card from a graveyard ti its owner's hand.@_3_4
+Veteran%Explorer_G_Creature_Human Soldier Scout_When Veteran Explorer dies, each player may search their library for up to two basic land cards and put them onto the battlefield. Then each player who searched their library this way shuffles it.@_1_1
+Victory%Chimes_3_Artifact__Untap Victory Chimes during each other player's untap step.@@T: A player of your choice adds &loz;.@__
+Vigor_3GGG_Creature_Elemental Incarnation_Trample<br>@If damage would be dealt to a creature you control other than Vigor, prevent that damage. Put a +1/+1 counter on that creature for each 1 damage prevented that way._6_6
+Virtus's%Maneuver_2B_Sorcery__For each player, choose friend or foe. Each friend returns a creature card from their graveyard to their hand. Each foe sacrifices a creature they control. @__
+Virtus%the%Veiled_2B_Creature_Azra Assassin_Partner with Gorm the Great <i>(When this creature enters the battlefield, target player may put Gorm into their hand from their library, then shuffle)</i>@<br>Deathtouch<br><br>Whenever Virtus the Veiled deals combat damage to a player, that player loses half their life, rounded up._1_1
+Wandering%Wolf_1G_Creature_Wolf_Creatures with power less than Wandering Wolf's power can't block it.@_2_1
+War's%Toll_3R_Enchantment__Whenever an opponent taps a land for mana, tap all lands that player controls.@@If a creature an opponent controls attacks, all creatures that opponent controls attack if able.@__
+Watercourser_2U_Creature_Elemental_U: Watercourser gets +1/-1 until end of turn.@@_2_3
+Will%Kenrith_4UU_Planeswalker_Rowan_[+2]: Until your next turn, up to two target creatures each have base power and toughness and lose all abilities.@@[-2]: Target player draws two cards. Until your next turn, instant, sorcery, and planeswalker spells that player casts cost 2 less to cast.@@[-8]: Target player gets an emblem with "Whenever you cast an instant or sorcery spell, copy it. You may choose new targets for the copy."@@Partner with Rowan Kenrith@@Will Kenrith can be your commander.@__4
+Wrap%in%Flames_3R_Sorcery__Wrap in Flames deals 1 damage to each of up to three target creatures. Those creatures can't block this turn.@__
+Yotian%Soldier_3_Artifact Creature_Soldier_Vigilance@_1_4
+Zndrsplt,%Eye%of%Wisdom_4U_Creature_Homunculus_Partner with Okaun, Eye of Chaos <i>(When this creature enters the battlefield, target player may put Okaun into their hand from their library, then shuffle.)</i>@<br>At the beginning of combat on your turn, flip a coin until you lose a flip. Whenever a player wins a coin flip, draw a card._1_4
+Zndrsplt's%Judgment_4U_Sorcery__For each player, choose friend or foe. Each friend creates a token that's a copy of a creature they control. Each for returns a creature they control to its owner's hand.@__

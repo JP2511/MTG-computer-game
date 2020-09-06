@@ -1,0 +1,264 @@
+Accursed%Spirit_3B_Creature_Spirit_Intimidate <i>(This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)</i>@_3_2
+Act%on%Impulse_2R_Sorcery__Exile the top three cards of your library. Until end of turn, you may play cards exiled this way. <i>(If you cast a spell this way, you still pay its cost. You can play a land this way only if you have an available land play remaining.)</i>@__
+Aegis%Angel_4WW_Creature_Angel_Flying <i>(This creature can't be blocked except by creatures without flying or reach.)</i>@@When Aegis Angel enters the battlefield, another target permanent gains indestructible for as long as you control Aegis Angel. <i>(Effects that say "destroy" don't destroy it. A creature with indestructible can't be destroyed by damage.)</i>_5_5
+Aeronaut%Tinkerer_2U_Creature_Human Artificer_Aeronaut Tinkerer has flying as long as you control an artifact.<i> (It can't be blocked except by creatures flying or reach.)</i>@_2_3
+Aetherspouts_3UU_Instant__For each attacking creature, its owner chooses to put it on the top or bottom of his or her deck.@__
+Aggressive%Mining_3R_Enchantment__You can't play lands.@@Sacrifice a land: Draw two cards. Activate this ability only once each turn.__
+Ajani's%Pridemate_1W_Creature_Cat Soldier_Whenever you gain life, you may put a +1/+1 counter on Ajani's Pridemate. <i>(For example, if an effect causes you to gain 3 life, you may put one +1/+1 counter on this creature.)</i>@_2_2
+Ajani%Steadfast_3W_Planeswalker_Ajani_[+1]: Up to one target creature gains +1/+1, lifelink, vigilance, and first strike until end of turn.@@[-2]: Put a +1/+1 counter on each creature you control, and put one loyalty counter on each other planeswalker you control.@@[-7]: You get an emblem with "If a source would deal damage to you or a planeswalker you control, prevent all but one damage."__4
+Altac%Bloodseeker_1R_Creature_Human Berserker_Whenever a creature an opponent controls dies, Altac Bloodseeker gets +2/+0 and gains first strike and haste until end of turn. <i>(It deals combat damage before creatures without first strike, and it cna attack and T as soon as it comes under your control.)</i>@_2_1
+Amphin%Pathmage_3U_Creature_Salamander Wizard_2U: Target creature can't be blocked this turn.@_3_2
+Ancient%Silverback_4GG_Creature_Ape_G: Regenerate Ancient Silverback. <i>(The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)</i>@_6_5
+Avacyn,%Guardian%Angel_2WWW_Creature_Angel_Flying, vigilance@@1W: Prevent all damage that would be dealt to another target creature this turn by sources of the color of your choice.@@5WW: Prevent all damage that would be dealt to target player this turn by sources of the color of your choice._5_4
+Avacyn,%Guardian%Angel_2WWW_Creature_Angel_Flying, vigilance@@1W: Prevent all damage that would be dealt to another target creature this turn by sources of the color of your choice.@@5WW: Prevent all damage that would be dealt to target player this turn by sources of the color of your choice._5_4
+Back%To%Nature_1G_Instant__Destroy all enchantments.@__
+Battlefield%Forge__Land__T: Add 1 to your mana pool. @@T: Add R or W to your mana pool. Battlefield Forge deals 1 damage to you.__
+Battle%Mastery_2W_Enchantment_Aura_Enchant creature@@Enchanted creature has double strike.<i>(It deals both first-strike and regular combat damage.)</i>__
+Belligerent%Sliver_2R_Creature_Sliver_Sliver creatures you control have "This creature can't be blocked except by two or more creatures."@_2_2
+Black%Cat_1B_Creature_Zombie Cat_When Black Cat dies, target opponent discards a card at random.@_1_1
+Blastfire%Bolt_5R_Instant__Blastfire Bolt deals 5 damage to target creature. Destroy all Equipment attached to that creature.@__
+Blood%Host_3BB_Creature_Vampire_1B, Sacrifice another creature: Put a +1/+1 counter on Blood Host and you gain 2 life.@_3_3
+Boonweaver%Giant_6W_Creature_Giant Monk_When Boonweaver Giant enters the battlefield, you may search your graveyard, hand, and/or library for an Aura card and put it onto the battlefield attached to Boonweaver Giant. If you search your library this way, shuffle it.@_4_4
+Borderland%Marauder_1R_Creature_Human Warrior_Whenever Borderland Marauder attacks, it gets +2/+0 until end of turn.@_1_2
+Brawler's%Plate_3_Artifact_Equipment_Equipped creature gets +2/+2 and has trample. <i>(If it would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)</i> @@Equip 4 <i>(4: Attach to target creature you control. Equip only as a sorcery.)</i>__
+Bronze%Sable_2_Artifact Creature_Sable_@_2_1
+Brood%Keeper_3R_Creature_Human Shaman_Whenever an Aura becomes attached to Brood Keeper, put a 2/2 red Dragon creature token with flying onto the battlefield. It has "R: This creature gets +1/+0 until end of turn". @_2_3
+Burning%Anger_4R_Enchantment_Aura_Enchant Creature@@Enchanted creature has "T: This creature deals damage equal to it's power to target creature or player."__
+Cancel_1UU_Instant__Counter target spell.@__
+Carnivorous%Moss-Beast_4GG_Creature_Plant Elemental Beast_5GG: Put a +1/+1 counter on Carnivorous Moss-Beast@_4_5
+Carrion%Crow_2B_Creature_Zombie Bird_Flying <i>(This creature can't be blocked except by creatures with flying or reach.)</i>@@Carrion Crow enters the battlefield tapped._2_2
+Caustic%Tar_4BB_Enchantment_Aura_Enchant land@@Enchanted land has "T: Target player loses 3 life."__
+Caves%of%Koilos__Land__T: Add 1 to your mana pool.@@T: Add W or B to your mana pool. Caves of Koilos deals 1 damage to you.__
+Centaur%Courser_2G_Creature_Centaur Warrior_@_3_3
+Chandra,%Pyromaster_2RR_Planeswalker_Chandra_[+1]: Chandra, Pyromaster deals 1 damage to target player and 1 damage to up to one target creature that player controls. That creature can't block this turn. @@[0]: Exile the top card of your library. You may play it this turn.@@[-7]: Exile the top ten cards of your library. Choose an instant or sorcery card exiled this way and copy it three times. You may cast the copies without paying their mana costs.__4
+Charging%Rhino_3GG_Creature_Rhino_Charging Rhino can't be blocked by more than one creature.@_4_4
+Chasm%Skulker_2U_Creature_Squid Horror_Whenever you draw a card, put a +1/+1 counter on Chasm Skulker.@@When Chasm Skulker dies, put X 1/1 blue Squid tokens with islandwalk onto the battlefield, where X is the number of +1/+1 counters on Charsm Skulker. <i>(They can't be blocked as long as defending player controls and Island.)</i>_1_1
+Chief%Engineer_1U_Creature_Vedalken Artificer_Artifact spells you cast have convoke.@_1_3
+Child%of%Night_1B_Creature_Vampire_Lifelink <i>(Damage dealt by this creature also causes you to gain that much life.)</i>@_2_1
+Chord%of%Calling_XGGG_Instant__Convoke <i>(Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature's color.)</i>@Search your library for a creature card with converted mana cost X or less and put it onto the battlefield. Then shuffle your library.__
+Chronostutter_5U_Instant__Put target creature into its owner's library second from the top.@__
+Circle%of%Flame_1R_Enchantment__Whenever a creature without flying attacks you or a planeswalker you control, Circle of Flame deals 1 damage to that creature.@__
+Clear%a%Path_R_Sorcery__Destroy target creature with defender.@__
+Cone%of%Flame_3RR_Sorcery__Cone of Flame deals 1 damage to target creature or player, 2 damage to another target creature or player, and 3 damage to a third target creature or player.@__
+Cone%of%Flame_3RR_Sorcery__Cone of Flame deals 1 damage to target creature or player, 2 damage to another target creature or player, and 3 damage to a third target creature or player.@__
+Constricting%Sliver_5W_Creature_Sliver_Sliver creatures you control have "When this creature enters the battlefield, you may exile target creature an opponent controls until this creature leaves the battlefield."@_3_3
+Coral%Barrier_2U_Creature_Wall_Defender@@When Coral Barrier enters the battlefield, put a 1/1 blue Squid creature token with islandwalk onto the battlefield._1_3
+Covenant%of%Blood_6B_Sorcery__Convoke@@Covenant of Blood deals 4 damage to target creature or player and you gain 4 life.__
+Covenant%of%Blood_6B_Sorcery__Convoke@@Covenant of Blood deals 4 damage to target creature or player and you gain 4 life.__
+Crowd's%Favor_R_Instant__Convoke@Target creature gets +1/+0 and gains first strike until end of turn.__
+Crowd's%Favor_R_Instant__Convoke@Target creature gets +1/+0 and gains first strike until end of turn.__
+Cruel%Sadist_B_Creature_Human Assassin_B, T, Pay 1 life: Put a +1/+1 counter on Cruel Sadist.@@1B, T, Remove X +1/+1 counters from Cruel Sadist: Cruel Sadist deals X damage to target creature._1_1
+Darksteel%Citadel__Artifact Land__Indestructible <i>(Effects that say "destroy" don't destroy this permanent.)</i>@@T: Add 1 to your mana pool.__
+Dauntless%River%Marshal_1W_Creature_Human Soldier_Dauntless River Marshal gets +1/+1 as long as you control an Island.@@3U: Tap target creature._2_1
+Devouring%Light_1WW_Instant__Convoke@Exile target attacking or blocking creature.__
+Diffusion%Sliver_1U_Creature_Sliver_Whenever a Sliver creature you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays 2.@_1_1
+Diffusion%Sliver_1U_Creature_Sliver_Whenever a Sliver creature you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays 2.@_1_1
+Divination_2U_Sorcery__Draw two cards.@__
+Divine%Favor_1W_Enchantment_Aura_Enchant creature@@When Divine Favor enters the battlefield, you gain 3 life.@@Enchanted creature gets +1/+3.__
+Divine%Verdict_3W_Instant__Destroy target attacking or blocking@__
+Elvish%Mystic_G_Creature_Elf Druid_T: Add G to your mana pool.@_1_1
+Encrust_1UU_Enchantment_Aura_Enchant artifact or creature@@Enchanted permanent doesn't untap during its controller's untap step and its activated abilities can't be activated.__
+Endless%Obedience_4BB_Sorcery__Convoke <i>(Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature's color.)</i> @@Put target creature card from a graveyard onto the battlefield under your control.__
+Ensoul%Artifact_1U_Enchantment_Aura_Enchant artifact@@Enchanted artifact is a creature with base power and toughness 5/5 in addition to its other types.__
+Ephemeral%Shields_1W_Instant__Convoke <i>(Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature's color.)</i>@@Target creature gains indestructible until end of turn. <i>(Damage and effects that say "destroy" don't destroy it.)</i>__
+Eternal%Thirst_1B_Enchantment_Aura_Enchant creature@@Enchanted creature has lifelink and "Whenever a creature an opponent controls dies, put a +1/+1 counter on this creature." <i>(Damage dealt by a creature with lifelink also cause its controller to gain that much life.)</i>__
+Evolving%Wilds__Land__T, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.@__
+Feast%on%the%Fallen_2B_Enchantment__At the beginning of each upkeep, if an opponent lost life last turn, put a +1/+1 counter on target creature you control.@__
+Feral%Incarnation_8G_Sorcery__Convoke <i>(Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature's color.)</i>@@Put three 3/3 green Beast creature tokens onto the battlefield.__
+Festergloom_2B_Sorcery__Nonblack creatures get -1/-1 until end of turn.@__
+First%Response_3W_Enchantment__At the beginning of each upkeep, if you lost life last turn, put a 1/1 white Soldier creature token onto the battlefield.@__
+Flesh%to%Dust_3BB_Instant__Destroy target creature. It can't be regenerated.@__
+Forge%Devil_R_Creature_Devil_When Forge Devil enters the battlefield, it deals 1 damage to target creature and 1 damage to you.@_1_1
+Foundry%Street%Denizen_R_Creature_Goblin Warrior_Whenever another red creature enters the battlefield under your control, Foundry Street Denizen gets +1/+0 until end of turn.@_1_1
+Frenzied%Goblin_R_Creature_Goblin Berserker_Whenever Frenzied Goblin attacks, you may pay R. If you do, target creature can't block this turn.@_1_1
+Frost%Lynx_2U_Creature_Elemental Cat_When Frost Lynx enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.@_2_2
+Frost%Lynx_2U_Creature_Elemental Cat_When Frost Lynx enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.@_2_2
+Furnace%Whelp_2RR_Creature_Dragon_Flying <i>(This creature can't be blocked except by creatures with flying or reach.)</i>@@R: Furnace Whelp gets +1/+0 until end of turn._2_2
+Gargoyle%Sentinel_3_Artifact Creature_Gargoyle_Defender <i>(This creature can't attack.)</i>@@3: Until end of turn, Gargoyle Sentinel loses defender and gains flying.__
+Garruk,%Apex%Predator_5BG_Planeswalker_Garruk_[+1]: Destroy another target planeswalker.@@[+1]: Put a 3/3 black Beast creature token with deathtouch onto the battlefield.@[-3]: Destroy target creature. You gain life equal ot its toughness.@@[-8]: Target opponent gets an emblem with "Whenever a creature attacks you, it gets +5/+5 and gains trample until end of turn."__5
+Garruk's%Packleader_4G_Creature_Beast_Whenever another creature with power 3 or greater enters the battlefield under your control, you may draw a card.@_4_4
+Gather%Courage_G_Instant__Convoke@@Target creature gets +2/+2 until end of turn.__
+Geist%of%the%Moors_1WW_Creature_Spirit_Flying@@_3_1
+Generator%Servant_1R_Creature_Elemental_T, Sacrifice Generator Servant: Add 2 to your mana pool. If that mana is spent on a creature spell, it gains haste until end of turn. <i>(That creature can attack and T as soon as it comes under your control.)</i>@_2_1
+Genesis%Hydra_XGG_Creature_Plant Hydra_When you cast Genesis Hydra, reveal the top X cards of your library. You may put a nonland permanent card with converted mana cost X or less from among them onto the battlefield. Then shuffle the rest into your library.@@Genesis Hydra enters the battlefield with X +1/+1 counters on it._0_0
+Glacial%Crasher_4UU_Creature_Elemental_Trample <i>(If this creature would assign enough damage to its blockers to destory them, you may have it assign the rest of its damage to defending player or planeswalker.)</i>@@Glacial Crasher can't attack unless there is a mountain on the battlefield._5_5
+Goblin%Kaboomist_1R_Creature_Goblin Warrior_At the beginning of your upkeep, put a colorless artifact token named Land Mine onto the battlefield with "R, Sacrifice this artifact: This artifact deals 2 damage to target attacking creature without flying." Then flip a coin. If you lose the flip, Goblin Kaboomist deals 2 damage to itself.@_1_2
+Goblin%Rabblemaster_2R_Creature_Goblin Warrior_Other goblin creatures you control attack each turn if able.@@At the beginning of combat on your turn, put a 1/1 red Goblin creature token with haste onto the battlefield.@@Whenever Goblin Rabblemaster attacks, it gets +1/+0 until end of turn for each other attacking goblin._2_2
+Goblin%Roughrider_2R_Creature_Goblin Knight_@_3_2
+Gravedigger_3B_Creature_Zombie_When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand.@_2_2
+Grindclock_2_Artifact__T: Put a charge counter on Grindclock.@@T: Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of charge counters on Grindclock.__
+Hammerhand_R_Enchantment_Aura_Enchant creature@@When Hammerhand enters the battlefield, target creature can't block this turn.@@Enchanted creature gets +1/+1 and has haste.@__
+Haunted%Plate%Mail_4_Artifact_Equipment_Equipped creature gets +4/+4@@0: Until end of turn, Haunted Plate Mail becomes a 4/4 Spirit artifact creature that's no longer an equipment. Activate this ability only if you control no creatures.@@Equip: 4__
+Heat%Ray_XR_Instant__Heat Ray deals X damage to target creature.@__
+Heliod's%Pilgrim_2W_Creature_Human Cleric_When Heliod's Pilgrim enters the battlefield, you may search your library for an Aura card, reveal it, put it into your hand, then shuffle your library.@_1_2
+Hoarding%Dragon_3RR_Creature_Dragon_Flying@@When Hoarding Dragon enters the battlefield, you may search your library for an artifact card, exile it, then shuffle your library.When Hoarding Dragon dies, you may put the exiled card into its owner's hand._4_4
+Hornet%Nest_2G_Creature_Insect_Defender <i>(This creature can't attack.)</i>@@Whenever Hornet Nest is dealt damage, put that many 1/1 green Insect creature tokens with flying and deathtouch onto the battlefield. <i>(Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)</i>_0_2
+Hornet%Queen_4GGG_Creature_Insect_Flying, deathtouch@@When Hornet Queen enters the battlefield, put four 1/1 green Insect creature tokens with flying and deathtouch onto the battlefield._2_2
+Hot%Soup_1_Artifact_Equipment_Equipped creature can't be blocked.@@Whenever equipped creature is dealt damage, destroy it.@@Equip ?__
+Hunter's%Ambush_2G_Instant__Prevent all combat damage that would be dealt by nongreen creatures this turn.@__
+Hunt%the%Weak_3G_Sorcery__Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control.@__
+Hushwing%Gryff_2W_Creature_Hippogriff_FLash <i>(You may cast this spell any time you could cast an instant)</i>@@Flying@@Creatures entering the battlefield don't cause abilities to trigger._2_1
+Hushwing%Gryff_2W_Creature_Hippogriff_FLash <i>(You may cast this spell any time you could cast an instant)</i>@@Flying@@Creatures entering the battlefield don't cause abilities to trigger._2_1
+Illusory%Angel_2U_Creature_Angel Illusion_Flying@@Cast Illusory Angel only if you've cast another spell this turn.__
+Indulgent%Tormentor_3BB_Creature_Demon_Flying@@At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life._3_3
+Inferno%Fist_?R_Enchantment_Aura_Enchant creature you control.@@Enchanted creature gets +2/+1.@@R, Sacrifice Inferno Fist: Inferno Fist deals 2 damage to target creature or player.@__
+In%Garruk's%Wake_7BB_Sorcery__Destroy all creatures you don't control and all planeswalkers you don't control.@__
+Inspired%Charge_2WW_Instant__Creatures you control get +2/+1 until end of turn.@__
+Inspired%Charge_2WW_Instant__Creatures you control get +2/+1 until end of turn.@__
+Invasive%Species_2G_Creature_Insect_When Invasive Species enters the battlefield, return another permanent you control to its owner's hand.@_3_3
+Invisibility_UU_Enchantment_Aura_Enchant creature@@Enchanted creature can't be blocked except by Walls.__
+Jace's%Ingenuity_3UU_Instant__Draw three cards.@__
+Jace,%the%Living%Guildpact_2UU_Planeswalker_Jace_[+1]: Look at the top two cards of your library. Put one of them into your graveyard.@@[-3]: Return another target nonland permanent to its owner's hand.@@[-8]: Each player shuffles his or her hand and graveyard into his or her library. You draw seven cards.__5
+Jalira,%Master%Polymorphist_3U_Creature_Human Wizard_3U, T, Sacrifice another creature: Reveal cards from the top of your library until you reveal a nonlegendary creature card. Put that card onto the battlefield and the rest on the bottom of your library in a random order.@_2_2
+Jorubai%Murk%Lurker_2U_Creature_Leech_Jorubai Murk Lurker gets +1/+1 as long as you control a Swamp.@@1B: Target creature gains lifelink until end of turn. <i>(Damage dealt by the creature also causes its controller ot gain that much life.)</i>_1_3
+Juggernaut_4_Artifact Creature_Juggernaut_Juggernaut attacks each turn if able.@@Juggernaut can't be blocked by Walls._5_3
+Kalonian%Twingrove_5G_Creature_Treefolk Warrior_Kalonian Twingrove's power and toughness are each equal to the number of Forests you control.@@When Kalonian Twingrove enters the battlefield, put a green Treefolk Warrior creature token onto the battlefield with "this creature's power and toughness are each equal to the number of forests you control."_*_*
+Kapsho%Kitefins_4UU_Creature_Fish_Flying@@Whenever Kapsho Kitefins or another creature enters the battlefield under your control, tap target creature an opponent controls._3_3
+Kinsbaile%Skirmisher_1W_Creature_Kithkin Soldier_When Kinsbaile Skirmisher comes into play, target creature gets +1/+1 until end of turn.@_2_2
+Kird%Chieftain_3R_Creature_Ape_Kird Chieftain gets +1/+1 as long as you control a Forest@@4G: Target creature gets +2/+2 and gains trample until end of turn. <i>(If it would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)</i>_3_3
+Krenko's%Enforcer_1RR_Creature_Goblin_Intimidate@__
+Kurkesh,%Onakke%Ancient_2RR_Creature_Ogre Spirit_Whenever you activate an ability of an artifact, if it isn't a mana ability, you may pay R. If you do, copy that ability. You may choose new targets for the copy.@_4_3
+Lava%Axe_4R_Sorcery__Lava Axe deals 5 damage to target player.@__
+Leeching%Sliver_1B_Creature_Sliver_Whenever a Sliver you control attacks, defending player loses 1 life.@_1_1
+Life's%Legacy_1G_Sorcery__As an additional cost to cast Life's Legacy, sacrifice a creature.@@Draw cards equal to the sacrificed creature's power.__
+Lightning%Strike_1R_Instant__Lightning Strike deals 3 damage to target creature or player.@__
+Liliana%Vess_3BB_Planeswalker_Liliana_[+1]: Target player discards a card.@@[-2]: Search your library for a card, then shuffle your library and put that card on top of it.@@[-8]: Put all creature cards in all graveyards onto the battlefield under your control.__5
+Living%Totem_3G_Creature_Plant Elemental_Convoke <i>(Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature's color.)</i>@@When Living Totem enters the battlefield, you may put a +1/+1 counter on another target creature._2_3
+Llanowar%Wastes__Land__T: Add 1 to your mana pool.@@T: Add B or G to your mana pool. Llanowar Wastes deals 1 damage to you.__
+Llanowar%Wastes__Land__T: Add 1 to your mana pool.@@T: Add B or G to your mana pool. Llanowar Wastes deals 1 damage to you.__
+Mahamoti%Djinn_4UU_Creature_Djinn_Flying <i>(This creature can't be blocked except by creatures with flying or reach.)</i>@_5_6
+Marked%by%Honor_3W_Enchantment_Aura_Enchant creature @@Enchanted creature gets +2/+2 and has vigilance.__
+Mass%Calcify_5WW_Sorcery__Destroy all nonwhite creatures.@__
+Master%of%Predicaments_3UU_Creature_Sphinx_Flying@@Whenever Master of Predicaments deals combat damage to a player, choose a card in your hand. That player guesses whether the card's converted mana cost is greater than 4. If the player guessed wrong, you may cast the card without paying its mana cost._4_4
+Meditation%Puzzle_3WW_Instant__Convoke@@You gain 8 life.__
+Meditation%Puzzle_3WW_Instant__Convoke@@You gain 8 life.__
+Meteorite_5_Artifact__When Meteorite enters the battlefield it deals 3 damage to target creature of player.@@T: Add one mana of any color to your mana pool.__
+Midnight%Guard_2W_Creature_Human Soldier_Whenever another creature enters the battlefield, untap Midnight Guard.@_2_3
+Might%Makes%Right_5R_Enchantment__At the beginning of combat on your turn, if you control each creature on the battlefield with the greatest power, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn. <i>(It can attack and T this turn.)</i>@__
+Military%Intelligence_1U_Enchantment__Whenever you attack with two or more creatures, draw a card.@__
+Military%Intelligence_1U_Enchantment__Whenever you attack with two or more creatures, draw a card.@__
+Military%Intelligence_1U_Enchantment__Whenever you attack with two or more creatures, draw a card.@__
+Miner's%Bane_4RR_Creature_Elemental_2R: Miner's Bane gets +1/+0 and gains trample until end of turn. <i>(If it would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)</i>@_6_3
+Naturalize_1G_Instant__Destroy target artifact or enchantment.@__
+Necrobite_2B_Instant__Target creature gains deathtouch until end of turn. Regenerate it. <i>(The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat. Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)</i>@__
+Necrogen%Scudder_2B_Creature_Horror_Flying@@When Necrogen Scudder enters the battlefield, you lose 3 life.@_3_3
+Necromancer's%Assistant_2B_Creature_Zombie_When Necromancer's Assistant enters the battlefield, put the top three cards of your library into your graveyard.@_3_1
+Necromancer's%Stockpile_1B_Enchantment__1B, Discard a creature card: Draw a card. If the discarded card was a Zombie card, put a 2/2 black Zombie creature token onto the battlefield tapped.@__
+Negate_1U_Instant__Counter target noncreature spell.@__
+Netcaster%Spider_2G_Creature_Spider_Reach@@Whenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +2/+0 until end of turn._2_3
+Nightfire%Giant_4B_Creature_Zombie Giant_Nightfire Giant gets +1/+1 as long as you control a Mountain.@@4R: Nightfire Giant deals 2 damage to target creature or player._4_3
+Nightmare_5B_Creature_Nightmare Horse_Flying <i>(This creature can't be blocked except by creatures with flying or reach.)</i>@@Nightmare's power and toughness are each equal to the number of Swamps you control._*_*
+Nimbus%of%the%Isles_4U_Creature_Elemental_Flying <i>(This creature can't be blocked except by creatures with flying or reach.</i>@_3_3
+Nissa's%Expedition_4G_Sorcery__Convoke <i>(Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature's color.)</i>@Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.__
+Nissa,%Worldwaker_3GG_Planeswalker_Nissa_[+1]: Target land you control becomes a 4/4 elemental creature with trample. It's still a land.@@[+1]: Untap up to four target forests.@@[-7]: Search your library for any number of basic land cards, put them onto the battlefield, then shuffle your library. Those lands become 4/4 elemental creatures with trample. They're still lands.__3
+Obelisk%of%Urd_6_Artifact__Convoke <i>(Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature's color.)</i>@@As Obelisk of Urd enters the battlefield, choose a creature type.@@Creatures you control of the chosen type get +2/+2.__
+Ob%Nixilis,%Unshackled_4BB_Creature_Demon_Flying, trample@@Whenever an opponent searches his or her library, that player sacrifices a creature and loses 10 life.@@Whenever another creature dies, put a +1/+1 counter on Ob Nixilis, Unshackled._4_4
+Oppressive%Rays_W_Enchantment_Aura_Enchant creature@@Enchanted creature can't attack or block unless its controller pays 3.@@Activated abilities of enchanted creature cost 3 more to activate.@__
+Oppressive%Rays_W_Enchantment_Aura_Enchant creature@@Enchanted creature can't attack or block unless its controller pays 3.@@Activated abilities of enchanted creature cost 3 more to activate.@__
+Ornithopter_0_Artifact Creature_Thopter_Flying@_0_2
+Overwhelm_5GG_Sorcery__Convoke@@Creatures you control get +3/+3 until end of turn.__
+Paragon%of%Eternal%Wilds_3G_Creature_Human Druid_Other green creatures you control get +1/+1.@@G, T: Another target green creature you control gains trample until end of turn._2_2
+Paragaon%of%Fierce%Defiance_3R_Creature_Human Warrior_Other red creatures you control you get +1/+1@@R,T: Another target red creature you control gains haste until the end of turn._2_2
+Paragon%of%Gathering%Mists_3U_Creature_Human Wizard_Other blue creatures you control get +1/+1. @@U, T: Another target blue creature you control gains flying until end of turn._2_2
+Paragon%of%New%Dawns_3W_Creature_Human Soldier_Other white creatures you control get +1/+1@@W, T: Another target white creature you control gains vigilance until end of turn._2_2
+Paragon%of%Open%Graves_3B_Creature_Skeleton Warrior_Other black creatures you control get +1/+1@@1B, T: Another target black creature you control gains deathtouch until end of turn._2_2
+Peel%from%Reality_1U_Instant__Return target creature you control and target creature you don't control to their owners' hands.@__
+Perilous%Vault_4_Artifact__5, T, Exile Perilous Vault: Exile all nonland permanents.@__
+Phyrexian%Revoker_2_Artifact Creature_Horror_As Phyrexian Revoker enters the battlefield, name a nonland card.@@Activated abilities of sources with the chosen name can't be activated._2_1
+Phytotitan_4GG_Creature_Plant Elemental_When Phytotitan dies, return it to the battlefield under its owner's control tapped at the beginning of his or her next upkeep.@_7_2
+Pillar%of%Light_2W_Instant__Exile target creature with toughness 4 or greater.@__
+Plummet_1G_Instant__Destroy target creature with flying.@__
+Polymorphist's%Jest_1UU_Instant__Until end of turn, each creature target player controls loses all abilities and becomes a blue Frog with base power and toughness 1/1.@__
+Preeminent%Captain_2W_Creature_Kithkin Soldier_First strike <i>(This creature deals combat damage before creatures without first strike.)</i>@@Whenever Preeminent Captain attacks, you may put a Soldier creature card from your hand onto the battlefield tapped and attacking._2_2
+Profane%Memento_1_Artifact__Whenever a creature card is put into an opponent's graveyard from anywhere, you gain 1 life.@__
+Quickling_1U_Enchantment__Flash@@Flying@@When Quickling enters the battlefield, sacrifice it unless you return another creature you control to it's owner's hand._2_2
+Radiant%Fountain__Land__When Raidant Fountain enters the battlefield, you gain 2 life.@@T: Add 1 to your mana pool.__
+Raise%the%Alarm_1W_Instant__Put two 1/1 white Soldier creature tokens onto the battlefield.@__
+Ranger's%Guile_G_Instant__Target creature you control gets +1/+1 and gains hexproof until end of turn. <i>(It can't be the target of spells or abilities your opponents control.)</i>@__
+Razorfoot%Griffin_3W_Creature_Griffin_Flying <i>(This creature can't be blocked except by creatures with flying or reach.)</i>@@Frist strike <i>(This creature deals combat damage before creatures without first strike.)</i>_2_2
+Reclamation%Sage_2G_Creature_Elf Shaman_When Reclaiming Mage enters the battlefield you may destroy target artifact or enchantment.@_2_1
+Resolute%Archangel_5WW_Creature_Angel_Flying@@When Resolute Archangel enters the battlefield, if your life total is less than your starting life total, it becomes equal to your starting life total._4_4
+Restock_3GG_Sorcery__Return two target cards from your graveyard to your hand. Exile Restock.@__
+Return%to%the%Ranks_XWW_Sorcery__Convoke <i>(Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature's color.) </i>@@Return X target creature cards with converted mana cost 2 or less from your graveyard to the battlefield.__
+Roaring%Primadox_3G_Creature_Beast_At the beginning of your upkeep, return a creature you control to its owner's hand.@_4_4
+Rogue's%Gloves_2_Artifact_Equipment_Whenever equipped creature deals combat damage to a player, you may draw a card.@Equip: 2__
+Rummaging%Goblin_2R_Creature_Goblin Rogue_T, Discard a card: Draw a card.@_1_1
+Runeclaw%Bear_1G_Creature_Bear_@_2_2
+Sacred%Armory_2_Artifact__2: Target creatures gets +1/+0 until end of turn.@@__
+Sanctified%Charge_4W_Instant__Creature you control get +2/+1 until end of turn. White creatures you control also gain first strike until end of turn. <i>(They deal combat damage before creatures without first strike.)</i>@__
+Satyr%Wayfinder_1G_Creature_Satyr_When Satyr Wayfinder enters the battlefield, reveal the top four cards of your library. You may put a land card from among them into your hand. Put the rest into your graveyard.@_1_1
+Scrapyard%Mongrel_3R_Creature_Hound_As long as you control an artifact, Scrapyard Mongrel gets +2/+0 and has trample.@_3_3
+Scuttling%Doom%Engine_6_Artifact Creature_Construct_Scuttling Doom Engine can't be blocked by creatures with power 2 or less. @@When Scuttling Doom Engine dies, it deals 6 damage to target opponent._6_6
+Seismic%Strike_2R_Instant__Seismic Strike deals damage to target creature equal to the number of Mountains you control.@__
+Selfless%Cathar_W_Creature_Human Cleric_1W, Sacrifice Selfless Cathar: Creatures you control get +1/+1 until end of turn.@_1_1
+Sengir%Vampire_3BB_Creature_Vampire_Flying <i>(This creature can't be blocked except by creatures with flying or reach.)</i>@@Whenever a creature dealt damage by Sengir Vampire this turn dies, put a +1/+1 counter on Sengir Vampire._4_4
+Seraph%of%the%Masses_5WW_Creature_Angel_Convoke@@Flying@@Seraph of the Masses's power and toughness are each equal to the number of creatures you control._*_*
+Serra%Angel_3WW_Creature_Angel_Flying <i>(This creature can't be blocked except by creatures with flying or reach.)</i>@@Vigilance <i>(Attacking doesn't cause this creature to tap.)</i>_4_4
+Shadowcloak%Vampire_4B_Creature_Vampire_Pay 2 Life: Shadowcloak Vampire gains flying until of turn.@_4_3
+Shaman%of%the%Spring_3G_Creature_Elf Shaman_When Shaman of Spring enters the battlefield, draw a card.@_2_2
+Shield%of%the%Avatar_1_Artifact_Equipment_If a source would deal damage to equpped creature, prevent X of that damage where X is the number of creatures you control.@Equip 2__
+Shivan%Dragon_4RR_Creature_Dragon_Flying <i>(This creature can't be blocked except by creatures with flying or reach.)</i>@@R: Shivan Dragon gets +1/+0 until end of turn._5_5
+Shivan%Reef__Land__T: Add 1 to your mana pool.@@T: Add U or R to your mana pool. Shivan Reef deals 1 damage to you.__
+Shrapnel%Blast_1R_Instant__As an additional cost to cast Shrapnel Blast, sacrifice an artifact.@@Shrapnel Blast deals 5 damage to target creature or player.__
+Siege%Dragon_5RR_Creature_Dragon_Flying@@When Siege Dragon enters the battlefield, destroy all Walls your opponent controls.@@Whenever Siege Dragon attacks, if your opponent control no Walls, it deals 2 damage to each creature without flying defending player controls._5_5
+Siege%Wurm_5GG_Creature_Wurm_Convoke@@Trample_5_5
+Sign%in%Blood_BB_Sorcery__Target player draws two cards and loses 2 life.@__
+Sliver%Hive__Land__T: Add 1 to your mana pool.@@T: Add one mana of any color to your mana pool. Spend this mana only to cast a Sliver spell.@@5, T: Put a 1/1 colorless Sliver creature token onto the battlefield. Activate this ability only if you control a Sliver.__
+Sliver%Hivelord_WUBRG_Creature_Sliver_Sliver creatures you control have indestructible. <i>(Damage and effects that say "destroy" don't destroy them.)</i>@_5_5
+Solemn%Offering_2W_Sorcery__Destroy target artifact or enchantment.@You gain 4 life.__
+Soulmender_W_Creature_Human Cleric_T: You gain 1 life.@_1_1
+Soul%of%Innistrad_4BB_Creature_Avatar_Deathtouch@@3BB: Return up to three target creature cards from your graveyard to your hand.@@3BB, Exile Soul of Innistrad from your graveyard: Return up to three target creature cards from your graveyard to your hand._6_6
+Soul%of%New%Phyrexia_6_Artifact Creature_Avatar_Trample@@5: Permanents you control gain indestructible until end of turn.@@5, Exile Soul of New Phyrexia from your graveyard: Permanents you control gain indestructible until end of turn._6_6
+Soul%of%Ravnica_4UU_Creature_Avatar_Flying@@5UU: Draw a card for each color among permanents you control.@@5UU: Exile Soul of Ravnica from your graveyard: Draw a card for each color among permanents you control._6_6
+Soul%of%Shandalar_4RR_Creature_Avatar_First strike@@3RR: Soul of Shandalar deals 3 damage to target player and 3 damage to up to one target creature that player controls.@@3RR, Exile Soul of Shandalar from your graveyard: Soul of Shandalar deals 3 damage to target player and 3 damage to up to one target creature that player controls._6_6
+Soul%of%Theros_4WW_Creature_Avatar_4WW: Creatures you control get +2/+2 and gain first strike and lifelink until end of turn.@@4WW, Exile Soul of Theros from your graveyard: Creatures you control get +2/+2 and gain first strike and lifelink until end of turn._6_6
+Soul%of%Zendikar_4GG_Creature_Avatar_Reach@@3GG: Put a 3/3 green Beast creature token onto the battlefield.@@3GG, exile Soul of Zendikar from your graveyard: Put a 3/3 green Beast creature token onto the battlefield._6_6
+Spectra%Ward
+<font%color="888888"%size="-1">_3WW_Enchantment_Aura_Enchant creature@@Enchanted creature gets +2/+2 and gains protection from all colors. This effect doesn't remove auras.__
+Spiritbonds_1W_Enchantment__Whenever a nontoken creature enters the battlefield under your control, you may pay W. If you do, put a 1/1 white Spirit creature token with flying onto the battlefield.@@1W, sacrifice a Spirit: Target non-Spirit creature gains indestructible until end of turn. <i>(Effects that say "destroy" don't destroy it. A creature with indestructible can't be destroyed by damage.)</i>__
+Stab%Wound_2B_Enchantment_Aura_Enchant creature@@Enchanted creature gets -2/-2.@@At the beginning of the upkeep of enchanted creature's controller, that player loses 2 life.__
+Staff%of%the%Death%Magus_3_Artifact__Whenever you cast a black spell or a Swamp enters the battlefield under your control, you gain 1 life.@__
+Staff%of%the%Flame%Magus_3_Artifact__Whenever you cast a red spell or a Mountain enters the battlefield under your control, gain 1 life.@__
+Staff%of%the%Mind%Magus_3_Artifact__Whenever you cast a blue spell or an Island enters the battlefield under your control, you gain 1 life.@__
+Staff%of%the%Sun%Magus_3_Artifact__Whenever you cast a white spell or a Plains enters the battlefield under your control, you gain 1 life.@__
+Staff%of%the%Wild%Magus_3_Artifact__Whenever you cast a green spell or a Forest enters the battlefield under your control, you gain 1 life.@@__
+Stain%the%Mind_4B_Sorcery__Convoke <i>(Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature's color.)</i>@@Name a nonland card. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library.__
+Statute%of%Denial_2UU_Instant__Counter target spell. If you control a blue creature, draw a card, then discard a card.@__
+Stoke%the%Flames_2RR_Instant__Convoke <i>(Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature's color.) </i>@@Stoke the Flames deals 4 damage to target creature or player.__
+Stormtide%Leviathan_5UUU_Creature_Leviathan_Islandwalk <i>(This creature can't be blocked as long as defending player controls an Island.)</i>@@All lands are Islands in addition to their other types.@@Creatures without flying or islandwalk can't attack._8_8
+Sunblade%Elf_G_Creature_Elf Warrior_Sunblade Elf gets +1/+1 as long as you control a Plains.@@4W: Creatures you control get +1/+1 until end of turn._1_1
+Sungrace%Pegasus_1W_Creature_Pegasus_Flying <i>(This creature can't be blocked except by creatures with flying or reach.)</i>@@Lifelink <i>(Damage dealt by this creature also causes you to gain that much life.)</i>_1_2
+Terra%Stomper_3GGG_Creature_Beast_Terra Stomper can't be countered.@@Trample <i>(If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)</i>_8_8
+The%Chain%Veil_4_Legendary Artifact__At the beginning of your end step, if you didn't activate a loyalty ability of a planeswalker this turn, you lose 2 life.@@4, T: For each planeswalker you control, you may activate one of its loyalty abilities once this turn as though none of its loyalty abilities have been activated this turn.__
+Thundering%Giant_3RR_Creature_Giant_Haste <i>(This creature can attack and T as soon as it comes under your control.)</i>@_4_3
+Tireless%Missionaries_4W_Creature_Human Cleric_When Tireless Missionaries enters the battlefield, you gain 3 life.@_2_3
+Titanic%Growth_1G_Instant__Target creature gets +4/+4 until end of turn.@__
+Torch%Fiend_1R_Creature_Devil_R, Sacrifice Torch Fiend: Destroy target artifact.@_2_1
+Tormod's%Crypt_0_Artifact__T, Sacrifice Tormod's Crypt: Exile all cards from target player's graveyard.@__
+Triplicate%Spirits_4WW_Sorcery__Convoke@@Put three 1/1 white Spirit creature tokens with flying onto the battlefield.__
+Turn%to%Frog_1U_Instant__Target creature loses all abilities and becomes a 1/1 blue Frog until end of turn.@__
+Typhoid%Rats_B_Creature_Rat_Deathtouch <i>(Any amount of damage this deals to a creature is enough to destroy it.)</i>@_1_1
+Tyrant's%Machine_2_Artifact__4, T: Tap target creature.@__
+Ulcerate_B_Instant__Target creature gets -3/-3 until end of turn. You lose 3 life.@__
+Undergrowth%Scavenger_3G_Creature_Fungus Horror_Undergrowth Scavenger enters the battlefield with a number of +1/+1 counters on it equal to the number of creature cards in all graveyards.@_0_0
+Unmake%the%Graves_4B_Instant__Convoke<i> (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 or one mana of that creature's color.)</i>@@Return up to two target creature cards from your graveyard to your hand.__
+Urborg,%Tomb%of%Yawgmoth__Legendary Land__Each land is a Swamp in addition to its other land types.@__
+Venom%Sliver_1G_Creature_Sliver_Sliver creatures you control have deathtouch. <i>(Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)</i>@_1_1
+Verdant%Haven_2G_Enchantment_Aura_Enchant Land@@When Verdant Haven enters the battlefield, you gain 2 life.@@Whenever enchanted land is tapped for mana, it's controller adds one mana of any color to his or her mana pool <i>(in addition to the mana the land produces).</i>__
+Vineweft_G_Enchantment_Aura_Enchant creature@@Enchanted creature gets +1/+1.@@4G: Return Vineweft from your graveyard to hand.__
+Void%Snare_U_Sorcery__Return target nonland permanent to its owner's hand.@__
+Walking%Corpse_1B_Creature_Zombie_"Feeding a normal army is a problem of logistics. With zombies, it is an asset. Feeding is why they fight. Feeding is why they are feared."@-Jadar, ghoulcaller of Nephalia@_2_2
+Wall%of%Essence_1W_Creature_Wall_Defender <i>(This creature can't attack.)</i>@@Whenever Wall of Essence is dealt combat damage, you gain that much life._0_4
+Wall%of%Fire_1RR_Creature_Wall_Defender@@R: Wall of fire gets +1/+0 until end of turn._0_5
+Wall%of%Frost_1UU_Creature_Wall_Defender <i>This creature can't attack</i>@@Whenever Wall of Frost blocks a creature, that creature doesn't untap during its controller's next untap step._0_7
+Wall%of%Limbs_2B_Creature_Zombie Wall_Defender <i>(This creature can't attack.)</i>@@Whenever you gain life, put a +1/+1 counter on Wall of Limbs.@@5BB, Sacrifice Wall of Limbs: Target player loses X life, where X is Wall of Limbs's power._0_3
+Wall%of%Mulch_1G_Creature_Wall_Defender@G: Sacrifice a Wall: Draw a card._0_4
+Warden%of%the%Beyond_2W_Creature_Human Wizard_Vigilance <i>(Attacking doesn't cause this creature to tap.)</i>@@Warden of the Beyond gets +2/+2 as long as an opponent owns a card in exile._2_2
+Waste%Not_1B_Enchantment__Whenever an opponent discards a creature card, put a 2/2 black Zombie creature token onto the battlefield.@Whenever an opponent discards a land card, add BB to your mana pool.@Whenever an opponent discards a noncreature, nonland card, draw a card.__
+Waste%Not_1B_Enchantment__Whenever an opponent discards a creature card, put a 2/2 black Zombie creature token onto the battlefield.@Whenever an opponent discards a land card, add BB to your mana pool.@Whenever an opponent discards a noncreature, nonland card, draw a card.__
+Will-Forged%Golem_6_Artifact Creature_Golem_Convoke@_4_4
+Witch's%Familiar_2B_Creature_Frog_@_2_3
+Xathrid%Slyblade_2B_Creature_Human Assassin_Hexproof <i>(This creature can't be the target of spells or abilities your opponents control.</i>@@3B: Until end of turn, Xathrid Slyblade loses hexproof and gains first strike and deathtouch. <i>(It deals combat damage before creatures without first strike. Any amount of damage it deals to a creature is enough to destroy it.)</i>_2_1
+Yavimaya%Coast__Land__T: Add 1 to your mana pool.@@T: Add G or U to your mana pool. Yavimaya Coast deals 1 damage to you.__
+Yisan,%the%Wanderer%Bard_2G_Creature_Human Rogue_2G, T, Put a verse counter on Yisan, the Wanderer Bard: Search your library for a creature card with converted mana cost equal to the number of verse counters on Yisan, put it onto the battlefield, then shuffle your library.@_2_3
+Zof%Shade_3B_Creature_Shade_2B: Zof Shade gets +2/+2 until end of turn.@_2_2

@@ -1,0 +1,196 @@
+Admiral's%Order_1UU_Instant__<i>Raid</i> - If you attacked with a creature this turn, you may pay U rather than pay this spell's mana cost.@@Counter target spell.__
+Aggressive%Urge_1G_Instant__Target creature gets +1/+1 until end of turn.@@Draw a card.@__
+Angrath,%Minotaur%Pirate_4BR_Planeswalker_Angrath_[+2]: Angrath, Minotaur Pirate deals 1 damage to target opponent and each creature that player controls.@@[-3]: Return target Pirate card from your graveyard to the battlefield.@@[-11]: Destroy all creatures target opponent controls. Angrath, Minotaur Pirate deald damage to that player equal to their total power.__5
+Angrath's%Ambusher_2B_Creature_Orc Pirate_Angrath's Ambusher gets +2/+0 as long as you control an Angrath planeswalker.@_2_3
+Angrath's%Fury_3BR_Sorcery__Destroy target creature. Angrath's Fury deals 3 damage to target player. You may search your library and/or graveyard for a card named Angrath, Minotaur Pirate, reveal it, and put it into your hand. If you search your library this way, shuffle it.@__
+Angrath,%the%Flame-Chained_3BR_Planeswalker_Angrath_[+1]: Each opponent discards a card and loses 2 life.@@[-3]: Gain control of target creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it has converted mana cost 3 or less.@@[-8]: Each opponent loses life equal to the number of cards in his or her graveyard.__4
+Aquatic%Incursion_3U_Enchantment__When Aquatic Incursion enters the battlefield, create two 1/1 Merfolk creature tokens with hexproof. <i>(They can't be the target of spells or abilities your opponents control.)</i>	<br><br>	3U: Target Merfolk can't be blocked this turn.@__
+Arch%of%Orazca_Land_Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+</i><br />
+T: Add &loz; to your mana pool.<br />
+5, T: Draw a card. Activate this ability only if you have the city's blessing.__@__
+Arterial%Flow_1BB_Sorcery__Each opponent discards two cards. If you control a Vampire, each opponent loses 2 life and you gain 2 life.@__
+Atzocan%Seer_1GW_Creature_Human Druid_T: Add one mana of any color to your mana pool.@@Sacrifice Atzocan Seer: Return target Dinosaur card from your graveyard to your hand._2_3
+Awakened%Amalgam_4_Artifact Creature_Golem_Awakened Amalgam's power and toughness are each equal to the number of differently named lands you control.@_*_*
+Azor,%the%Lawbringer_2WWUU_Creature_Sphinx_Flying	@@When Azor, the Lawbringer enters the battlefield, each opponent can't cast instant or sorcery spells during that player's next turn.@@Whenever Azor attacks, you may pay XWUU. If you do, you gain X life and draw X cards.@_6_6
+Baffling%End_1W_Enchantment__When Baffling End enters the battlefield, exile target creature an opponent controls with converted mana cost 3 or less.@@When Baffling End leaves the battlefield, target oponent creates a 3/3 green Dinosaur creature token with trample.__
+Bishop%of%Binding_3W_Creature_Vampire Cleric_When Bishop of Binding enters the battlefield, exile target creature an opponent controls until Bishop of Binding leaves the battlefield.	<br><br>Whenever Bishop of Binding attacks, target Vampire gets +X/+X until end of turn, where X is the power of the exiled card.@_1_1
+Blazing%Hope_W_Instant__Exile target creature with power greater then or equal to your life total.@__
+Blood%Sun_2R_Enchantment__When Blood Sun enters the battlefield, draw a card.@@All lands lose all abilities except mana abilities.@__
+Bombard_2R_Instant__Bombard deals 4 damage to target creature.@__
+Brass's%Bounty_6R_Sorcery__For each land you control, create a colorless Treasure artifact token with "T, Sacrifice this artifact: Add one mana of any color to your mana pool."@__
+Brazen%Freebooter_3R_Creature_Human Pirate_When Brazen Freebooter enters the battlefiled, create a colorless Treasure artifact token with "T, Sacfifice this artifact: Add one mana of any color to your mana pool."@_3_3
+Buccaneer's%Bravado_1R_Instant__Choose one - @@*Target creature gets +1/+1 and gains first strike until end of turn.@@*Target Pirate gets +1/+1 and gains double strike until end of turn.__
+Cacophodon_3G_Creature_Dinosaur_<i>Enrage</i> - Whenever Cacophodon is dealt damage, untap, target permanent.@_2_5
+Canal%Monitor_4B_Creature_Lizard_@_5_3
+Captain's%Hook_3_Artifact_Equipment_Equipped creature gets +2/+0, has menace, and is a Pirate in addition to its other creature types.@@Whenever Captain's Hook becomes unattached from a permanent, destroy that permanent.@@Equip 1__
+Champion%of%Dusk_3BB_Creature_Vampire Knight_When Champion of Dusk enters the battlefield, draw X cards and you lose X life, where X is the number of Vampires you control.@_4_4
+Charging%Tuskodon_3RR_Creature_Dinosaur_Trample@@If Charging Tuskodon would deal combat damage to a player, it deals double that damage to that player instead.@_4_4
+Cherished%Hatchling_1G_Creature_Dinosaur_When Cherished Hatchling dies, you may cast Dinosaur spells this turn as though they had flash, and whenever you cast a Dinosaur spell this turn, it gains "When this creature enters the battlefield, you may have it fight another target creature."@_2_1
+Cinder%Barrens__Land__Cinder Barrens enters the battlefield tapped.@@T: Add B or R to your mana pool.__
+Cleansing%Ray_1W_Sorcery__Choose one - @@* Destroy target Vampire.@@* Destroy target enchantment.__
+Colossal%Dreadmaw_4GG_Creature_Dinosaur_Trample@_6_6
+Crafty%Cutpurse_3U_Creature_Human Pirate_Flash<br><br>When Crafty Cutpurse enters the battlefield, each token that would be created under an opponent's control this turn is created under your control instead.@_2_2
+Crashing%Tide_2U_Sorcery__Crashing Tide has flash as long as you control a Merfolk.@@Return target creature to its owner's hand.@@Draw a card.__
+Crested%Herdcaller_3GG_Creature_Dinosaur_Trample@@When Crested Herdcaller enters the battlefield, create a 3/3 green Dinosaur creature token with trample.@_3_3
+Curious%Obsession_U_Enchantment_Aura_Enchant creature@@Enchanted creature gets +1/+1 and has "Whenever this creature deals combat damage to a player, you may draw a card."@@At the beginning of your end step, if you didn't attack with a creature this turn, sacrifice Curious Obsession.__
+Daring%Buccaneer_R_Creature_Human Pirate_As an additional cost to cast Daring Buccaneer, reveal a Pirate card from your hand or pay 2.@_2_2
+Dark%Inquiry_2B_Sorcery__Target opponent reveals his or hand. You choose a nonland card from it. That player discards that card.@__
+Deadeye%Brawler_2UB_Creature_Human Pirate_Deathtouch@@Ascend<i> (If you control ten or more permanents, you get the city's blessing for the rest of the game.)@@Whenever Deadeye Brawler deals combat damage to a plater, if you have the city's blessing, draw a card._2_4
+Deadeye%Rig-Hauler_3U_Creature_Human Pirate_<i>Raid</i> - When Deadeye Rig-Hauler enters the battlefield, if you attacked with a creature this turn, you may return target creature to it's owner's hand.@_3_2
+Dead%Man's%Chest_1B_Enchantment_Aura_Enchant creature an opponent controls@@When enchanted creature dies, exile cards equal to its power from the top of its owner's library. You may cast nonland cards from among them for as long as their remain exiled, and you may spend mana as though it were mana of any type to cast those spells.__
+Deeproot%Elite_1G_Creature_Merfolk Warriror_Whenever another Merfolk enters the battlefield under your control, put a +1/+1 counter on target Merfolk you control.@_1_1
+Dinosaur%Hunter_1B_Creature_Human Pirate_Whenever Dinosaur Hunter deals damage to a Dinosaur, destroy that creature.@_2_2
+Dire%Fleet%Daredevil_1R_Human_Pirate_First Strike@@When Dire Fleet Daredevil enters the battlefield, exile target instant or sorcery card from an opponent's graveyard. You may cast that card this turn, and you may spend mana of any type to cast that spell. If that card would be put into a graveyard this turn, exile it instead._2_1
+Dire%Fleet%Neckbreaker_2BR_Creature_Orc Pirate_Attacking Pirates you control get +2/+0. @_3_2
+Dire%Fleet%Poisoner_1B_Creature_Human Pirate_Flash@@Deathtouch@@When Dire Fleet Poisoner enters the battlefield, target attacking Pirate you control gets +1/+1 and gains deathtouch until end of turn._2_2
+Divine%Verdict_3W_Instant__Destroy target attacking or blocking creature.@__
+Dusk%Charger_3B_Creature_Horse_Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>	<br><br>	Dusk Charger gets +2/+2 as long as you have the city's blessing.@_3_3
+Dusk%Legion%Zealot_1B_Creature_Vampire Soldier_When Dusk Legion Zealot enters the battlefield, you draw a card and you lose 1 life.@_1_1
+Elenda,%the%Dusk%Rose_2WB_Creature_Vampire Knight_Lifelink<br><br>	Whenever another creature dies, put a +1/+1 counter on Elenda, the Dusk Rose.	<br><br>	When Elenda dies, create X 1/1 white Vampire creature tokens with lifelink, where X is Elenda's power.@_1_1
+Enter%the%Unknown_G_Sorcery__Target creature you control explores. <i>(Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on the creature, then put the card back or put it into your graveyard.)</i>@@You may play an additional land this turn.__
+Etali,%Primal%Storm_4RR_Creature_Elder Dinosaur_Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of nonland cards exiled this way without paying their mana costs.@_6_6
+Everdawn%Champion_1WW_Creature_Human Soldier_Prevent all combat damage that would be dealt to Everdawn Champion.@_2_2
+__Land__T, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.@__
+Expel%from%Orazca_1U_Instant__Ascend <i>(If you control ten or more permanents, you get teh city's blessing for the rest of the game.)</i>@@Return target nonland permanent to its owner's hand. If you have the city's blessing you may put that permanent on top of its owner's library instead.__
+Exultant%Skymarcher_1WW_Creature_Vampire Soldier_Flying@@_2_3
+Famished%Paladin_1W_Creature_Vampire Knight_Famished Paladin doesn't untap during your untap step.	<br><br>	Whenever you gain life, untap Famished Paladin.@_3_3
+Fanatical%Firebrand_R_Creature_Goblin Pirate_Haste@@T, Sacrifice Fanatical Firebrand: It deals 1 damage to target creature or player.@_1_1
+Fathom%Fleet%Boarder_2B_Creature_Orc Pirate_When Fathom Fleet Boarder enters the battlefield, you lose 2 life unless you control another Pirate.@_3_3
+Flood%of%Recollection_UU_Sorcery__Return target instant or sorcery card from your graveyard to your hand. Exile Flood of Recollection.@__
+Forerunner%of%the%Coalition_2B_Creature_Human Pirate_When Forerunner of the Coalition enters the battlefield, you may search your library for a Pirate card, reveal it, then shuffle your library and put that card on top of it.@@Whenever another Pirate enters the battlefield under your control, each opponent loses 1 life.@_2_2
+Forerunner%of%the%Empire_3R_Creature_Human Soldier_When Forerunner of the Empire enters the battlefield, you may search your library for a Dinosaur card, reveal it, then shuffle your library and put that card on top of it.@@Whenever a Dinosaur enters the battlefield under your control, you may have Forerunner of the Empire deal 1 damage to each creature.@_1_3
+Forerunner%of%the%Heralds_3G_Creature_Merfolk Scout_When Forerunner of the Heralds enters the battlefield, you may search your library for a Merfolk card, reveal it, then shuffle your library and put that card on top of it.@@Whenever another Merfolk enters the battlefield under your control, put a +1/+1 counter on Foreruner of the Heralds.@_3_2
+Forerunner%of%the%Legion_2W_Creature_Vampire Knight_When Forerunner of the Legion enters the battlefield, you may search your library for a Vampire card, reveal it, then shuffle your library and put that card on top of it.@@Whenever another Vampire enters the battlefield under your control, target creature gets +1/+1 until end of turn.@_2_2
+Form%of%the%Dinosaur_4RR_Enchantment__When Form of the Dinosaur enters the battlefield, your life total becomes 15.@@At the beginning of your upkeep, Form of the Dinosaur deals 15 damage to target creature an opponent controls and that creature deals damage equal to its power to you.__
+Forsaken%Sanctuary__Land__Forsaken Sanctuary enters the battlefield tapped.@@T: Add W or B to your mana pool.__
+Foul%Orchard__Land__Foul Orchard enters the battlefield tapped.@@T: Add B or G to your mana pool.__
+Frilled%Deathspitter_2R_Creature_Dinosaur_<i>Enrage</i> - Whenever Frilled Deathspitter is dealt damage, it deals 2 damage to target opponent.@_3_2
+Ghalta,%Primal%Hunger_10GG_Creature_Elder Dinosaur_Ghalta, Primal Hunger costs X less to cast, where X is the total power of creatures you control.@@Trample_12_12
+Giltgrove%Stalker_1G_Creature_Merfolk Warrior_Giltgrove Stalker can't be blocked by creatures with power 2 or less.@_2_1
+Gleaming%Barrier_2_Artifact Creature_Wall_When Gleaming Barrier dies, create a colorless Treasure artifact token with "T, Sacrifice this artifact: Add one mana of any color to your mana pool."@__
+Goblin%Trailblazer_1R_Creature_Goblin Pirate_Menace@_2_1
+Golden%Demise_1BB_Sorcery__Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>@@All creatures get -2/-2 until end of turn. If you have the city's blessing, instead only creatures your opponents control get -2/-2 until end of turn.@__
+Grasping%Scoundrel_B_Creature_Human Pirate_Grasping Scoundrel gets +1/+0 as long as it's attacking.@_1_1
+Gruesome%Fate_2B_Sorcery__Each opponent loses 1 life for each creature you control.@__
+Hardy%Veteran_1G_Creature_Human Warrior_As long as it's your turn, Hardy Veteran gets +0/+2.@_2_2
+Highland%Lake__Land__Highland Lake enters the battlefield tapped.@@T: Add U or R to your mana pool.__
+Hornswoggle_2U_Instant__Counter target creature spell. You create a colorless Treasure artifact token with "T, Sacrifice this artifact: Add one mana of any color to your mana pool."@__
+Huatli,%Radiant%Champion_2GW_Planeswalker_Huatli_[+1]: Put a loyalty counter on Huatli, Radiant Champion for each creature you control.@@[-1]: Target creature gets +X/+X until end of turn, where X is the number of creatures you control.@@[-8]: You get an emblem with "Whenever a creature enters the battlefield under your control, you may draw a card."__3
+Hunt%the%Weak_3G_Sorcery__Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control. <i>(Each deals damage equal to its power to the other.)<i/@__
+Impale_2BB_Sorcery__Destroy target creature.@__
+Imperial%Ceratops_4W_Creature_Dinosaur_<i>Enrage</i> - Whenever Imperial Ceratops is dealt damage, you gain 2 life.@_3_5
+Induced%Amnesia_2U_Enchantment__When Induced Amnesia enters the battlefield, target player exiles all cards from his or her hand face down, then draws that many cards.@@When Induced Amnesia is put into a graveyard from the battlefield, return the exiled cards to their owner's hand.__
+Jade%Bearer_G_Creature_Merfolk Shaman_When Jade Bearer enters the battlefield, put a +1/+1 counter on another target Merfolk you control.@_1_1
+Jadecraft%Artisan_3G_Creature Merfolk Shaman__When Jadecraft Artisan enters the battlefield, target creature gets +2/+2 until end of turn.@_3_3
+Jadelight%Ranger_1GG_Creature_Merfolk Scout_When Jadelight Ranger enters the battlefield, it explores, then it explores again. <i>(Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard. Then repeat this process.)</i>@_2_1
+Jungleborn%Pioneer_2G_Creature_Merfolk Scout_When Jungleborn Pioneer enters the battlefield, create a 1/1 blue Merfolk creature token with hexproof. <i>(It can't be the target of spells or abilities your opponents control.)</i>@_2_2
+Jungle%Creeper_1BG_Creature_Elemental_3BG: Return Jungle Creeper from your graveyard to your hand.@_3_3
+Kitesail%Corsair_1U_Creature_Human Pirate_Kitesail Corsair has flying as long as it's attacking.@_2_1
+Knight%of%the%Stampede_3G_Creature_Human Knight_Dinosaur spells you cast cost 2 less to cast.@_2_4
+Kumena's%Awakening_2UU_Enchantment__Ascend@@At the beginning of your upkeep, each player draws a card. If you have the city's blessing, instead only you draw a card.__
+Kumena,%Tyrant%of%Orazca_1GU_Creature_Merfolk Shaman_Tap another untapped Merfolk you control: Kumena, Tyrant of Orazca can't be blocked this turn.	<br><br>	Tap three untapped Merfolk you control: Draw a card.	<br><br>	Tap five untapped Merfolk you control: Put a +1/+1 counter on each Merfolk you control.@_2_4
+Legion%Conquistador_2W_Creature_Vampire Soldier_When Legion Conquistador enters the battlefield, you may search your library for any number of cards named Legion Conquistador, reveal them, put them into your hand, then shuffle your library.@_2_2
+Legion%Lieutenant_WB_Creature_Vampire Knight_Other Vampires you control get +1/+1.@_2_2
+Luminous%Bonds_2W_Enchantment_Aura_Enchant creature@@Enchanted creature can't attack or block.__
+Majestic%Heliopterus_3W_Creature_Dinosaur_Flying@@Whenever Majestic Heliopterus attacks, another target Dinosaur you control gains flying until end of turn._2_2
+Martyr%of%Dusk_1W_Creature_Vampire Soldier_When Martyr of Dusk dies, create a 1/1 white Vampire creature token with lifelink.@_2_1
+Mastermind's%Acquisition_2BB_Sorcery__Choose one - @@*Search your library for a card, put it into your hand, then shuffle your library.@@*Choose a card you own from outside the game and put it into your hand.__
+Mausoleum%Harpy_4B_Creature_Harpy_Flying@@Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>@@Whenever another creature you control dies, if you have the city's blessing, put a +1/+1 counter on Mausoleum Harpy.@_3_3
+Merfolk%Mistbinder_GU_Creature_Merfolk Shaman_Other Merfolk you control get +1/+1.@_2_2
+Mist-Cloaked%Herald_U_Creature_Mefolk Warrior_Mist-Cloaked Herald can't be blocked.@_1_1
+Moment%of%Craving_1B_Instant__Target creature gets -2/-2 until end of turn. You gain 2 life.@__
+Moment%of%Triumph_W_Instant__Target creature gets +2/+2 until end of turn. You gain 2 life.@__
+Mutiny_R_Sorcery__Target creature an opponent controls deals damage equal to its power to another target creature that player controls.@__
+Naturalize_1G_Instant__Destroy target artifact or enchantment.@__
+Needletooth%Raptor_3R_Creature_Dinosaur_<i>Enrage</i> - Whenever Needletooth Raptor is dealt damage, it deals 5 damage to target creatrue an opponent controls.@_2_2
+Negate_1U_Instant__Counter target noncreature spell.@__
+Nezahal,%Primal%Tide_5UU_Creature_Elder Dinosaur_@Nezahal, Primal Tide can't be countered.@@You have no maximum hand size. @@Whenever an opponent casts a noncreature spell, draw a card.@@Disacrd three cards: Exile Nezahal. Return it to the battlefield tapped under its owner's control at the beginning of the next end step._7_7
+Oathsworn%Vampire_1B_Creature_Vampire Knight_Oathsworn Vampire enters the battlefield tapped.@@You may cast Oathsworn Vampire from your graveyard if you gained life this turn.@_2_2
+Orazca%Frillback_2G_Creature_Dinosaur_@_4_2
+Orazca%Raptor_2RR_Creature_Dinosaur_@_3_4
+Orazca%Relic_3_Artifact__Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>@@T: Add &loz; to your mana pool.@@T, Sacrifice Orazca Relic: You gain 3 life and draw a card. Activate this ability only if you have the city's blessing.@__
+Overgrown%Armasaur_3GG_Creature_Dinosaur_<i>Enrage</i> - Whenever Overgrown Armasaur is dealt damage, create a 1/1 green Saproling creature token.@_4_4
+Paladin%of%Atonement_1W_Creature_Vampire Knight_At the beginning of each upkeep, if you lost life last turn, put a +1/+1 counter on Paladin of Atonement.@@When Paladin of Atonement dies, you gain life equal to its toughness._1_1
+Path%of%Discovery_3G_Enchantment__Whenever a creature enters the battlefield under your control, it explores. <i>(Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on the creature, then put the card back or put it into your graveyard.)</i>@__
+Pirate's%Pillage_3R_Sorcery__As an additional cost to cast Pirate's Pillage, discard a card.@@Draw two cards and create two colorless Treasure artifact tokens with "T, Sacrifice this artifact: Add one mana of any color to your mana pool."__
+Pitiless%Plunderer_3B_Creature_Human Pirate_Whenever another creature you control dies, create a colorless Tresure artifact token with "T, Sacrifice this artifact: Add one mana of  any color to your mana pool."@_1_4
+Plummet_1G_Instant__Destroy target creature with flying.@__
+Polyraptor_6GG_Creature_Dinosaur_<i>Enrage</i> - Whenever Polyraptor is dealt damage, create a token that's a copy of Polyraptor.@_5_5
+Pride%of%Conquerors_1W_Instant__Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>@@Creatures you control get +1/+1 until end of turn. If you have the city's blessing, those creatures get +2/+2 until end of turn instead.@__
+Protean%Raider_1UR_Creature_Shapeshifter Pirate_<i>Raid</i> - If you attacked with a creature this turn, you may have Protean Raider enter the battlefield as a copy of any creature on the battlefield.@_2_2
+Radiant%Destiny_2W_Enchantment__Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>	<br><br>	As Radiant Destiny enters the battlefield, choose a creature type.	<br><br>	Creatures you control of the chosen type get +1/+1. As long as you have the city's blessing, they also have vigilance.@__
+Raging%Regisaur_2RG_Creature_Dinosaur_Whenever Raging Regisaur attacks, it deals 1 damage to target creature or player.@_4_4
+Raptor%Companion_1W_Creature_Dinosaur_@_3_1
+Ravenous%Chupacabra_2BB_Creature_Beast Horror_When Ravenous Chupacabra enters the battlefield, destroy target creature an opponent controls.@_2_2
+Reaver%Ambush_2B_Instant__Exile target creature with power 3 or less.@__
+Reckless%Rage_R_Instant__Reckless Rage deals 4 damage to target creature you don't control and 2 damage to target creature you control.@__
+Recover_2B_Sorcery__Return target creature card from your graveyard to your hand.@@Draw a card.__
+Rekindling%Phoenix_2RR_Creature_Phoenix_Flying@@When rekindling Phoenix dies, create a 0/1 red Elemental creature token with "At the beginning of your upkeep, sacrifice this creature and return target card named Rekindling Phoenix from your graveyard to the battlefield. It gains haste until end of turn."_4_3
+Release%to%the%Wind_2U_Instant__Exile target nonland permanent. For as long as that card remains exiled, it's owner may cast it without paying its mana cost.@__
+Relentless%Raptor_RW_Creature_Dinosaur_Vigilance@@Relentless Raptor attacks or blocks each combat if able.@_3_3
+Resplendent%Griffin_1WU_Creature_Griffin_Flying@@Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>@@Whenever Resplendent Griffin attacks, if you have the city's blessing, put a +1/+1 counter on it._2_2
+River%Darter_2U_Creature_Merfolk Warrior_River Darter can't be blocked by Dinosaurs.@_2_3
+Riverwise%Augur_3U_Creature_Merfolk Wizard_When Riverwise Augur enters the battlefield, draw, three cards, then put two from your hand on top of your library in any order.@_2_2
+Sadistic%Skymarcher_2B_Creature_Vampire Soldier_As an additional cost to cast Sadistic Skymarcher, reveal a Vampire card from your hand or pay 1.@@Flying, lifelink@_2_2
+Sailor%of%Means_2U_Creature_Human Pirate_When Sailor of Means enters the battlefield, create a colorless Treasure artifact token with "T, Sacrifice this artifact: Add one mana of any color to your mana pool."@_1_4
+Sanguine%Glorifier_3W_Creature_Vampire Cleric_When Sanguine Glorifier enters the battlefield, put a +1/+1 counter on another target Vampire you control.@_3_3
+Seafloor%Oracle_2UU_Creature_Merfolk_Whenever a Merfolk you control deals combat damage to a player, draw a card.@_2_3
+Sea%Legs_U_Enchantment_Aura_Flash@@Enchant creature@@Enchanted creature gets +0/+2 as long as it's a Pirate. Otherwise, it gets -2/-0.@__
+Secrets%of%the%Golden%City_1UU_Sorcery__Ascend<i> (If you control ten or more permanents, you get the city's blessing for the rest of the game.)@@Draw two cards. If you have the city's blessing, draw three cards instead.__
+See%Red_1U_Enchantment_Aura_Enchant creature@@Enchanted creature gets +2/+1 and has first strike.@@At the beginning of your end step, if you didn't attack with a creature this turn, sacrifice See Red.__
+Shake%the%Foundations_2R_Instant__Shake the Foundations deals 1 damage to each creature without flying. @@Draw a card.__
+Shatter_1R_Instant__Destroy target artifact.@__
+Siegehorn%Ceratops_GW_Creature_Dinosaur_<i>Enrage</i> - Whenever Siegehorn Ceratops is dealt damage, put two +1/+1 counters on it. <i>(It must survive the damage to get the counters.)</i>@_2_2
+Silent%Gravestone_1_Artifact__Cards in graveyards can't be the targets of spells or abilities.	<br><br>4, T: Exile Silent Gravestone and all cards from all graveyards. Draw a card.@__
+Silverclad%Ferocidons_5RR_Creature_Dinosaur_<i>Enrage</i> - Whenever Silverclad Ferocidons is dealt damage, each opponent sacrifices a permanent.@_8_5
+Silvergill%Adept_1U_Creature_Merfolk Wizard_As an additional cost to cast Silvergill Adept, reveal a Merfolk card from your hand or pay 3.@@When Silvergill Adept enters the battlefield, draw a card._2_1
+Siren%Reaver_3U_Creature_Siren Pirate_<i>Raid</i> - Siren Reaver costs 1 less to cast if you attacked with a creature this turn.@@Flying_3_2
+Skymarcher%Aspirant_W_Creature_Vampire Soldier_Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i><br><br>	Skymarcher Aspirant has flying as long as you have the city's blessing.@_2_1
+Slaughter%the%Strong_1WW_Sorcery__Each player chooses any number of creatures he or she controls with total power 4 or less, then sacrifices all other creatures he or she controls.@__
+Slippery%Scoundrel_2U_Creature_Human Pirate_Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>@@As long as you have the city's blessing, Slippery Scoundrel has hexproof and can't be blocked._2_2
+Snubhorn%Sentry_W_Creature_Dinosaur_Ascend@@Snubbhorn Sentry gets +3/+0 as long as you have the city's blessing._0_3
+Soul%of%the%Rapids_3UU_Creatuer_Elemental_Flying@@Hexproof<i> (This creature can't be the target of spells or abilities your opponents control.)</i>_3_2
+Sphinx's%Decree_1W_Sorcery__Each opponent can't cast instant or sorcery spells during that player's next turn.@__
+Spire%Winder_3U_Creature_Snake_Flying@@Ascend <i>(If you control ten or more permanents you get the city's blessing for the rest of the game.)</i>@@Spire Winder gets +1/+1 as long as you have the city's blessing._2_3
+Squire's%Devotion_2W_Enchantment_Aura_Enchant creature@@Enchanted creature gets +1/+1 and has lifelink.@@When Squire's Devotion enters the battlefield, create a 1/1 white Vampire creature token with lifelink.__
+Stampeding%Horncrest_4R_Creature_Dinosaur_Stampeding Horncrest has haste as long as you control another Dinosaur.@_4_4
+Stone%Quarry__Land__Stone Quarry enters the battlefield tapped.@@T: Add R or W to your mana pool.__
+Storm%Fleet%Sprinter_1UR_Creature_Human Pirate_Haste@@Storm Fleet Sprinter can't be blocked._2_2
+Storm%Fleet%Swashbuckler_1R_Creature_Human Pirate_Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>@@Storm Fleet Swashbuckler has double strike as long as you have the city's blessing.@_2_2
+Strength%of%the%Pack_4GG_Sorcery__Put two +1/+1 counters on each creature you control.@__
+Strider%Harness_3_Artifact_Equipment_Equipped creature gets +1/+1 and has haste.@@Equip 1 <i>(</i>1<i>: Attach to target creature you control. Equip only as a sorcery.)</i>@__
+Sun-Collared%Raptor_1R_Creature_Dinosaur_@Trample@@2R: Sun-Collared Raptor gets +3/+0 until end of turn._1_2
+Sun-Crested%Pterodon_4W_Creature_Dinosaur_Flying@@Sun-Crested Pterodon has vigilance as long as you control another Dinosaur.@_2_5
+Sun%Sentinel_1W_Creature_Human Soldier_Vigilance@_2_2
+Swab%Goblin_1R_Creature_Goblin Pirate_@_2_2
+Swaggering%Corsair_2R_Creature_Human Pirate_<i>Raid</i> - Swaggering Corsair enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.@_2_2
+Swift%Warden_1GG_Creature_Merfolk Warrior_Flash<br><br>When Swift Warden enters the battlefield, target Merfolk you control gains hexproof until end of turn. <i>(It can't be the target of spells or abilities your opponents control.)</i>@_3_3
+Sworn%Guardian_1U_Creature_Merfolk Warrior_@_1_3
+Temple%Atlisaur_4W_Creature_Dinosaur_If a source would deal damage to another Dinosaur you control, prevent all but 1 of that damage.@_3_4
+Tendershoot%Dryad_4G_Creature_Dryad_Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>	<br><br>At the beginning of each upkeep, create a 1/1 green Saproling creature token.	<br><br>	Saprolings you control have +2/+2 as long as you have the city's blessing.@_2_2
+Tetzimoc,%Primal%Death_4BB_Creature_Elder Dinosaur_Deathtouch@@B, Reveal Tetzimoc, Primal Death from your hand: Put a prey counter on target creature. Activate this ability only during your turn.@@When Tetzimoc, Primal Death enters the battlefield, destroy each creature your opponents control with a prey couter on it._6_6
+The%Immortal%Sun_6_Legendary Artifact__Players can't activate planeswalkers' loyalty abilities.@@At the beginning of your draw step, draw an additional card.@@Spells you cast cost 1 less to cast.@@Creatures you control get +1/+1.__
+Thrashing%Brontodon_1GG_Creature_Dinosaur_1, Sacrifice Thrashing Brontodon: Destroy target artifact or enchantment.@_3_4
+Thunderherd%Migration_1G_Sorcery__As an additional cost to cast Thunderherd Migration, reveal a Dinosaur card from your hand or pay 1.@@Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.__
+Tilonalli's%Crown_1R_Enchantment_Aura_Enchant creature @@When Tilonalli's Crown enters the battlefield, it deals 1 damage to enchanted creature.@@Enchanted creature gets +3/+0 and has trample.__
+Tilonalli's%Summoner_1R_Creature_Human_Ascend@@Every time Tilonalli's Summoner attacks, you may pay XR. If you do, create X 1/1 Elemental creature tokens tapped and attacking.@Exile them at the beginning of the next end step, unless you have the City's Blessing._1_1
+Timestream%Navigator_1U_Creature_Human Pirate Wizard_Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>@@2UU, T, Put Timestream Navigator on the bottom of its owner's library: Take an extra turn after this one. Activate only if you have the city's blessing._1_1
+Tomb%Robber_2B_Creature_Human Pirate_Menace<br><br>1, Discard a card: Tomb Robber explores. <i>(Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</i>@_1_1
+Trapjaw%Tyrant_3WW_Creature_Dinosaur_<i>Enrage</i> - Whenever Trapjaw Tyrant is dealt damage, exile target creature an opponent controls until Trapjaw Tyrant leaves the battlefield.@_5_5
+Traveler's%Amulet_1_Artifact__1, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.@__
+Twilight%Prophet_2BB_Creature_Vampire Cleric_Flying@@Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>@@At the beginning of your upkeep, if you have the city's blessing, reveal the top card of your library and put it into your hand. Each opponent loses X life and you gain X life, where X is that card's converted mana cost.@_2_4
+Vampire%Champion_3B_Creature_Vampire Soldier_Deathtouch <i>(Any amount of damage this deals to a creature is enough to destroy it.)</i>@_3_3
+Vampire%Revenant_3B_Creature_Vampire Spirit_Flying@_3_1
+Vona's%Hunger_2B_Instant__Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>@@Each opponent sacrifices a creature. If you have the city's blessing, instead each opponent sacrifices half the creatures he or she controls, rounded up.__
+Voracious%Vampire_2B_Creature_Vampire Knight_Menace@@When Voracious Vampire enters the battlefield, target Vampire you control gets +1/+1 and gains menace until end of turn.@_2_2
+Vraska,%Scheming%Gorgon_4BB_Planeswalker_Vraska_[+2]: Creatures you control get +1/+0 until end of turn.@@[-3]: Destroy target creature.@@[-10]: Until end of turn, creatures you control gain deathtouch and "Whenever this creature deald damage to an opponent, that player loses the game."__5
+Vraska's%Conquistador_1B_Creature_Vampire Soldier_Whenever Vraska's Conquistador attacks or blocks, if you control a Vraska planeswalker, target opponent loses 2 life and you gain 2 life.@_2_1
+Vraska's%Scorn_2BB_Sorcery__Target opponent loses 4 life. You may search your library and/or graveyard for a card named Vraska, Scheming Gorgon, reveal it, and put it into your hand. If you search your library this way, shuffle it.@__
+Warkite%Marauder_1U_Creature_Human Pirate_Flying@@Whenever Warkite Marauder attacks, target creature defending player controls loses all abilities and has base power and toughness of 0/1 until end of turn._2_1
+Waterknot_1UU_Enchantment_Aura_Enchant creature @@When Waterknot enters the battlefield, tap enchanted creature. @@Enchanted creature doesn't untap during its controller's untap step.__
+Wayward%Swordtooth_2G_Creature_Dinosaur_Ascend <i>(If you control ten or more permanents, you get the city's blessing for the rest of the game.)</i>@@You may play an additional land on each of your turns.@@Wayward Swordtooth can't attack or block unless you have the city's blessing.@_5_5
+Woodland%Stream__Land__Woodland stream enters the battlefield tapped.@@T: Add G or U to your mana pool.__
+World%Shaper_3G_Creature_Merfolk Shaman_Whenever World Shaper attacks, you may put the top three cards of your library into your graveyard.	<br><br>	When World Shaper dies, put all land cards from your graveyard onto the battlefield tapped.@_3_3
+Zacama,%Primal%Calamity_6RGW_Creature_Elder Dinosaur_Vigilance, reach, trample@@When Zacama, Primal Calamity enters the battlefield, if you cast it, untap all lands you control. @@2R: Zacama deals 3 damage to target creature.@@2G: Destroy target artifact or enchantment.@@2W: You gain 3 life._9_9
+Zetalpa,%Primal%Dawn_6WW_Creature_Elder Dinosaur_Flying, double strike, vigilance, trample, indestructible@_4_8

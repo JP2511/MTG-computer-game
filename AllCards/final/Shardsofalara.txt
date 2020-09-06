@@ -1,0 +1,1 @@
+Elspeth,%Knight-Errant_2WW_Planeswalker_Elspeth_+1: Put a 1/1 white Soldier creature token onto the battlefield.@@+1: Target creature gets +3/+3 and gains flying until end of turn.@@-8: You get an emblem with "artifacts, creatures, enchantments, and lands you control are indestructible."__

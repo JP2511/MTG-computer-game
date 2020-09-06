@@ -1,0 +1,164 @@
+Aegis%of%the%Gods_1W_Enchantment Creature_Human Soldier_You have Hexproof. <i>(You can't be the target of spells or abilities your opponents control.)</i>@_2_1
+Aerial%Formation_U_Instant__<i>Strive</i> - Aerial Formation costs 2U more to cast for each target beyond the first.@@Any number of target creatures each get +1/+1 and gain flying until end of turn.__
+Agent%of%Erebos_3B_Enchantment Creature_Zombie_Constellation - Whenever Agent of Erebos or another enchantment enters the battlefield under your control, exile all cards from target player's graveyard.@@_2_2
+Ajani,%Mentor%of%Heroes_3GW_Planeswalker_Ajani_[+1]: Distribute three +1/+1 counters among one, two, or three target creatures you control.@@[+1]: Look at the top four cards of your library. You may reveal an Aura, creature, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in any order.@@[-8]: You gain 100 life.__4
+Ajani's%Presence_W_Instant__<i>Strive</i> - Ajani's Presence costs 2W more to cast for each target beyond the first.@@Any number of target creatures each get +1/+1 and gain indestructible until end of turn. <i>(Damage and effects that say "destroy" don't destroy them.)</i>__
+Akroan%Line%Breaker_2R_Creature_Human Warrior_<i>Heroic</i> - Whenever you cast a spell that targets Akroan Line Breaker, Akroan Line Breaker gets +2/+0 and gains intimidate until end of turn.@_2_1
+Akroan%Mastiff_3W_Creature_Hound_W, T: Tap target creature.@@_2_2
+Armament%of%Nyx_2W_Enchantment_Aura_Enchant creature@@Enchanted creature has double strike as long as it's an enchantment. Otherwise, prevent all damage that would be dealt by enchanted creature. <i>(A creature with double strike deals both first-strike and regular combat damage.)</i>__
+Armory%of%Iroas_2_Artifact_Equipment_Whenever equipped creature attacks, put a +1/+1 counter on it.@@Equip 2__
+Aspect%of%Gorgon_2B_Enchantment_Aura_Enchant creature@@Enchanted creature gets +1/+3 and has deathtouch. <i>(Any amount of damage it deals to a creature is enough to destroy it.) </i>__
+Athreos,%God%of%Passage_1WB_Enchantment Creature_God_Indestructible@@As long as your devotion to white and black is less than seven. Athreos isn't a creature.@@Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life._5_4
+Banishing%Light_2W_Enchantment__When Banishing Light enters the battlefield, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. <i>(That permanent returns under its owner's control.)</i>@__
+Bassara%Tower%Archer_GG_Creature_Human Archer_Hexproof, Reach@_2_1
+Battlefield%Thaumaturge_1U_Creature_Human Wizard_Each instant and sorcery spell you cast costs 1 less to cast for each creature it targets.@@<i>Heroic</i> - Whenever you cast a spell that targets Battlefield Thaumaturge, Battlefield Thaumaturge gains hexproof until end of turn._2_1
+Bearer%of%the%Heavens_7R_Creature_Giant_When Bearer of Heaven dies, destroy all permanents at the beginning of the next end step.@_10_10
+Bladetusk%Boar_3R_Creature_Boar_Intimidate <i>(This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.) </i>@_3_2
+Blinding%Flare_R_Sorcery__<i>Strive</i> - Blinding Flare costs R more to cast for each target beyond the first.@@Any number if target creatures can't block this turn.__
+Bloodcrazed%Hoplite_1B_Creature_Human Soldier_<i>Heroic</i> - Whenever you cast a spell that targets Bloodcrazed Hoplite, put a +1/+1 counter on it.@@Whenever a +1/+1 is placed on Bloodcrazed Hoplite, remove a +1/+1 counter from target creature an opponent controls._2_1
+Brain%Maggot_1B_Enchantment Creature_Insect_When Brain Maggot enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until Brain Maggot leaves the battlefield.@_1_1
+Cast%into%Darkness_1B_Enchantment_Aura_Enchant creature@@Enchanted creature gets -2/-0 and can't block.__
+Chariot%of%Victory_3_Artifact_Equipment_Equipped creature has first strike, trample, and haste.@@Equip 1__
+Cloaked%Siren_3U_Creature_Siren_Flash <i>(You may cast this spell any time you could cast an instant.)</i>@@Flying_3_2
+Colossal%Heroics_2G_Instant__Strive - Colossal Heroics costs 1G more to cast for each target beyond the first.@@Any number of target creatures each get +2/+2 until end of turn. Untap those creatures.__
+Consign%to%Dust_2G_Instant__Strive - Consign to Dust costs 2G more to cast for each target beyond the first.@@Destroy any number of target artifacts and/or enchantments.__
+Countermand_2UU_Instant__Counter target spell. Its controller puts the top four cards of his or her library into his or her graveyard.@__
+Cruel%Feeding_B_Instant__<i>Strive</i> - Cruel Feeding costs 2B more to cast for each target beyond the first. @@Any number of target creatures each get +1/+0 and gain lifelink until end of turn. <i>(Damage dealt by a creatre with lifelink also causes its controller to gain that much life.)</i>__
+Crystalline%Nautilus_2U_Enchantment Creature_Nautilus_Bestow 3UU <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@When Crystalline Nautilus becomes the target of a spell or ability, sacrifice it.@@Enchanted creature gets +4/+4 and has "When this creature becomes the target of a spell or ability, sacrifice it."_4_4
+Cyclops%of%Eternal%Fury_4RR_Enchantment Creature_Cyclops_Creatures you control have haste.@_5_3
+Dakra%Mystic_U_Creature_Merfolk Wizard_U, T: Each player reveals the top card of his or her library. You may put the revealed cards into their owners' graveyards. If you don't, each player draws a card.@_1_1
+Daring%Thief_2U_Creature_Human Rogue_<i>Inspired</i> - Whenever daring Thief becomes untapped, you may exchange control of target nonland permanent you control and target permanent an opponent controls that shares a card type with it.@_2_3
+Dawnbringer%Charioteers_2WW_Creature_Human Soldier_Flying, lifelink@@<i>Heroic</i> - Whenever you cast a spell that targets Dawnbringer Charioteers, put a +1/+1 counter on Dawnbringer Charioteers._2_4
+Deicide_1W_Instant__Exile target enchantment. If the exiled card is a God card, search its controller's graveyard, hand, and library for any number of cards with the same name as that card and exile them, then that player shuffles his or her library.@@"It is done."@-Elspeth__
+Desecration%Plague_3G_Sorcery__Destroy target enchantment or land.@__
+Deserter's%Quarters_2_Artifact__You may choose not to untap Deserter's Quarters during your untap step.@@6, T: Tap target creature. It doesn't untap during its controller's untap step for as long as Deserter's Quarters remains tapped.__
+Desperate%Stand_RW_Sorcery__<i>Strive</i> - Desperate Stand costs RW more to cast for each target beyond the first.@@Any number of target creatures each get +2/+0 and gain first strike and vigilance until end of turn.__
+Dictate%of%Erebos_3BB_Enchantment__Flash@@Whenever a creature you control dies, each opponent sacrifices a creature.__
+Dictate%of%Heliod_3WW_Enchantment__Flash@Creatures you control get +2/+2__
+Dictate%of%Karametra_3GG_Enchantment__Flash@@Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced.__
+Dictate%of%Kruphix_1UU_Enchantment__Flash@@At the beginning of each player's draw step, that player draws an additional card.__
+Dictate%of%the%Twin%Gods_3RR_Enchantment__Flash@@If a source would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.__
+Disciple%of%Deceit_UB_Creature_Human Rogue_<i>Inspired</i> - Whenever Disciple of Deceit becomes untapped, you may discard a nonland card. If you do, search your library for a card with the same converted mana cost as that card, reveal it, put it into your hand, then shuffle your library.@_1_3
+Doomwake%Giant_4B_Enchantment Creature_Giant_<i>Constellation</i> - Whenever Doomwake Giant or another enchantment enters the battlefield under your control, creatures your opponents control get -1/-1 until end of turn.@_4_6
+Eagle%of%the%Watch_2W_Creature_Bird_Flying, vigilance@_2_1
+Eidolon%of%Blossoms_2GG_Enchantment Creature_Spirit_<i>Constellation</i> - Whenever Eidolon of Blossoms or another enchantment enters the battlefield under your control, draw a card.@_2_2
+Eidolon%of%Rhetoric_2W_Enchantment Creature_Spirit_Each player can't cast more than one spell each turn.@@_1_4
+Eidolon%of%the%Great%Revel_RR_Enchantment Creature_Spirit_Whenever a player casts a spell with converted mana cost 3 or less, Eidolon of the Great Revel deals 2 damage to that player.@_2_2
+Extinguish%All%Hope_4BB_Sorcery__Destroy all nonenchantment creatures.@__
+Feast%of%Dreams_1B_Instant__Destroy target enchanted creature or enchantment creature.@__
+Felhide%Petrifier_2B_Creature_Minotaur Warrior_Deathtouch@Other Minotaur creatures you control have deathtouch._2_3
+Flamespeaker's%Will_R_Enchantment_Aura_Enchant creature you control@@Ehnchanted creature gets +1/+1.@@Whenever enchanted creature deals combat damage to a player, you may sacrifice Flamespeaker's Will. If you do, destroy target artifact.__
+Fleetfeather%Cockatrice_3GU_Creature_Cockatrice_Flash <i>(You may cast this spell any time you could cast an instant.)</i>@@Flying, deathtouch@@5GU: Monstrosity 3. <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i>_3_3
+Flurry%of%Horns_4R_Sorcery__Put two 2/3 red Minotaur creature tokens with haste onto the battlefield.@__
+Font%of%Fertility_G_Enchantment__1G, Sacrifice Font of Fertility: Search your library for a basic land card, put it otno the battlefield tapped, then shuffle your library.@__
+Font%of%Fortunes_1U_Enchantment__1U, Sacrifice Font of Fortunes: Draw two cards.@__
+Font%of%Ire_1R_Enchantment__3R, Sacrifice Font of Ire: Font of Ire deals 5 damage to target player.@__
+Font%of%Return_1B_Enchantment__3B, Sacrifice Font of Return: Return up to three target creature cards from your graveyard to your hand.@__
+Font%of%Vigor_1W_Enchantment__2W, Sacrifice Font of Vigor: You gain 7 life.@__
+Forgeborn%Oreads_2RR_Enchantment Creature_Nymph_Constellation - Whenever Forgeborn Oreads or another enchantment enters the battlefield under your control, Forgeborn Oreads deals 1 damage to target creature or player.@_4_2
+Gluttonous%Cyclops_5R_Creature_Cyclops_5RR: Monstrosity 3: <i>(If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)</i>@_5_4
+Gnarled%Scarhide_B_Enchantment Creature_Minotaur_Bestow 3B <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@Gnarled Scarhide can't block.@@Enchanted creature gets +2/+1 and can't block._2_1
+Godhunter%Octopus_5U_Creature_Octopus_Godhunter Octopus can't attack unless defending player controls an enchantment or an enchanted permanent.@__
+Godsend_1WW_Artifact_Equipment_Equipped creature gets +3/+3@@Whenever equipped creature blocks or is blocked by one or more creatures you may exile one of them. Your opponents can't cast cards with the same name of a card exiled by godsend.@@Equip 3__
+Goldenhide%Ox_5G_Enchantment Creature_Ox_Constellation - Whenever Goldenhide Ox or another enchantment enters the battlefield under your control, target creature must be blocked this turn if able.@_5_4
+Golden%Hind_1G_Creature_Elk_T: Add G to your mana pool.@_2_1
+Gold-Forged%Sentinel_6_Artifact Creature_Chimera_Flying@_4_4
+Grim%Guardian_2B_Enchantment Creature_Zombie_<i>Constellation</i> - Whenever Grim Guardian or another enchantment enters the battlefield under your control, each opponent loses 1 life.@_1_4
+Hall%of%Triumph_3_Legendary Artifact__As Hall of Triumph enters the battlefield, choose a color.@@Creatures you control of the chosen color get +1/+1__
+Harness%by%Force_1RR_Sorcery__<i>Strive</i> - Harness by Force costs 2R more to cast for each target beyond the first.@@Gain control of any number of target creatures until end of turn. Untap those creatures. They gain haste until end of turn.__
+Harvestguard%Alseids_2W_Enchantment Creature_Nymph_<i>Conestellation</i> - Whenever Harvestguard Alseids or another enchantment enters the battlefield under your control, prevent all damage that would be dealt to target creature this turn.@_2_3
+Heroes'%Bane_3GG_Creature_Hydra_Heroes' Bane enters the battlefield with four +1/+1 counters on it.@@2GG: Put X +1/+1 counters on Heroes' Bane, where X is it's power._0_0
+Hour%of%Need_2U_Instant__Strive - Hour of Need costs 1U more to cast for each target beyond the first.@@Exile any number of target creatures. For each creature exiled this way, its controller puts a 4/4 blue Sphinx creature token with flying onto the battlefield.__
+Hubris_1U_Instant__Return target creature and all Auras attached to it to their owners' hands.@__
+Humbler%of%Mortals_4GG_Enchantment Creature_Elemental_Constellation - Whenever Humbler of Mortals or antoher enchantment enters the battlefield under your control, creatures you control gain trample until end of turn.@_5_5
+Hydra%Broodmaster_4GG_Creature_Hydra_XXG: Monstrosity X. <i>(If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.)</i>@@When Hydra Broodmaster becomes monstrous, put X X/X green Hydra creature tokens onto the battlefield._7_7
+Hypnotic%Siren_U_Enchantment Creature_Siren_Bestow 5UU <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@Flying@@You control enchanted creature.@@Enchanted creature gets +1/+1 and has flying._1_1
+Interpret%the%Signs_5U_Sorcery__Scry 3, then reveal the top card of your library. Draw cards equal to that card's converted mana cost. <i>(To scry 3, look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>@__
+Iroas,%God%of%Victory_2RW_Enchantment Creature_God_Indestructible@@As long as your devotion to red and white is less than seven, Iroas isn't a creature.@@Creatures you control can't be blocked except by two or more creatures.@@Prevent all damage that would be dealt to attacking creatures you control._7_4
+Keranos,%God%of%Storms_3UR_Enchantment Creature_God_Indestructible@@As long as your devotion to blue and red is less than seven, Keranos isn't a creature.@@Reveal the first card you draw on each of your turns. Whenever you reveal a land card this way draw a card. Whenever you reveal a nonland card this way, Keranos deals 3 damage to target creature or player._6_5
+King%Macar,%the%Gold-Cursed_2BB_Creature_Human_<i>Inspired</i> - Whenever King Macar, the Gold-Cursed becomes untapped, you may exile target creature. If you do, put a colorless artifact token named Gold onto the battlefield. It has "Sacrifice this artifact: Add one mana of any color to your mana pool."@_2_3
+Kiora's%Dismissal_U_Instant__<i>Strive</i> - Kiora's Dismissal costs U more to cast for each target beyond the first.@@Return any number of target enchantments to their owners' hands.__
+Knowledge%and%Power_4R_Enchantment__Whenever you scry you my pay 2. If you do, Knowledge and Power deals 2 damage to target creature or player.@__
+Kruphix,%God%of%Horizons_3GU_Enchantment Creature_God_Indestructible@@As long as your devotion to green and blue is less than seven, Kruphix isn't a creature.@@You have no maximum hand size.@@If unused mana would empty from your mana pool, that mana becomes colorless instead._4_7
+Kruphix's%Insight_2G_Sorcery__Reveal the top six cards of your library. Put up to three enchantment cards from among them into your hand and the rest of the revealed cards into your graveyard.@__
+Lagonna-Band%Trailblazer_W_Creature_Centaur Scout_<i>Heroic</i> - Whenever you cast a spell that targets Lagonna-Band Trailblazer, put a +1/+1 counter on Lagonna-Band Trailblazer.@_0_4
+Launch%the%Fleet_W_Sorcery__Strive - Launch the fleet costs 1 more to cast for each target beyond the first.@@Until end of turn, any number of target creatures each gain "Whenever this creature attacks, put a 1/1 white Soldier creature token onto the battlefield tapped and attacking."__
+Leonin%Iconclast_3W_Creature_Cat Monk_<i>Heroic</i> - Whenever you cast a spell that targets Leonin Iconoclast, destroy target enchantment creature an opponent controls.@@_3_2
+Lightning%Diadem_5R_Enchantment_Aura_Enchant Creature@@When Lightning Diadem enters the battlefield, it deals 2 damage to target creature or player.@@Enchanted creature gets +2/+2.__
+Magma%Spray_R_Instant__Magma Spray deals 2 damage to target creature. If that creature would die this turn, exile it instead.@__
+Mana%Confluence__Land__T, Pay 1 Life: Add one mana of any color to your mana pool.@__
+Market%Festival_3G_Enchantment_Aura_Enchant land@@Whenever enchanted land is tapped for mana, its controller adds two mana in any combination of colors to his or her mana pool <i>(in addition to the mana the land produces).</i>__
+Master%of%the%Feast_1BB_Enchantment Creature_Demon_Flying@@At the beginning of your upkeep, each opponent draws a card.__
+Mogis's%Warhound_1R_Enchantment Creature_Hound_Bestow 2R <i>(If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)</i>@@Mogis's Warhound attacks each turn if able.@@Enchanted creature gets +2/+2 and attacks each turn if able._2_2
+Mortal%Obstinacy_W_Enchantment_Aura_Enchant creature you control@@Enchanted creature gets +1/+1.@@Whenever enchanted creature deals combat damage to a player, you may sacrifice Mortal Obstinacy. If you do, destroy target enchantment.__
+Nature's%Panoply_G_Instant__Strive - Nature's Panoply costs 2G more to cast for each target beyond the first.@@Choose any number of target cretaures. Put a +1/+1 counter on each of them.__
+Nessian%Game%Warden_3GG_Creature_Beast_When Nessian Game Warden enters the battlefiel, look at the top X cards your library, where X is the number of Forests you control. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.@_4_5
+Nightmarish%End_2R_Instant__Target creature gets -X/-X until end of turn, where X is the number of cards in your hand.@__
+Nyx-Fleece%Ram_1W_Enchantment Creature_Sheep_At the beginning of your upkeep, you gain 1 life.@_0_5
+Nyx%Infusion_2B_Enchantment_Aura_Enchant creature@@Enchanted creature gets +2/+2 as long as it's an enchantment. Otherwise, it gets -2/-2.__
+Nyx%Weaver_1GB_Enchantment Creature_Spider_Reach@At the beginning of your upkeep, put the top two cards of your library into your graveyard.@@1BG, Exile Nyx Weaver: Return target card from your graveyard to your hand._2_3
+Oakheart%Dryads_2G_Enchantment Creature_Nymph Dryad_Constellation - Whenever Oakheart Dryads or another enchantment enters the battlefield under your control, target creature gets +1/+1 until end of the turn.@_2_3
+Opressive%Rays_W_Enchantment_Aura_Enchant creature@@Enchanted creature can't attack or block unless its controller pays 3.@@Activated abilities of enchanted creature cost 3 more to activate.__
+Oreskos%Swiftclaw_Oreskos Swiftclaw_Creature_Cat Warrior_@_3_1
+Pensive%Minotaur_2R_Creature_Minotaur Warrior_@_2_3
+Phalanx%Formation_2W_Instant__<i>Strive</i> - Phalanx Formation costs 1W more to cast for each target beyond the first.@@Any number of target creatures each gain double strike until end of turn. <i>(They deal both first-strike and regular combat damage.)</i>__
+Pharika,%God%of%Affliction_1BG_Enchantment Creature_God_Indestructible@@As long as your devotion to black and green is less than seven, Pharika isn't a creature.@@BG: Exile target creature card from a graveyard. Its owner puts a 1/1 black and green snake enchantment creature token with deathtouch onto the battlefield._5_5
+Pharika's%Chosen_B_Creature_Snake_Deathtouch <i>(Any amount of damage this deals to a creature is enough to destroy it.)</i>@_1_1
+Pheres-Band%Thunderhoof_4G_Creature_Centaur Warrior_Heroic - Whenever you cast a spell that targets Pheres-Band Thunderhoof, put two +1/+1 counters on Pheres-Band Thunderhoof.@_3_4
+Pheres-Band%Warchief_3G_Creature_Centaur Warrior_Vigilance, trample@@Other Centaur creatures you control get +1/+1 and have vigilance and trample._3_3
+Pin%to%the%Earth_1U_Enchantment_Aura_Enchant creature gets -6/-0.@__
+Polymorphous%Rush_2U_Instant__<i>Strive</i> - Polymorphous Rush costs 1U more to cast for each target beyond the first.@@Choose a creature on the battlefield. Any number of target creatures you control each become a copy of that creature until end of turn.__
+Prophetic%Flamespeaker_1RR_Creature_Human Shaman_Double strike, trample@@Whenever Prophetic Flamespeaker deals combat damage to a player, exile the top card of your library. You may play it this turn.__
+Pull%from%the%Deep_2UU_Sorcery__Return up to one target instant card and up to one target sorcery card from your graveyard to your hand. Exile Pull from the Deep.@__
+Quarry%Colossus_5WW_Creature_Giant_When Quarry Colossus enters the battlefield, put target creature into its owner's library just beneath the top X cards of that library, where X is the number of Plains you control.@_5_6
+Ravenous%Leucrocota_3G_Creature_Beast_Vigilance@6G: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)_2_4
+Renowned%Weaver_G_Creature_Human Shaman_1G, Sacrifice Renowned Weaver: Put a 1/3 green Spider enchantment creature token with reach onto the battlefield. <i>(It can block creatures with flying.)</i>@_1_1
+Reprisal_1W_Instant__Destroy target creature with power 4 or greater. It can't be regenerated.@__
+Returned%Reveler_1B_Creature_Zombie Satyr_When Returned Reveler dies, each player puts the top three cards of his or her library into his or her graveyard.@_1_3
+Revel%of%the%Fallen%God_3RRGG_Sorcery__Put four 2/2 red and green Satyr creature tokens with haste onto the battlefield.@__
+Reviving%Melody_2G_Sorcery__Choose one or both - Return target creature from your graveyard to your hand; and/or return target enchantment card from your graveyard to your hand.@__
+Riddle%of%Lightning_3RR_Instant__Choose target creature or player. Scry 3, then reveal the top card of your library. Riddle of Lightning deals damage equal to that card's converted mana cost to that creature or player. <i>(To scry 3, look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)</i>@__
+Riptide%Chimera_2U_Enchantment Creature_Chimera_Flying@@At the beginning of your upkeep, return an enchantment you control to its owner's hand.__
+Rise%of%Eagles_4UU_Sorcery__Put two 2/2 blue bird enchantment creature tokens with flying onto the battlefield. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>@__
+Ritual%of%the%Returned_3B_Instant__Exile target creature card from your graveyard. Put a black Zombie creature token onto the battlefield with power equal to the exiled card's power and it's toughness equal to the exiled card's toughness.@__
+Rollick%of%Abandon_3RR_Sorcery__All creatures get +2/-2 until end of turn.@__
+_Rotted Hulk_3B__Creature - Elemental@_2_5
+Rouse%the%Mob_R_Instant__<i>Strive</i> - Rouse the Mob costs 2R more to cast for each target beyond the first.@@Any number of target creatures each get +2/+0 and gain trample until end of turn.__
+Sage%of%Hours_1U_Creature_Human Wizard_<i>Heroic</i> - Whenever you cast a spell that targets Sage of Hours, put a +1/+1 counter on it.@@Remove all +1/+1 counters from Sage of Hours: For each five counters removed this way, take an extra turn after this one._1_1
+Satyr%Grovedancer_1G_Creature_Satyr Shaman_When Satyr Grovedancer enters the battlefield, put a +1/+1 counter on target creature.@_1_1
+Satyr%Hoplite_R_Creaure_Satyr Soldier_Heroic - Whenever you case a spell that targets Satyr Hoplite, put a +1/+1 counter on Satyr Hoplite.@_1_1
+Scourge%of%Fleets_5UU_Creature_Kraken_When Scourge of Fleets enters the battlefield, return each creature your opponents control with toughness X or less to its owner's hand, where X is the number of Islands you control.@_6_6
+Setessan%Tactics_1G_Instant__<i>Strive</i> - Setessan Tactics costs G more to cast for each target beyond the first.@@Until end of turn, any number of target creatures each get +1/+1 and gain "T: This creature fights another target creature."__
+Sightless%Brawler_1W_Enchantment Creature_Human Warrior_Bestow 4W@@Sightless Warrior can't attack alone.@@Enchanted creature gets +3/+2 and can't attack alone._3_2
+Sigiled%Skink_1R_Creature_Lizard_Whenever Sigiled Skink attacks, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>@_2_1
+Sigiled%Starfish_1U_Creature_Starfish_T: Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>@_0_3
+Silence%the%Believers_2BB_Instant__<i>Strive</i> - Silence the Believers costs 2B more to cast for each target beyond the first.@@Exile any number of target creatures and all Auras attached to them.__
+Skybind_3WW_Enchantment__<i>Constellation</i> - Whenever Skybind or another enchantment enters the battlefield under your control, exile target nonenchantment permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step.@__
+Skyspear%Cavalry_3WW_Creature_Human Soldier_Flying@@Double strike <i>(This creature deals both first-strike and regular combat damage.)</i>_2_2
+Solidarity%of%Heroes_1G_Instant__<i>Strive</i> - Solidarity of Heroes costs 1G more to cast for each target beyond the first.@@Choose any number of target creatures. Double the number of +1/+1 counters on each of them.__
+Spawn%of%Thraxes_5RR_Creature_Dragon_Flying@@When Spawn of Thraxes enters the battlefield, it deals damage to target creature or player equal to the number of Mountains you control._5_5
+Spirespine_2G_Enchantment Creature_Beast_Bestow 4GSpirespine blocks each turn if able. @@Enchanted creature gets +4/+1 and blocks each turn if able._4_1
+Spiteful%Blow_4BB_Sorcery__Destroy target creature and target land.@__
+Spite%of%Mogis_R_Sorcery__Spite of Mogis deals damage to target creature equal to the number of instant and sorcery cards in your graveyard. Scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>@__
+Squelching%Leeches_2BB_Creature_Leech_Squelching Leeches' power and toughness are each equal to the number of swamps you control.@_*_*
+Starfall_4R_Instant__Starfall deals 3 damage to target creature. If that creature is an enchantment, Starfall deals 3 damage to that creature's controller.@__
+Stonewise%Fortifier_1W_Creature_Human Wizard_4W: Prevent all damage that would be dealt to Stonewise Fortifier by target creature this turn.@_2_2
+Stormchaser%Chimera_2UR_Creature_Chimera_Flying@@2UR: Scry 1, then reveal the top card of your library. Stormchaser Chimera gets +X/+0 until end of turn, where X is that card's converted mana cost. <i>(To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)</i>_2_3
+Strength%from%the%Fallen_1G_Enchantment__<i>Constellation</i> - Whenever Strength from the Fallen or another enchantment enters the battlefield under your control, target creature gets +X/+X until end of turn, where X is the number of creature cards in your graveyard.@__
+Supply-Line%Cranes_3WW_Creature_Bird_Flying@@When Supply-Line Cranes enters the battlefield, put a +1/+1 counter on target creature._2_4
+Swarnborn%Giant_2GG_Creature_Giant_When you're dealt combat damage, sacrifice Swarmborn Giant.@@4GG: Monstrosity 2. <i>(If this creature isn't monstrous, put two +1/+1 counters on it and it becomes monstrous.)</i>@@As long as Swarmborn Giant is monstrous, it has reach._6_6
+Temple%of%Epiphany__Land__Temple of Epiphany enters the battlefield tapped.@@When Temple of Epiphany enters the battlefield, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>@@T: Add U or R to your mana pool.__
+Temple%of%Malady__Land__Temple of Malady enters the battlefield tapped.@@When Temple of Malady enters the battlefield, scry 1. <i>(Look at the top card of your library. You may put that card on the bottom of your library.)</i>@@T: Add B or G to your mana pool.__
+Tethmos%High%Priest_2W_Creature_Cat Cleric_<i>Heroic</i> - Whenever you cast a spell that targets Tethmos High Priest, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.@_2_3
+Thassa's%Devourer_4U_Enchantment Creature_Elemental_<i>Constellation</i> - Whenever Thassa's Devourer or another enchantment enters the battlefield under your control, target player puts the top two cards of his or her library into his or her graveyard.@_2_6
+Thassa's%Ire_U_Enchantment__3U: You may tap or untap target creature.@__
+Thoughtrender%Lamia_4BB_Enchantment Creature_Lamia_Constellation - Whenever Thoughtrender Lami or another enchantment enters the battlefield under your control, each opponent discards a card.@_5_3
+Tormented%Thoughts_2B_Sorcery__As an additional cost to cast Tormented Thoughts, sacrifice a creature.@@Target player discards a number of cards equal to the sacrificed creature's power.__
+Triton%Cavalry_3U_Creature_Merfolk Soldier_<i>Heroic</i> - Whenever you cast a spell that targets Triton Cavalry, you may return target enchantment to its owner's hand.@_2_4
+Triton%Shorestalker_U_Creature_Merfolk Rogue_Triton Shorestalker can't be blocked@_1_1
+Twinflame_1R_Sorcery__<i>Strive</i> - Twinflame costs 2R more to cast for each target beyond the first.@@Choose any number of target creatures you control. For each of them, put a token that's a copy of that creature onto the battlefield. Those tokens have haste. Exile them at the beginning of the next end step.__
+Underworld%Coinsmith_WB_Enchantment Creature_Human Cleric_<i>Conestellation</i> - Whenever Underworld Coinsmith or another enchantment enters the battlefield under your control, you gain 1 life.@@WB, Pay 1 life: Each opponent loses 1 life._2_2
+War-Wing%Siren_2U_Creature_Siren Soldier_Flying@@<i>Heroic</i> - Whenever you cast a spell that targets War-Wing Siren, put a +1/+1 counter on War-Wing Siren._1_3
+Whitewater%Naiads_3UU_Enchantment Creature_Nymph_<i>Constellation</i> - Whenever Whitewater Naiads or another enchantment enters the battlefield under your control, target creature can't be blocked this turn.@_4_4
+Wildfire%Cerberus_4R_Creature_Hound_5RR: Monstrosity 1. <i>(If this creature isn't monstrous, put a +1/+1 counter on it and it becomes monstrous.)</i>@When Wildfire Cerberus becomes monstrous, it deals 2 damage to each opponent and each creature your opponents control._4_3
+Worst%Fears_7B_Sorcery__You control target player during that player's next turn. Exile Worst Fears. <i>(You see all cards that player could see and make all decisions for the player.)@__

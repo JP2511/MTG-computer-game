@@ -1,0 +1,249 @@
+Abomination%of%Gudul_3BGU_Creature_Horror_Flying@@Whenever Abomination of Gudul deals combat damage to a player, you may draw a card. If you do, discard a card.@@Morph 2BGU <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>_3_4
+Abzan%Ascendancy_WBG_Enchantment__When Abzan Ascendancy enters the battlefield, put a +1/+1 counter on each creature you control.@@Whenever a nontoken creature you control dies, put a 1/1 white Spirit creature token with flying onto the battlefield.__
+Abzan%Banner_3_Artifact__T: Add W, B, or G to your mana pool.@@WBG,T, Sacrifice Abzan Banner: Draw a card.__
+Abzan%Battle%Priest_3W_Creature_Human Cleric_Outlast W <i>(W, T: Put a +1/+1 counter on this creature. Outlast only as a sorcery.) </i>@@Each creature you control with a +1/+1 counter on it has lifelink._3_2
+Abzan%Charm_WBG_Instant__Choose one - @@- Exile target creature with power 3 or greater.@@- You draw two cards and you lose 2 life.@@- Distribute two +1/+1 counters among one or two target creatures.__
+Abzan%Falconer_2W_Creature_Human Soldier_Outlast W <i>(W, T: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)</i>@@Each creature you control wth a +1/+1 counter on it has flying._2_3
+Abzan%Guide_3WBG_Creature_Human Warrior_Lifelink <i>(Damage dealt by this creature also causes you to gain that much life.)</i>@@Morph 2WBG <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>_4_4
+Act%of%Treason_2R_Sorcery__Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.@__
+Ainok%Bond-Kin_1W_Creature_Hound Soldier_Outlast 1W <i>(1W, T: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)</i>@@Each creature you control with a +1/+1 counter on it has first strike.__
+Ainok%Tracker_5R_Creature_Hound Scout_First strike@@Morph 4R<i> (You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>_3_3
+Alabaster%Kirin_3W_Creature_Kirin_Flying, vigilance@@_2_3
+Apline%Grizzly_2G_Creature_Bear_@_4_2
+Altar%of%the%Brood_1_Artifact__Whenever another permanent enters the battlefield under your control, each opponent puts the top card of his or her library into his or her graveyard.@__
+Anafenza,%the%Foremost_WBG_Creature_Human Soldier_When Anafenza, the Foremost attacks, put a +1/+1 counter on another target tapped creature you control.@@If a creature card would be put into an opponent's graveyard from anywhere, exile it instead._4_4
+Ankle%Shanker_2RBW_Creautre_Goblin Berserker_Haste <i> (This creature can attack and T as soon as it comes under your control.)</i>@@Whenever Ankle Shanker attacks, creatures you control gain first strike and deathtouch until end of turn._2_2
+Archers'%Parapet_1G_Creature_Wall_Defender@@1B, T: Each opponent loses 1 life._0_5
+Arc%Lightning_2R_Sorcery__Arc Lightning deals 3 damage divided as you choose among one, two, or three target creatures and/or players.@__
+Armament%Corps_2WBG_Creature_Human Soldier_When Armament Corps enters the battlefield, distribute two +1/+1 counters among one or two target creatures you control.@@_4_4
+Arrow%Storm_3RR_Sorcery__Arrow Storm deals 4 damage to target creature or player.@@<i>Raid</i> - If you attacked with a creature this turn, instead Arrow Storm deals 5 damage to that creature or player and the damage can't be prevented.__
+Ashcloud%Phoenix_2RR_Creature_Phoenix_Flying@@When Ashcloud Phoenix dies, return it to the battlefield face down.@@Morph 4RR <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@@When Ashcloud Phoenix is turned face up, it deals 2 damage to each player._4_1
+Avalanche%Tusker_2GUR_Creature_Elephant Warrior_Whenever Avalance Tusker attacks, target creature defending player controls blocks it this combat if able.@_6_4
+Awaken%the%Bear_2G_Instant__Target creature gets +3/+3 and gains trample until end of turn.@__
+Barrage%of%Boulders_2R_Sorcery__Barrage of Boulders deals 1 damage to each creature you don't control.@@<i>Ferocious </i>If you control a creature with power 4 or greater, creatures can't block this turn.@__
+Bear's%Companion_2GUR_Creature_Human Warrior_When Bear's Companion enters the battlefield, put a 4/4 green Bear creature token onto the battlefield.@_2_2
+Become%Immense_5G_Instant__Delve <i>(Each card you exile from your graveyard while casting this spell pays for 1.)</i>@@Target creature gets +6/+6 until end of turn.__
+Bellowing%Saddlebrute_3B_Creature_Ogre Warrior_<i>Raid</i> - When Bellowing Saddlebrute enters the battlefield, you lose 4 life unless you attacked with a creature this turn.@_4_5
+Bitter%Revelation_3B_Sorcery__Look at the top four cards of your library. Put two of them into your hand and the rest into your graveyard. You lose 2 life.@__
+Blinding%Spray_4U_Instant__Creatures your opponents control get -4/-0 until end of turn.@@Draw a card.__
+Bloodfell%Caves__Land__Bloodfell Caves enters the battlefield tapped.@@When Bloodfell Caves enters the battlefield, you gain 1 life.@@T: Add B or R to your mana pool.__
+Bloodfire%Expert_2R_Creature_Efreet Monk_Prowess <i>(Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</i>@@_3_1
+Bloodfire%Mentor_2R_Creature_Efreet Shaman_2U, T: Draw a card, then discard a card.@_0_5
+Bloodsoaked%Champion_B_Creature_Human Warrior_Bloodsoaked Champion can't block.@@<i>Raid</i> - 1B: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate this ability only if you attacked with a creature this turn._2_1
+Bloodstained%Mire__Land__T, Pay 1 life, Sacrifice Bloodstained Mire: Search your library for a Swamp or Mountain card and put it onto the battlefield. Then shuffle your library.@__
+Blossoming%Sands__Land__Blossoming Sands enters the battlefield tapped.@@When Blossoming Sands enters the battlefield, you gain 1 life.@@T: Add G or W to your mana pool.__
+Brave%the%Sands_1W_Enchantment__Creatures you control have vigilance.@@Each creature you control can block an additional creature.__
+Briber's%Purse_X_Artifact__Briber's Purse enters the battlefield with X gem counters on it.@@1, T, Remove a gem counter from Briber's Purse: Target creature can't attack or block this turn.__
+Bring%Low_3R_Instant__Bring Low deals 3 damage to target creature. If that creature has a +1/+1 counter on it, Bring Low deals 5 damage to it instead.@__
+Burn%Away_4R_Instant__Burn Away deals 6 damage to target creature. When that creature dies this turn, exile all cards from its controller's graveyard.@__
+Butcher%of%the%Horde_1RWB_Creature_Demon_Flying@@Sacrifice another creature: Butcher of the Horde gains your choice of Vigilance, lifelink, or haste until end of turn._5_4
+Cancel_1UU_Instant__Counter target spell.@__
+Canyon%Lukers_4R_Creature_Human Rogue_Morph 3R <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@_5_2
+Chief%of%the%Edge_WB_Creature_Human Warrior_Other Warrior creatures you control get +1/+0.@_3_2
+Chief%of%the%Scale_WB_Creature_Human Warrior_Other Warrior creatures you control get +0/+1.@_2_3
+Clever%Impersonator_2UU_Creature_Shapeshifter_You may have Clever Impersonator enter the battlefield as a copy of any nonland permanent on the battlefield.@_0_0
+Crackling%Doom_RWB_Instant__Crackling Doom deals 2 damage to each opponent. Each opponent sacrifices a creature with the greatest power among creatures he or she controls.@__
+Cranial%Archive_2_Artifact__2, Exile Cranial Archive: Target player shuffles his or her gravyeard into his or her library. Draw a card.@__
+Crater's%Claw_XR_Sorcery__Crater's Claw deals X damage to target creature of player.@@<i>Ferocious</i> - Crater's Claw deals X plus 2 damage to that creature or player instead if you control a creature with power 4 or greater.__
+Crippling%Chill_2U_Instant__Tap target creature. It doesn't untap during its controller's next untap step.@@Draw a card.__
+Dazzling%Ramparts_4W_Creature_Wall_Defender@@1W, T: Tap target creature._0_7
+Dead%Drop_9B_Sorcery__Delve <i>(Each card you exile from your graveyard while casting this spell pays for 1.) </i>@@Target player sacrifices two creatures.__
+Death%Frenzy_3GB_Sorcery__All creatures get +2/+2 until end of turn. Whenever a creature dies this turn, you gain 1 life.@__
+Debilitating%Injury_1B_Enchantment_Aura_Enchant creature@@Enchanted creature gets -2/-2__
+Defiant%Strike_W_Instant__Target creature gets +1/+0 until end of turn.@@Draw a card.__
+Deflecting%Palm_RW_Instant__The next time a source of your choice would deal damage to you this turn, prevent that damage. If damage is prevented this way, Deflecting Palm deals that much damage to that source's controller.@__
+Despise_B_Sorcery__Target opponent reveals his or her hand. You choose a creature or planeswalker card from it. That player discards that card.@__
+Dig%Through%Time_6UU_Instant__Delve <i>(Each card you exile from your graveyard while casting this spell pays for 1.)</i>@@Look at the top seven cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.__
+Disdainful%Stroke_1U_Instant__Counter target spell with converted mana cost 4 or greater.@__
+Dismal%Backwater__Land__Dismal Backwater enters the battlefield tapped.@@When Dismal Backwater enters the battlefield, you gain 1 life. @@T: Add U or B to your mana pool.__
+Disowned%Ancestor_B_Creature_Spirit Warrior_Outlast 1B <i>(1B, T: Put a +1/+1 counter on this creature. Outlast only as a sorcery.) </i>@@_0_4
+Dragon%Grip_2R_Enchantment_Aura_<i>Ferocious</i> - If you control a creature with power 4 or greater, you may cast Dragon Grip as though it had flash. <i>(You may cast it any time you could cast an instant.)</i>@@Enchant creature@@Enchanted creature gets +2/+0 and has first strike.__
+Dragonscale%Boon_3G_Instant__Put two +1/+1 counters on target creature and untap it.@__
+Dragon's%Eve%Savants_1U_Creature_Human Wizard_Morph - Reveal a blue card in your hand.<i> (You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@@When Dragon's Eye Savants is turned face up, look at target opponent's hand._0_6
+Dragon-Style%Twins_3RR_Creature_Human Monk_Double strike@@Prowess <i>(Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</i>_3_3
+Dragon%Throne%of%Tarkir_4_Artifact_Equipment_Equipped creature has defender and "2, T: Other creatures you control gain trample and get +X/+X until end of turn, where X is this creature's power.@@Equip 3__
+Duneblast_4WBG_Sorcery__Choose up to one creature. Destroy the rest.@__
+Dutiful%Return_3B_Sorcery__Return up to two target creature cards from your graveyard to your hand.@__
+Efreet%Weaponmaster_3URW_Creature_Efreet Monk_First strike@@When Efreet Weaponmaster enters the battlefield or is turned face up, another target creature you control gets +3/+0 until end of turn.@@Morph 2URW <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>_4_3
+Embodiment%of%Spring_U_Creature_Elemental_1G, T: Sacrifice Embodiment of Spring: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.@_0_3
+Empty%the%Pits_XXBBBB_Instant__Delve <i>(Each card you exile from your graveyard while casting this spell pays for 1.)</i>@@Put X 2/2 black Zombie creature tokens onto the battlefield tapped.__
+End%Hostilities_3WW_Sorcery__Destroy all creatures and all permanents attached to creatures.@__
+Erase_W_Instant__Exile target enchantment.@__
+Feat%of%Resistance_1W_Instant__Put a +1/+1 counter on target creature you control. It gains protection from the color of your choice until end of turn.@__
+Feed%the%Clan_1G_Instant__You gain 5 life.@@<i>Ferocious</i> - You gain 10 life instead if you control a creature with power 4 or greater.__
+Firehoof%Cavalry_W_Creature_Human Berseker_3R: Firehoof Cavalry gets +2/+0 and gains trample until end of turn.@_1_1
+Flooded%Strand__Land__T, Pay 1 life, Sacrifice Wooded Foothills: Search your library for a Mountain or Forest card and put it onto the battlefield. Then shuffle your library.@__
+Flying%Crane%Technique_3URW_Instant__Untap all creatures you control.@@ Creatures you control gain flying and double strike until end of turn.@__
+Force%Away_1U_Instant__Return target creature to its owner's hand.@@<i>Ferocious</i> - If you control a creature with power 4 or greater, you may draw a card. If you do, discard a card.__
+Frontier%Bivouac__Land__Frontier Bivouac enters the battlefield tapped. @@T: Add G, U, or R to your mana pool.__
+Ghostfire%Blade_1_Artifact_Equipment_Equipped creature gets +2/+2.@@Equip 3@@Ghostfire Blade's equip ability costs 2 less to activate if it targets a colorless creature.__
+Glacial%Stalker_5U_Creature_Elemental_Morph 4U <i>(You may cast this card face down as a 2/2 for 3. Turn it face up any time for its morph cost.)</i>@_4_5
+Golbinslide_2R_Enchantment__Whenever you cast a noncreature spell, you may pay 1. If you do, put a 1/1 red Goblin creature token with haste onto the battlefield. @__
+Grim%Haruspex_2B_Creature_Human Wizard_Morph B <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any tiem for its morph cost.)</i>@@Whenever another nontoken creature you control dies, draw a card._3_2
+Gurmag%Swiftwing_1B_Creature_Bat_Flying, first strike, haste@_1_2
+Hardened%Scales_G_Enchantment__If one or more +1/+1 counters would be placed on a creature you control, that many plus one +1/+1 counters are placed on it instead.@__
+Heart-Piercer%Bow_2_Artifact_Equipment_Whenever equipped creature attacks, Heart-Piercer Bow deals 1 damage to target creature defending player controls.@@Equip 1__
+Heir%of%the%Wilds_1G_Creature_Human Warrior_Deathtouch@@<i>Ferocious</i> - Whenever Heir of the Wilds attacks, if you control a creature with power 4 or greater, Heir of the Wilds gets +1/+1 until end of turn._2_2
+Herald%of%Anafenza_W_Creature_Human Soldier_Outlast 2W <i>(2W, T: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)</i>@@Whenever you activate Herald of Anafenza's outlast ability, put a 1/1 white Warrior creature token onto the battlefield._1_2
+Highland%Game_1G_Creature_Elk_When Highland Game dies, you gain 2 life.@_2_1
+High%Sentinels%of%Arashin_3W_Creature_Bird Soldier_Flying@@High Sentinels of Arashin gets +1/+1 for each other creature you control with a +1/+1 counter on it.@@3W: Put a +1/+1 counter on target creature._3_4
+Highspire%Mantis_2RW_Creature_Insect_Flying, trample@__
+Hooded%Hydra_XGG_Creature_Snake Hydra_Hooded Hydra enters the battlefield with X +1/+1 counters on it.@@When Hooded Hydra dies, put a 1/1 green Snake creature token onto the battlefield for each +1/+1 counter on it.@@Morph 3GG@@As Hooded Hydra is turned face up, put five +1/+1 counters on it._0_0
+Hooting%Mandrills_5G_Creature_Ape_Delve <i>(Each card you exile from your graveyard while casting this spell pays for 1.)</i>@@Trample_4_4
+Horde%Ambusher_1R_Creature_Human Berserker_Whenever Horde Ambusher blocks, it deals 1 damage to you.@@Morph - Reveal a red card in your hand. <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@@When Horde Ambusher is turned face up, target creature can't block this turn._2_2
+Hordeling%Outburst_1RR_Sorcery__Put three 1/1 red Goblin creature tokens onto the battlefield.@__
+Howl%of%the%Horde_2R_Sorcery__When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.@@<i>Raid</i> - If you attacked with a creature this turn, when you cast your next instant or sorcery spell this turn, copy that spell an additional time. You may choose new targets for the copy.__
+Icefeather%Aven_UG_Creature_Bird Shaman_Flying@@Morph 1GU <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@@When Icefeather Aven is turned face up, you may return another target creature to its owner's hand._2_2
+Icy%Blast_XU_Instant__Tap X target creatures@@Ferocious - If you control a creature with power 4 or greater, those creatures don't untap during their controller's next untap step.__
+Incremental%Growth_3GG_Sorcery__Put a +1/+1 counter on target creature, two +1/+1 counters on another target creature, and three +1/+1 counters on a third target creature.@__
+Ivorytusk%Fortress_2WBG_Creature_Elephant_Untap each creature you control with a +1/+1 counter on it during each other player's untap step.@_5_7
+Jeering%Instigator_1R_Creature_Goblin Rogue_Morph 2R @@When Jeering Instigator is turned faced up, if it's your turn, gain control of target crature until the end of turn. Untap it. It gains haste until the end of turn._2_1
+Jeskai%Ascendancy_URW_Enchantment__Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn. Untap those creatures.@@Whenever you cast a noncreature spell, you may draw a card. If you do, discard a card.__
+Jeskai%Banner_3_Artifact__T: Add U, R, or W to your mana pool.@@URW, T, Sacrifice Jeskai Banner: Draw a card.__
+Jeskai%Charm_URW_Instant__Choose one -@@- Put target creature on top of its owner's library.@@- Jeskai Charm deals 4 damage to target opponent@@- Creatures you control get +1/+1 and gain lifelink until end of turn.__
+Jeskai%Elder_1U_Creature_Human Monk_Prowess <i>(Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</i>@@Whenever Jeskai Elder deals combat damage to a player, you may draw a card. If you do, discard a card._1_2
+Jeskai%Student_1W_Creature_Human Monk_Prowess<i> (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</i>@@_1_3
+Jeskai%Windscout_2U_Creature_Bird Scout_Flying@@Prowess <i>Whenever you case a noncreature spell, this creature gets +1/+1 until end of turn.)_2_1
+Jungle%Hollow__Land__Jungle Hollow enters the battlefield tapped.@@When Jungle Hollow enters the battlefield, you gain 1 life.@@T:Add B or G to your mana pool.__
+Kheru%Bloodsucker_2B_Creature_Vampire_Whenever a creature you control with toughness 4 or greater dies, each opponent loses 2 life and you gain 2 life. @@2B, Sacrifice another creature: Put a +1/+1 counter on Kheru Bloodsucker._2_2
+Kheru%Dreadmaw_4B_Creature_Zombie Crocodile_Defender@@1G, Sacrifice another creature: You gain life equal to the sacrificed creature's toughness._4_4
+Kheru%Lich%Lord_3BGU_Creature_Zombie Wizard_At the beginning of your upkeep, you may pay 2B. If you do, return a creature card at random from your graveyard to the battlefield. It gains flying, trample, and haste. Exile that card at the beginning of your next end step. If it would leave the battlefield, exile it instead of putting it anywhere else.@_4_4
+Kheru%Spellsnatcher_3U_Creature_Naga Wizard_Morph 4UU@@When Kheru Spellsnatchers turned face up, counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard. You may cast that card without paying its mana cost as long as it remains exiled._3_3
+Kill%Shot_2W_Instant__Destroy target attacking creature.@__
+Kin-tree%Invocation_BG_Sorcery__Put an X/X black and green Spirit Warrior creature token onto the battlefield, where X is the greatest toughness among creatures you control.@__
+Kin-Tree%Warden_G_Creature_Human Warrior_2: Regenerate Kin-Tree Warden@@Morph G <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>_1_1
+Krumar%Bond-Kin_3BB_Creature_Orc Warrior_Morph 4B <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@_5_3
+Leaping%Master_1R_Creature_Human Monk_2W: Leaping Master gains flying until end of turn.@_2_1
+Lens%of%Clarity_1_Artifact__You may look at the top card of your library and at face-down creatures you don't control. <i>(You may do this at any time.)</i>@__
+Longshot%Squad_3G_Creature_Hound Archer_Outlast 1G <i>(1G, T: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)</i>@@Each creature you control with a +1/+1 counter on it has reach. <i>(A creature with reach can block creatures with flying.)</i>_3_3
+Mantis%Rider_URW_Creature_Human Monk_Flying, Vigilance, Haste@_3_3
+Mardu%Ascendancy_RWB_Enchantment__Whenever a nontoken creature you control attacks, put a 1/1 red Goblin creature token onto the battlefield tapped and attacking.@@Sacrifice Mardu Ascendancy: Creatures you control get +0/+3 until end of turn.__
+Mardu%Banner_3_Artifact__T: Add R, W, or B to your mana pool.@@RWB, T, Sacrifice Mardu Banner: Draw a card.__
+Mardu%Blazebringer_2R_Creature_Ogre Warrior_When Mardu Blazebringer attacks or blocks, sacrifice it at end of combat.@_4_4
+Mardu%Charm_RWB_Instant__Choose one - @@- Mardu Charm deals 4 damage to target creature@@- Put two 1/1 white Warrior creature tokens onto the battlefield. They gain first strike until end of turn.@@- Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.__
+Mardu%Hateblade_W_Creature_Human Warrior_B: Mardu Hateblade gains deathtouch until end of turn. <i>(Any amount of damage it deals to a creature is enough to destroy it.)</i>@_1_1
+Mardu%Heart-Piercer_3R_Creature_Human Archer_Raid - When Mardu Heart-Piercer enters the battlefield, if you attacked with a creature this turn, Mardu Heart-Piercer deals 2 damage to target creature or player.@_2_3
+Mardu%Hordechief_2W_Creature_Human Warrior_<i>Raid</i> - When Mardu Hordechief enters the battlefield, if you attacked with a creature this turn, put a 1/1 white Warrior creature token onto the battlefield.@_2_3
+Mardu%Roughrider_2RWB_Creature_Orc Warrior_Whenever Mardu Roughrider attacks, target creature can't block this turn.@__
+Mardu%Skullhunter_1B_Creature_Human Warrior_Mardu Skullhunter enters the battlefield tapped.@@<i>Raid</i> - When Mardu Skullhunter enters the battlefield, if you attacked with a creature this turn, target opponent discards a card._2_1
+Mardu%Warshrieker_3R_Creature_Orch Shaman_<i>Raid</i> - When Mardu Warshrieker enters the battlefield, if you attacked with a creature this turn, add RWB to your mana pool.@_3_3
+Master%of%Pearls_1W_Creature_Human Monk_Morph 3WW <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@@When Master of Pearls is turned face up, creatures you control get +2/+2 until end of turn._2_2
+Master%the%Way_3UR_Sorcery__Draw a card. Master the Way deals damage to target creature or player equal to the number of cards in your hand.@__
+Meandering%Towershell_3GG_Creature_Turtle_Islandwalk <i>(This creature can't be blocked as long as defending player controls an Island.)</i>@@Whenever Meandering Towershell attacks, exile it. Return it to the battlefield under your control tapped and attacking at the beginning of the declare attackers step on your next turn._5_9
+Mer-Ek%Nightblade_3B_Creature_Orc Assassin_Outlast B <i>(B, T: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)</i>@@Each creature you control with a +1/+1 counter has deathtouch._2_3
+Mindswipe_XUR_Instant__Counter target spell unless its controller pays X. Mindswipe deals X damage to that spell's controller.@__
+Mistfire%Weaver_3U_Creature_Djinn Wizard_Flying@@Morph 2U <i>(You may cast this card face down as a 2/2 for 3. Turn it face up any time for its morph cost.)</i>@@When Mistfire Weaver is turned face up, target creature you control gains hexproof until end of turn._3_1
+Molting%Snakeskin_B_Enchantment_Aura_Enchant creature@@Enchanted creature gets +2/+0 and has "2B: Regenerate this creature."__
+Monastery%Flock_2U_Creature_bird_Defender, flying@@Morph U <i>(You may cast this card face down as a 2/2 for 3. Turn it face up any time for its morph cost.)</i>_0_5
+Monastery%Swiftspear_R_Creature_Human Monk_Haste @@Prowess <i>(Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</i>_1_2
+Murderous%Cut_4B_Instant__Delve<i> (Each card you exile from your graveyard while casting this spell pays for 1.)</i>@@Destroy target creature.__
+Mystic%Monastery__Land__Mystic Monastery enters the battlefield tapped.@@T: Add U, R, or W to your mana pool.__
+Mystic%of%the%Hidden%Way_4U_Creature_Human Monk_Mystic of the Hidden Way can't be blocked.@@Morph 2U <i>(You may cast this card face down as a 2/2 for 3. Turn it face up any time for its morph cost.)</i>_3_2
+Narset,%Enlightened%Master_3URW_Creature_Human Monk_First strike, hexproof@@Whenever Narset, Enlightened Master attacks, exile the top four cards of your library. Until end of turn, you may cast noncreature cards exiled with Narset this turn without paying their mana costs._3_2
+Naturalize_1G_Instant__Destroy target artifact or enchantment.@__
+Necropolis%Fiend_7BB_Creature_Demon_Delve <i>(Each card you exile from your graveyard while casting this spell pays for 1.)</i>@@Flying@@X, T, Exile X cards from your graveyard: Target creature gets -X/-X until end of turn._4_5
+Nomad%Outpost__Land__Nomad Outpost enters the battlefield tapped.@@T: Add R, W, or B to your mana pool.__
+Opulent%Palace__Land__Opulent Palace enters the battlefield tapped.@@T: Add B, G, or U to your mana pool.__
+Pearl%Lake%Ancient_5UU_Creature_Leviathan_Flash@@Pearl Lake Ancient can't be countered.@@Prowess <i>(Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) </i>@@Return three lands you control to their owner's hand: Return Pearl Lake Ancient to its owner's hand._6_7
+Pine%Walker_3GG_Creature_Elemental_Morph 4G <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@@Whenever Pine Walker or another creature you control is turned face up, untap that creature._5_5
+Polluted%Delta__Land__T, Pay 1 life, Sacrifice Polluted Delta: Search your library for an Island or Swamp card and put it onto the battlefield. Then shuffle your library.@__
+Ponyback%Brigade_3RWB_Creature_Goblin Warrior_When Ponyback Brigade enters the battlefield or is turned face up, put three 1/1 red Goblin creature tokens onto the battlefield.@@Morph 2RWB <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>_2_2
+Quiet%Contemplation_2U_Enchantment__Whenever you cast a noncreatrue spell, you may pay 1. If you do, tap target creature an opponent controls and it doesn't untap during its controller's next untap step.@__
+Raider's%Spoils_3B_Enchantment__Creaturse you control get +1/+0@@Whenever a Warrior you control deals combat damage to a player, you may pay 1 life. If you do, draw a card.__
+Rakshasa%Deathdealer_BG_Creature_Cat Demon_BG: Rakshasa Deathdealer gets +2/+2 until end of turn.@@BG: Regenerate Rakshasa Deathdealer._2_2
+Rakshasa's%Secret_2B_Sorcery__Target opponent discards two cards. Put the top two cards of your library into your graveyard.@__
+Rakshasa%Vizier_2BGU_Creature_Cat Demon_Whenever one or more cards are put into exile from your graveyard, put that many +1/+1 counters on Rakshasa Vizier.@_4_4
+Rattleclaw%Mystic_1G_Creature_Human Shaman_T: Add G, U, or R to your mana pool.@@Morph 2. <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@@When Rattleclaw Mystic is turned face up, add GUR to your mana pool._2_1
+Retribution%of%the%Ancients_B_Enchantment__B, Remove X +1/+1 counters from among creatures you control: Target creature gets -X/-X until end of turn.@__
+Ride%Down_RW_Instant__Destroy target blocking creature. Creatures that were blocked by that creature this combat gain trample until end of turn.@__
+Rite%of%the%Serpent_4BB_Sorcery__Destroy target creature. If that creature had a +1/+1 counter on it, put a 1/1 green Snake creature token onto the battlefield.@__
+Riverwheel%Aerialists_5U_Creature_Djinn Monk_Flying@@Prowess <i>Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</i>_4_5
+Roar%of%Challenge_2G_Sorcery__All creatures able to block target creature this turn do so.@@<i>Ferocious</i> - That creature gains indestructible until end of turn if you control a creature with power 4 or greater.__
+Rotting%Mastodon_4B_Creature_Zombie Elephant_@_2_8
+Rugged%Highlands__Land__Rugged Highlands enters the battlefield tapped.@@When Rugged Highlands enters the battlefield, you gain 1 life.@@T: Add R or G to your mana pool.__
+Rush%of%Battle_3W_Sorcery__Creatures you control get +2/+1 until end of turn. Warrior creatures you control gain lifelink until end of turn. <i>(Damage dealt by those Warrriors also cuases their controller to gain that much life.)</i>@__
+Ruthless%Ripper_B_Creature_Human Assassin_Deathtouch@@Morph - Reveal a black card in your hand. <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@@When Ruthless Ripper is turned face up, target player loses 2 life._1_1
+Sage-Eye%Harrier_4W_Creature_Bird Warrior_Flying@@Morph 3W <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>_1_5
+Sage%of%the%Inward%Eye_2URW_Creature_Djinn Wizard_Flying@@Whenever you cast a noncreature spell, creatures you control gain lifelink until end of turn. <i>(Damage dealt by those creatures also causes their controller to gain that much life.)</i>_3_4
+Sagu%Archer_4G_Creature_Naga Archer_Reach <i>(This creature can block creatures with flying.)</i>@@Morph 4G <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>_2_5
+Sagu%Mauler_4GU_Creature_Beast_Trample, hexproof@@Morph 3GU <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@@_6_6
+Salt%Road%Patrol_3W_Creature_Human Scout_Outlast 1W <i>(1W, T: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)</i>@_2_5
+Sandsteppe%Citadel__Land__Sansteppe Citadel enters the battlefield tapped. @@T: Add W, B, or G to your mana pool.__
+Sarkhan,%the%Dragonspeaker_3RR_Planeswalker_Sarkhan_[+1]: Until end of turn, Sarkhan, the Dragonspeaker becomes a legendary 4/4 red Dragon creature with flying, indestructible, and haste. <i>(He doesn't lose loyalty while he's not a planeswalker.)</i>@@[-3]: Sarkhan, the Dragonspeaker deals 4 damage to target creature.@@[-6]: You get an emblem with "At the beginning of your draw step, draw two additional cards" and "At the beginning of your end step discard your hand."__4
+Savage%Knuckleblade_GUR_Creature_Ogre Warrior_2G: Savage Knuckleblade gets +2/+2 until end of turn. Activate this ability only once each turn.@@2U: Return Savage Knuckleblade to its owner's hand.@@R: Savage Knuckleblade gains haste until end of turn._4_4
+Savage%Punch_1G_Sorcery__Target creature you control fights target creature you don't control.@@<i>Ferocious</i> - The creature you control gets +2/+2 until end of turn before it fights if you control a creature with power 4 or greater.__
+Scaldkin_3U_Creature_Elemental_Flying@@2R, Sacrifice Scaldkin: Scaldkin deals 2 damage to target creature or player._2_2
+Scion%of%Glaciers_2UU_Creature_Elemental_U: Scion of Glaciers gets +1/-1 until end of turn.@__
+Scoured%Barrens__Land__Scoured Barrens enters the battlefield tapped.@@When Scoured Barrens enters the battlefield, you gain 1 life.@@T: Add W or B to your mana pool.__
+Scout%the%Borders_2G_Sorcery__Reveal the top five cards of your library. You may put a creature or land card from among them into your hand. Put the rest into your graveyard.@__
+Secret%Plans_GU_Enchantment__Face-down creatures you control get +0/+1.@@Whenever a permanent you control is turned face up, draw a card.__
+Seeker%of%the%Way_1W_Creature_Human Warrior_Prowess <i>(Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</i>@@Whenever you cast a noncreature spell, Seeker of the Way gains lifelink until end of turn._2_2
+Seek%the%Horizon_3G_Sorcery__Search you library for up to three basic land cards, reveal them, and put them into your hand. Then shuffle your library.@__
+See%the%Unwritten_4GG_Sorcery__Reveal the top eight cards of your library. You may put a creature card from among them onto the battlefield. Put the rest into your graveyard.@@<i>Ferocious</i> - If you control a creature with power 4 or greater, you may put two creature cards onto the battlefield instead of one.__
+Set%Adrift_5U_Sorcery__Delve <i>Each card you exile from your graveyard while casting this spell pays for 1.) </i>@@Put target nonland permanent on top of its owner's library.__
+Shambling%Attendants_7B_Creature_Zombie_Delve <i>(Each card you exile from your graveyard while casting this spell pays for 1.)</i>@@Deathtouch <i>(Any amount of damage this deals to a creature is enough to destroy it.)</i>_3_5
+Shatter_1R_Instant__Destroy target artifact.@__
+Sidisi,%Brood%Tyrant_1BGU_Creature_Naga Shaman_Whenever Sidisi, Brood Tyrant enters the battlefield or attacks, put the top three cards of your library into your graveyard.@@Whenever one or more creature cards are put into your graveyard from your library, put a 2/2 black Zombie creature token onto the battlefield._3_3
+Sidisi's%Pet_3B_Creature_Zombie Ape_Lifelink <i>(Damage dealt by this creature also causes you to gain that much life.)</i>@@Morph 1B <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>_1_4
+Siegecraft_3W_Enchantment_Aura_Enchant creature@@Enchanted creature gets +2/+4.__
+Siege%Rhino_1WBG_Creature_Rhino_Trample@@When Siege Rhino enters the battlefield, each opponent loses 3 life and you gain 3 life._4_5
+Singing%Bell%Strike_1U_Enchantment_Aura_Enchant creature@@When Singing Bell Strike enters the battlefield, tap enchanted creature.@@Enchanted creature doesn't untap during its controller's untap step.@@Enchanted creature has "6: Untap this creature."__
+Smite%the%Monstrous_4_Instant__Destroy target creature with power 4 or greater.@__
+Smoke%Teller_1G_Creature_Human Shaman_1U: Look at target face-down creature.@_2_2
+Snowhorn%Rider_3GUR_Creature_Human Warrior_Trample @@Morph 2GUR <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>_5_5
+Sorin,%Solemn%Visitor_2WB_Planeswalker_Sorin_[+1]: Until your next turn, creatures you control get +1/+0 and gain lifelink.@@[-2]: Put a 2/2 black Vampire creature token with flying onto the battlefield.@@[-6]: You get an emblem with "At the beginning of each opponent's upkeep, that player sacrifices a creature."__4
+Stubborn%Denial_U_Instant__Counter target noncreature spell unless its controller pays 1.@@<i>Ferocious</i> - If you control a creature with power 4 or greater, counter that spell instead.__
+Sultai%Ascendancy_BGU_Enchantment__At the beginning of your upkeep, look at the top two cards of your library. Put any number of them into your graveyard and the rest on top of your library in any order.@__
+Sultai%Banner_3_Artifact__T: Add B, G, or U to your mana pool.@@BGU, T, Sacrifice Sultai Banner: Draw a card.__
+Sultai%Charm_BGU_Instant__Choose one - @- Destroy target monocolored creature.@-Destroy target artifact or enchantment.@-Draw two cards, then discard a card.__
+Sultai%Flayer_3G_Creature_Naga Shaman_Whenever a creature you control with toughness 4 or greater dies, you gain 4 life.@_3_4
+Sultai%Scavenger_5B_Creature_Bird Warrior_Delve <i>(Each card you exile from your graveyard while casting this spell pays for 1.)</i>@@Flying_3_3
+Sultai%Soothsayer_2BGU_Creature_Naga Shaman_When Sultai Soothsayer enters the battlefield, look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.@_2_5
+Summit%Prowler_2RR_Creature_Yeti_@_4_3
+Surrak%Dragonclaw_2GUR_Creature_Human Warrior_Flash@@Surrak Dragonclaw can't be countered.@@Creature spells you control can't be countered.@@other creatures you control have trample._6_6
+Suspension%Field_1W_Enchantment__When Suspension Field enters the battlefield, you may exile target creature with toughness 3 or greater until Suspension Field leaves the battlefield. <i>(That creature returns under its owner's control.)</i>@__
+Swarm%of%Bloodflies_4B_Creature_Insect_Flying @@Swarm of Bloodflies enters the battlefield with two +1/+1 counters on it.@@Whenver another creatures dies put a +1/+1 counter on Swarm of Bloodflies._0_0
+Swift%Kick_3R_Instant__Target creature you control gets +1/+0 until end of turn. It fights target creature you don't control.@__
+Swiftwater%Cliffs__Land__Swiftwater Cliffs enters the battlefield tapped.@@When Swiftwater Cliffs enters the battlefield, you gain 1 life.@@T: Add U or R to your mana pool.__
+Taigam's%Scheming_1U_Sorcery__Look at the top five cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.@__
+Take%Up%Arms_4W_Instant__Put three 1/1 white Warrior creature tokens onto the battlefield.@__
+Temur%Ascendancy_GUR_Enchantment__Creatures you control have haste.@@Whenever a creature with power 4 or greater enters the battlefield under your control, you may draw a card.__
+Temur%Banner_3_Artifact__T: G, U, or R to your mana pool. @@GUR, T, Sacrifice Temur Banner: Draw a card.__
+Temur%Charger_1G_Creature_Horse_Morph - Reveal a green card in your hand.<i> (You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@@When Temur Charger is turned face up, target creature gains trample until end of turn._3_1
+Temur%Charm_GUR_Instant__Choose one@@- Target creature you control gets +1/+1 until end of turn. That creature fights target creature you don't control.@@- Counter target spell unless its controller pays 3.@@- Creatures with power 3 or less can't block this turn.__
+Thornwood%Falls__Land__Thornwood Falls enters the battlefield tapped.@@When Thornwood Falls enters the battlefield, you gain 1 life.@@T: Add G or U to your mana pool.__
+Thousand%Winds_4UU_Creature_Elemental_Flying@@Morph 5UU <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@@When Thousand Winds is turned face up, return all other tapped creatures to their owner's hands._5_6
+Throttle_4B_Instant__Target creature gets -4/-4 until end of turn.@__
+Timely%Hordemate_3W_Creature_Human Warrior_<i>Raid</i> - When Timely Hordemate enters the battlefield, if you attacked with a creature this turn, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.@_3_2
+Tomb%of%the%Spirit%Dragon__Land__T: Add 1 to your mana pool.@@2, T: You gain 1 life for each colorless creature you ontrol.__
+Tormenting%Voice_1R_Sorcery__As an additional cost to cast Tormenting Voice, discard a card.@@Draw two cards.__
+Trail%of%Mystery_1G_Enchantment__Whenever a face-down creature enters the battlefield under your control, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.@@Whenever a permanent you control is turned face up, if it's a creature, it gets +2/+2 until end of turn.__
+Tranquil%Cove__Land__Tranquil Cove enters the battlefield tapped.@@When Tranquil Cove enters the battlefield, you gain 1 life.@@T: Add W or U to your mana pool.__
+Trap%Essence_GUR_Instant__Counter target creature spell. Put two +1/+1 counters on up to one target creature.@__
+Treasure%Cruise_7U_Sorcery__Delve@@Draw 3 Cards__
+Trumpet%Blast_2R_Instant__Attacking creatures get +2/+0 until end of turn.@__
+Tusked%Colossodon_4GG_Creature_Beast_@__
+Tuskguard%Captain_2G_Creature_Human Warrior_Outlast G <i>(G, T: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)</i>@@Each creature you control with a +1/+1 counter on it has trample._2_3
+Ugin's%Nexus_5_Legendary Artifact__If a player would begin an extra turn, that player skips that turn instead.@@If Ugin's Nexus would be put into a graveyard from the battlefield, instead exile it and take an extra turn after this one.__
+Unyielding%Krumar_3B_Creature_Orc Warrior_1W: Unyielding Krumar gains first strike until end of turn.@_3_3
+Utter%End_2WB_Instant__Exile target nonland permanent.@__
+Valley%Dasher_1R_Creature_Human Berserker_Haste@@Valley Dasher attacks each turn if able._2_2
+Venerable%Lammasu_6W_Creature_Lammasu_Flying@_5_4
+Villainous%Wealth_XBGU_Sorcery__Target opponent exiles the top X cards of his or her library. You may cast any number of nonland cards with converted mana cost X or less from among them without paying their mana costs.@__
+War%Behemoth_5W_Creature_Beast_Morph 4W <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@_3_6
+Warden%of%the%Eye_2URW_Creature_Djinn Wizard_When Warden of the Eye enters the battlefield, return target noncreature, nonland card from your graveyard to your hand.@_3_3
+War-Name%Aspirant_War-Name Aspirant_Creature_Human Warrior_<i>Raid</i> - War-Name Aspirant enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.@@War-Name Aspirant can't be blocked by creatures with power 1 or less._2_1
+Watcher%of%the%Roost_2W_Creature_Bird Soldier_Flying@@Morph - Reveal a white card in your hand. <i>(You may cast this card face up any time for its morph cost.)</i>@@When Watcher of the Roost is turned face up, you gain 2 life._2_1
+Waterwhirl_4UU_Instant__Return up to two target creatures to their owners' hands.@__
+Weave%Fate_3U_Instant__Draw two cards.@__
+Wetland%Sambar_1U_Creature_Elk_@_2_1
+Whirlwind%Adept_4U_Creature_Djinn Monk_Hexproof <i>(This creature can't be the target of spells or abilities your opponents control.)</i>@@<i>Prowess</i> <i>(Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</i>_4_2
+Wind-Scarred%Crag__Land__Wind-Scarred Crag enters the battlefield tapped.@@When Wind-Scarred Crag enters the battlefield, you gain 1 life.@@T: Add R or W to your mana pool.__
+Windstorm_XG_Instant__Windstorm deals X damage to each creature with flying.@__
+Windswept%Heath__Land__T, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card and put it onto the battlefield. Then shuffle your library.@__
+Wingmate%Roc_3WW_Creature_Bird_Flying@@Raid - When Wingmate Roc enters the battlefield, if you attacked with a creature this turn, put a 3/4 white Bird creature token with flying onto the battlefield.@@@Whenever Wingmate Roc attacks, you gain 1 life for each attacking creature._3_4
+Winterflame_1UR_Instant__Choose one or both-@@-Tap target creature.@@-Winterflame deals 2 damage to target creature.__
+Witness%of%the%Ages_6_Artifact Creature_Golem_Morph 5 <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its morph cost.)</i>@_4_4
+Wooded%Foothills__Land__T, Pay 1 life, Sacrifice Wooded Foothills: Search your library for a Mountain or Forest card and put it onto the battlefield. Then shuffle your library.@__
+Woolly%Loxodon_5GG_Creature_Elephant Warrior_Morph 5G <i>(You may cast this card face down as a 2/2 creature for 3. Turn it face up at any time for its morph cost.)</i>@@_6_7
+Zurgo%Helmsmasher_2RWB_Creature_Orc Warrior_Haste@@Zurgo Helmsmasher has indestructible as long as it's your turn.@@Whenever a creature dealt damage by Zurgo Helmsmasher this turn dies, put a +1/+1 counter on Zurgo Helmsmasher._7_2
