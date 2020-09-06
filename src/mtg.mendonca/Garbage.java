@@ -1,26 +1,16 @@
 package mtg.mendonca;
-import java.util.List;
+import java.util.ArrayList;
 
 public class Garbage {
-    private List lixo;
+    private ArrayList<Card> garbage = new ArrayList<>();
 
-    public void sendToGarbage(Creature creature) {
-        this.lixo.add(creature);
+    public void sendToGarbage(Card card) {
+        this.garbage.add(card);
     }
 
-    public void sendToGarbage(Artifact artifact) {
-        this.lixo.add(artifact);
-    }
-
-    public void sendToGarbage(Land plain) {
-        this.lixo.add(plain);
-    }
-
-    public void sendToGarbage(Instant instant) {
-        this.lixo.add(instant);
-    }
-
-    public void sendToGarbage(Plainswalker plainswalker) {
-        this.lixo.add(plainswalker);
+    public Card removeFromGarbage(int index) {
+        Card cardToBeReturned = this.garbage.get(index);
+        this.garbage.remove(index);
+        return cardToBeReturned;
     }
 }

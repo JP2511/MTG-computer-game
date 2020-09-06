@@ -3,6 +3,9 @@ Player:
 +name
 +deck
 +hand
++stack
++field
++garbage
 
 get Life
 get Name
@@ -12,7 +15,15 @@ constructor for life, name and deck
 loseLife()
 gainLife()
 
-drawCards(int)    #moves a card from the deck to the hand
+drawCards(int)    	        #moves a card from the deck to the hand
+playCardFromHandToStack(int)    #moves a card of the specified index from the hand to the stack
+playCardFromDeckToStack()       #moves a card from the deck to the stack
+playCardFromGarbageToStack(int) #moves a card of the specified from the garbage to the stack
+playCardFromStackToField()      #moves a card from the stack to the field
+moveCardFromStackToHand()       #moves a card from the stack to the hand
+moveCardFromStackToGarbage()    #moves a card from the stack to the garbage
+moveCardFromHandToExile(int)    #moves a card from the hand to exile
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -22,6 +33,7 @@ Field:
 +list of plainswalkers
 +list of lands
 +list of basicLands
++list of sorceries and instants
 
 removeCreatureFromField(int)              #removes the creature at index i from allcreatures list the specified creature and its attached enchantments
 removeArtifactFromField(int)              #removes the artifact at index i from artifactos list
@@ -29,6 +41,7 @@ removeEnchantmentFromField(int, int)      #removes the enchantment at index j of
 removePlainswalkerFromField(int)          #removes the plainswalker at index i of the plainswalker list
 removeBasicLandFromField(String)          #removes a basic land of the specified color from the basicLands list
 removeLandFromField(int)                  #removes the land at index i of the lands list
+removeInstantOrSorceryFromField()	  #removes a sorcery or a instant from the instant and sorcery list
 
 addCreatureToField(creature)              #adds the creature to the allcreatures list
 addArtifactToField(artifact)              #adds the artifact to the artifactos list
@@ -36,6 +49,7 @@ addEnchantmentToField(enchantment, int)   #adds the enchantment at index i to th
 addPlainswalkerToField(painswalker)       #adds the plainswalker to the plainswalker list
 addBasicLandToField(basicLand)            #adds a basic land to the basicLands list
 addLandToField(land)                      #adds the land to the lands list
+addInstantOrSorceryToField(card)          #adds an instant or a sorcery card to the instants and sorceries list
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -62,3 +76,26 @@ Hand:
 sendToHand()
 removeFromHand()
 showHand()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Stack:
++card
+
+addToStack()
+removeFromStack()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Garbage:
++list of cards
+
+sendToGarbage(Card)
+removeFromGarbage(int)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Exile:
++list of cards
+
+exileCard(Card)

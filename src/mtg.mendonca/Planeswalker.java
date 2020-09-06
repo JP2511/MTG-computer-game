@@ -1,6 +1,6 @@
 package mtg.mendonca;
 
-public class Plainswalker extends Card{
+public class Planeswalker extends Card{
     private int life;
     private boolean permanent;
     private boolean spell;
@@ -37,7 +37,7 @@ public class Plainswalker extends Card{
         this.dead = dead;
     }
 
-    public Plainswalker(String name, String color, String manaCost, String type, String effect, int life, boolean permanent, boolean spell, boolean dead) {
+    public Planeswalker(String name, String color, String manaCost, String type, String effect, int life, boolean permanent, boolean spell, boolean dead) {
         super(name, color, manaCost, type, effect);
         this.life = life;
         this.permanent = permanent;
@@ -46,8 +46,8 @@ public class Plainswalker extends Card{
     }
 
 
-    public Plainswalker(String name, String color, String manaCost, String type, String effect, int life) {
-        this(name, color, manaCost, "Plainswalker", effect, life, false, false, false);
+    public Planeswalker(String name, String color, String manaCost, String type, String effect, int life) {
+        this(name, color, manaCost, "Planeswalker", effect, life, false, false, false);
     }
 
     public void addLife(int number) {

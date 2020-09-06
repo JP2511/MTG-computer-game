@@ -6,9 +6,10 @@ import java.util.List;
 public class Field {
     private ArrayList<ArrayList<Card>> allCreatures = new ArrayList<>();                                              //List that contains list of creature + their enchantments
     private ArrayList<Artifact> artifactos = new ArrayList<>();
-    private ArrayList<Plainswalker> plainswalkers = new ArrayList<>();
+    private ArrayList<Planeswalker> planeswalkers = new ArrayList<>();
     private ArrayList<Land> lands= new ArrayList<>();
     private ArrayList<Land> basicLands = new ArrayList<>();
+    private ArrayList<Card> instantAndSorcery = new ArrayList<>();
 
     public ArrayList<Card> removeCreatureFromField(int i) {
         ArrayList<Card> cardsToRemove = new ArrayList<>();
@@ -31,10 +32,10 @@ public class Field {
         return enchantmentToRemove;
     }
 
-    public Card removePlainswalkerFromField(int i) {
-        Card plainswalkerToRemove = this.plainswalkers.get(i);
-        this.plainswalkers.remove(i);
-        return plainswalkerToRemove;
+    public Card removePlaneswalkerFromField(int i) {
+        Card planeswalkerToRemove = this.planeswalkers.get(i);
+        this.planeswalkers.remove(i);
+        return planeswalkerToRemove;
     }
 
     public Card removeBasicLandFromField(String color) {
@@ -54,6 +55,12 @@ public class Field {
         return landToRemove;
     }
 
+    public Card removeInstantOrSorceryFromField() {
+        Card instantOrSorceryToRemove = this.instantAndSorcery.get(0);
+        this.instantAndSorcery.remove(0);
+        return instantOrSorceryToRemove;
+    }
+
     public void addCreatureToField(Creature creature) {
         ArrayList<Card> creatureToAdd = new ArrayList<>();
         creatureToAdd.add(creature);
@@ -68,8 +75,8 @@ public class Field {
         this.allCreatures.get(i).add(enchantment);
     }
 
-    public void addPlainswalkerToField(Plainswalker plainswalker) {
-        this.plainswalkers.add(plainswalker);
+    public void addPlaneswalkerToField(Planeswalker planeswalker) {
+        this.planeswalkers.add(planeswalker);
     }
 
     public void addBasicLandToField(Land land) {
@@ -78,5 +85,9 @@ public class Field {
 
     public void addLandToField(Land land) {
         this.lands.add(land);
+    }
+
+    public void addInstantOrSorceryToField(Card card) {
+        this.instantAndSorcery.add(card);
     }
 }

@@ -74,7 +74,7 @@ public class Creature extends Card {
         }
     }
 
-    public void doAttack(Plainswalker jake){
+    public void doAttack(Planeswalker jake){
         if(super.isTapped()){
             System.out.println("You can not use this card to attack this turn.");
         } else{

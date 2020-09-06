@@ -11,6 +11,10 @@ public class Hand {
         }
     }
 
+    public void sendToHand(Card card) {
+        this.hand.add(card);
+    }
+
     public Card removeFromHand(int n) {
         Card cardToRemoveFromHand = this.hand.get(n);
         this.hand.remove(n);
