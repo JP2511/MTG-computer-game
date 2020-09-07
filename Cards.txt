@@ -13,7 +13,8 @@ get Tipo
 get Efeito
 get Virada
 
-construtor para nome, cor, custo, tipo e efeito com desvirada como default
+constructor for everything
+constructor for name, color, manaCost, type, subtype and tapped as default
 
 isTapped() #devolve true se a carta tiver virada
 tap()
@@ -40,8 +41,8 @@ isDead()
 isPermanent()?
 isSpell()?
 
-construtor para tudo
-construtor com type, dead, permanent e spell default
+constructor for everything
+constructor for type, dead, permanent and spell as default
 
 doAttack(player)       
 doAttack(plainswalker) 
@@ -62,8 +63,8 @@ set spell
 isPermanent()?
 isSpell()?
 
-construtor para tudo
-construtor com type, permanent e spell default
+constructor for everything
+constructor for type, permanent and spell as default
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -78,8 +79,8 @@ isPermanent()?
 set Spell
 isSpell()?
 
-construtor para tudo
-construtor com type, permanent e spell default
+constructor for everything
+constructor for type, permanent and spell as default
 
 @Override: getCard()
 
@@ -93,8 +94,8 @@ Land:
 set Permanent
 isPermanent()?
 
-construtor para tudo
-construtor com type e permanent default
+constructor for everything
+constructor for type and permanent as default
 
 @Override: getCard()
 
@@ -116,8 +117,8 @@ isPermanent()?
 isSpell()?
 isDead()?
 
-constructor para tudo
-constructor com type, permanent, spell e dead default
+constructor for everything
+constructor for type, dead, permanent and spell as default
 
 addLife()
 looseLife()
@@ -131,8 +132,8 @@ Instant:
 set Spell
 isSpell()?
 
-construtor para tudo
-construtor com type e spell default
+constructor for everything
+constructor for type and spell as default
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -143,6 +144,6 @@ Sorcery:
 set Spell
 isSpell()?
 
-construtor para tudo
-construtor com type e spell como default
+constructor for everything
+constructor for type and spell as default
 

@@ -19,4 +19,8 @@ public class Sorcery extends Card {
     public Sorcery(String name, String color, String manaCost, String effect) {
         this(name, color, manaCost, "Sorcery", effect, false);
     }
+
+    public Sorcery() {
+        this("No Name", "No Color", "0", "No Effect");
+    }
 }

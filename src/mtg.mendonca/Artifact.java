@@ -29,4 +29,8 @@ public class Artifact extends Card {
     public Artifact(String name, String color, String manaCost, String effect) {
         this(name, color, manaCost, "artifact", effect, false, false);
     }
+
+    public Artifact() {
+        this("No Name", "No Color", "0", "No Effect");
+    }
 }

@@ -53,6 +53,10 @@ public class Creature extends Card {
         this(name, color, manaCost, "Creature", effect, attack, defense, subType, false, false, false);
     }
 
+    public Creature() {
+        this("No Name", "No Color", "0", "No Effect", 0, 0, "No Subtype");
+    }
+
     public void doDefense(Creature creatura) {
         if(super.isTapped()){
             System.out.println("You can not use this card to defend this turn.");

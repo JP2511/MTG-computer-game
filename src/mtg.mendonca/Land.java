@@ -25,6 +25,10 @@ public class Land extends Card {
         this(name, color, manaCost, "Land", effect, subType, false);
     }
 
+    public Land() {
+        this("No Name", "No Color", "0", "No Effect", "No Subtype");
+    }
+
     @Override
     public String[] getCard () {  //creates a String array containing the contents of the card
         String[] carta = new String[15];

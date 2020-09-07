@@ -19,4 +19,8 @@ public class Instant extends Card{
     public Instant(String name, String color, String manaCost, String effect) {
         this(name, color, manaCost, "Instant", effect, false);
     }
+
+    public Instant() {
+        this("No Name", "No Color", "0", "No Effect");
+    }
 }

@@ -33,6 +33,9 @@ public class Enchantment extends Card {
     public Enchantment(String name, String color, String manaCost, String effect, String subType) {
         this(name, color, manaCost, "Enchantment", effect, subType, false, false);
     }
+    public Enchantment() {
+        this("No Name", "No Color", "0", "No Effect", "No Subtype");
+    }
 
     @Override
     public String[] getCard () {  //creates a String array containing the contents of the card

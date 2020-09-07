@@ -4,19 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Field {
-    private ArrayList<ArrayList<Card>> allCreatures = new ArrayList<>();                                              //List that contains list of creature + their enchantments
+    private ArrayList<ArrayList<Card>> creaturesAndEnchantments = new ArrayList<>();                                              //List that contains list of creature + their enchantments
     private ArrayList<Artifact> artifactos = new ArrayList<>();
     private ArrayList<Planeswalker> planeswalkers = new ArrayList<>();
     private ArrayList<Land> lands= new ArrayList<>();
     private ArrayList<Land> basicLands = new ArrayList<>();
     private ArrayList<Card> instantAndSorcery = new ArrayList<>();
+    private Card temporaryEnchantment = new Enchantment();
 
     public ArrayList<Card> removeCreatureFromField(int i) {
         ArrayList<Card> cardsToRemove = new ArrayList<>();
-        for(int j = 0; j < this.allCreatures.get(i).size(); j++) {
-            cardsToRemove.add((Card) this.allCreatures.get(i).get(j));
+        for(int j = 0; j < this.creaturesAndEnchantments.get(i).size(); j++) {
+            cardsToRemove.add((Card) this.creaturesAndEnchantments.get(i).get(j));
         }
-        this.allCreatures.remove(i);
+        this.creaturesAndEnchantments.remove(i);
         return cardsToRemove;
     }
 
@@ -27,8 +28,8 @@ public class Field {
     }
 
     public Card removeEnchantmentFromField(int i, int j) {
-        Card enchantmentToRemove = (Card) this.allCreatures.get(i).get(j);
-        this.allCreatures.get(i).remove(j);
+        Card enchantmentToRemove = (Card) this.creaturesAndEnchantments.get(i).get(j);
+        this.creaturesAndEnchantments.get(i).remove(j);
         return enchantmentToRemove;
     }
 
@@ -38,15 +39,10 @@ public class Field {
         return planeswalkerToRemove;
     }
 
-    public Card removeBasicLandFromField(String color) {
-        for(int i = 0; i < this.basicLands.size(); i++) {
-            if(this.basicLands.get(i).getColor() == color) {
-                Card basicLandToRemove = this.basicLands.get(i);
-                this.basicLands.remove(i);
-                return basicLandToRemove;
-            }
-        }
-        return new Card("No Name", "No Color", "0", "No Type", "No Effect");
+    public Card removeBasicLandFromField(int index) {
+        Card basicLandToRemove = this.basicLands.get(index);
+        this.basicLands.remove(index);
+        return basicLandToRemove;
     }
 
     public Card removeLandFromField(int i ) {
@@ -64,17 +60,13 @@ public class Field {
     public void addCreatureToField(Creature creature) {
         ArrayList<Card> creatureToAdd = new ArrayList<>();
         creatureToAdd.add(creature);
-        this.allCreatures.add(creatureToAdd);
+        this.creaturesAndEnchantments.add(creatureToAdd);
     }
 
     public void addArtifactToField(Artifact artifact) {
         this.artifactos.add(artifact);
     }
-
-    public void addEnchantmentToField(Enchantment enchantment, int i) {
-        this.allCreatures.get(i).add(enchantment);
-    }
-
+    
     public void addPlaneswalkerToField(Planeswalker planeswalker) {
         this.planeswalkers.add(planeswalker);
     }
@@ -89,5 +81,14 @@ public class Field {
 
     public void addInstantOrSorceryToField(Card card) {
         this.instantAndSorcery.add(card);
+    }
+
+    public void addEnchantmentToField(Enchantment enchantment) {
+        this.temporaryEnchantment = enchantment;
+    }
+    
+    public void enchantCreature(int index) {
+        this.creaturesAndEnchantments.get(index).add(this.temporaryEnchantment);
+        this.temporaryEnchantment = new Enchantment();
     }
 }

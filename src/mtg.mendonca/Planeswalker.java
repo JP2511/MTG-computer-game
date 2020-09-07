@@ -45,9 +45,13 @@ public class Planeswalker extends Card{
         this.dead = dead;
     }
 
-
     public Planeswalker(String name, String color, String manaCost, String type, String effect, int life) {
         this(name, color, manaCost, "Planeswalker", effect, life, false, false, false);
+    }
+
+    public Planeswalker() {
+        super("No Name","No Color", "0", "Planeswalker", "No effect");
+        this.life = 0;
     }
 
     public void addLife(int number) {

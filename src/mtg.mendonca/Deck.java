@@ -6,20 +6,24 @@ import java.util.Collections;
 import java.util.List;
 
 class Deck {
-    private List<Card> deck;
+    private ArrayList<Card> deck;
 
     public int getSize() {
         return this.deck.size();
     }
 
-    public Deck(List<Card> deck) {
+    public Deck(ArrayList<Card> deck) {
         this.deck = deck;
     }
 
-    public void addCards(List<Card> cartas) {
+    public void addCards(ArrayList<Card> cartas) {
         for (int i = 0; i < cartas.size(); i++) {
             this.deck.add(cartas.get(i));
         }
+    }
+
+    public void addCards(Card card) {
+        this.deck.add(card);
     }
 
     public ArrayList<Card> drawOrRemoveCards(int n) {

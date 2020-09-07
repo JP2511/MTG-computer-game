@@ -16,14 +16,34 @@ loseLife()
 gainLife()
 
 drawCards(int)    	        #moves a card from the deck to the hand
+
 playCardFromHandToStack(int)    #moves a card of the specified index from the hand to the stack
 playCardFromDeckToStack()       #moves a card from the deck to the stack
 playCardFromGarbageToStack(int) #moves a card of the specified from the garbage to the stack
+
 playCardFromStackToField()      #moves a card from the stack to the field
 moveCardFromStackToHand()       #moves a card from the stack to the hand
 moveCardFromStackToGarbage()    #moves a card from the stack to the garbage
+
+moveCardFromFieldToHand(String, int)          #moves a card from the field to the hand
+moveCardFromFieldToHand(String, int, int)     #moves an enchantment from the field to the hand
+moveCardFromFieldToDeck(String, int)          #moves a card from the field to the deck
+moveCardFromFieldToDeck(String, int, int)     #moves an enchantment from the field to the deck
+moveCardFromFieldToGarbage(String, int)       #moves a card from the field to the garbage
+moveCardFromFieldToGarbage(String, int, int)  #moves an enchantment from the field to the garbage
+moveCardFromFieldToExile(String, int)         #moves a card from the field to the exile
+moveCardFromFieldToExile(String, int, int)    #moves an enchantment from the field to the exile
+
+moveCardFromHandToDeck(int)     #moves a card from the hand to the deck
+moveCardFromHandToGarbage(int)  #moves a card from the hand to the garbage
 moveCardFromHandToExile(int)    #moves a card from the hand to exile
 
+moveCardFromDeckToGarbage(int)  #moves a card from the deck to the garbage
+moveCardFromDeckToExile(int)    #moves a card from the deck to exile
+
+moveCardFromGarbageToHand(int)  #moves a card from the garbage to the hand
+moveCardFromGarbageToDeck(int)  #moves a card from the garbage to the deck
+moveCardFromGarbageToExile(int) #moves a card from the garbage to exile
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -34,8 +54,9 @@ Field:
 +list of lands
 +list of basicLands
 +list of sorceries and instants
++card temporaryEnchantment
 
-removeCreatureFromField(int)              #removes the creature at index i from allcreatures list the specified creature and its attached enchantments
+removeCreatureFromField(int)              #removes the creature at index i from  creaturesAndEnchantments list the specified creature and its attached enchantments
 removeArtifactFromField(int)              #removes the artifact at index i from artifactos list
 removeEnchantmentFromField(int, int)      #removes the enchantment at index j of the creature at index i from the allCreatures list
 removePlainswalkerFromField(int)          #removes the plainswalker at index i of the plainswalker list
@@ -45,11 +66,13 @@ removeInstantOrSorceryFromField()	  #removes a sorcery or a instant from the ins
 
 addCreatureToField(creature)              #adds the creature to the allcreatures list
 addArtifactToField(artifact)              #adds the artifact to the artifactos list
-addEnchantmentToField(enchantment, int)   #adds the enchantment at index i to the allCreatures list
+addEnchantmentToField(enchantment)   	  #defines temporaryEnchantment as the enchantment
 addPlainswalkerToField(painswalker)       #adds the plainswalker to the plainswalker list
 addBasicLandToField(basicLand)            #adds a basic land to the basicLands list
 addLandToField(land)                      #adds the land to the lands list
 addInstantOrSorceryToField(card)          #adds an instant or a sorcery card to the instants and sorceries list
+
+enchantCreature(int)                      #adds the enchantment to the creaturesAndEnchantments list at the specified field
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

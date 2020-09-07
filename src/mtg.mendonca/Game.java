@@ -12,7 +12,7 @@ public class Game {
         Enchantment sofiaslover = new Enchantment("Doug's bitch", "green", "3G", "Become attached to Doug's every move", "Love");
 //        gg.getCard();
 
-        List cartas = new ArrayList();
+        ArrayList cartas = new ArrayList();
         cartas.add(joao);
         cartas.add(gg);
         cartas.add(sofiaslover);
