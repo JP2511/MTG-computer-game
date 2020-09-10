@@ -1,31 +1,40 @@
 package mtg.mendonca;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class Game {
     public static void main(String[] args) {
-        Creature joao = new Creature("João", "Red", "2RR", "He is a strong man, and very very powerful.", 8, 4, "Human");
-        Instant gg = new Instant("gg", "blue", "2BB", "123456789123456789123456789123456789123456789123456789");
-        Enchantment sofiaslover = new Enchantment("Doug's bitch", "green", "3G", "Become attached to Doug's every move", "Love");
-//        gg.getCard();
+        Land redLand = new Land("Mountain", "Red", "", "");
+        Land redLand2 = new Land("Mountain", "Red", "", "");
+        Land greenLand = new Land("Forest", "Green", "", "");
+        Land greenLand2 = new Land("Forest", "Green", "", "");
+        Land whiteLand = new Land("Plain", "White", "", "");
+        Land whiteLand2 = new Land("Plain", "White", "", "");
+        Land blueLand = new Land("Island", "Blue", "", "");
+        Land blueLand2 = new Land("Island", "Blue", "", "");
+        Land blackLand = new Land("Swamp", "Black", "", "");
+        Land blackLand2 = new Land("Swamp", "Black", "", "");
 
-        ArrayList cartas = new ArrayList();
-        cartas.add(joao);
-        cartas.add(gg);
-        cartas.add(sofiaslover);
-        cartas.add(joao);
-        cartas.add(gg);
-        cartas.add(sofiaslover);
-        cartas.add(joao);
-        cartas.add(gg);
-        cartas.add(sofiaslover);
-        Deck bloodRush = new Deck(cartas);
-        Hand miguel = new Hand();
-        miguel.sendToHand(bloodRush.drawOrRemoveCards(7));
-        miguel.showHand(7);
+        Field field = new Field();
+
+        field.addBasicLandToField(redLand);
+        field.addBasicLandToField(redLand2);
+        field.addBasicLandToField(greenLand);
+        field.addBasicLandToField(greenLand2);
+        field.addBasicLandToField(whiteLand);
+        field.addBasicLandToField(whiteLand2);
+        field.addBasicLandToField(blueLand);
+        field.addBasicLandToField(blueLand2);
+        field.addBasicLandToField(blackLand);
+        field.addBasicLandToField(blackLand2);
+
+        field.tapLands(2,2,2,1,1);
+
+        System.out.println("Untapped red lands: " + field.countNumberOfUntappedColoredLands("Red"));
+        System.out.println("Untapped green lands: " + field.countNumberOfUntappedColoredLands("Green"));
+        System.out.println("Untapped white lands: " + field.countNumberOfUntappedColoredLands("White"));
+        System.out.println("Untapped blue lands: " + field.countNumberOfUntappedColoredLands("Blue"));
+        System.out.println("Untapped black lands: " + field.countNumberOfUntappedColoredLands("Black"));
+        System.out.println("Untapped lands: " + field.countUntappedLand());
     }
 }
 

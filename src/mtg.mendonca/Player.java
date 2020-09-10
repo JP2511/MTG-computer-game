@@ -42,7 +42,81 @@ public class Player {
         this.hand.sendToHand(this.deck.drawOrRemoveCards(n));
     }
 
-    public void playCardFromHandToStack(int i) {
+    public void mulligan() {    // returns the cards from the hand to the deck, shuffles the deck and draws one less card than the previous number of cards in the hand
+        int numberOfCards = this.hand.sizeOfHand();
+        for(int i = 0; i < numberOfCards; i++) {
+            moveCardFromHandToDeck(0);
+        }
+        this.deck.shuffleDeck();
+        drawCards(numberOfCards - 1);
+    }
+
+    public void playCardFromHandToStack(int i, int numberOfRedLands, int numberOfGreenLands, int numberOfWhiteLands, int numberOfBlueLands, int numberOfBlackLands) {
+        Card cardToBePlayed = this.hand.removeFromHand(i);
+        String mana = cardToBePlayed.getManaCost();
+        int redMana = 0;
+        boolean redCorrect = true;
+        int greenMana = 0;
+        boolean greenCorrect = true;
+        int whiteMana = 0;
+        boolean whiteCorrect = true;
+        int blueMana = 0;
+        boolean blueCorrect = true;
+        int blackMana = 0;
+        boolean blackCorrect = true;
+        boolean numberCorrect = true;
+        if(mana.contains("R")) {
+            redMana = mana.split("R").length - 1;
+            if(redMana <= this.field.countNumberOfUntappedColoredLands("Red")) {
+                redCorrect = true;
+            } else {
+                redCorrect = false;
+            }
+        } else if (mana.contains("G")) {
+            greenMana = mana.split("G").length - 1;
+            if(greenMana <= this.field.countNumberOfUntappedColoredLands("Green")) {
+                greenCorrect = true;
+            } else {
+                greenCorrect = false;
+            }
+        } else if (mana.contains("W")) {
+            whiteMana = mana.split("W").length - 1;
+            if(whiteMana <= this.field.countNumberOfUntappedColoredLands("White")) {
+                whiteCorrect = true;
+            } else {
+                whiteCorrect = false;
+            }
+        }  else if (mana.contains("U")) {
+            blueMana = mana.split("U").length - 1;
+            if(blueMana <= this.field.countNumberOfUntappedColoredLands("Blue")) {
+                blueCorrect = true;
+            } else {
+                blueCorrect = false;
+            }
+        }  else if (mana.contains("B")) {
+            blackMana = mana.split("B").length - 1;
+            if(blackMana <= this.field.countNumberOfUntappedColoredLands("Black")) {
+                blackCorrect = true;
+            } else {
+                blackCorrect = false;
+            }
+        } else if (mana.matches(".*\\d.*")){
+            int number = Integer.parseInt(mana.replaceAll("[^0-9]", ""));
+            if(number <= this.field.countUntappedLand() - (redMana + greenMana + whiteMana + blueMana + blackMana)) {
+                numberCorrect = true;
+            } else {
+                numberCorrect = false;
+            }
+        }
+        if(redCorrect && greenCorrect && whiteCorrect && blueCorrect && blackCorrect && numberCorrect) {
+            this.stack.addToStack(this.hand.removeFromHand(i));
+            this.field.tapLands(numberOfRedLands, numberOfGreenLands, numberOfWhiteLands, numberOfBlueLands, numberOfBlackLands);
+        } else {
+            System.out.println("You don't have enough mana to play that card.");
+        }
+    }
+
+    public void moveCardFromHandToStack(int i) {
         this.stack.addToStack(this.hand.removeFromHand(i));
     }
 
@@ -101,9 +175,6 @@ public class Player {
                     }
                 }
                 break;
-            case "Land":
-                this.hand.sendToHand(this.field.removeBasicLandFromField(index));
-                break;
             case "Artifact":
                 this.hand.sendToHand(this.field.removeArtifactFromField(index));
                 break;
@@ -116,12 +187,18 @@ public class Player {
     }
 
     public void moveCardFromFieldToHand(String cardType, int indexOfCreature, int indexOfEnchantment) {
-        switch (cardType) {
-            case "Enchantment":
-                this.hand.sendToHand(this.field.removeEnchantmentFromField(indexOfCreature, indexOfEnchantment));
-                break;
-            default:
-                System.out.println("Something wrong with the usage of player.moveCardFromFieldToHand (enchantment)");
+        if(cardType.equals("Enchantment")) {
+            this.hand.sendToHand(this.field.removeEnchantmentFromField(indexOfCreature, indexOfEnchantment));
+        } else {
+            System.out.println("Something wrong with the usage of player.moveCardFromFieldToHand (enchantment)");
+        }
+    }
+
+    public void moveCardFromFieldToHand(String cardType, String color)  {
+        if(cardType.equals("Land")) {
+            this.hand.sendToHand(this.field.removeBasicLandFromField(color));
+        } else {
+            System.out.println("Something wrong with the usage of player.moveCardFromFieldToHand (land)");
         }
     }
 
@@ -137,9 +214,6 @@ public class Player {
                     }
                 }
                 break;
-            case "Land":
-                this.deck.addCards(this.field.removeBasicLandFromField(index));
-                break;
             case "Artifact":
                 this.deck.addCards(this.field.removeArtifactFromField(index));
                 break;
@@ -152,12 +226,18 @@ public class Player {
     }
 
     public void moveCardFromFieldToDeck(String cardType, int indexOfCreature, int indexOfEnchantment) {
-        switch (cardType) {
-            case "Enchantment":
-                this.deck.addCards(this.field.removeEnchantmentFromField(indexOfCreature, indexOfEnchantment));
-                break;
-            default:
-                System.out.println("Something wrong with the usage of player.moveCardFromFieldToDeck (enchantment)");
+        if (cardType.equals("Enchantment")) {
+            this.deck.addCards(this.field.removeEnchantmentFromField(indexOfCreature, indexOfEnchantment));
+        } else {
+            System.out.println("Something wrong with the usage of player.moveCardFromFieldToDeck (enchantment)");
+        }
+    }
+
+    public void moveCardFromFieldToDeck(String cardType, String color) {
+        if(cardType.equals("Land")) {
+            this.deck.addCards(this.field.removeBasicLandFromField(color));
+        } else {
+            System.out.println("Something wrong with the usage of player.moveCardFromFieldToDeck (land)");
         }
     }
 
@@ -173,9 +253,6 @@ public class Player {
                     }
                 }
                 break;
-            case "Land":
-                this.garbage.sendToGarbage(this.field.removeBasicLandFromField(index));
-                break;
             case "Artifact":
                 this.garbage.sendToGarbage(this.field.removeArtifactFromField(index));
                 break;
@@ -188,12 +265,18 @@ public class Player {
     }
 
     public void moveCardFromFieldToGarbage(String cardType, int indexOfCreature, int indexOfEnchantment) {
-        switch (cardType) {
-            case "Enchantment":
-                this.garbage.sendToGarbage(this.field.removeEnchantmentFromField(indexOfCreature, indexOfEnchantment));
-                break;
-            default:
-                System.out.println("Something wrong with the usage of player.moveCardFromFieldToGarbage (enchantment)");
+        if(cardType.equals("Enchantment")) {
+            this.garbage.sendToGarbage(this.field.removeEnchantmentFromField(indexOfCreature, indexOfEnchantment));
+        } else {
+            System.out.println("Something wrong with the usage of player.moveCardFromFieldToGarbage (enchantment)");
+        }
+    }
+
+    public void moveCardFromFieldToGarbage(String cardType, String color) {
+        if(cardType.equals("Land")) {
+            this.garbage.sendToGarbage(this.field.removeBasicLandFromField(color));
+        } else {
+            System.out.println("Something wrong with the usage of player.moveCardFromFieldToGarbage (land)");
         }
     }
 
@@ -209,9 +292,6 @@ public class Player {
                     }
                 }
                 break;
-            case "Land":
-                this.exile.exileCard(this.field.removeBasicLandFromField(index));
-                break;
             case "Artifact":
                 this.exile.exileCard(this.field.removeArtifactFromField(index));
                 break;
@@ -224,12 +304,18 @@ public class Player {
     }
 
     public void moveCardFromFieldToExile(String cardType, int indexOfCreature, int indexOfEnchantment) {
-        switch (cardType) {
-            case "Enchantment":
-                this.exile.exileCard(this.field.removeEnchantmentFromField(indexOfCreature, indexOfEnchantment));
-                break;
-            default:
-                System.out.println("Something wrong with the usage of player.moveCardFromFieldToExile (enchantment)");
+        if(cardType.equals("Enchantment")) {
+            this.exile.exileCard(this.field.removeEnchantmentFromField(indexOfCreature, indexOfEnchantment));
+        } else {
+            System.out.println("Something wrong with the usage of player.moveCardFromFieldToExile (enchantment)");
+        }
+    }
+
+    public void moveCardFromFieldToExile(String cardType, String color) {
+        if(cardType.equals("Enchantment")) {
+            this.exile.exileCard(this.field.removeBasicLandFromField(color));
+        } else {
+            System.out.println("Something wrong with the usage of player.moveCardFromFieldToExile (enchantment)");
         }
     }
 

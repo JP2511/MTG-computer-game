@@ -16,8 +16,10 @@ loseLife()
 gainLife()
 
 drawCards(int)    	        #moves a card from the deck to the hand
+mulligan()                      #returns the cards from the hand to the deck, shuffles the deck and draws one less card than the previous number of cards in the hand
 
-playCardFromHandToStack(int)    #moves a card of the specified index from the hand to the stack
+playCardFromHandToStack(int)    #moves a card of the specified index from the hand to the stack if there is enough mana to play it
+moveCardFromHandToStack(int)    #moves a card of the specified index from the hand to the stack
 playCardFromDeckToStack()       #moves a card from the deck to the stack
 playCardFromGarbageToStack(int) #moves a card of the specified from the garbage to the stack
 
@@ -73,6 +75,9 @@ addLandToField(land)                      #adds the land to the lands list
 addInstantOrSorceryToField(card)          #adds an instant or a sorcery card to the instants and sorceries list
 
 enchantCreature(int)                      #adds the enchantment to the creaturesAndEnchantments list at the specified field
+
+countNumberOfUntappedColoredLands(String) #returns the number of untapped lands of a specified color
+countUntappedLand()                       #returns the number of untapped lands
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

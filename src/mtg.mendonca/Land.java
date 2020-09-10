@@ -21,12 +21,12 @@ public class Land extends Card {
         this.permanent = permanent;
     }
 
-    public Land(String name, String color, String manaCost, String effect, String subType) {
-        this(name, color, manaCost, "Land", effect, subType, false);
+    public Land(String name, String color, String effect, String subType) {
+        this(name, color, "0", "Land", effect, subType, false);
     }
 
     public Land() {
-        this("No Name", "No Color", "0", "No Effect", "No Subtype");
+        this("No Name", "No Color", "No Effect", "No Subtype");
     }
 
     @Override

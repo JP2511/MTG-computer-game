@@ -1,14 +1,15 @@
 package mtg.mendonca;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Field {
     private ArrayList<ArrayList<Card>> creaturesAndEnchantments = new ArrayList<>();                                              //List that contains list of creature + their enchantments
     private ArrayList<Artifact> artifactos = new ArrayList<>();
     private ArrayList<Planeswalker> planeswalkers = new ArrayList<>();
-    private ArrayList<Land> lands= new ArrayList<>();
-    private ArrayList<Land> basicLands = new ArrayList<>();
+    private LinkedList<Land> basicLands = new LinkedList<>();
     private ArrayList<Card> instantAndSorcery = new ArrayList<>();
     private Card temporaryEnchantment = new Enchantment();
 
@@ -39,16 +40,18 @@ public class Field {
         return planeswalkerToRemove;
     }
 
-    public Card removeBasicLandFromField(int index) {
-        Card basicLandToRemove = this.basicLands.get(index);
-        this.basicLands.remove(index);
-        return basicLandToRemove;
-    }
-
-    public Card removeLandFromField(int i ) {
-        Card landToRemove = this.lands.get(i);
-        this.lands.remove(i);
-        return landToRemove;
+    public Card removeBasicLandFromField(String color) {
+        Land cardToBeRemoved = new Land();
+        Iterator<Land> landIterator = this.basicLands.iterator();
+        while(landIterator.hasNext()) {
+            Land land = landIterator.next();
+            if(land.getColor().equals(color)) {
+                cardToBeRemoved = land;
+                landIterator.remove();
+                break;
+            }
+        }
+        return cardToBeRemoved;
     }
 
     public Card removeInstantOrSorceryFromField() {
@@ -75,10 +78,6 @@ public class Field {
         this.basicLands.add(land);
     }
 
-    public void addLandToField(Land land) {
-        this.lands.add(land);
-    }
-
     public void addInstantOrSorceryToField(Card card) {
         this.instantAndSorcery.add(card);
     }
@@ -91,4 +90,55 @@ public class Field {
         this.creaturesAndEnchantments.get(index).add(this.temporaryEnchantment);
         this.temporaryEnchantment = new Enchantment();
     }
+
+    public int countNumberOfUntappedColoredLands(String color) {
+        Iterator<Land> landIterator = this.basicLands.iterator();
+        int numberOfUntappedLandsOfSpecifidColor = 0;
+        while(landIterator.hasNext()) {
+            Land landToBeCounted = landIterator.next();
+            if(!landToBeCounted.isTapped() && landToBeCounted.getColor().equals(color)) {
+                numberOfUntappedLandsOfSpecifidColor++;
+            }
+        }
+        return numberOfUntappedLandsOfSpecifidColor;
+    }
+
+    public int countUntappedLand() {
+        Iterator<Land> landIterator = this.basicLands.iterator();
+        int numberOfUntappedLand = 0;
+        while (landIterator.hasNext()) {
+            if( !landIterator.next().isTapped()) {
+                numberOfUntappedLand++;
+            }
+        }
+        return numberOfUntappedLand;
+    }
+
+    public void tapLands(int numberOfRedLands, int numberOfGreenLands, int numberOfWhiteLands, int numberOfBlueLands, int numberOfBlackLands) {
+        Iterator<Land> landIterator = this.basicLands.iterator();
+        if(numberOfRedLands + numberOfGreenLands + numberOfWhiteLands + numberOfBlueLands + numberOfBlackLands > countUntappedLand()) {
+            System.out.println("You don't have enough mana.");
+        } else {
+            while(landIterator.hasNext() && (numberOfRedLands > 0 || numberOfGreenLands > 0 || numberOfWhiteLands > 0 || numberOfBlueLands > 0 || numberOfBlackLands > 0)) {
+                Land land = landIterator.next();
+                if(numberOfRedLands > 0 && land.getColor().equals("Red")) {
+                    land.tap();
+                    numberOfRedLands--;
+                } else if(numberOfGreenLands > 0 && land.getColor().equals("Green")) {
+                    land.tap();
+                    numberOfGreenLands--;
+                } else if(numberOfWhiteLands > 0 && land.getColor().equals("White")) {
+                    land.tap();
+                    numberOfWhiteLands--;
+                } else if(numberOfBlueLands > 0 && land.getColor().equals("Blue")) {
+                    land.tap();
+                    numberOfBlueLands--;
+                } else if(numberOfBlackLands > 0 && land.getColor().equals("Black")) {
+                    land.tap();
+                    numberOfBlackLands--;
+                }
+            }
+        }
+    }
+
 }

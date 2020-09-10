@@ -15,9 +15,9 @@ public class Hand {
         this.hand.add(card);
     }
 
-    public Card removeFromHand(int n) {
-        Card cardToRemoveFromHand = this.hand.get(n);
-        this.hand.remove(n);
+    public Card removeFromHand(int index) {
+        Card cardToRemoveFromHand = this.hand.get(index);
+        this.hand.remove(index);
         return cardToRemoveFromHand;
     }
 
@@ -43,5 +43,9 @@ public class Hand {
                 stackedCardsLine.clear();
             }
         }
+    }
+
+    public int sizeOfHand() {
+        return this.hand.size();
     }
 }
