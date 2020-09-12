@@ -21,6 +21,10 @@ public class Hand {
         return cardToRemoveFromHand;
     }
 
+    public Card getCardFromHand(int index) {
+        return this.hand.get(index);
+    }
+
     public void showHand(int n) {
         if(n > this.hand.size()) {
             n = this.hand.size();
@@ -47,5 +51,21 @@ public class Hand {
 
     public int sizeOfHand() {
         return this.hand.size();
+    }
+
+    public void namesOfCardsInHand() {
+        for(int i = 0; i < this.hand.size(); i++) {
+            if(!this.hand.get(i).getType().equals("Land")) {
+                System.out.println(i + " - " + this.hand.get(i).getName());
+            }
+        }
+    }
+
+    public void namesOfLandsInHand() {
+        for(int i = 0; i < this.hand.size(); i++) {
+            if(this.hand.get(i).getType().equals("Land")) {
+                System.out.println(i + " - " + this.hand.get(i).getName());
+            }
+        }
     }
 }

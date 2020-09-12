@@ -3,7 +3,6 @@ package mtg.mendonca;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.List;
 
 public class Field {
     private ArrayList<ArrayList<Card>> creaturesAndEnchantments = new ArrayList<>();                                              //List that contains list of creature + their enchantments
@@ -139,6 +138,62 @@ public class Field {
                 }
             }
         }
+    }
+
+    public void untapLands() {
+        Iterator<Land> landIterator = this.basicLands.iterator();
+        while(landIterator.hasNext()) {
+            landIterator.next().untap();
+        }
+    }
+
+    public void untapAllCardsOnField() {
+        Iterator<Land> landIterator = this.basicLands.iterator();
+        while(landIterator.hasNext()) {
+            landIterator.next().untap();
+        }
+        for(int i = 0; i < creaturesAndEnchantments.size(); i++) {
+                creaturesAndEnchantments.get(i).get(0).untap();
+        }
+        for(int i = 0; i < artifactos.size(); i++) {
+            artifactos.get(i).untap();
+        }
+    }
+
+    public void showUntappedLandsPerColor() {
+        int redUntappedLands = 0;
+        int greenUntappedLands = 0;
+        int whiteUntappedLands = 0;
+        int blueUntappedLands = 0;
+        int blackUntappedLands = 0;
+
+        Iterator<Land> landIterator = this.basicLands.iterator();
+        while(landIterator.hasNext()) {
+            Land land = landIterator.next();
+            if(!land.isTapped()) {
+                switch (land.getColor()) {
+                    case "Red":
+                        redUntappedLands++;
+                        break;
+                    case "Green":
+                        greenUntappedLands++;
+                        break;
+                    case "White":
+                        whiteUntappedLands++;
+                        break;
+                    case "Blue":
+                        blueUntappedLands++;
+                        break;
+                    case "Black":
+                        blackUntappedLands++;
+                        break;
+                }
+            }
+        }
+
+        System.out.println("You have " + redUntappedLands + " untapped mountain(s), " + greenUntappedLands + " untapped forest(s), " +
+                whiteUntappedLands + " untapped plain(s), " + blueUntappedLands + " untapped island(s) and " + blackUntappedLands +
+                " untapped swamp(s).");
     }
 
 }

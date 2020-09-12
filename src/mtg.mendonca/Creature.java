@@ -87,11 +87,11 @@ public class Creature extends Card {
         }
     }
 
-    public void doAttack(Creature creatura) {
+    public void doAttack(Creature creature) {
         if(super.isTapped()){
             System.out.println("You can not use this card to attack this turn.");
         } else{
-            this.defense -= creatura.getAttack();
+            this.defense -= creature.getAttack();
             if(this.defense <= 0) {
                 this.dead = true;
             } else {

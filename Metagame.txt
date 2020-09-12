@@ -29,12 +29,16 @@ moveCardFromStackToGarbage()    #moves a card from the stack to the garbage
 
 moveCardFromFieldToHand(String, int)          #moves a card from the field to the hand
 moveCardFromFieldToHand(String, int, int)     #moves an enchantment from the field to the hand
+moveCardFromFieldToHand(String, String)       #moves a land from the field to the hand
 moveCardFromFieldToDeck(String, int)          #moves a card from the field to the deck
 moveCardFromFieldToDeck(String, int, int)     #moves an enchantment from the field to the deck
+moveCardFromFieldToDeck(String, String)       #moves a land from the field to the deck
 moveCardFromFieldToGarbage(String, int)       #moves a card from the field to the garbage
 moveCardFromFieldToGarbage(String, int, int)  #moves an enchantment from the field to the garbage
+moveCardFromFieldToGarbage(String, String)    #moves a land from the field to the garbage
 moveCardFromFieldToExile(String, int)         #moves a card from the field to the exile
 moveCardFromFieldToExile(String, int, int)    #moves an enchantment from the field to the exile
+moveCardFromFieldToExile(String, String)      #moves a land from the field to the exile
 
 moveCardFromHandToDeck(int)     #moves a card from the hand to the deck
 moveCardFromHandToGarbage(int)  #moves a card from the hand to the garbage
@@ -46,6 +50,16 @@ moveCardFromDeckToExile(int)    #moves a card from the deck to exile
 moveCardFromGarbageToHand(int)  #moves a card from the garbage to the hand
 moveCardFromGarbageToDeck(int)  #moves a card from the garbage to the deck
 moveCardFromGarbageToExile(int) #moves a card from the garbage to exile
+
+showHand()			#shows the hand to the player
+handSize()			#returns the number of cards in the hand
+namesOfCardsInHand()		#prints a list of non-land cards with their respective index
+namesOfLandsInHand()		#prints a list of lands with their respective index
+getCardFromHand(int)		#returns a card from the specified index of the hand
+
+howToPayManaOfCard(Card)                      #prints a message telling the player how to use their lands to pay for the card
+showUntappedLandsPerColor()		      #prints a message saying how many untapped lands of each color there are
+countCharInString(String, char)		      #returns the number of times a specific char appears in a string
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -78,6 +92,11 @@ enchantCreature(int)                      #adds the enchantment to the creatures
 
 countNumberOfUntappedColoredLands(String) #returns the number of untapped lands of a specified color
 countUntappedLand()                       #returns the number of untapped lands
+tapLands(int, int, int, int, int)         #taps all untapped lands
+
+untapAllCardsOnField()                    #untaps all tappable cards in the field: artifacts, lands and creatures (+enchantments)
+untapLands()                              #untaps all lands in the field
+showUntappedLandsPerColor()               #prints a message saying how many untapped lands of each color there are
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -103,7 +122,11 @@ Hand:
 
 sendToHand()
 removeFromHand()
+getCardFromHand(int)                          #returns the card at the specified index of the hand
 showHand()
+
+namesOfCardsInHand()                          #prints a message telling the player how to use their lands to pay for the card
+namesOfLandsInHand()                          #prints a message saying how many untapped lands of each color there are
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
