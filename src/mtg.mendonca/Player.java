@@ -1,6 +1,7 @@
 package mtg.mendonca;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Player {
     private int life;
@@ -138,10 +139,18 @@ public class Player {
             System.out.println("You don't have enough mana to play that card.");
             isCardPlayed = false;
         }
+
+        for(int j = 0; j < 15; j++) {
+            System.out.println(cardToBePlayed.getCard()[j]);
+        }
+
         return isCardPlayed;
     }
 
     public void moveCardFromHandToStack(int i) {
+        for(int j = 0; j < 15; j++) {
+            System.out.println(this.hand.getCardFromHand(i).getCard()[j]);
+        }
         this.stack.addToStack(this.hand.removeFromHand(i));
     }
 
@@ -440,6 +449,10 @@ public class Player {
                 "land(s) you choose.");
     }
 
+    public void untapAllCardsOnField() {
+        this.field.untapAllCardsOnField();
+    }
+
     public void showUntappedLandsPerColor() {
         this.field.showUntappedLandsPerColor();
     }
@@ -452,5 +465,41 @@ public class Player {
             }
         }
         return numberOfTimesItAppears;
+    }
+
+    public void showField() {
+        this.field.showField();
+    }
+
+    public boolean isThereAPlaneswalker() {
+        return this.field.isThereAPlaneswalker();
+    }
+
+    public ArrayList<Planeswalker> getPlaneswalker() {
+        return this.field.getPlaneswalkers();
+    }
+
+    public String getPlaneswalkersNameAtIndex(int index) {
+        return this.field.getPlaneswalkersNameAtIndex(index);
+    }
+
+    public ArrayList<Creature> getCreaturesByIndex(ArrayList<Integer> indexes) {
+        return getCreaturesByIndex(indexes);
+    }
+
+    public ArrayList<Creature> getCreaturesAbleToAttack(int turn) {
+        return this.field.getCreaturesAbleToAttack(turn);
+    }
+
+    public ArrayList<String> getCreaturesNameAndIndex(int turn) {
+        return this.field.getCreaturesNameAndIndex(turn);
+    }
+
+    public ArrayList<String> getAllCreaturesAbleToDefendNamesAndIndexs() {
+        return this.field.getAllCreaturesAbleToDefendNamesAndIndexs();
+    }
+
+    public void defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(int turn) {
+        this.field.defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(turn);
     }
 }

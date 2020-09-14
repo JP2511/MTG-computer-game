@@ -1,5 +1,6 @@
 package mtg.mendonca;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -196,4 +197,123 @@ public class Field {
                 " untapped swamp(s).");
     }
 
+    public void showTappedLandsPerColor() {
+        int redTappedLands = 0;
+        int greenTappedLands = 0;
+        int whiteTappedLands = 0;
+        int blueTappedLands = 0;
+        int blackTappedLands = 0;
+
+        Iterator<Land> landIterator = this.basicLands.iterator();
+        while(landIterator.hasNext()) {
+            Land land = landIterator.next();
+            if(land.isTapped()) {
+                switch (land.getColor()) {
+                    case "Red":
+                        redTappedLands++;
+                        break;
+                    case "Green":
+                        greenTappedLands++;
+                        break;
+                    case "White":
+                        whiteTappedLands++;
+                        break;
+                    case "Blue":
+                        blueTappedLands++;
+                        break;
+                    case "Black":
+                        blackTappedLands++;
+                        break;
+                }
+            }
+        }
+
+        System.out.println("You have " + redTappedLands + " tapped mountain(s), " + greenTappedLands + " tapped forest(s), " +
+                whiteTappedLands + " tapped plain(s), " + blueTappedLands + " tapped island(s) and " + blackTappedLands +
+                " tapped swamp(s).");
+    }
+
+    public void showField() {
+        ArrayList<Card> cardsInField = new ArrayList<>();
+        for(int i = 0; i < this.creaturesAndEnchantments.size(); i++) {
+            cardsInField.addAll(this.creaturesAndEnchantments.get(i));
+        }
+        cardsInField.addAll(this.artifactos);
+        cardsInField.addAll(this.planeswalkers);
+
+        ArrayList<Card> stackedCardsLine = new ArrayList();
+        for(int i = 0; i < cardsInField.size(); i++) {
+            if((i+1) % 5 != 0 && i != cardsInField.size()-1) {
+                stackedCardsLine.add(cardsInField.get(i));
+            } else {
+                stackedCardsLine.add(cardsInField.get(i));
+                for(int g = 0; g < 15; g++) {
+                    for (int j = 0; j < stackedCardsLine.size(); j++) {
+                        if(j != stackedCardsLine.size()-1) {
+                            System.out.print(stackedCardsLine.get(j).getCard()[g] + "   ");
+                        } else {
+                            System.out.println(stackedCardsLine.get(j).getCard()[g]);
+                        }
+                    }
+                }
+                stackedCardsLine.clear();
+            }
+        }
+        showUntappedLandsPerColor();
+        showTappedLandsPerColor();
+    }
+
+    public boolean isThereAPlaneswalker() {
+        return this.planeswalkers.size() > 0;
+    }
+
+    public ArrayList<Planeswalker> getPlaneswalkers() {
+        return this.planeswalkers;
+    }
+
+    public String getPlaneswalkersNameAtIndex(int index) {
+        return this.planeswalkers.get(index).getName();
+    }
+
+    public ArrayList<Creature> getCreatureByIndex(ArrayList<Integer> indexes) {
+        ArrayList<Creature> creaturesToBeReturned = new ArrayList<>();
+        for(int i = 0; i < indexes.size(); i++) {
+            creaturesToBeReturned.add((Creature) this.creaturesAndEnchantments.get(indexes.get(i).intValue()).get(0));
+        }
+        return creaturesToBeReturned;
+    }
+
+    public ArrayList<Creature> getCreaturesAbleToAttack(int turn) {
+        ArrayList<Creature> possibleCreaturesToAttack = new ArrayList<>();
+        for(int i = 0; i < this.creaturesAndEnchantments.size(); i++) {
+            if(((Creature) this.creaturesAndEnchantments.get(i).get(0)).canAttack(turn)) {
+                possibleCreaturesToAttack.add((Creature) this.creaturesAndEnchantments.get(i).get(0));
+            }
+        }
+        return possibleCreaturesToAttack;
+    }
+
+    public ArrayList<String> getAllCreaturesAbleToDefendNamesAndIndexs() {
+        ArrayList<String> allCreaturesNames = new ArrayList<>();
+        for(int i = 1; i <= this.creaturesAndEnchantments.size(); i++) {
+            if(!this.creaturesAndEnchantments.get(i).get(0).isTapped()) {
+                allCreaturesNames.add("\t" + i + " - " + this.creaturesAndEnchantments.get(i).get(0).getName());
+            }
+        }
+        return allCreaturesNames;
+    }
+
+    public void defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(int turn) {
+        ((Creature) this.creaturesAndEnchantments.get(this.creaturesAndEnchantments.size() - 1).get(0)).setTurnInWhichItWasPlayed(turn);
+    }
+
+    public ArrayList<String> getCreaturesNameAndIndex(int turn) {
+        ArrayList<String> creaturesToAttackNamesAndIndex = new ArrayList<>();
+        for( int i = 0; i < this.creaturesAndEnchantments.size(); i++) {
+            if(((Creature) this.creaturesAndEnchantments.get(i).get(0)).canAttack(turn)) {
+                creaturesToAttackNamesAndIndex.add("\t" + (i+1) + " - " + this.creaturesAndEnchantments.get(i).get(0).getName());
+            }
+        }
+        return creaturesToAttackNamesAndIndex;
+    }
 }

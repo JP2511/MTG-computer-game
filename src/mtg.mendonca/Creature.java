@@ -10,6 +10,7 @@ public class Creature extends Card {
     private boolean dead = false;
     private boolean permanent = false;
     private boolean spell;
+    private int turnInWhichItWasPlayed;
 
     public int getAttack() {
         return this.attack;
@@ -37,6 +38,10 @@ public class Creature extends Card {
 
     public boolean isSpell() {
         return spell;
+    }
+
+    public void setTurnInWhichItWasPlayed(int turnNumber) {
+        this.turnInWhichItWasPlayed = turnNumber;
     }
 
     public Creature(String name, String color, String manaCost, String type, String effect, int attack, int defense, String subType, boolean dead, boolean permanent, boolean spell) {
@@ -146,5 +151,18 @@ public class Creature extends Card {
             }
         }
         return carta;
+    }
+
+    public boolean canAttack(int turn) {
+        if(this.turnInWhichItWasPlayed != turn && !isTapped()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    // for debugging purposes
+    public int getTurnInWhichItWasPlayed() {
+        return turnInWhichItWasPlayed;
     }
 }

@@ -30,6 +30,7 @@ public class Hand {
             n = this.hand.size();
         }
         ArrayList<Card> stackedCardsLine = new ArrayList();
+        System.out.println("----------------------------------------------------------------------------------HAND----------------------------------------------------------------------------------");
         for(int i = 0; i < n; i++) {
             if((i+1) % 5 != 0 && i != n-1) {
                 stackedCardsLine.add(this.hand.get(i));
@@ -47,6 +48,7 @@ public class Hand {
                 stackedCardsLine.clear();
             }
         }
+        System.out.println("------------------------------------------------------------------------------END HAND----------------------------------------------------------------------------------");
     }
 
     public int sizeOfHand() {

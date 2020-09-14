@@ -7,6 +7,8 @@ public class Enchantment extends Card {
     private String subType;
     private boolean permanent;
     private boolean spell;
+    private Creature enchantedCreature;
+    private boolean isEnchanted = false;
 
     public void setPermanent(boolean permanent) {
         this.permanent = permanent;
@@ -22,6 +24,11 @@ public class Enchantment extends Card {
 
     public void setSpell(boolean spell) {
         this.spell = spell;
+    }
+
+    public void enchantCreature(Creature creature) {
+        this.enchantedCreature = creature;
+        this.isEnchanted = true;
     }
 
     public Enchantment(String name, String color, String manaCost, String type, String effect, String subType, boolean permanent, boolean spell) {
@@ -59,6 +66,10 @@ public class Enchantment extends Card {
             }
         } else {
             caracteristicas.add(efeito);
+        }
+
+        if(this.isEnchanted) {
+            caracteristicas.add("Enchanted creature: " + enchantedCreature.getName());
         }
 
         for(int i = 0; i<15; i++){
