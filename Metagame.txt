@@ -11,12 +11,14 @@ get Life
 get Name
 
 constructor for life, name and deck
+constructor for name and deck, with life as default
 
 loseLife()
 gainLife()
 
 drawCards(int)    	        #moves a card from the deck to the hand
 mulligan()                      #returns the cards from the hand to the deck, shuffles the deck and draws one less card than the previous number of cards in the hand
+shuffleDeck()			#shuffles the deck
 
 playCardFromHandToStack(int)    #moves a card of the specified index from the hand to the stack if there is enough mana to play it
 moveCardFromHandToStack(int)    #moves a card of the specified index from the hand to the stack
@@ -57,9 +59,26 @@ namesOfCardsInHand()		#prints a list of non-land cards with their respective ind
 namesOfLandsInHand()		#prints a list of lands with their respective index
 getCardFromHand(int)		#returns a card from the specified index of the hand
 
-howToPayManaOfCard(Card)                      #prints a message telling the player how to use their lands to pay for the card
-showUntappedLandsPerColor()		      #prints a message saying how many untapped lands of each color there are
-countCharInString(String, char)		      #returns the number of times a specific char appears in a string
+howToPayManaOfCard(Card)        #prints a message telling the player how to use their lands to pay for the card
+
+untapAllCardsOnField()          #untaps all cards on the field
+showUntappedLandsPerColor()	#prints a message saying how many untapped lands of each color there are
+
+countCharInString(String, char)	#returns the number of times a specific char appears in a string
+
+showField()			#prints the field
+
+isThereAPlaneswalker()                    #determines if there is a planeswalker on the field
+getPlaneswalkers()                        #returns an array of all planeswalkers on the field
+getPlaneswalkersNameAtIndex(int)          #returns the name of a planeswalker at the specified index
+
+getCreatureByIndex(ArrayList<Integer>)    			#returns an array of creatures with the specified indexes
+getCreaturesAbleToAttack(int)             			#provided with the turn number it returns an array of the creatures that are able to attack at the specified turn
+getAllCreaturesAbleToDefendNamesAndIndexs()     		#returns an array of strings with the index and name of each creature that is able to defend
+defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(int)      #provided with the turn's number, it sets the turn in which the last added creature to the field was played
+getCreaturesNameAndIndex(int)					#returns an array of strings with the name and index of all creatures able to attack this turn
+
+areThereLandsInHand()           #returns true if there are lands in the hand
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -96,7 +115,22 @@ tapLands(int, int, int, int, int)         #taps all untapped lands
 
 untapAllCardsOnField()                    #untaps all tappable cards in the field: artifacts, lands and creatures (+enchantments)
 untapLands()                              #untaps all lands in the field
+untapAllCardsOnField()                    #untaps all tapable cards on field
+
 showUntappedLandsPerColor()               #prints a message saying how many untapped lands of each color there are
+showTappedLandsPerColor()                 #prints a message saying how many tapped lands of each color there are
+
+showField()                               #prints the field
+
+isThereAPlaneswalker()                    #determines if there is a planeswalker on the field
+getPlaneswalkers()                        #returns an array of all planeswalkers on the field
+getPlaneswalkersNameAtIndex(int)          #returns the name of a planeswalker at the specified index
+
+getCreatureByIndex(ArrayList<Integer>)    			#returns an array of creatures with the specified indexes
+getCreaturesAbleToAttack(int)             			#provided with the turn number it returns an array of the creatures that are able to attack at the specified turn
+getAllCreaturesAbleToDefendNamesAndIndexs()     		#returns an array of strings with the index and name of each creature that is able to defend
+defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(int)      #provided with the turn's number, it sets the turn in which the last added creature to the field was played
+getCreaturesNameAndIndex(int)					#returns an array of strings with the name and index of all creatures able to attack this turn
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -120,13 +154,18 @@ createListOfIndexForOrderCards(int)           #creates a list of ordered numbers
 Hand:
 +list of cards
 
-sendToHand()
+sendToHand(Card)                 #sends the specified card to the hand
+sendToHand(ArrayList<Card>)      #sends the cards of the arrayList of cards to the hand            
 removeFromHand()
-getCardFromHand(int)                          #returns the card at the specified index of the hand
+getCardFromHand(int)             #returns the card at the specified index of the hand
 showHand()
 
-namesOfCardsInHand()                          #prints a message telling the player how to use their lands to pay for the card
-namesOfLandsInHand()                          #prints a message saying how many untapped lands of each color there are
+sizeOfHand()			 #returns the number of cards in the hand
+
+namesOfCardsInHand()             #prints a message telling the player how to use their lands to pay for the card
+namesOfLandsInHand()             #prints a message saying how many untapped lands of each color there are
+
+areThereLandsInHand()		 #returns true if there are lands in the hand
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

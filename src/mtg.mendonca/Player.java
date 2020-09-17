@@ -1,7 +1,6 @@
 package mtg.mendonca;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 
 public class Player {
     private int life;
@@ -58,7 +57,7 @@ public class Player {
 
     public boolean playCardFromHandToStack(int i, int numberOfRedLands, int numberOfGreenLands, int numberOfWhiteLands, int numberOfBlueLands, int numberOfBlackLands) {
         boolean isCardPlayed;
-        Card cardToBePlayed = this.hand.removeFromHand(i);
+        Card cardToBePlayed = this.hand.getCardFromHand(i);
         String mana = cardToBePlayed.getManaCost();
         int redMana = 0;
         boolean redCorrect = true;
@@ -132,16 +131,20 @@ public class Player {
                 numberOfBlackLands <= this.field.countNumberOfUntappedColoredLands("Black");
 
         if(redCorrect && greenCorrect && whiteCorrect && blueCorrect && blackCorrect && numberCorrect && isManaEnough) {
-            this.stack.addToStack(this.hand.removeFromHand(i));
+            this.stack.addToStack(cardToBePlayed);
+            this.hand.removeFromHand(i);
             this.field.tapLands(numberOfRedLands, numberOfGreenLands, numberOfWhiteLands, numberOfBlueLands, numberOfBlackLands);
             isCardPlayed = true;
+
+            // shows card
+            System.out.println(" ");
+            for(int j = 0; j < 15; j++) {
+                System.out.println(cardToBePlayed.getCard()[j]);
+            }
+
         } else {
             System.out.println("You don't have enough mana to play that card.");
             isCardPlayed = false;
-        }
-
-        for(int j = 0; j < 15; j++) {
-            System.out.println(cardToBePlayed.getCard()[j]);
         }
 
         return isCardPlayed;
@@ -484,7 +487,7 @@ public class Player {
     }
 
     public ArrayList<Creature> getCreaturesByIndex(ArrayList<Integer> indexes) {
-        return getCreaturesByIndex(indexes);
+        return this.field.getCreatureByIndex(indexes);
     }
 
     public ArrayList<Creature> getCreaturesAbleToAttack(int turn) {
@@ -501,5 +504,9 @@ public class Player {
 
     public void defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(int turn) {
         this.field.defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(turn);
+    }
+
+    public boolean areThereLandsInHand() {
+        return this.hand.areThereLandsInHand();
     }
 }

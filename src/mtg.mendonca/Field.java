@@ -1,6 +1,5 @@
 package mtg.mendonca;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -121,19 +120,19 @@ public class Field {
         } else {
             while(landIterator.hasNext() && (numberOfRedLands > 0 || numberOfGreenLands > 0 || numberOfWhiteLands > 0 || numberOfBlueLands > 0 || numberOfBlackLands > 0)) {
                 Land land = landIterator.next();
-                if(numberOfRedLands > 0 && land.getColor().equals("Red")) {
+                if(numberOfRedLands > 0 && land.getColor().equals("Red") && !land.isTapped()) {
                     land.tap();
                     numberOfRedLands--;
-                } else if(numberOfGreenLands > 0 && land.getColor().equals("Green")) {
+                } else if(numberOfGreenLands > 0 && land.getColor().equals("Green") && !land.isTapped()) {
                     land.tap();
                     numberOfGreenLands--;
-                } else if(numberOfWhiteLands > 0 && land.getColor().equals("White")) {
+                } else if(numberOfWhiteLands > 0 && land.getColor().equals("White") && !land.isTapped()) {
                     land.tap();
                     numberOfWhiteLands--;
-                } else if(numberOfBlueLands > 0 && land.getColor().equals("Blue")) {
+                } else if(numberOfBlueLands > 0 && land.getColor().equals("Blue") && !land.isTapped()) {
                     land.tap();
                     numberOfBlueLands--;
-                } else if(numberOfBlackLands > 0 && land.getColor().equals("Black")) {
+                } else if(numberOfBlackLands > 0 && land.getColor().equals("Black") && !land.isTapped()) {
                     land.tap();
                     numberOfBlackLands--;
                 }
@@ -295,9 +294,9 @@ public class Field {
 
     public ArrayList<String> getAllCreaturesAbleToDefendNamesAndIndexs() {
         ArrayList<String> allCreaturesNames = new ArrayList<>();
-        for(int i = 1; i <= this.creaturesAndEnchantments.size(); i++) {
+        for(int i = 0; i < this.creaturesAndEnchantments.size(); i++) {
             if(!this.creaturesAndEnchantments.get(i).get(0).isTapped()) {
-                allCreaturesNames.add("\t" + i + " - " + this.creaturesAndEnchantments.get(i).get(0).getName());
+                allCreaturesNames.add("\t" + (i+1) + " - " + this.creaturesAndEnchantments.get(i).get(0).getName());
             }
         }
         return allCreaturesNames;
@@ -311,7 +310,7 @@ public class Field {
         ArrayList<String> creaturesToAttackNamesAndIndex = new ArrayList<>();
         for( int i = 0; i < this.creaturesAndEnchantments.size(); i++) {
             if(((Creature) this.creaturesAndEnchantments.get(i).get(0)).canAttack(turn)) {
-                creaturesToAttackNamesAndIndex.add("\t" + (i+1) + " - " + this.creaturesAndEnchantments.get(i).get(0).getName());
+                creaturesToAttackNamesAndIndex.add("\t" + (i+1) + " - " + this.creaturesAndEnchantments.get(i).get(0).getName() + ";");
             }
         }
         return creaturesToAttackNamesAndIndex;

@@ -160,9 +160,4 @@ public class Creature extends Card {
             return false;
         }
     }
-
-    // for debugging purposes
-    public int getTurnInWhichItWasPlayed() {
-        return turnInWhichItWasPlayed;
-    }
 }

@@ -25,24 +25,27 @@ showCard()
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Creature:
--características da carta
-+ataque
-+defesa
-+subtipo
+-card characteristics
++attack
++defenss
++subtype
 +dead
 +permanent
 +spell
++turnInWhichItWasPlayed
 
 get Attack
 get Defense
 set Permanent
 set Spell
+setTurnInWhichItWasPlayed(int)   # defines the number of the turn the creature was played in
 isDead()
 isPermanent()?
 isSpell()?
 
 constructor for everything
 constructor for type, dead, permanent and spell as default
+constructor with everything as default
 
 doAttack(player)       
 doAttack(plainswalker) 
@@ -50,6 +53,8 @@ doAttack(creature)  #damage taken is permanent
 doDefese(creature)  #damage taken is permanent
 
 @Override:getCard()
+
+canAttack(int)                   # provided the number of the turn, it determines if a creature is able to attack this turn or not
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -65,6 +70,7 @@ isSpell()?
 
 constructor for everything
 constructor for type, permanent and spell as default
+constructor with everything as default
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -73,15 +79,19 @@ Enchantment:
 +subType
 +permanent
 +spell
++enchantedCreature               # defines to which creature the enchantment is applied
++isEnchanted                     # determines if the enchantment is enchanted to a creature or not
 
 set Permanent
 isPermanent()?
 set Spell
 isSpell()?
 
+enchantCreature(creature) 
+
 constructor for everything
 constructor for type, permanent and spell as default
-
+constructor with everything as default
 @Override: getCard()
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -96,6 +106,7 @@ isPermanent()?
 
 constructor for everything
 constructor for type and permanent as default
+constructor with everything as default
 
 @Override: getCard()
 
@@ -119,6 +130,7 @@ isDead()?
 
 constructor for everything
 constructor for type, dead, permanent and spell as default
+constructor with everything as default
 
 addLife()
 looseLife()
@@ -134,6 +146,7 @@ isSpell()?
 
 constructor for everything
 constructor for type and spell as default
+constructor with everything as default
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -146,4 +159,5 @@ isSpell()?
 
 constructor for everything
 constructor for type and spell as default
+constructor with everything as default
 

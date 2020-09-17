@@ -1,4 +1,5 @@
 package mtg.mendonca;
+
 import java.util.ArrayList;
 
 public class Garbage {

@@ -70,4 +70,13 @@ public class Hand {
             }
         }
     }
+
+    public boolean areThereLandsInHand() {
+        for(int i = 0; i < this.hand.size(); i++) {
+            if(this.hand.get(i).getType().equals("Land")) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
