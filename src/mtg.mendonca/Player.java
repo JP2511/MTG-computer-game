@@ -509,4 +509,16 @@ public class Player {
     public boolean areThereLandsInHand() {
         return this.hand.areThereLandsInHand();
     }
+
+    public void attack(Player player, int index) {
+        this.field.attack(player, index);
+    }
+
+    public void attack(int indexOfPlaneswalker, int index) {
+        this.field.attack(indexOfPlaneswalker, index);
+    }
+
+    public void tapCreatures(ArrayList<Integer> indexes) {
+        this.field.tapCreatures(indexes);
+    }
 }

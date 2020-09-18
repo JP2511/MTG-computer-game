@@ -80,6 +80,10 @@ getCreaturesNameAndIndex(int)					#returns an array of strings with the name and
 
 areThereLandsInHand()           #returns true if there are lands in the hand
 
+attack(Player, int)                       #attack the specified player with the creature at the specified index
+attack(int, int)                          #attack the planeswalker at the specified index with the creature at the specified index
+tapCreatures(ArrayList<Integer>)          #taps the creatures of the specified indexes
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Field:
@@ -131,6 +135,10 @@ getCreaturesAbleToAttack(int)             			#provided with the turn number it r
 getAllCreaturesAbleToDefendNamesAndIndexs()     		#returns an array of strings with the index and name of each creature that is able to defend
 defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(int)      #provided with the turn's number, it sets the turn in which the last added creature to the field was played
 getCreaturesNameAndIndex(int)					#returns an array of strings with the name and index of all creatures able to attack this turn
+
+attack(Player, int)                       #attack the specified player with the creature at the specified index
+attack(int, int)                          #attack the planeswalker at the specified index with the creature at the specified index
+tapCreatures(ArrayList<Integer>)          #taps the creatures of the specified indexes
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

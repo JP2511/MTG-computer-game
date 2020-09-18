@@ -292,6 +292,9 @@ public class Game {
                             dictionaryOfListOfDefendingCreatures.put(indexOfCreaturesToAttack.get(j), creaturesToDefend);
                         }
 
+                        //flag for if there are creatures defending
+                        int numberOfDefendingGroups = 0;
+
                         // shows the current player how the other player plans on defending and lets the current player choose how the damage is going to be distributed
                         if (dictionaryOfListOfDefendingCreatures.size() > 0) {
                             System.out.println("\n" + otherPlayer.getName() + " wants to defend in the following way:");
@@ -305,15 +308,17 @@ public class Game {
                                             defenders += creaturesToPossiblyDefend.get(dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)).get(g)).split(" - ")[1].split(";")[0] + ", ";
                                         }
                                     }
-                                    System.out.println(otherPlayer.getName() + " wants to defend " +
+                                    System.out.println("\t" + otherPlayer.getName() + " wants to defend " +
                                             thisTurnsPlayer.getCreaturesByIndex(indexOfCreaturesToAttack).get(j).getName() + " with " +
                                             defenders);
+                                    numberOfDefendingGroups++;
                                 } else if (dictionaryOfListOfDefendingCreatures.get(j).size() == 1) {
-                                    System.out.println(otherPlayer.getName() + " wants to defend " +
+                                    System.out.println("\t" + otherPlayer.getName() + " wants to defend " +
                                             thisTurnsPlayer.getCreaturesByIndex(indexOfCreaturesToAttack).get(j).getName() + " with " +
                                             creaturesToPossiblyDefend.get(dictionaryOfListOfDefendingCreatures.get(j).get(0)).split(" - ")[1].split(";")[0]);
+                                    numberOfDefendingGroups++;
                                 } else {
-                                    System.out.println(otherPlayer.getName() + " doesn't want to defend " +
+                                    System.out.println("\t" + otherPlayer.getName() + " doesn't want to defend " +
                                             thisTurnsPlayer.getCreaturesByIndex(indexOfCreaturesToAttack).get(j).getName());
                                 }
                             }
@@ -322,42 +327,248 @@ public class Game {
                             System.out.println("\n" + otherPlayer.getName() + " doesn't want to defend.");
                         }
 
-                        //show how much attack and life each creature has, before asking how to distribute the damage
-                        if (dictionaryOfListOfDefendingCreatures.size() > 0) {
-                            System.out.println("\n" + thisTurnsPlayer.getName() + ", how would you like to distribute the damage?");
-                            for (int j = 0; j < indexOfCreaturesToAttack.size(); j++) {
+                        //flag for if there are creatures defending
+                        boolean areThereDefendingCreatures = numberOfDefendingGroups != 0;
+                        if(areThereDefendingCreatures) {
+                            //show how much attack and life each creature has before asking how to distribute the damage
+                            if (dictionaryOfListOfDefendingCreatures.size() > 0) {
+                                System.out.println("\n" + thisTurnsPlayer.getName() + ", how would you like to distribute the damage?");
 
-                                // gets the creature that is attacking
-                                ArrayList<Integer> creatureThatIsAttackingIndex = new ArrayList<>();
-                                creatureThatIsAttackingIndex.add(indexOfCreaturesToAttack.get(j));
-                                Creature currentPlayersCreature = thisTurnsPlayer.getCreaturesByIndex(creatureThatIsAttackingIndex).get(0);
+                                //showing the attack and life of each creature
+                                for (int j = 0; j < indexOfCreaturesToAttack.size(); j++) {
 
-                                String information = "Your creature, " + currentPlayersCreature.getName() + ", has " + currentPlayersCreature.getAttack() + " of power and " +
-                                        currentPlayersCreature.getDefense() + " of life. ";
-                                
-                                if (dictionaryOfListOfDefendingCreatures.get(j).size() > 1) {
-                                    ArrayList<Creature> creaturesThatAreDefendingIndex = thisTurnsPlayer.getCreaturesByIndex(dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)));
-                                    information += "And of the creatures that are defending: ";
-                                    for(int h = 0; h < creaturesThatAreDefendingIndex.size(); h++) {
-                                        if( h == creaturesThatAreDefendingIndex.size() - 1) {
-                                            information += " and ";
+                                    // gets the creature that is attacking
+                                    ArrayList<Integer> creatureThatIsAttackingIndex = new ArrayList<>();
+                                    creatureThatIsAttackingIndex.add(indexOfCreaturesToAttack.get(j));
+                                    Creature currentPlayersCreature = thisTurnsPlayer.getCreaturesByIndex(creatureThatIsAttackingIndex).get(0);
+
+                                    String information = "Your creature, " + currentPlayersCreature.getName() + ", has " + currentPlayersCreature.getAttack() + " of power and " +
+                                            currentPlayersCreature.getDefense() + " of life. ";
+
+                                    if (dictionaryOfListOfDefendingCreatures.get(j).size() > 1) {
+                                        ArrayList<Creature> creaturesThatAreDefendingIndex = thisTurnsPlayer.getCreaturesByIndex(dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)));
+                                        information += "And of the creatures that are defending: ";
+
+                                        for (int h = 0; h < creaturesThatAreDefendingIndex.size(); h++) {
+                                            if (h == creaturesThatAreDefendingIndex.size() - 1) {
+                                                information += " and ";
+                                            }
+                                            information += creaturesThatAreDefendingIndex.get(h).getName() + ", has " + creaturesThatAreDefendingIndex.get(h).getAttack() +
+                                                    " of power and has " + creaturesThatAreDefendingIndex.get(h).getDefense() + " of life";
+                                            if (h != creaturesThatAreDefendingIndex.size() - 1) {
+                                                information += "; ";
+                                            }
                                         }
-                                        information += creaturesThatAreDefendingIndex.get(h).getName() + ", has " + creaturesThatAreDefendingIndex.get(h).getAttack() +
-                                                " of power and has " + creaturesThatAreDefendingIndex.get(h).getDefense() + " of life";
-                                        if( h != creaturesThatAreDefendingIndex.size() - 1) {
-                                            information += "; ";
-                                        }
+
+                                    } else if (dictionaryOfListOfDefendingCreatures.get(j).size() == 1) {
+                                        ArrayList<Creature> creaturesThatAreDefendingIndex = thisTurnsPlayer.getCreaturesByIndex(dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)));
+                                        information += "And of the creatures that are defending: " + creaturesThatAreDefendingIndex.get(0).getName() + ", has " + creaturesThatAreDefendingIndex.get(0).getAttack() +
+                                                " of power and has " + creaturesThatAreDefendingIndex.get(0).getDefense() + " of life";
                                     }
-                                } else if (dictionaryOfListOfDefendingCreatures.get(j).size() == 1) {
-                                    ArrayList<Creature> creaturesThatAreDefendingIndex = thisTurnsPlayer.getCreaturesByIndex(dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)));
-                                    information += "And of the creatures that are defending: " + creaturesThatAreDefendingIndex.get(0).getName() + ", has " + creaturesThatAreDefendingIndex.get(0).getAttack() +
-                                            " of power and has " + creaturesThatAreDefendingIndex.get(0).getDefense() + " of life";
+
+                                    System.out.println("\t" + information);
                                 }
 
-                                System.out.println(information);
+                                // dictionary of creatures that defend as key and the damage that they'll take on as the value
+                                Hashtable<Integer, ArrayList<Integer>> damageTakenByDefendingCreature = new Hashtable<>();
+
+                                // asking the current player how to distribute the damage
+                                System.out.println();
+                                for (int j = 0; j < indexOfCreaturesToAttack.size(); j++) {
+
+                                    // gets the creature that is attacking
+                                    ArrayList<Integer> creatureThatIsAttackingIndex = new ArrayList<>();
+                                    creatureThatIsAttackingIndex.add(indexOfCreaturesToAttack.get(j));
+                                    Creature currentPlayersCreature = thisTurnsPlayer.getCreaturesByIndex(creatureThatIsAttackingIndex).get(0);
+
+                                    ArrayList<Integer> damageEachDefendingCreatureOfAnAttackingCreatureWillGet = new ArrayList<>();
+
+                                    if (dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)).size() > 0) {
+                                        System.out.println(currentPlayersCreature.getName() + " has " + currentPlayersCreature.getAttack() + " of damage to distribute: ");
+                                        int damageToDistribute = currentPlayersCreature.getAttack();
+
+                                        for (int h = 0; h < dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)).size(); h++) {
+                                            if (damageToDistribute > 0) {
+                                                System.out.print("\tHow much damage would you like to give to " + currentPlayersCreature.getName() + ":");
+                                                int damageToGive = input.nextInt();
+                                                input.nextLine();
+
+                                                int damageFromOneAttack = damageToDistribute - damageToGive;
+                                                while (damageFromOneAttack < 0) {
+                                                    System.out.println("\tThat's more damage to give than possible. Insert a lower value.");
+                                                    System.out.print("\tHow much damage would you like to give to " +
+                                                            dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)).get(h) + ":");
+                                                    damageToGive = input.nextInt();
+                                                    input.nextLine();
+                                                    damageFromOneAttack = damageToDistribute - damageToGive;
+                                                }
+                                                damageToDistribute -= damageToGive;
+                                                damageEachDefendingCreatureOfAnAttackingCreatureWillGet.add(damageToDistribute);
+                                            }
+                                        }
+
+                                        damageTakenByDefendingCreature.put(indexOfCreaturesToAttack.get(j), damageEachDefendingCreatureOfAnAttackingCreatureWillGet);
+                                    }
+                                }
+
+
+                                // actual attack
+                                ArrayList<Creature> creaturesThatAreAttacking = thisTurnsPlayer.getCreaturesByIndex(indexOfCreaturesToAttack);
+                                ArrayList<Creature> creaturesThatAreDefending = new ArrayList<>();
+                                ArrayList<Integer> indexesOfDefendingCreatures = new ArrayList<>();
+
+                                //performing the attack
+                                for(int j = 0; j < indexOfCreaturesToAttack.size(); j++) {
+                                    ArrayList<Integer> indexesOfDefendingCreaturesOfASpecificCreature = dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j));
+                                    ArrayList<Creature> creaturesThatAreDefendingASpecificCreature = otherPlayer.getCreaturesByIndex(indexesOfDefendingCreaturesOfASpecificCreature);
+
+                                    creaturesThatAreAttacking.get(j).doAttack(creaturesThatAreDefendingASpecificCreature, damageTakenByDefendingCreature.get(indexOfCreaturesToAttack.get(j)));
+
+                                    creaturesThatAreDefending.addAll(creaturesThatAreDefendingASpecificCreature);
+                                    indexesOfDefendingCreatures.addAll(indexesOfDefendingCreaturesOfASpecificCreature);
+                                }
+
+                                //tapping attacking creatures
+                                thisTurnsPlayer.tapCreatures(indexOfCreaturesToAttack);
+
+                                //removing dead attacking creatures from field
+                                ArrayList<Integer> deadAttackingCreatures = new ArrayList<>();
+                                for(int j = 0; j < creaturesThatAreAttacking.size(); j++) {
+                                    if(creaturesThatAreAttacking.get(j).isDead()) {
+                                        deadAttackingCreatures.add(indexOfCreaturesToAttack.get(j));
+                                    }
+                                }
+                                int[] orderedIndexesOfDeadAttackingCreatures = orderList(deadAttackingCreatures);
+                                for(int j = 0; j < orderedIndexesOfDeadAttackingCreatures.length; j++) {
+                                    thisTurnsPlayer.moveCardFromFieldToGarbage("Creature", orderedIndexesOfDeadAttackingCreatures[j] - j);
+                                }
+
+                                //removing dead defending creatures from field
+                                ArrayList<Integer> deadDefendingCreatures = new ArrayList<>();
+                                for(int j = 0; j < creaturesThatAreDefending.size(); j++) {
+                                    if(creaturesThatAreDefending.get(j).isDead()) {
+                                        deadDefendingCreatures.add(indexesOfDefendingCreatures.get(j));
+                                    }
+                                }
+                                int[] orderedIndexesOfDeadDefendingCreatures = orderList(deadDefendingCreatures);
+                                for(int j = 0; j < orderedIndexesOfDeadDefendingCreatures.length; j++) {
+                                    otherPlayer.moveCardFromFieldToGarbage("Creature", orderedIndexesOfDeadDefendingCreatures[j] - j);
+                                }
+                            }
+                        } else {
+                            //attack when there are no creatures defending
+                            System.out.println();
+                            for(int j = 0; j < indexOfCreaturesToAttack.size(); j++) {
+                                if(indexOfTargetOfAttack.get(j) == -1) {
+                                    thisTurnsPlayer.attack(otherPlayer, indexOfCreaturesToAttack.get(j));
+                                } else {
+                                    thisTurnsPlayer.attack(indexOfTargetOfAttack.get(j), indexOfCreaturesToAttack.get(j));
+                                }
                             }
                         }
                     }
+                }
+
+                // shows to the player the final main phase menu and allows the player to choose an action
+                System.out.println("\nYou are in the final main phase now.");
+                System.out.println("\n" + thisTurnsPlayer.getName() + ", what would you like to do next?");
+                System.out.println("\t0 - Play a card;");
+                System.out.println("\t1 - Use the effect of a card;");
+                System.out.println("\t2 - Show hand;");
+                System.out.println("\t3 - Show field;");
+                System.out.println("\t4 - End turn;");
+                System.out.println("\t5 - Give up;");
+                System.out.print("Your choice: ");
+                int finalActionChoice = input.nextInt();
+                input.nextLine();
+
+                // while the player doesn't choose to move on to the attack phase or doesn't give up
+                while (finalActionChoice != 4 && finalActionChoice != 5) {
+                    switch (finalActionChoice) {
+                        /*the player chooses to play a card, so the names of the non-land cards appear and ask him to choose one of the cards to play
+                        then asks the other player if they would like to counter the card being played*/
+                        case 0:
+                            thisTurnsPlayer.namesOfCardsInHand();
+                            System.out.print("Choose a card: ");
+                            int cardChosen = input.nextInt();
+                            input.nextLine();
+
+                            thisTurnsPlayer.howToPayManaOfCard(thisTurnsPlayer.getCardFromHand(cardChosen));
+
+                            // a flag to see if a card is a creature, so it can be defined in what turn it was played
+                            boolean itIsACreature = false;
+                            if (thisTurnsPlayer.getCardFromHand(cardChosen).getType().equals("Creature")) {
+                                itIsACreature = true;
+                            }
+                            thisTurnsPlayer.showUntappedLandsPerColor();
+
+                            //allows a player to choose how he or she will pay for the card being played
+                            System.out.println("\nPlease choose how many lands you would like to tap to play " + thisTurnsPlayer.getCardFromHand(cardChosen).getName());
+                            System.out.print("How many mountains (red lands) would you like to tap: ");
+                            int redLandsTotap = input.nextInt();
+                            input.nextLine();
+                            System.out.print("How many forests (green lands) would you like to tap: ");
+                            int greenLandsTotap = input.nextInt();
+                            input.nextLine();
+                            System.out.print("How many plains (white lands) would you like to tap: ");
+                            int whiteLandsTotap = input.nextInt();
+                            input.nextLine();
+                            System.out.print("How many islands (blue lands) would you like to tap: ");
+                            int blueLandsTotap = input.nextInt();
+                            input.nextLine();
+                            System.out.print("How many swamps (black lands) would you like to tap: ");
+                            int blackLandsTotap = input.nextInt();
+                            input.nextLine();
+
+                            //shows the card and asks the other player if they would like to counter the card being played
+                            boolean isThereEnoughMana = thisTurnsPlayer.playCardFromHandToStack(cardChosen, redLandsTotap, greenLandsTotap, whiteLandsTotap, blueLandsTotap, blackLandsTotap);
+                            if (isThereEnoughMana) {
+                                System.out.println(thisTurnsPlayer.getName() + " played the above card:");
+                                System.out.println(otherPlayer.getName() + " would you like to counter the card " + thisTurnsPlayer.getName() + " is going to play? (y/n)");
+                                String counterYesOrNo = input.nextLine();
+//                                if (counterYesOrNo.equals("N") || counterYesOrNo.equals("n") || counterYesOrNo.equals("No") || counterYesOrNo.equals("NO") || counterYesOrNo.equals("no")) {
+                                thisTurnsPlayer.playCardFromStackToField();
+                                if (itIsACreature) {
+                                    thisTurnsPlayer.defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(turn);
+                                }
+//                                }
+                            }
+                            break;
+
+                        /*the player chooses to use the effect of a card, but it is still work in progress*/
+                        case 1:
+                            System.out.println("Still in development...");
+                            break;
+
+                        /*the player chooses to see his or her own hand*/
+                        case 2:
+                            thisTurnsPlayer.showHand();
+                            break;
+
+                        /*the player chooses to see the field, with the other players field at the top and the current player's field at the bottom*/
+                        case 3:
+                            printField(thisTurnsPlayer, otherPlayer);
+                            break;
+                    }
+
+                    // shows again the final main phase menu
+                    System.out.println("\n" + thisTurnsPlayer.getName() + ", what would you like to do next?");
+                    System.out.println("\t0 - Play a card;");
+                    System.out.println("\t1 - Use the effect of a card;");
+                    System.out.println("\t2 - Show hand;");
+                    System.out.println("\t3 - Show field;");
+                    System.out.println("\t4 - End turn;");
+                    System.out.println("\t5 - Give up;");
+                    System.out.print("Your choice: ");
+                    finalActionChoice = input.nextInt();
+                    input.nextLine();
+                }
+
+                // if the player chooses to give up
+                if (finalActionChoice == 5) {
+                    endGame = true;
+                    playerWhoGaveUp = thisTurnsPlayer.getName();
+                    break;
                 }
             }
 
@@ -395,6 +606,27 @@ public class Game {
         System.out.println("-----------------------------------------------------------------------" + playerThisTurn.getName() + "'s FIELD----------------------------------------------------------------------------------");
         playerThisTurn.showField();
         System.out.println("------------------------------------------------------------------------------END FIELD---------------------------------------------------------------------------------");
+    }
+
+    public static int[] orderList(ArrayList<Integer> unorderedIndexes) {
+        int[] orderedIndexes = new int[unorderedIndexes.size()];
+        for(int i = 0; i < orderedIndexes.length; i++) {
+            int value = 1000;
+            //finds which is the biggest value
+            for(int j = 0; j < unorderedIndexes.size(); j++) {
+                if(unorderedIndexes.get(j) < value) {
+                    value = unorderedIndexes.get(j);
+                }
+            }
+            orderedIndexes[i] = value;
+            //removes the biggest value from the unorderedIndexes list
+            for(int j = 0; j < unorderedIndexes.size(); j++) {
+                if(unorderedIndexes.get(j) == value) {
+                    unorderedIndexes.remove(j);
+                }
+            }
+        }
+        return orderedIndexes;
     }
 }
 

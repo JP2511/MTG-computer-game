@@ -315,4 +315,18 @@ public class Field {
         }
         return creaturesToAttackNamesAndIndex;
     }
+
+    public void attack(Player player, int index) {
+        ((Creature) this.creaturesAndEnchantments.get(index).get(0)).doAttack(player);
+    }
+
+    public void attack(int indexOfPlaneswalker, int index) {
+        ((Creature) this.creaturesAndEnchantments.get(index).get(0)).doAttack(this.planeswalkers.get(indexOfPlaneswalker));
+    }
+
+    public void tapCreatures(ArrayList<Integer> indexes) {
+        for(int i = 0; i < indexes.size(); i++) {
+            this.creaturesAndEnchantments.get(i).get(0).tap();
+        }
+    }
 }

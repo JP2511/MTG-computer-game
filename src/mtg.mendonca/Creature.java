@@ -62,11 +62,11 @@ public class Creature extends Card {
         this("No Name", "No Color", "0", "No Effect", 0, 0, "No Subtype");
     }
 
-    public void doDefense(Creature creatura) {
+    public void doDefense(int damageToTake) {
         if(super.isTapped()){
             System.out.println("You can not use this card to defend this turn.");
         } else{
-            this.defense -= creatura.getAttack();
+            this.defense -= damageToTake;
             if(this.defense <= 0) {
                 this.dead = true;
             }
@@ -78,7 +78,7 @@ public class Creature extends Card {
             System.out.println("You can not use this card to attack this turn.");
         } else{
             nome.loseLife(this.attack);
-            System.out.println(nome.getName() + " lost " + this.attack + " of life." + nome.getName() + " now has " + nome.getLife() + " of life.");
+            System.out.println(nome.getName() + " lost " + this.attack + " of life. " + nome.getName() + " now has " + nome.getLife() + " of life.");
             super.tap();
         }
     }
@@ -92,15 +92,17 @@ public class Creature extends Card {
         }
     }
 
-    public void doAttack(Creature creature) {
+    public void doAttack(ArrayList<Creature> defendingCreatures, ArrayList<Integer> valueOfDamageToGive) {
         if(super.isTapped()){
             System.out.println("You can not use this card to attack this turn.");
         } else{
-            this.defense -= creature.getAttack();
-            if(this.defense <= 0) {
+            int sumOfDefendingCreatureAttack = 0;
+            for(int i = 0; i < defendingCreatures.size(); i++) {
+                sumOfDefendingCreatureAttack += defendingCreatures.get(i).getAttack();
+                defendingCreatures.get(i).doDefense(valueOfDamageToGive.get(i));
+            }
+            if(sumOfDefendingCreatureAttack >= this.defense) {
                 this.dead = true;
-            } else {
-                super.tap();
             }
         }
     }
@@ -129,6 +131,9 @@ public class Creature extends Card {
             }
         } else {
             caracteristicas.add(efeito);
+        }
+        if(isTapped())  {
+            caracteristicas.add("T A P P E D -- TAPPED");
         }
 
         for(int i = 0; i<15; i++){
