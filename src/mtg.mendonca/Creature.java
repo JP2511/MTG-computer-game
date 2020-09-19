@@ -78,7 +78,7 @@ public class Creature extends Card {
             System.out.println("You can not use this card to attack this turn.");
         } else{
             nome.loseLife(this.attack);
-            System.out.println(nome.getName() + " lost " + this.attack + " of life. " + nome.getName() + " now has " + nome.getLife() + " of life.");
+            System.out.println(nome.getName() + " lost " + this.attack + " of life. " + nome.getName() + " has now " + nome.getLife() + " of life.");
             super.tap();
         }
     }
@@ -97,7 +97,7 @@ public class Creature extends Card {
             System.out.println("You can not use this card to attack this turn.");
         } else{
             int sumOfDefendingCreatureAttack = 0;
-            for(int i = 0; i < defendingCreatures.size(); i++) {
+            for(int i = 0; i < valueOfDamageToGive.size(); i++) {
                 sumOfDefendingCreatureAttack += defendingCreatures.get(i).getAttack();
                 defendingCreatures.get(i).doDefense(valueOfDamageToGive.get(i));
             }

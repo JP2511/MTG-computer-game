@@ -295,6 +295,10 @@ public class Game {
                         //flag for if there are creatures defending
                         int numberOfDefendingGroups = 0;
 
+                        //creating an arrayList of the indexes of creatures that are attacking but aren't being defended
+                        ArrayList<Integer> attackingCreaturesWithNoDefendingCreatures = new ArrayList<>();
+                        ArrayList<Integer> attackingCreaturesWithoutDefenseTargets = new ArrayList<>();
+
                         // shows the current player how the other player plans on defending and lets the current player choose how the damage is going to be distributed
                         if (dictionaryOfListOfDefendingCreatures.size() > 0) {
                             System.out.println("\n" + otherPlayer.getName() + " wants to defend in the following way:");
@@ -334,6 +338,9 @@ public class Game {
                             if (dictionaryOfListOfDefendingCreatures.size() > 0) {
                                 System.out.println("\n" + thisTurnsPlayer.getName() + ", how would you like to distribute the damage?");
 
+                                //creating an arrayList of the indexes of the indexes to remove from the indexOfCreaturesToAttack
+                                ArrayList<Integer> indexesOfIndexesToRemoveFromIndexOfCreaturesToAttack = new ArrayList<>();
+
                                 //showing the attack and life of each creature
                                 for (int j = 0; j < indexOfCreaturesToAttack.size(); j++) {
 
@@ -346,7 +353,7 @@ public class Game {
                                             currentPlayersCreature.getDefense() + " of life. ";
 
                                     if (dictionaryOfListOfDefendingCreatures.get(j).size() > 1) {
-                                        ArrayList<Creature> creaturesThatAreDefendingIndex = thisTurnsPlayer.getCreaturesByIndex(dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)));
+                                        ArrayList<Creature> creaturesThatAreDefendingIndex = otherPlayer.getCreaturesByIndex(dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)));
                                         information += "And of the creatures that are defending: ";
 
                                         for (int h = 0; h < creaturesThatAreDefendingIndex.size(); h++) {
@@ -361,12 +368,33 @@ public class Game {
                                         }
 
                                     } else if (dictionaryOfListOfDefendingCreatures.get(j).size() == 1) {
-                                        ArrayList<Creature> creaturesThatAreDefendingIndex = thisTurnsPlayer.getCreaturesByIndex(dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)));
+                                        ArrayList<Creature> creaturesThatAreDefendingIndex = otherPlayer.getCreaturesByIndex(dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)));
                                         information += "And of the creatures that are defending: " + creaturesThatAreDefendingIndex.get(0).getName() + ", has " + creaturesThatAreDefendingIndex.get(0).getAttack() +
                                                 " of power and has " + creaturesThatAreDefendingIndex.get(0).getDefense() + " of life";
+                                    } else {
+
+                                        //adding the indexes of the creatures that are attacking but don't have any creatures defending
+                                        attackingCreaturesWithNoDefendingCreatures.add(indexOfCreaturesToAttack.get(j));
+
+                                        //removing the key and value pair of the creatures without a creature defending them
+                                        dictionaryOfListOfDefendingCreatures.remove(indexOfCreaturesToAttack.get(j));
+
+                                        //adding the indexes of the targets of the creatures that aren't being defended
+                                        attackingCreaturesWithoutDefenseTargets.add(indexOfTargetOfAttack.get(j));
+
+                                        //adding the index of the index of indexOfCreatureToAttack lis
+                                        indexesOfIndexesToRemoveFromIndexOfCreaturesToAttack.add(j);
                                     }
 
                                     System.out.println("\t" + information);
+                                }
+
+                                // counter for removing elements in a list by index
+                                int f = 0;
+                                // removing creatures that are attacking but don't have at least one creature defending them
+                                for(int h = 0; h < indexesOfIndexesToRemoveFromIndexOfCreaturesToAttack.size(); h++) {
+                                    indexOfCreaturesToAttack.remove(indexesOfIndexesToRemoveFromIndexOfCreaturesToAttack.get(h) - f);
+                                    f++;
                                 }
 
                                 // dictionary of creatures that defend as key and the damage that they'll take on as the value
@@ -389,7 +417,7 @@ public class Game {
 
                                         for (int h = 0; h < dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)).size(); h++) {
                                             if (damageToDistribute > 0) {
-                                                System.out.print("\tHow much damage would you like to give to " + currentPlayersCreature.getName() + ":");
+                                                System.out.print("\tHow much damage would you like to give to " + otherPlayer.getCreaturesByIndex(dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j))).get(h).getName() + ":");
                                                 int damageToGive = input.nextInt();
                                                 input.nextLine();
 
@@ -403,7 +431,9 @@ public class Game {
                                                     damageFromOneAttack = damageToDistribute - damageToGive;
                                                 }
                                                 damageToDistribute -= damageToGive;
-                                                damageEachDefendingCreatureOfAnAttackingCreatureWillGet.add(damageToDistribute);
+                                                damageEachDefendingCreatureOfAnAttackingCreatureWillGet.add(damageToGive);
+                                            } else {
+                                                damageEachDefendingCreatureOfAnAttackingCreatureWillGet.add(0);
                                             }
                                         }
 
@@ -412,7 +442,7 @@ public class Game {
                                 }
 
 
-                                // actual attack
+                                // preparing lists for the attack
                                 ArrayList<Creature> creaturesThatAreAttacking = thisTurnsPlayer.getCreaturesByIndex(indexOfCreaturesToAttack);
                                 ArrayList<Creature> creaturesThatAreDefending = new ArrayList<>();
                                 ArrayList<Integer> indexesOfDefendingCreatures = new ArrayList<>();
@@ -428,7 +458,16 @@ public class Game {
                                     indexesOfDefendingCreatures.addAll(indexesOfDefendingCreaturesOfASpecificCreature);
                                 }
 
-                                //tapping attacking creatures
+                                // attacking with the creatures that don't have creatures defending
+                                for(int j = 0; j < attackingCreaturesWithoutDefenseTargets.size(); j++) {
+                                    if(attackingCreaturesWithoutDefenseTargets.get(j) == -1) {
+                                        thisTurnsPlayer.attack(otherPlayer, attackingCreaturesWithNoDefendingCreatures.get(j));
+                                    } else {
+                                        thisTurnsPlayer.attack(attackingCreaturesWithoutDefenseTargets.get(j), attackingCreaturesWithNoDefendingCreatures.get(j));
+                                    }
+                                }
+
+                                //tapping attacking creatures with defenders
                                 thisTurnsPlayer.tapCreatures(indexOfCreaturesToAttack);
 
                                 //removing dead attacking creatures from field
@@ -586,14 +625,14 @@ public class Game {
                 for (int i = 0; i < 20; i++) {
                     cardsForTheDeck.add(new Land("Mountain" + i, "Red", "", ""));
                     cardsForTheDeck.add(new Creature("JoJo" + i, "Red", "R", "", 1, 1, "Hamon Master"));
-                    cardsForTheDeck.add(new Creature("JoJo"+ i, "Red", "R", "", 1, 1, "Hamon Master"));
+                    cardsForTheDeck.add(new Creature("JoJo"+ i, "Red", "R", "", 1, 2, "Hamon Master"));
                 }
                 break;
             case "Blue":
                 for (int i = 0; i < 20; i++) {
                     cardsForTheDeck.add(new Land("Island"+ i, "Blue", "", ""));
                     cardsForTheDeck.add(new Creature("Dior"+ i, "Blue", "U", "", 1, 1, "Vampire"));
-                    cardsForTheDeck.add(new Creature("Dior"+ i, "Blue", "U", "", 1, 1, "Vampire"));
+                    cardsForTheDeck.add(new Creature("Dior"+ i, "Blue", "U", "", 1, 2, "Vampire"));
                 }
                 break;
         }
