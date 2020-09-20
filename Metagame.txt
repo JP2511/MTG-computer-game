@@ -84,6 +84,8 @@ attack(Player, int)                       #attack the specified player with the 
 attack(int, int)                          #attack the planeswalker at the specified index with the creature at the specified index
 tapCreatures(ArrayList<Integer>)          #taps the creatures of the specified indexes
 
+showGraveyard()
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Field:
@@ -190,6 +192,7 @@ Garbage:
 
 sendToGarbage(Card)
 removeFromGarbage(int)
+showGraveyard()
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

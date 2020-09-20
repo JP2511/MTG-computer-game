@@ -55,20 +55,26 @@ public class Hand {
         return this.hand.size();
     }
 
-    public void namesOfCardsInHand() {
+    public ArrayList<String> namesOfCardsInHand() {
+        ArrayList<String> namesAndIndexes = new ArrayList<>();
         for(int i = 0; i < this.hand.size(); i++) {
             if(!this.hand.get(i).getType().equals("Land")) {
-                System.out.println(i + " - " + this.hand.get(i).getName());
+                System.out.println("\t" + i + " - " + this.hand.get(i).getName());
+                namesAndIndexes.add("\t" + i + " - " + this.hand.get(i).getName());
             }
         }
+        return namesAndIndexes;
     }
 
-    public void namesOfLandsInHand() {
+    public ArrayList<Integer> namesOfLandsInHand() {
+        ArrayList<Integer> possibleLandsToChoose = new ArrayList<>();
         for(int i = 0; i < this.hand.size(); i++) {
             if(this.hand.get(i).getType().equals("Land")) {
                 System.out.println(i + " - " + this.hand.get(i).getName());
+                possibleLandsToChoose.add(i);
             }
         }
+        return possibleLandsToChoose;
     }
 
     public boolean areThereLandsInHand() {

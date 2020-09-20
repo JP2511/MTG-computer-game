@@ -402,12 +402,12 @@ public class Player {
         return this.hand.sizeOfHand();
     }
 
-    public void namesOfCardsInHand() {
-        this.hand.namesOfCardsInHand();
+    public ArrayList<String> namesOfCardsInHand() {
+        return this.hand.namesOfCardsInHand();
     }
 
-    public void namesOfLandsInHand() {
-        this.hand.namesOfLandsInHand();
+    public ArrayList<Integer> namesOfLandsInHand() {
+        return this.hand.namesOfLandsInHand();
     }
 
     public Card getCardFromHand(int index) {
@@ -447,7 +447,7 @@ public class Player {
             anyManaValue = Integer.parseInt(mana.replaceAll("[^0-9]", ""));
         }
 
-        System.out.println("You need to tap " + redManaValue + " mountain(s), " + greenManaValue + " forest(s), " + whiteManaValue +
+        System.out.println("\nYou need to tap " + redManaValue + " mountain(s), " + greenManaValue + " forest(s), " + whiteManaValue +
                 " plain(s), " + blueManaValue + " island(s), " + blackManaValue + " swamp(s) and " + anyManaValue + " of whatever " +
                 "land(s) you choose.");
     }
@@ -520,5 +520,9 @@ public class Player {
 
     public void tapCreatures(ArrayList<Integer> indexes) {
         this.field.tapCreatures(indexes);
+    }
+
+    public void showGraveyard() {
+        this.garbage.showGraveyard();
     }
 }

@@ -3,9 +3,10 @@ package mtg.mendonca;
 import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class Game {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         System.out.println("\n##############################################################################################################################################################");
         System.out.println("Welcome to the Magic The Gathering Arena RipOff Game!");
         System.out.println("For now only two players can play.");
@@ -66,10 +67,30 @@ public class Game {
                     System.out.println("Would you like to play a land? (y/n)");
                     String landYesOrNo = input.nextLine();
                     if (landYesOrNo.equals("y") || landYesOrNo.equals("Y") || landYesOrNo.equals("Yes") || landYesOrNo.equals("YES") || landYesOrNo.equals("yes")) {
-                        thisTurnsPlayer.namesOfLandsInHand();
+                        ArrayList<Integer> numberOfPossibleLandChoices = thisTurnsPlayer.namesOfLandsInHand();
                         System.out.print("Choose a land to play: ");
+                        boolean initialLandChoice = input.hasNextInt();
+                        while(!initialLandChoice) {
+                            System.out.println("That's not a possible option!");
+                            System.out.print("Your choice: ");
+                            input.nextLine();
+                            initialLandChoice = input.hasNextInt();
+                        }
                         int landChosen = input.nextInt();
                         input.nextLine();
+                        while(!isItInsideArrayList(numberOfPossibleLandChoices, landChosen)) {
+                            System.out.println("That's not a possible option!");
+                            System.out.print("Your choice: ");
+                            initialLandChoice = input.hasNextInt();
+                            while(!initialLandChoice) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                input.nextLine();
+                                initialLandChoice = input.hasNextInt();
+                            }
+                            landChosen = input.nextInt();
+                            input.nextLine();
+                        }
 
                         System.out.println(thisTurnsPlayer.getName() + " played the following card:");
                         thisTurnsPlayer.moveCardFromHandToStack(landChosen);
@@ -90,21 +111,56 @@ public class Game {
                 System.out.println("\t2 - Show hand;");
                 System.out.println("\t3 - Show field;");
                 System.out.println("\t4 - Move to the attack phase;");
-                System.out.println("\t5 - Give up;");
+                System.out.println("\t5 - Show graveyard;");
+                System.out.println("\t6 - Give up;");
                 System.out.print("Your choice: ");
+                boolean choice = input.hasNextInt();
+                while(!choice) {
+                    System.out.println("That's not a possible option!");
+                    System.out.print("Your choice: ");
+                    input.nextLine();
+                    choice = input.hasNextInt();
+                }
                 int actionChoice = input.nextInt();
                 input.nextLine();
+                while(!isItInsideSequentialArray(6, actionChoice)) {
+                    System.out.println("That's not a possible option!");
+                    System.out.print("Your choice: ");
+                    actionChoice = input.nextInt();
+                    input.nextLine();
+                }
 
                 // while the player doesn't choose to move on to the attack phase or doesn't give up
-                while (actionChoice != 4 && actionChoice != 5) {
+                while (actionChoice != 4 && actionChoice != 6) {
                     switch (actionChoice) {
                         /*the player chooses to play a card, so the names of the non-land cards appear and ask him to choose one of the cards to play
                         then asks the other player if they would like to counter the card being played*/
                         case 0:
-                            thisTurnsPlayer.namesOfCardsInHand();
-                            System.out.print("Choose a card: ");
+                            System.out.println("\nChoose a card: ");
+                            ArrayList<String> namesAndIndexesOfCardChoices = thisTurnsPlayer.namesOfCardsInHand();
+                            System.out.print("Your choice: ");
+                            boolean cardChoice = input.hasNextInt();
+                            while(!cardChoice) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                input.nextLine();
+                                cardChoice = input.hasNextInt();
+                            }
                             int cardChosen = input.nextInt();
                             input.nextLine();
+                            while(!isItInsideArrayList(createAnArrayListOfChoices(namesAndIndexesOfCardChoices, false), cardChosen)) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                cardChoice = input.hasNextInt();
+                                while(!cardChoice) {
+                                    System.out.println("That's not a possible option!");
+                                    System.out.print("Your choice: ");
+                                    input.nextLine();
+                                    cardChoice = input.hasNextInt();
+                                }
+                                cardChosen = input.nextInt();
+                                input.nextLine();
+                            }
 
                             thisTurnsPlayer.howToPayManaOfCard(thisTurnsPlayer.getCardFromHand(cardChosen));
 
@@ -118,18 +174,57 @@ public class Game {
                             //allows a player to choose how he or she will pay for the card being played
                             System.out.println("\nPlease choose how many lands you would like to tap to play " + thisTurnsPlayer.getCardFromHand(cardChosen).getName());
                             System.out.print("How many mountains (red lands) would you like to tap: ");
+                            boolean landChoice = input.hasNextInt();
+                            while(!landChoice ) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                input.nextLine();
+                                landChoice = input.hasNextInt();
+                            }
                             int redLandsTotap = input.nextInt();
                             input.nextLine();
+
                             System.out.print("How many forests (green lands) would you like to tap: ");
+                            landChoice = input.hasNextInt();
+                            while(!landChoice ) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                input.nextLine();
+                                landChoice = input.hasNextInt();
+                            }
                             int greenLandsTotap = input.nextInt();
                             input.nextLine();
+
                             System.out.print("How many plains (white lands) would you like to tap: ");
+                            landChoice = input.hasNextInt();
+                            while(!landChoice ) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                input.nextLine();
+                                landChoice = input.hasNextInt();
+                            }
                             int whiteLandsTotap = input.nextInt();
                             input.nextLine();
+
                             System.out.print("How many islands (blue lands) would you like to tap: ");
+                            landChoice = input.hasNextInt();
+                            while(!landChoice ) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                input.nextLine();
+                                landChoice = input.hasNextInt();
+                            }
                             int blueLandsTotap = input.nextInt();
                             input.nextLine();
+
                             System.out.print("How many swamps (black lands) would you like to tap: ");
+                            landChoice = input.hasNextInt();
+                            while(!landChoice) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                input.nextLine();
+                                landChoice = input.hasNextInt();
+                            }
                             int blackLandsTotap = input.nextInt();
                             input.nextLine();
 
@@ -162,6 +257,9 @@ public class Game {
                         case 3:
                             printField(thisTurnsPlayer, otherPlayer);
                             break;
+                        case 5:
+                            thisTurnsPlayer.showGraveyard();
+                            break;
                     }
 
                     // shows again the main phase menu
@@ -171,14 +269,28 @@ public class Game {
                     System.out.println("\t2 - Show hand;");
                     System.out.println("\t3 - Show field;");
                     System.out.println("\t4 - Move to the attack phase;");
-                    System.out.println("\t5 - Give up;");
+                    System.out.println("\t5 - Show graveyard;");
+                    System.out.println("\t6 - Give up;");
                     System.out.print("Your choice: ");
+                    choice = input.hasNextInt();
+                    while(!choice ) {
+                        System.out.println("That's not a possible option!");
+                        System.out.print("Your choice: ");
+                        input.nextLine();
+                        choice = input.hasNextInt();
+                    }
                     actionChoice = input.nextInt();
                     input.nextLine();
+                    while(!isItInsideSequentialArray(6, actionChoice)) {
+                        System.out.println("That's not a possible option!");
+                        System.out.print("Your choice: ");
+                        actionChoice = input.nextInt();
+                        input.nextLine();
+                    }
                 }
 
                 // if the player chooses to give up
-                if (actionChoice == 5) {
+                if (actionChoice == 6) {
                     endGame = true;
                     playerWhoGaveUp = thisTurnsPlayer.getName();
                     break;
@@ -190,8 +302,28 @@ public class Game {
                 System.out.println("\t0 - Attack;");
                 System.out.println("\t1 - Move to the final main phase;");
                 System.out.print("Your choice: ");
+                boolean attackPhaseChoice = input.hasNextInt();
+                while(!attackPhaseChoice ) {
+                    System.out.println("That's not a possible option!");
+                    System.out.print("Your choice: ");
+                    input.nextLine();
+                    attackPhaseChoice = input.hasNextInt();
+                }
                 int attackOrNo = input.nextInt();
                 input.nextLine();
+                while(attackOrNo != 0 && attackOrNo != 1) {
+                    System.out.println("That's not a possible option!");
+                    System.out.print("Your choice: ");
+                    attackPhaseChoice = input.hasNextInt();
+                    while(!attackPhaseChoice ) {
+                        System.out.println("That's not a possible option!");
+                        System.out.print("Your choice: ");
+                        input.nextLine();
+                        attackPhaseChoice = input.hasNextInt();
+                    }
+                    attackOrNo = input.nextInt();
+                    input.nextLine();
+                }
 
                 // if the player chooses to attack
                 if (attackOrNo == 0) {
@@ -218,31 +350,120 @@ public class Game {
                         if (otherPlayer.isThereAPlaneswalker()) {
                             System.out.println("You can choose one of the following, for each creature, as a target for the attack of that creature:");
                             System.out.println("\t0 - Attack " + otherPlayer.getName() + ";");
+
+                            // array used to confirm if the choice of target of the attacking creature is one that is possible
+                            ArrayList<String> targetOptionsInStrings = new ArrayList<>();
+
                             for (int j = 0; j < otherPlayer.getPlaneswalker().size(); i++) {
                                 System.out.println("\t" + (j + 1) + " - Attack " + otherPlayer.getPlaneswalker().get(j) + ";");
+                                targetOptionsInStrings.add("\t" + (j + 1) + " - Attack " + otherPlayer.getPlaneswalker().get(j) + ";");
                             }
 
                             // while player doesn't choose to not choose anymore creatures, it asks the player to choose a creature and a target for its attack
                             System.out.print("Choose a card to attack with: ");
+                            boolean attackChoice = input.hasNextInt();
+                            while(!attackChoice ) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Choose a card to attack with: ");
+                                input.nextLine();
+                                attackChoice = input.hasNextInt();
+                            }
                             int indexOfCreatureToAttackWith = input.nextInt();
                             input.nextLine();
+                            while(!isItInsideArrayList(createAnArrayListOfChoices(creaturesToUseToAttack, true), indexOfCreatureToAttackWith)) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Choose a card to attack with: ");
+                                attackChoice = input.hasNextInt();
+                                while(!attackChoice ) {
+                                    System.out.println("That's not a possible option!");
+                                    System.out.print("Choose a card to attack with: ");
+                                    input.nextLine();
+                                    attackChoice = input.hasNextInt();
+                                }
+                                indexOfCreatureToAttackWith = input.nextInt();
+                                input.nextLine();
+                            }
+
+                            // asking the user to choose a target for the attacking creature just chosen
                             while (indexOfCreatureToAttackWith != 0) {
                                 indexOfCreaturesToAttack.add(indexOfCreatureToAttackWith - 1);
                                 System.out.print("Choose a target for the creature you just chose: ");
+                                boolean targetChoice = input.hasNextInt();
+                                while(!targetChoice ) {
+                                    System.out.println("That's not a possible option!");
+                                    System.out.print("Choose a target for the creature you just chose: ");
+                                    input.nextLine();
+                                    targetChoice = input.hasNextInt();
+                                }
                                 int indexOfTargetToAttackOfCreature = input.nextInt();
                                 input.nextLine();
+                                while(!isItInsideArrayList(createAnArrayListOfChoices(targetOptionsInStrings, true), indexOfCreatureToAttackWith)) {
+                                    System.out.println("That's not a possible option!");
+                                    System.out.print("Choose a target for the creature you just chose: ");
+                                    targetChoice = input.hasNextInt();
+                                    while(!targetChoice ) {
+                                        System.out.println("That's not a possible option!");
+                                        System.out.print("Choose a target for the creature you just chose: ");
+                                        input.nextLine();
+                                        targetChoice = input.hasNextInt();
+                                    }
+                                    indexOfTargetToAttackOfCreature = input.nextInt();
+                                    input.nextLine();
+                                }
 
                                 // if indexOfTargetToAttackOfCreature == -1, then the target is the player
                                 indexOfTargetOfAttack.add(indexOfTargetToAttackOfCreature - 1);
 
                                 System.out.print("Choose a card to attack with: ");
+                                attackChoice = input.hasNextInt();
+                                while(!attackChoice ) {
+                                    System.out.println("That's not a possible option!");
+                                    System.out.print("Choose a card to attack with: ");
+                                    input.nextLine();
+                                    attackChoice = input.hasNextInt();
+                                }
                                 indexOfCreatureToAttackWith = input.nextInt();
                                 input.nextLine();
+                                while(!isItInsideArrayList(createAnArrayListOfChoices(creaturesToUseToAttack, true), indexOfCreatureToAttackWith)) {
+                                    System.out.println("That's not a possible option!");
+                                    System.out.print("Choose a card to attack with: ");
+                                    attackChoice = input.hasNextInt();
+                                    while(!attackChoice ) {
+                                        System.out.println("That's not a possible option!");
+                                        System.out.print("Choose a card to attack with: ");
+                                        input.nextLine();
+                                        attackChoice = input.hasNextInt();
+                                    }
+                                    indexOfCreatureToAttackWith = input.nextInt();
+                                    input.nextLine();
+                                }
                             }
                         } else {
                             System.out.print("Choose a card to attack with: ");
+                            boolean attackChoice = input.hasNextInt();
+                            while(!attackChoice ) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Choose a card to attack with: ");
+                                input.nextLine();
+                                attackChoice = input.hasNextInt();
+                            }
                             int indexOfCreatureToAttackWith = input.nextInt();
                             input.nextLine();
+                            while(!isItInsideArrayList(createAnArrayListOfChoices(creaturesToUseToAttack, true), indexOfCreatureToAttackWith)) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Choose a card to attack with: ");
+                                attackChoice = input.hasNextInt();
+                                while(!attackChoice ) {
+                                    System.out.println("That's not a possible option!");
+                                    System.out.print("Choose a card to attack with: ");
+                                    input.nextLine();
+                                    attackChoice = input.hasNextInt();
+                                }
+                                indexOfCreatureToAttackWith = input.nextInt();
+                                input.nextLine();
+                            }
+
+                            //keep choosing attacking creatures unless the player chooses the 0 option
                             while (indexOfCreatureToAttackWith > 0) {
                                 indexOfCreaturesToAttack.add(indexOfCreatureToAttackWith - 1);
 
@@ -250,8 +471,28 @@ public class Game {
                                 indexOfTargetOfAttack.add(-1);
 
                                 System.out.print("Choose a card to attack with: ");
+                                attackChoice = input.hasNextInt();
+                                while(!attackChoice ) {
+                                    System.out.println("That's not a possible option!");
+                                    System.out.print("Your choice: ");
+                                    input.nextLine();
+                                    attackChoice = input.hasNextInt();
+                                }
                                 indexOfCreatureToAttackWith = input.nextInt();
                                 input.nextLine();
+                                while(!isItInsideArrayList(createAnArrayListOfChoices(creaturesToUseToAttack, true), indexOfCreatureToAttackWith)) {
+                                    System.out.println("That's not a possible option!");
+                                    System.out.print("Your choice: ");
+                                    attackChoice = input.hasNextInt();
+                                    while(!attackChoice ) {
+                                        System.out.println("That's not a possible option!");
+                                        System.out.print("Your choice: ");
+                                        input.nextLine();
+                                        attackChoice = input.hasNextInt();
+                                    }
+                                    indexOfCreatureToAttackWith = input.nextInt();
+                                    input.nextLine();
+                                }
                             }
                         }
 
@@ -275,6 +516,7 @@ public class Game {
 
                         // asks the other player to choose one or more (or none) of his or her creatures to defend each of the attacking creatures
                         Hashtable<Integer, ArrayList<Integer>> dictionaryOfListOfDefendingCreatures = new Hashtable<>();
+                        ArrayList<Integer> creaturesAlreadyChosenToDefend = new ArrayList<>();
                         for (int j = 0; j < indexOfCreaturesToAttack.size(); j++) {
                             int indexOfCreatureToDefend = 50;
                             ArrayList<Integer> creaturesToDefend = new ArrayList<>();
@@ -282,8 +524,29 @@ public class Game {
                             while (indexOfCreatureToDefend > 0) {
                                 System.out.print("Choose " + (g == 0 ? "a" : "another") + " creature to defend " + thisTurnsPlayer.getCreaturesByIndex(indexOfCreaturesToAttack).get(j).getName() + ":");
                                 g++;
+                                boolean defendingChoice = input.hasNextInt();
+                                while(!defendingChoice ) {
+                                    System.out.println("That's not a possible option!");
+                                    System.out.print("Choose another creature to defend " + thisTurnsPlayer.getCreaturesByIndex(indexOfCreaturesToAttack).get(j).getName() + ":");
+                                    input.nextLine();
+                                    defendingChoice = input.hasNextInt();
+                                }
                                 indexOfCreatureToDefend = input.nextInt();
                                 input.nextLine();
+                                while(!isItInsideArrayList(creaturesAlreadyChosenToDefend, indexOfCreatureToDefend) && !isItInsideArrayList(createAnArrayListOfChoices(creaturesToPossiblyDefend, true), indexOfCreatureToDefend)) {
+                                    System.out.println("That's not a possible option!");
+                                    System.out.print("Choose another creature to defend " + thisTurnsPlayer.getCreaturesByIndex(indexOfCreaturesToAttack).get(j).getName() + ":");
+                                    defendingChoice = input.hasNextInt();
+                                    while(!defendingChoice ) {
+                                        input.nextLine();
+                                        System.out.println("That's not a possible option!");
+                                        System.out.print("Choose another creature to defend " + thisTurnsPlayer.getCreaturesByIndex(indexOfCreaturesToAttack).get(j).getName() + ":");
+                                        defendingChoice = input.hasNextInt();
+                                        input.nextLine();
+                                    }
+                                    indexOfCreatureToDefend = input.nextInt();
+                                    input.nextLine();
+                                }
                                 if (indexOfCreatureToDefend > 0) {
                                     creaturesToDefend.add(indexOfCreatureToDefend - 1);
                                 }
@@ -418,6 +681,13 @@ public class Game {
                                         for (int h = 0; h < dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)).size(); h++) {
                                             if (damageToDistribute > 0) {
                                                 System.out.print("\tHow much damage would you like to give to " + otherPlayer.getCreaturesByIndex(dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j))).get(h).getName() + ":");
+                                                boolean damageChoice = input.hasNextInt();
+                                                while(!damageChoice ) {
+                                                    System.out.println("\tThat's not a possible option!");
+                                                    System.out.print("\tYour choice: ");
+                                                    input.nextLine();
+                                                    damageChoice = input.hasNextInt();
+                                                }
                                                 int damageToGive = input.nextInt();
                                                 input.nextLine();
 
@@ -426,6 +696,13 @@ public class Game {
                                                     System.out.println("\tThat's more damage to give than possible. Insert a lower value.");
                                                     System.out.print("\tHow much damage would you like to give to " +
                                                             dictionaryOfListOfDefendingCreatures.get(indexOfCreaturesToAttack.get(j)).get(h) + ":");
+                                                    damageChoice = input.hasNextInt();
+                                                    while(!damageChoice ) {
+                                                        System.out.println("\tThat's not a possible option!");
+                                                        System.out.print("\tYour choice: ");
+                                                        input.nextLine();
+                                                        damageChoice = input.hasNextInt();
+                                                    }
                                                     damageToGive = input.nextInt();
                                                     input.nextLine();
                                                     damageFromOneAttack = damageToDistribute - damageToGive;
@@ -515,22 +792,57 @@ public class Game {
                 System.out.println("\t1 - Use the effect of a card;");
                 System.out.println("\t2 - Show hand;");
                 System.out.println("\t3 - Show field;");
-                System.out.println("\t4 - End turn;");
-                System.out.println("\t5 - Give up;");
+                System.out.println("\t4 - Show graveyard;");
+                System.out.println("\t5 - End turn;");
+                System.out.println("\t6 - Give up;");
                 System.out.print("Your choice: ");
+                choice = input.hasNextInt();
+                while(!choice ) {
+                    System.out.println("That's not a possible option!");
+                    System.out.print("Your choice: ");
+                    input.nextLine();
+                    choice = input.hasNextInt();
+                }
                 int finalActionChoice = input.nextInt();
                 input.nextLine();
+                while(!isItInsideSequentialArray(6, actionChoice)) {
+                    System.out.println("That's not a possible option!");
+                    System.out.print("Your choice: ");
+                    finalActionChoice = input.nextInt();
+                    input.nextLine();
+                }
 
                 // while the player doesn't choose to move on to the attack phase or doesn't give up
-                while (finalActionChoice != 4 && finalActionChoice != 5) {
+                while (finalActionChoice != 5 && finalActionChoice != 6) {
                     switch (finalActionChoice) {
                         /*the player chooses to play a card, so the names of the non-land cards appear and ask him to choose one of the cards to play
                         then asks the other player if they would like to counter the card being played*/
                         case 0:
-                            thisTurnsPlayer.namesOfCardsInHand();
-                            System.out.print("Choose a card: ");
+                            System.out.println("\nChoose a card: ");
+                            ArrayList<String> namesAndIndexesOfCardChoices = thisTurnsPlayer.namesOfCardsInHand();
+                            System.out.print("Your choice: ");
+                            boolean cardChoice = input.hasNextInt();
+                            while(!cardChoice) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                input.nextLine();
+                                cardChoice = input.hasNextInt();
+                            }
                             int cardChosen = input.nextInt();
                             input.nextLine();
+                            while(!isItInsideArrayList(createAnArrayListOfChoices(namesAndIndexesOfCardChoices, false), cardChosen)) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                cardChoice = input.hasNextInt();
+                                while(!cardChoice) {
+                                    System.out.println("That's not a possible option!");
+                                    System.out.print("Your choice: ");
+                                    input.nextLine();
+                                    cardChoice = input.hasNextInt();
+                                }
+                                cardChosen = input.nextInt();
+                                input.nextLine();
+                            }
 
                             thisTurnsPlayer.howToPayManaOfCard(thisTurnsPlayer.getCardFromHand(cardChosen));
 
@@ -544,18 +856,57 @@ public class Game {
                             //allows a player to choose how he or she will pay for the card being played
                             System.out.println("\nPlease choose how many lands you would like to tap to play " + thisTurnsPlayer.getCardFromHand(cardChosen).getName());
                             System.out.print("How many mountains (red lands) would you like to tap: ");
+                            boolean landChoice = input.hasNextInt();
+                            while(!landChoice ) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                input.nextLine();
+                                landChoice = input.hasNextInt();
+                            }
                             int redLandsTotap = input.nextInt();
                             input.nextLine();
+
                             System.out.print("How many forests (green lands) would you like to tap: ");
+                            landChoice = input.hasNextInt();
+                            while(!landChoice ) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                input.nextLine();
+                                landChoice = input.hasNextInt();
+                            }
                             int greenLandsTotap = input.nextInt();
                             input.nextLine();
+
                             System.out.print("How many plains (white lands) would you like to tap: ");
+                            landChoice = input.hasNextInt();
+                            while(!landChoice ) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                input.nextLine();
+                                landChoice = input.hasNextInt();
+                            }
                             int whiteLandsTotap = input.nextInt();
                             input.nextLine();
+
                             System.out.print("How many islands (blue lands) would you like to tap: ");
+                            landChoice = input.hasNextInt();
+                            while(!landChoice ) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                input.nextLine();
+                                landChoice = input.hasNextInt();
+                            }
                             int blueLandsTotap = input.nextInt();
                             input.nextLine();
+
                             System.out.print("How many swamps (black lands) would you like to tap: ");
+                            landChoice = input.hasNextInt();
+                            while(!landChoice ) {
+                                System.out.println("That's not a possible option!");
+                                System.out.print("Your choice: ");
+                                input.nextLine();
+                                landChoice = input.hasNextInt();
+                            }
                             int blackLandsTotap = input.nextInt();
                             input.nextLine();
 
@@ -588,6 +939,9 @@ public class Game {
                         case 3:
                             printField(thisTurnsPlayer, otherPlayer);
                             break;
+                        case 4:
+                            thisTurnsPlayer.showGraveyard();
+                            break;
                     }
 
                     // shows again the final main phase menu
@@ -596,15 +950,29 @@ public class Game {
                     System.out.println("\t1 - Use the effect of a card;");
                     System.out.println("\t2 - Show hand;");
                     System.out.println("\t3 - Show field;");
-                    System.out.println("\t4 - End turn;");
-                    System.out.println("\t5 - Give up;");
+                    System.out.println("\t4 - Show graveyard;");
+                    System.out.println("\t5 - End turn;");
+                    System.out.println("\t6 - Give up;");
                     System.out.print("Your choice: ");
+                    choice = input.hasNextInt();
+                    while(!choice) {
+                        System.out.println("That's not a possible option!");
+                        System.out.print("Your choice: ");
+                        input.nextLine();
+                        choice = input.hasNextInt();
+                    }
                     finalActionChoice = input.nextInt();
                     input.nextLine();
+                    while(!isItInsideSequentialArray(6, actionChoice)) {
+                        System.out.println("That's not a possible option!");
+                        System.out.print("Your choice: ");
+                        finalActionChoice = input.nextInt();
+                        input.nextLine();
+                    }
                 }
 
                 // if the player chooses to give up
-                if (finalActionChoice == 5) {
+                if (finalActionChoice == 6) {
                     endGame = true;
                     playerWhoGaveUp = thisTurnsPlayer.getName();
                     break;
@@ -616,6 +984,8 @@ public class Game {
                 break;
             }
         }
+
+        TimeUnit.SECONDS.sleep(3);
     }
 
     public static Deck createDeck(String color) {
@@ -666,6 +1036,35 @@ public class Game {
             }
         }
         return orderedIndexes;
+    }
+
+    public static boolean isItInsideSequentialArray(int highestNumberOfArray, int numberToCheck) {
+        for(int i = 0; i <= highestNumberOfArray; i++) {
+            if(i == numberToCheck) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static boolean isItInsideArrayList(ArrayList<Integer> possibleOptions, int numberToCheck) {
+        for(int i = 0; i < possibleOptions.size(); i++) {
+            if(possibleOptions.get(i) == numberToCheck) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static ArrayList<Integer> createAnArrayListOfChoices(ArrayList<String> listOfOptionsNamesAndIndexes, boolean addZero) {
+        ArrayList<Integer> options = new ArrayList<>();
+        if(addZero) {
+            options.add(0);
+        }
+        for(int i = 0; i < listOfOptionsNamesAndIndexes.size(); i++) {
+            options.add(Integer.parseInt(listOfOptionsNamesAndIndexes.get(i).split("\\t")[1].split(" - ")[0]));
+        }
+        return options;
     }
 }
 
