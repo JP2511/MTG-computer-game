@@ -11,6 +11,13 @@ public class Creature extends Card {
     private boolean permanent = false;
     private boolean spell;
     private int turnInWhichItWasPlayed;
+    private boolean haste = getEffect().contains("Haste");
+    private boolean vigilance = getEffect().contains("Vigilance");
+    private boolean deathtouch = getEffect().contains("Deathtouch");
+    private boolean flying = getEffect().contains("Flying");
+    private boolean reach = getEffect().contains("Reach");
+    private boolean firstStrike = getEffect().contains("First Strike");
+    private boolean doubleStrike = getEffect().contains("Double Strike");
 
     public int getAttack() {
         return this.attack;
@@ -37,7 +44,31 @@ public class Creature extends Card {
     }
 
     public boolean isSpell() {
-        return spell;
+        return this.spell;
+    }
+
+    public boolean getVigilance() {
+        return this.vigilance;
+    }
+
+    public boolean getDeathtouch() {
+        return this.deathtouch;
+    }
+
+    public boolean getFlying() {
+        return this.flying;
+    }
+
+    public boolean getReach() {
+        return this.reach;
+    }
+
+    public boolean getFirstStrike() {
+        return firstStrike;
+    }
+
+    public boolean getDoubleStrike() {
+        return doubleStrike;
     }
 
     public void setTurnInWhichItWasPlayed(int turnNumber) {
@@ -62,12 +93,12 @@ public class Creature extends Card {
         this("No Name", "No Color", "0", "No Effect", 0, 0, "No Subtype");
     }
 
-    public void doDefense(int damageToTake) {
+    public void doDefense(int damageToTake, boolean hasDeathtouch) {
         if(super.isTapped()){
             System.out.println("You can not use this card to defend this turn.");
         } else{
             this.defense -= damageToTake;
-            if(this.defense <= 0) {
+            if(this.defense <= 0 || hasDeathtouch) {
                 this.dead = true;
             }
         }
@@ -77,9 +108,11 @@ public class Creature extends Card {
         if(super.isTapped()){
             System.out.println("You can not use this card to attack this turn.");
         } else{
-            nome.loseLife(this.attack);
-            System.out.println(nome.getName() + " lost " + this.attack + " of life. " + nome.getName() + " has now " + nome.getLife() + " of life.");
-            super.tap();
+            nome.loseLife(this.doubleStrike ? 2*this.attack : this.attack);
+            System.out.println(nome.getName() + " lost " + (this.doubleStrike ? 2*this.attack : this.attack) + " of life. " + nome.getName() + " has now " + nome.getLife() + " of life.");
+            if(!this.vigilance) {
+                super.tap();
+            }
         }
     }
 
@@ -87,8 +120,11 @@ public class Creature extends Card {
         if(super.isTapped()){
             System.out.println("You can not use this card to attack this turn.");
         } else{
-            jake.setLife(jake.getLife() - this.attack);
-            System.out.println(jake.getName() + " lost " + this.attack + " of life. And therefore it now has " + jake.getLife() + " of life.");
+            jake.setLife(jake.getLife() - (this.doubleStrike ? 2*this.attack : this.attack));
+            System.out.println(jake.getName() + " lost " + (this.doubleStrike ? 2*this.attack : this.attack) + " of life. And therefore it now has " + jake.getLife() + " of life.");
+            if(!this.vigilance) {
+                super.tap();
+            }
         }
     }
 
@@ -97,12 +133,44 @@ public class Creature extends Card {
             System.out.println("You can not use this card to attack this turn.");
         } else{
             int sumOfDefendingCreatureAttack = 0;
+            int sumOfDefendingCreatureFirstStrike = 0;
             for(int i = 0; i < valueOfDamageToGive.size(); i++) {
-                sumOfDefendingCreatureAttack += defendingCreatures.get(i).getAttack();
-                defendingCreatures.get(i).doDefense(valueOfDamageToGive.get(i));
+                if( defendingCreatures.get(i).getFirstStrike() || defendingCreatures.get(i).getDoubleStrike()) {
+                    sumOfDefendingCreatureFirstStrike += defendingCreatures.get(i).getAttack();
+                    if((this.firstStrike && valueOfDamageToGive.get(i) > 0) || (this.doubleStrike && valueOfDamageToGive.get(i) > 0)) {
+                        defendingCreatures.get(i).doDefense(valueOfDamageToGive.get(i), this.deathtouch);
+                    }
+                    if(defendingCreatures.get(i).getDeathtouch()) {
+                        this.dead = true;
+                    }
+                }
             }
-            if(sumOfDefendingCreatureAttack >= this.defense) {
+            if(sumOfDefendingCreatureFirstStrike >= this.defense) {
                 this.dead = true;
+            }
+            if(!this.dead) {
+                for (int i = 0; i < valueOfDamageToGive.size(); i++) {
+                    if (!defendingCreatures.get(i).getFirstStrike() && !defendingCreatures.get(i).isDead()) {
+                        if(this.firstStrike || this.doubleStrike) {
+                            defendingCreatures.get(i).doDefense(valueOfDamageToGive.get(i), this.deathtouch);
+                            if(!defendingCreatures.get(i).isDead() ) {
+                                if(this.doubleStrike) {
+                                    defendingCreatures.get(i).doDefense(valueOfDamageToGive.get(i), this.deathtouch);
+                                }
+                                sumOfDefendingCreatureAttack += defendingCreatures.get(i).getAttack();
+                            }
+                        } else {
+                            defendingCreatures.get(i).doDefense(valueOfDamageToGive.get(i), this.deathtouch);
+                            sumOfDefendingCreatureAttack += defendingCreatures.get(i).getAttack();
+                        }
+                        if(defendingCreatures.get(i).getDeathtouch()) {
+                            this.dead = true;
+                        }
+                    }
+                }
+                if (sumOfDefendingCreatureAttack >= this.defense) {
+                    this.dead = true;
+                }
             }
         }
     }
@@ -159,7 +227,7 @@ public class Creature extends Card {
     }
 
     public boolean canAttack(int turn) {
-        if(this.turnInWhichItWasPlayed != turn && !isTapped()) {
+        if((this.turnInWhichItWasPlayed != turn && !isTapped()) || (this.haste && !isTapped())) {
             return true;
         } else {
             return false;

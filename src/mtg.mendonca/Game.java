@@ -6,6 +6,7 @@ import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class Game {
+
     public static void main(String[] args) throws InterruptedException {
         System.out.println("\n##############################################################################################################################################################");
         System.out.println("Welcome to the Magic The Gathering Arena RipOff Game!");
@@ -508,10 +509,16 @@ public class Game {
                         // shows a list of the other player's creatures that are able to defend
                         System.out.println("\n" + otherPlayer.getName() + ", you have the following creatures available to defend:");
                         ArrayList<String> creaturesToPossiblyDefend = otherPlayer.getAllCreaturesAbleToDefendNamesAndIndexs();
-                        System.out.println("\t0 - I don't want to defend this creature or I don't want to defend this creature with anymore creatures.");
-                        for (int j = 0; j < creaturesToPossiblyDefend.size(); j++) {
-                            // the number of the option corresponds to the index + 1
-                            System.out.println(creaturesToPossiblyDefend.get(j));
+                        ArrayList<ArrayList<String>> arrayListOfArrayListOfPossibleCreaturesToDefend = new ArrayList<>();
+                        for(int j = 0; j < indexOfCreaturesToAttack.size(); j++) {
+                            ArrayList<String> creaturesToPossiblyDefendEachCreature = otherPlayer.getAllCreaturesAbleToDefendNamesAndIndexs(thisTurnsPlayer.getCreaturesByIndex(indexOfCreaturesToAttack).get(j));
+                            System.out.println("The following creatures are able to defend " + thisTurnsPlayer.getCreaturesByIndex(indexOfCreaturesToAttack).get(j).getName());
+                            System.out.println("\t0 - I don't want to defend this creature or I don't want to defend this creature with anymore creatures.");
+                            for (int h = 0; h < creaturesToPossiblyDefendEachCreature.size(); h++) {
+                                // the number of the option corresponds to the index + 1
+                                System.out.println(creaturesToPossiblyDefendEachCreature.get(h));
+                            }
+                            arrayListOfArrayListOfPossibleCreaturesToDefend.add(creaturesToPossiblyDefendEachCreature);
                         }
 
                         // asks the other player to choose one or more (or none) of his or her creatures to defend each of the attacking creatures
@@ -533,7 +540,7 @@ public class Game {
                                 }
                                 indexOfCreatureToDefend = input.nextInt();
                                 input.nextLine();
-                                while(!isItInsideArrayList(creaturesAlreadyChosenToDefend, indexOfCreatureToDefend) && !isItInsideArrayList(createAnArrayListOfChoices(creaturesToPossiblyDefend, true), indexOfCreatureToDefend)) {
+                                while(!isItInsideArrayList(creaturesAlreadyChosenToDefend, indexOfCreatureToDefend) && !isItInsideArrayList(createAnArrayListOfChoices(creaturesToPossiblyDefend, true), indexOfCreatureToDefend) && !isItInsideArrayList(createAnArrayListOfChoices(arrayListOfArrayListOfPossibleCreaturesToDefend.get(j), true), indexOfCreatureToDefend)) {
                                     System.out.println("That's not a possible option!");
                                     System.out.print("Choose another creature to defend " + thisTurnsPlayer.getCreaturesByIndex(indexOfCreaturesToAttack).get(j).getName() + ":");
                                     defendingChoice = input.hasNextInt();
@@ -992,17 +999,23 @@ public class Game {
         ArrayList<Card> cardsForTheDeck = new ArrayList<>();
         switch (color) {
             case "Red":
-                for (int i = 0; i < 20; i++) {
-                    cardsForTheDeck.add(new Land("Mountain" + i, "Red", "", ""));
-                    cardsForTheDeck.add(new Creature("JoJo" + i, "Red", "R", "", 1, 1, "Hamon Master"));
-                    cardsForTheDeck.add(new Creature("JoJo"+ i, "Red", "R", "", 1, 2, "Hamon Master"));
+                for (int i = 0; i < 10; i++) {
+                    cardsForTheDeck.add(new Land("Mountain A" + i, "Red", "", ""));
+                    cardsForTheDeck.add(new Creature("JoJo A" + i, "Red", "R", "Haste.Double Strike.", 1, 1, "Hamon Master"));
+                    cardsForTheDeck.add(new Creature("JoJo B"+ i, "Red", "R", "Haste.Double Strike.", 1, 1, "Hamon Master"));
+                    cardsForTheDeck.add(new Land("Mountain B" + i, "Red", "", ""));
+                    cardsForTheDeck.add(new Creature("JoJo C" + i, "Red", "R", "Haste.First Strike.", 1, 1, "Hamon Master"));
+                    cardsForTheDeck.add(new Creature("JoJo D"+ i, "Red", "R", "Haste.First Strike.", 1, 1, "Hamon Master"));
                 }
                 break;
             case "Blue":
-                for (int i = 0; i < 20; i++) {
-                    cardsForTheDeck.add(new Land("Island"+ i, "Blue", "", ""));
-                    cardsForTheDeck.add(new Creature("Dior"+ i, "Blue", "U", "", 1, 1, "Vampire"));
-                    cardsForTheDeck.add(new Creature("Dior"+ i, "Blue", "U", "", 1, 2, "Vampire"));
+                for (int i = 0; i < 10; i++) {
+                    cardsForTheDeck.add(new Land("Island A"+ i, "Blue", "", ""));
+                    cardsForTheDeck.add(new Creature("Dior A"+ i, "Blue", "U", "Flying", 1, 1, "Vampire"));
+                    cardsForTheDeck.add(new Creature("Dior B"+ i, "Blue", "U", "Reach", 1, 2, "Vampire"));
+                    cardsForTheDeck.add(new Land("Island B"+ i, "Blue", "", ""));
+                    cardsForTheDeck.add(new Creature("Dior C"+ i, "Blue", "U", "", 1, 1, "Vampire"));
+                    cardsForTheDeck.add(new Creature("Dior D"+ i, "Blue", "U", "", 1, 2, "Vampire"));
                 }
                 break;
         }

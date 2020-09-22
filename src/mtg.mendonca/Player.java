@@ -502,6 +502,10 @@ public class Player {
         return this.field.getAllCreaturesAbleToDefendNamesAndIndexs();
     }
 
+    public ArrayList<String> getAllCreaturesAbleToDefendNamesAndIndexs(Creature creatureThatIsAttacking) {
+        return this.field.getAllCreaturesAbleToDefendNamesAndIndexs(creatureThatIsAttacking);
+    }
+
     public void defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(int turn) {
         this.field.defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(turn);
     }

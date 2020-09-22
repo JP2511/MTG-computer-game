@@ -75,6 +75,7 @@ getPlaneswalkersNameAtIndex(int)          #returns the name of a planeswalker at
 getCreatureByIndex(ArrayList<Integer>)    			#returns an array of creatures with the specified indexes
 getCreaturesAbleToAttack(int)             			#provided with the turn number it returns an array of the creatures that are able to attack at the specified turn
 getAllCreaturesAbleToDefendNamesAndIndexs()     		#returns an array of strings with the index and name of each creature that is able to defend
+getAllCreaturesAbleToDefendNamesAndIndexs(Creature)             #returns an array of strings with the index and name of each creature that is able to defend the specified creature
 defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(int)      #provided with the turn's number, it sets the turn in which the last added creature to the field was played
 getCreaturesNameAndIndex(int)					#returns an array of strings with the name and index of all creatures able to attack this turn
 
@@ -135,6 +136,7 @@ getPlaneswalkersNameAtIndex(int)          #returns the name of a planeswalker at
 getCreatureByIndex(ArrayList<Integer>)    			#returns an array of creatures with the specified indexes
 getCreaturesAbleToAttack(int)             			#provided with the turn number it returns an array of the creatures that are able to attack at the specified turn
 getAllCreaturesAbleToDefendNamesAndIndexs()     		#returns an array of strings with the index and name of each creature that is able to defend
+getAllCreaturesAbleToDefendNamesAndIndexs(Creature)             #returns an array of strings with the index and name of each creature that is able to defend the specified creature
 defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(int)      #provided with the turn's number, it sets the turn in which the last added creature to the field was played
 getCreaturesNameAndIndex(int)					#returns an array of strings with the name and index of all creatures able to attack this turn
 

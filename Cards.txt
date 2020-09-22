@@ -33,6 +33,13 @@ Creature:
 +permanent
 +spell
 +turnInWhichItWasPlayed
++haste
++vigilance
++deathtouch
++flying
++reach
++double-strike
++first-strike
 
 get Attack
 get Defense
@@ -42,6 +49,12 @@ setTurnInWhichItWasPlayed(int)   # defines the number of the turn the creature w
 isDead()
 isPermanent()?
 isSpell()?
+get vigilance
+get deathtouch
+get flying
+get reach
+get double-strike
+get first-strike
 
 constructor for everything
 constructor for type, dead, permanent and spell as default

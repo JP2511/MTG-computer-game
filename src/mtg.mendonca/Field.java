@@ -302,6 +302,22 @@ public class Field {
         return allCreaturesNames;
     }
 
+    public ArrayList<String> getAllCreaturesAbleToDefendNamesAndIndexs(Creature creatureThatIsAttacking) {
+        ArrayList<String> allCreaturesNames = new ArrayList<>();
+        for(int i = 0; i < this.creaturesAndEnchantments.size(); i++) {
+            if(creatureThatIsAttacking.getFlying()) {
+               if((!this.creaturesAndEnchantments.get(i).get(0).isTapped()) && (((Creature) this.creaturesAndEnchantments.get(i).get(0)).getFlying() || ((Creature) this.creaturesAndEnchantments.get(i).get(0)).getReach())) {
+                   allCreaturesNames.add("\t" + (i + 1) + " - " + this.creaturesAndEnchantments.get(i).get(0).getName());
+               }
+            } else {
+                if (!this.creaturesAndEnchantments.get(i).get(0).isTapped()) {
+                    allCreaturesNames.add("\t" + (i + 1) + " - " + this.creaturesAndEnchantments.get(i).get(0).getName());
+                }
+            }
+        }
+        return allCreaturesNames;
+    }
+
     public void defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(int turn) {
         ((Creature) this.creaturesAndEnchantments.get(this.creaturesAndEnchantments.size() - 1).get(0)).setTurnInWhichItWasPlayed(turn);
     }
@@ -326,7 +342,9 @@ public class Field {
 
     public void tapCreatures(ArrayList<Integer> indexes) {
         for(int i = 0; i < indexes.size(); i++) {
-            this.creaturesAndEnchantments.get(i).get(0).tap();
+            if(!((Creature) this.creaturesAndEnchantments.get(i).get(0)).getVigilance()) {
+                this.creaturesAndEnchantments.get(i).get(0).tap();
+            }
         }
     }
 }
