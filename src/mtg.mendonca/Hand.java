@@ -1,6 +1,9 @@
 package mtg.mendonca;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Hand {
     private ArrayList<Card> hand = new ArrayList<>();
@@ -78,11 +81,47 @@ public class Hand {
     }
 
     public boolean areThereLandsInHand() {
-        for(int i = 0; i < this.hand.size(); i++) {
-            if(this.hand.get(i).getType().equals("Land")) {
+        for (Card card : this.hand) {
+            if (card.getType().equals("Land")) {
                 return true;
             }
         }
         return false;
+    }
+
+    public boolean areThereNonLandsCardsInHand() {
+        for (int i = 0; i < this.hand.size(); i++) {
+            if(!this.hand.get(i).getType().equals("Land")) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public ArrayList<Integer> checkForCounterSpell(Card cardBeingPlayed) {
+        ArrayList<Integer> indexesOfCounterStrikes = new ArrayList<>();
+        for (int i = 0; i < this.hand.size(); i++) {
+            if((this.hand.get(i).getType().equals("Creature") && this.hand.get(i).getEffect().contains("Flash")) || this.hand.get(i).getType().equals("Instant")) {
+                String effectOfCard = this.hand.get(i).getEffect();
+                if (effectOfCard.matches("[cC]ounter target.*spell")) {
+                    Pattern pattern = Pattern.compile("[cC]ounter target (.*) spell");
+                    Matcher matcher = pattern.matcher(effectOfCard);
+                    if (matcher.find()) {
+                        if (matcher.group(1).contains(cardBeingPlayed.getType().toLowerCase()) && !matcher.group(1).contains("non")) {
+                            indexesOfCounterStrikes.add(i);
+                        } else if (!matcher.group(1).contains(cardBeingPlayed.getType().toLowerCase()) && matcher.group(1).contains("non")) {
+                            indexesOfCounterStrikes.add(i);
+                        } else if (matcher.group(1).contains(cardBeingPlayed.getColor().toLowerCase())) {
+                            indexesOfCounterStrikes.add(i);
+                        } else if (matcher.group(1).contains("multicolored") && cardBeingPlayed.getColor().contains("and")) {
+                            indexesOfCounterStrikes.add(i);
+                        }
+                    } else {
+                        indexesOfCounterStrikes.add(i);
+                    }
+                }
+            }
+        }
+        return indexesOfCounterStrikes;
     }
 }

@@ -40,6 +40,7 @@ Creature:
 +reach
 +double-strike
 +first-strike
++flash
 
 get Attack
 get Defense
@@ -55,6 +56,7 @@ get flying
 get reach
 get double-strike
 get first-strike
+get flash
 
 constructor for everything
 constructor for type, dead, permanent and spell as default

@@ -18,6 +18,7 @@ public class Creature extends Card {
     private boolean reach = getEffect().contains("Reach");
     private boolean firstStrike = getEffect().contains("First Strike");
     private boolean doubleStrike = getEffect().contains("Double Strike");
+    private boolean flash = getEffect().contains("Flash");
 
     public int getAttack() {
         return this.attack;
@@ -64,11 +65,15 @@ public class Creature extends Card {
     }
 
     public boolean getFirstStrike() {
-        return firstStrike;
+        return this.firstStrike;
     }
 
     public boolean getDoubleStrike() {
-        return doubleStrike;
+        return this.doubleStrike;
+    }
+
+    public boolean getFlash() {
+        return this.flash;
     }
 
     public void setTurnInWhichItWasPlayed(int turnNumber) {

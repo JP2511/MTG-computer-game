@@ -55,7 +55,7 @@ public class Player {
         this.deck.shuffleDeck();
     }
 
-    public boolean playCardFromHandToStack(int i, int numberOfRedLands, int numberOfGreenLands, int numberOfWhiteLands, int numberOfBlueLands, int numberOfBlackLands) {
+    public boolean playCardFromHandToStack(int i, int numberOfRedLands, int numberOfGreenLands, int numberOfWhiteLands, int numberOfBlueLands, int numberOfBlackLands, boolean isCardACounter) {
         boolean isCardPlayed;
         Card cardToBePlayed = this.hand.getCardFromHand(i);
         String mana = cardToBePlayed.getManaCost();
@@ -131,7 +131,11 @@ public class Player {
                 numberOfBlackLands <= this.field.countNumberOfUntappedColoredLands("Black");
 
         if(redCorrect && greenCorrect && whiteCorrect && blueCorrect && blackCorrect && numberCorrect && isManaEnough) {
-            this.stack.addToStack(cardToBePlayed);
+            if(isCardACounter) {
+                this.stack.addCounterSpellsToStack(cardToBePlayed);
+            } else {
+                this.stack.addToStack(cardToBePlayed);
+            }
             this.hand.removeFromHand(i);
             this.field.tapLands(numberOfRedLands, numberOfGreenLands, numberOfWhiteLands, numberOfBlueLands, numberOfBlackLands);
             isCardPlayed = true;
@@ -414,6 +418,73 @@ public class Player {
         return this.hand.getCardFromHand(index);
     }
 
+    public ArrayList<Integer> canPayForCards(ArrayList<Integer> availableCounterSpells) {
+        ArrayList<Integer> counterSpellsThatCanBePayed = new ArrayList<>();
+        for(int i = 0; i < availableCounterSpells.size(); i++) {
+
+            String mana = this.hand.getCardFromHand(availableCounterSpells.get(i)).getManaCost();
+            int redManaValue = 0;
+            boolean redBoolean = true;
+            int greenManaValue = 0;
+            boolean greenBoolean = true;
+            int whiteManaValue = 0;
+            boolean whiteBoolean = true;
+            int blueManaValue = 0;
+            boolean blueBoolean = true;
+            int blackManaValue = 0;
+            boolean blackBoolean = true;
+            int anyManaValue = 0;
+            boolean anyManaBoolean = true;
+
+            if(mana.contains("R")) {
+                redManaValue = countCharInString(mana, 'R');
+                if(redManaValue > this.field.countNumberOfUntappedColoredLands("Red")) {
+                    redBoolean = false;
+                }
+            }
+
+            if(mana.contains("G")) {
+                greenManaValue = countCharInString(mana, 'G');
+                if(greenManaValue > this.field.countNumberOfUntappedColoredLands("Green")) {
+                    greenBoolean = false;
+                }
+            }
+
+            if(mana.contains("W")) {
+                whiteManaValue = countCharInString(mana, 'W');
+                if(whiteManaValue > this.field.countNumberOfUntappedColoredLands("White")) {
+                    whiteBoolean = false;
+                }
+            }
+
+            if(mana.contains("U")) {
+                blueManaValue = countCharInString(mana, 'U');
+                if(blueManaValue > this.field.countNumberOfUntappedColoredLands("Blue")) {
+                    blueBoolean = false;
+                }
+            }
+
+            if(mana.contains("B")) {
+                blackManaValue = countCharInString(mana, 'B');
+                if(blackManaValue > this.field.countNumberOfUntappedColoredLands("Black")) {
+                    blackBoolean = false;
+                }
+            }
+
+            if(mana.matches(".*\\d.*")) {
+                anyManaValue = Integer.parseInt(mana.replaceAll("[^0-9]", ""));
+                if(anyManaValue > (this.field.countUntappedLand() - redManaValue - greenManaValue - whiteManaValue - blueManaValue - blackManaValue)) {
+                    anyManaBoolean = false;
+                }
+            }
+
+            if(redBoolean && greenBoolean && whiteBoolean && blueBoolean && blackBoolean && anyManaBoolean) {
+                counterSpellsThatCanBePayed.add(availableCounterSpells.get(i));
+            }
+        }
+        return counterSpellsThatCanBePayed;
+    }
+
     public void howToPayManaOfCard(Card card) {
         String mana = card.getManaCost();
         int redManaValue = 0;
@@ -514,6 +585,14 @@ public class Player {
         return this.hand.areThereLandsInHand();
     }
 
+    public boolean areThereNonLandsInHand() {
+        return this.hand.areThereNonLandsCardsInHand();
+    }
+
+    public ArrayList<Integer> checkForCounterSpell(Card cardBeingPlayed) {
+        return this.hand.checkForCounterSpell(cardBeingPlayed);
+    }
+
     public void attack(Player player, int index) {
         this.field.attack(player, index);
     }
@@ -528,5 +607,9 @@ public class Player {
 
     public void showGraveyard() {
         this.garbage.showGraveyard();
+    }
+
+    public Card getCardFromStack() {
+        return this.stack.getCardFromStack();
     }
 }

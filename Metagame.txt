@@ -59,7 +59,8 @@ namesOfCardsInHand()		#prints a list of non-land cards with their respective ind
 namesOfLandsInHand()		#prints a list of lands with their respective index
 getCardFromHand(int)		#returns a card from the specified index of the hand
 
-howToPayManaOfCard(Card)        #prints a message telling the player how to use their lands to pay for the card
+canPayForCards(ArrayList<Integer>)       #create a list of indexes of cards from hand that the player are able to pay from a list of indexes of cards
+howToPayManaOfCard(Card)        	 #prints a message telling the player how to use their lands to pay for the card
 
 untapAllCardsOnField()          #untaps all cards on the field
 showUntappedLandsPerColor()	#prints a message saying how many untapped lands of each color there are
@@ -80,12 +81,16 @@ defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(int)      #provided with t
 getCreaturesNameAndIndex(int)					#returns an array of strings with the name and index of all creatures able to attack this turn
 
 areThereLandsInHand()           #returns true if there are lands in the hand
+areThereNonLandsCardsInHand()   #returns true if there is at least one nonland card in the hand
+checkForCounterSpell(Card)      #checks if there are counter spells that are able to counter the specified card and return a list of the possible counter spells
 
 attack(Player, int)                       #attack the specified player with the creature at the specified index
 attack(int, int)                          #attack the planeswalker at the specified index with the creature at the specified index
 tapCreatures(ArrayList<Integer>)          #taps the creatures of the specified indexes
 
 showGraveyard()
+
+getCardFromStack()              #returns a card from the stack
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -178,14 +183,22 @@ namesOfCardsInHand()             #prints a message telling the player how to use
 namesOfLandsInHand()             #prints a message saying how many untapped lands of each color there are
 
 areThereLandsInHand()		 #returns true if there are lands in the hand
+areThereNonLandsCardsInHand()    #returns true if there is at least one nonland card in the hand
+checkForCounterSpell(Card)       #checks if there are counter spells that are able to counter the specified card and return a list of the possible counter spells
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Stack:
 +card
++ArrayList<Card> counterSpellCards
 
 addToStack()
 removeFromStack()
+getCardFromStack()      #returns the card from the stack
+
+addCounterSpellsToStack(Card)       #adds the counter spell to the arrayList Of counter spells
+getLastCardFromCounterSpellStack()  #returns the last added card to the arrayList Of counter spells
+removeAllCounterSpells()            #empties the arrayList of CounterSpells
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
