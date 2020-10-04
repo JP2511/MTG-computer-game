@@ -11,14 +11,14 @@ public class Creature extends Card {
     private boolean permanent = false;
     private boolean spell;
     private int turnInWhichItWasPlayed;
-    private boolean haste = getEffect().contains("Haste");
-    private boolean vigilance = getEffect().contains("Vigilance");
-    private boolean deathtouch = getEffect().contains("Deathtouch");
-    private boolean flying = getEffect().contains("Flying");
-    private boolean reach = getEffect().contains("Reach");
-    private boolean firstStrike = getEffect().contains("First Strike");
-    private boolean doubleStrike = getEffect().contains("Double Strike");
-    private boolean flash = getEffect().contains("Flash");
+    private final boolean haste = getEffect().contains("Haste");
+    private final boolean vigilance = getEffect().contains("Vigilance");
+    private final boolean deathtouch = getEffect().contains("Deathtouch");
+    private final boolean flying = getEffect().contains("Flying");
+    private final boolean reach = getEffect().contains("Reach");
+    private final boolean firstStrike = getEffect().contains("First Strike");
+    private final boolean doubleStrike = getEffect().contains("Double Strike");
+    private final boolean flash = getEffect().contains("Flash");
 
     public int getAttack() {
         return this.attack;

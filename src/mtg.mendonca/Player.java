@@ -173,15 +173,14 @@ public class Player {
         this.hand.sendToHand(this.stack.removeFromStack());
     }
 
-    public void playCardFromStackToField() {
+    public void playCardFromStackToField(int turn) {
         Card cardToBeAddedToField = this.stack.removeFromStack();
         switch(cardToBeAddedToField.getType()) {
             case "Creature":
                 this.field.addCreatureToField((Creature) cardToBeAddedToField);
+                defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(turn);
                 break;
             case "Instant":
-                this.field.addInstantOrSorceryToField(cardToBeAddedToField);
-                break;
             case "Sorcery":
                 this.field.addInstantOrSorceryToField(cardToBeAddedToField);
                 break;
@@ -198,6 +197,10 @@ public class Player {
                 this.field.addEnchantmentToField((Enchantment) cardToBeAddedToField);
                 break;
         }
+    }
+
+    public void playCounterSpellFromStackToField() {
+        this.field.addInstantOrSorceryToField(this.stack.playLastCounterSpell());
     }
 
     public void moveCardFromStackToGarbage() {
