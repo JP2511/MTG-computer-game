@@ -90,7 +90,10 @@ tapCreatures(ArrayList<Integer>)          #taps the creatures of the specified i
 
 showGraveyard()
 
-getCardFromStack()              #returns a card from the stack
+getCardFromStack()                  #returns a card from the stack
+getLastCardFromCounterSpellStack()  #returns the last added card to the arrayList Of counter spells
+countCounterSpellsUsed()            #counts the number of cards in the counterSpellCards arraylist
+removeAllCounterSpells()            #empties the arrayList of CounterSpells
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -198,11 +201,12 @@ getCardFromStack()      #returns the card from the stack
 
 addCounterSpellsToStack(Card)       #adds the counter spell to the arrayList Of counter spells
 getLastCardFromCounterSpellStack()  #returns the last added card to the arrayList Of counter spells
+countCounterSpellsUsed()            #counts the number of cards in the counterSpellCards arraylist
 removeAllCounterSpells()            #empties the arrayList of CounterSpells
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Garbage:
+Graveyard:
 +list of cards
 
 sendToGarbage(Card)

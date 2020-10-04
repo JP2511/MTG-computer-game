@@ -73,29 +73,7 @@ public class Game {
                         int landChosen = returnUserInputIfValid(numberOfPossibleLandChoices, "Your choice: ");
 
                         System.out.println(thisTurnsPlayer.getName() + " played the following card:");
-                        thisTurnsPlayer.moveCardFromHandToStack(landChosen);
-
-                        //check if the other player has cards to counter the card the current player is playing
-                        ArrayList<Integer> availableCounterSpell = otherPlayer.checkForCounterSpell(thisTurnsPlayer.getCardFromStack());
-                        if(availableCounterSpell.size() > 0) {
-                            System.out.println(otherPlayer.getName() + " would you like to counter the card " + thisTurnsPlayer.getName() + " is going to play? (y/n)");
-
-                            String counterYesOrNo = input.nextLine();  //needs completion
-                            if (counterYesOrNo.equals("N") || counterYesOrNo.equals("n") || counterYesOrNo.equals("No") || counterYesOrNo.equals("NO") || counterYesOrNo.equals("no")) {
-                                thisTurnsPlayer.playCardFromStackToField();
-                            } else {
-                                ArrayList<Integer> counterSpellsThatCanBePayed = otherPlayer.canPayForCards(availableCounterSpell);
-                                System.out.println("\nYou have the following cards to counter the card played: ");
-                                for(int h = 0; h < counterSpellsThatCanBePayed.size(); h++) {
-                                    System.out.println("\t" + counterSpellsThatCanBePayed.get(h) + " - " + otherPlayer.getCardFromHand(counterSpellsThatCanBePayed.get(h)).getName());
-                                }
-                                System.out.print("Choose a card to play: ");
-                                int counterSpellChosen = returnUserInputIfValid(counterSpellsThatCanBePayed, "Your choice: ");
-
-                            }
-                        } else {
-                            thisTurnsPlayer.playCardFromStackToField();
-                        }
+                        playCard(thisTurnsPlayer, otherPlayer, landChosen, turn);
                     }
                 }
                 //end of playing a land
@@ -124,46 +102,8 @@ public class Game {
                                 ArrayList<String> namesAndIndexesOfCardChoices = thisTurnsPlayer.namesOfCardsInHand();
                                 System.out.print("Your choice: ");
                                 int cardChosen = returnUserInputIfValid(createAnArrayListOfChoices(namesAndIndexesOfCardChoices, false), "Your choice: ");
+                                playCard(thisTurnsPlayer, otherPlayer, cardChosen, turn);
 
-                                thisTurnsPlayer.howToPayManaOfCard(thisTurnsPlayer.getCardFromHand(cardChosen));
-
-                                // a flag to see if a card is a creature, so it can be defined in what turn it was played
-                                boolean itIsACreature = false;
-                                if (thisTurnsPlayer.getCardFromHand(cardChosen).getType().equals("Creature")) {
-                                    itIsACreature = true;
-                                }
-                                thisTurnsPlayer.showUntappedLandsPerColor();
-
-                                //allows a player to choose how he or she will pay for the card being played
-                                System.out.println("\nPlease choose how many lands you would like to tap to play " + thisTurnsPlayer.getCardFromHand(cardChosen).getName());
-                                System.out.print("How many mountains (red lands) would you like to tap: ");
-                                int redLandsTotap = returnUserInputCheckingOnlyIfInt();
-
-                                System.out.print("How many forests (green lands) would you like to tap: ");
-                                int greenLandsTotap = returnUserInputCheckingOnlyIfInt();
-
-                                System.out.print("How many plains (white lands) would you like to tap: ");
-                                int whiteLandsTotap = returnUserInputCheckingOnlyIfInt();
-
-                                System.out.print("How many islands (blue lands) would you like to tap: ");
-                                int blueLandsTotap = returnUserInputCheckingOnlyIfInt();
-
-                                System.out.print("How many swamps (black lands) would you like to tap: ");
-                                int blackLandsTotap = returnUserInputCheckingOnlyIfInt();
-
-                                //shows the card and asks the other player if they would like to counter the card being played
-                                boolean isThereEnoughMana = thisTurnsPlayer.playCardFromHandToStack(cardChosen, redLandsTotap, greenLandsTotap, whiteLandsTotap, blueLandsTotap, blackLandsTotap, false);
-                                if (isThereEnoughMana) {
-                                    System.out.println(thisTurnsPlayer.getName() + " played the above card:");
-                                    System.out.println(otherPlayer.getName() + " would you like to counter the card " + thisTurnsPlayer.getName() + " is going to play? (y/n)");
-                                    String counterYesOrNo = input.nextLine();
-//                                if (counterYesOrNo.equals("N") || counterYesOrNo.equals("n") || counterYesOrNo.equals("No") || counterYesOrNo.equals("NO") || counterYesOrNo.equals("no")) {
-                                    thisTurnsPlayer.playCardFromStackToField();
-                                    if (itIsACreature) {
-                                        thisTurnsPlayer.defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(turn);
-                                    }
-//                                }
-                                }
                             } else {
                                 System.out.println("\nYou don't have any cards to play.");
                             }
@@ -604,46 +544,8 @@ public class Game {
                                 ArrayList<String> namesAndIndexesOfCardChoices = thisTurnsPlayer.namesOfCardsInHand();
                                 System.out.print("Your choice: ");
                                 int cardChosen = returnUserInputIfValid(createAnArrayListOfChoices(namesAndIndexesOfCardChoices, false), "Your choice: ");
+                                playCard(thisTurnsPlayer, otherPlayer, cardChosen, turn);
 
-                                thisTurnsPlayer.howToPayManaOfCard(thisTurnsPlayer.getCardFromHand(cardChosen));
-
-                                // a flag to see if a card is a creature, so it can be defined in what turn it was played
-                                boolean itIsACreature = false;
-                                if (thisTurnsPlayer.getCardFromHand(cardChosen).getType().equals("Creature")) {
-                                    itIsACreature = true;
-                                }
-                                thisTurnsPlayer.showUntappedLandsPerColor();
-
-                                //allows a player to choose how he or she will pay for the card being played
-                                System.out.println("\nPlease choose how many lands you would like to tap to play " + thisTurnsPlayer.getCardFromHand(cardChosen).getName());
-                                System.out.print("How many mountains (red lands) would you like to tap: ");
-                                int redLandsTotap = returnUserInputCheckingOnlyIfInt();
-
-                                System.out.print("How many forests (green lands) would you like to tap: ");
-                                int greenLandsTotap = returnUserInputCheckingOnlyIfInt();
-
-                                System.out.print("How many plains (white lands) would you like to tap: ");
-                                int whiteLandsTotap = returnUserInputCheckingOnlyIfInt();
-
-                                System.out.print("How many islands (blue lands) would you like to tap: ");
-                                int blueLandsTotap = returnUserInputCheckingOnlyIfInt();
-
-                                System.out.print("How many swamps (black lands) would you like to tap: ");
-                                int blackLandsTotap = returnUserInputCheckingOnlyIfInt();
-
-                                //shows the card and asks the other player if they would like to counter the card being played
-                                boolean isThereEnoughMana = thisTurnsPlayer.playCardFromHandToStack(cardChosen, redLandsTotap, greenLandsTotap, whiteLandsTotap, blueLandsTotap, blackLandsTotap, false);
-                                if (isThereEnoughMana) {
-                                    System.out.println(thisTurnsPlayer.getName() + " played the above card:");
-                                    System.out.println(otherPlayer.getName() + " would you like to counter the card " + thisTurnsPlayer.getName() + " is going to play? (y/n)");
-                                    String counterYesOrNo = input.nextLine();
-//                                if (counterYesOrNo.equals("N") || counterYesOrNo.equals("n") || counterYesOrNo.equals("No") || counterYesOrNo.equals("NO") || counterYesOrNo.equals("no")) {
-                                    thisTurnsPlayer.playCardFromStackToField();
-                                    if (itIsACreature) {
-                                        thisTurnsPlayer.defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(turn);
-                                    }
-//                                }
-                                }
                             } else {
                                 System.out.println("You don't have any cards to play.");
                             }
@@ -707,8 +609,9 @@ public class Game {
                     cardsForTheDeck.add(new Creature("JoJo A" + i, "Red", "R", "Haste.Double Strike.", 1, 1, "Hamon Master"));
                     cardsForTheDeck.add(new Creature("JoJo B"+ i, "Red", "R", "Haste.Double Strike.", 1, 1, "Hamon Master"));
                     cardsForTheDeck.add(new Land("Mountain B" + i, "Red", "", ""));
-                    cardsForTheDeck.add(new Creature("JoJo C" + i, "Red", "R", "Haste.First Strike.", 1, 1, "Hamon Master"));
-                    cardsForTheDeck.add(new Creature("JoJo D"+ i, "Red", "R", "Haste.First Strike.", 1, 1, "Hamon Master"));
+
+                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Counter target spell"));
+                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Counter target spell"));
                 }
                 break;
             case "Blue":
@@ -820,5 +723,94 @@ public class Game {
         input.nextLine();
 
         return value;
+    }
+
+    public static void playCard(Player currentPlayer, Player otherPlayer, int cardChosenToPlay, int turn) {
+        Card cardBeingPlayed = currentPlayer.getCardFromHand(cardChosenToPlay);
+        //if the card being played is a land, doesn't ask to pay to enter into field
+        if(!cardBeingPlayed.getType().equals("Land")) {
+            currentPlayer.howToPayManaOfCard(cardBeingPlayed);
+
+            // a flag to see if a card is a creature, so it can be defined in what turn it was played
+            boolean itIsACreature = false;
+            if (cardBeingPlayed.getType().equals("Creature")) {
+                itIsACreature = true;
+            }
+            currentPlayer.showUntappedLandsPerColor();
+
+            //allows a player to choose how he or she will pay for the card being played
+            System.out.println("\nPlease choose how many lands you would like to tap to play " + currentPlayer.getCardFromHand(cardChosenToPlay).getName());
+            System.out.print("How many mountains (red lands) would you like to tap: ");
+            int redLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+            System.out.print("How many forests (green lands) would you like to tap: ");
+            int greenLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+            System.out.print("How many plains (white lands) would you like to tap: ");
+            int whiteLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+            System.out.print("How many islands (blue lands) would you like to tap: ");
+            int blueLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+            System.out.print("How many swamps (black lands) would you like to tap: ");
+            int blackLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+            //shows the card and asks the other player if they would like to counter the card being played
+            boolean isThereEnoughMana = currentPlayer.playCardFromHandToStack(cardChosenToPlay, redLandsTotap, greenLandsTotap, whiteLandsTotap, blueLandsTotap, blackLandsTotap, cardBeingPlayed.getEffect().matches("[cC]ounter target.*spell"));
+            if (isThereEnoughMana) {
+                System.out.println(currentPlayer.getName() + " played the above card:");
+
+                //check if the other player has cards to counter the card the current player is playing
+                ArrayList<Integer> counterSpellsThatCanBePayed = new ArrayList<>();
+                if(cardBeingPlayed.getType().equals("Instant") && cardBeingPlayed.getEffect().matches("[cC]ounter target.*spell")) {
+                    counterSpellsThatCanBePayed = otherPlayer.canPayForCards(otherPlayer.checkForCounterSpell(currentPlayer.getLastCardFromCounterSpellStack()));
+                } else {
+                    counterSpellsThatCanBePayed = otherPlayer.canPayForCards(otherPlayer.checkForCounterSpell(currentPlayer.getCardFromStack()));
+                }
+
+                //if there are counter spells to play, choose a card and ask the other player if it can be countered
+                if(counterSpellsThatCanBePayed.size() > 0) {
+                    System.out.println(otherPlayer.getName() + " would you like to counter the card " + currentPlayer.getName() + " is going to play? (y/n)");
+
+                    String counterYesOrNo = input.nextLine();
+                    if (counterYesOrNo.equals("N") || counterYesOrNo.equals("n") || counterYesOrNo.equals("No") || counterYesOrNo.equals("NO") || counterYesOrNo.equals("no")) {
+                        //if the amount counter spells played by the current player is equal or bigger than the opponent, play card, else move cards to graveyard
+                        if(currentPlayer.countCounterSpellsUsed() >= otherPlayer.countCounterSpellsUsed()) {
+                            currentPlayer.playCardFromStackToField();
+                            if (itIsACreature) {
+                                currentPlayer.defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(turn);
+                            }
+                        } else {
+                            currentPlayer.moveCardFromStackToGarbage();
+                        }
+                        currentPlayer.removeAllCounterSpells();
+                        otherPlayer.removeAllCounterSpells();
+                    } else {
+                        System.out.println("\nYou have the following cards to counter the card played: ");
+                        for(int h = 0; h < counterSpellsThatCanBePayed.size(); h++) {
+                            System.out.println("\t" + counterSpellsThatCanBePayed.get(h) + " - " + otherPlayer.getCardFromHand(counterSpellsThatCanBePayed.get(h)).getName());
+                        }
+                        System.out.print("Choose a card to play: ");
+                        int counterSpellChosen = returnUserInputIfValid(counterSpellsThatCanBePayed, "Your choice: ");
+                        playCard(otherPlayer, currentPlayer, counterSpellChosen, turn);
+                    }
+                } else {
+                    //if the amount counter spells played by the current player is equal or bigger than the opponent, play card, else move cards to graveyard
+                    if(currentPlayer.countCounterSpellsUsed() >= otherPlayer.countCounterSpellsUsed()) {
+                        currentPlayer.playCardFromStackToField();
+                        if (itIsACreature) {
+                            currentPlayer.defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(turn);
+                        }
+                    } else {
+                        currentPlayer.moveCardFromStackToGarbage();
+                    }
+                    currentPlayer.removeAllCounterSpells();
+                    otherPlayer.removeAllCounterSpells();
+                }
+            }
+        } else {
+            currentPlayer.moveCardFromHandToStack(cardChosenToPlay);
+            currentPlayer.playCardFromStackToField();
+        }
     }
 }

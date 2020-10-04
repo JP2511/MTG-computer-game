@@ -9,7 +9,7 @@ public class Player {
     private Hand hand = new Hand();
     private Stack stack = new Stack();
     private Field field = new Field();
-    private Garbage garbage = new Garbage();
+    private Graveyard graveyard = new Graveyard();
     private Exile exile = new Exile();
 
     public Player(int life, String name, Deck deck) {
@@ -166,7 +166,7 @@ public class Player {
     }
 
     public void playCardFromGarbageToStack(int index) {
-        this.stack.addToStack(this.garbage.removeFromGarbage(index));
+        this.stack.addToStack(this.graveyard.removeFromGarbage(index));
     }
 
     public void moveCardFromStackToHand() {
@@ -201,7 +201,7 @@ public class Player {
     }
 
     public void moveCardFromStackToGarbage() {
-        this.garbage.sendToGarbage(this.stack.removeFromStack());
+        this.graveyard.sendToGarbage(this.stack.removeFromStack());
     }
 
     public void moveCardFromFieldToHand(String cardType, int index) {
@@ -288,17 +288,17 @@ public class Player {
                 ArrayList<Card> arrayOfCreaturesAndEnchantments = this.field.removeCreatureFromField(index);
                 for(int i = 0; i < arrayOfCreaturesAndEnchantments.size(); i++) {
                     if(arrayOfCreaturesAndEnchantments.get(i).getType() == "Creature") {
-                        this.garbage.sendToGarbage(arrayOfCreaturesAndEnchantments.get(i));
+                        this.graveyard.sendToGarbage(arrayOfCreaturesAndEnchantments.get(i));
                     } else {
-                        this.garbage.sendToGarbage(arrayOfCreaturesAndEnchantments.get(i));
+                        this.graveyard.sendToGarbage(arrayOfCreaturesAndEnchantments.get(i));
                     }
                 }
                 break;
             case "Artifact":
-                this.garbage.sendToGarbage(this.field.removeArtifactFromField(index));
+                this.graveyard.sendToGarbage(this.field.removeArtifactFromField(index));
                 break;
             case "Planeswalker":
-                this.garbage.sendToGarbage(this.field.removePlaneswalkerFromField(index));
+                this.graveyard.sendToGarbage(this.field.removePlaneswalkerFromField(index));
                 break;
             default:
                 System.out.println("Something wrong with the usage of player.moveCardFromFieldToGarbage");
@@ -307,7 +307,7 @@ public class Player {
 
     public void moveCardFromFieldToGarbage(String cardType, int indexOfCreature, int indexOfEnchantment) {
         if(cardType.equals("Enchantment")) {
-            this.garbage.sendToGarbage(this.field.removeEnchantmentFromField(indexOfCreature, indexOfEnchantment));
+            this.graveyard.sendToGarbage(this.field.removeEnchantmentFromField(indexOfCreature, indexOfEnchantment));
         } else {
             System.out.println("Something wrong with the usage of player.moveCardFromFieldToGarbage (enchantment)");
         }
@@ -315,7 +315,7 @@ public class Player {
 
     public void moveCardFromFieldToGarbage(String cardType, String color) {
         if(cardType.equals("Land")) {
-            this.garbage.sendToGarbage(this.field.removeBasicLandFromField(color));
+            this.graveyard.sendToGarbage(this.field.removeBasicLandFromField(color));
         } else {
             System.out.println("Something wrong with the usage of player.moveCardFromFieldToGarbage (land)");
         }
@@ -329,7 +329,7 @@ public class Player {
                     if(arrayOfCreaturesAndEnchantments.get(i).getType() == "Creature") {
                         this.exile.exileCard(arrayOfCreaturesAndEnchantments.get(i));
                     } else {
-                        this.garbage.sendToGarbage(arrayOfCreaturesAndEnchantments.get(i));
+                        this.graveyard.sendToGarbage(arrayOfCreaturesAndEnchantments.get(i));
                     }
                 }
                 break;
@@ -365,7 +365,7 @@ public class Player {
     }
 
     public void moveCardFromHandToGarbage(int index) {
-        this.garbage.sendToGarbage(this.hand.removeFromHand(index));
+        this.graveyard.sendToGarbage(this.hand.removeFromHand(index));
     }
 
     public void moveCardFromHandToExile(int index) {
@@ -375,7 +375,7 @@ public class Player {
     public void moveCardFromDeckToGarbage(int numberOfCardsToRemove) {
         ArrayList<Card> cardsToBeDiscarded = this.deck.drawOrRemoveCards(numberOfCardsToRemove);
         for(int i = 0; i < cardsToBeDiscarded.size(); i++) {
-            this.garbage.sendToGarbage(cardsToBeDiscarded.get(i));
+            this.graveyard.sendToGarbage(cardsToBeDiscarded.get(i));
         }
     }
 
@@ -387,15 +387,15 @@ public class Player {
     }
 
     public void moveCardFromGarbageToHand(int index) {
-        this.hand.sendToHand(this.garbage.removeFromGarbage(index));
+        this.hand.sendToHand(this.graveyard.removeFromGarbage(index));
     }
 
     public void moveCardFromGarbageToDeck(int index) {
-        this.deck.addCards(this.garbage.removeFromGarbage(index));
+        this.deck.addCards(this.graveyard.removeFromGarbage(index));
     }
 
     public void moveCardFromGarbageToExile(int index) {
-        this.exile.exileCard(this.garbage.removeFromGarbage(index));
+        this.exile.exileCard(this.graveyard.removeFromGarbage(index));
     }
 
     public void showHand() {
@@ -606,10 +606,25 @@ public class Player {
     }
 
     public void showGraveyard() {
-        this.garbage.showGraveyard();
+        this.graveyard.showGraveyard();
     }
 
     public Card getCardFromStack() {
         return this.stack.getCardFromStack();
+    }
+
+    public Card getLastCardFromCounterSpellStack() {
+        return this.stack.getLastCardFromCounterSpellStack();
+    }
+
+    public int countCounterSpellsUsed() {
+        return this.stack.countCounterSpellsUsed();
+    }
+
+    public void removeAllCounterSpells() {
+        ArrayList<Card> counterSpellsToGraveyard = this.stack.removeAllCounterSpells();
+        for(int i = 0; i < counterSpellsToGraveyard.size(); i++) {
+            this.graveyard.sendToGarbage(counterSpellsToGraveyard.get(i));
+        }
     }
 }

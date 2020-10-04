@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Stack {
     private Card card;
-    private ArrayList<Card> counterSpellCards;
+    private ArrayList<Card> counterSpellCards = new ArrayList<>();
 
     public void addToStack(Card cardToBeAdded) {
         this.card = cardToBeAdded;
@@ -26,6 +26,10 @@ public class Stack {
 
     public Card getLastCardFromCounterSpellStack() {
         return this.counterSpellCards.get(this.counterSpellCards.size() - 1);
+    }
+
+    public int countCounterSpellsUsed() {
+        return this.counterSpellCards.size();
     }
 
     public ArrayList<Card> removeAllCounterSpells() {
