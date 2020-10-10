@@ -12,7 +12,6 @@ public class Stack {
 
     public Card removeFromStack() {
         Card cardToBeReturned = this.card;
-        this.card = new Card("NoName", "NoColor", "0", "NoType", "NoEffect");
         return cardToBeReturned;
     }
 

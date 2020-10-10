@@ -9,6 +9,7 @@ public class Enchantment extends Card {
     private boolean spell;
     private Creature enchantedCreature;
     private boolean isEnchanted = false;
+    private final boolean cycling = getEffect().contains("Cycling") && !getEffect().contains("Cyclicing abilities");
 
     public void setPermanent(boolean permanent) {
         this.permanent = permanent;
@@ -92,5 +93,14 @@ public class Enchantment extends Card {
             }
         }
         return carta;
+    }
+
+    @Override
+    public ArrayList<String> getCardsHandEffects() {
+        ArrayList<String> effectsPossible = new ArrayList<>();
+        if(this.cycling) {
+            effectsPossible.add("Cycling");
+        }
+        return effectsPossible;
     }
 }

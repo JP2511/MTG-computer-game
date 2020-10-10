@@ -19,6 +19,8 @@ public class Creature extends Card {
     private final boolean firstStrike = getEffect().contains("First Strike");
     private final boolean doubleStrike = getEffect().contains("Double Strike");
     private final boolean flash = getEffect().contains("Flash");
+    private final boolean bloodRush = getEffect().contains("Bloodrush");
+    private final boolean cycling = getEffect().contains("Cycling") && !getEffect().contains("Cyclicing abilities");
 
     public int getAttack() {
         return this.attack;
@@ -237,5 +239,17 @@ public class Creature extends Card {
         } else {
             return false;
         }
+    }
+
+    @Override
+    public ArrayList<String> getCardsHandEffects() {
+        ArrayList<String> effectsPossible = new ArrayList<>();
+        if(this.cycling) {
+            effectsPossible.add("Cycling");
+        }
+        if(this.bloodRush) {
+            effectsPossible.add("Bloodrush");
+        }
+        return effectsPossible;
     }
 }

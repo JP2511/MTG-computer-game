@@ -1,6 +1,5 @@
 package mtg.mendonca;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -103,8 +102,8 @@ public class Hand {
         for (int i = 0; i < this.hand.size(); i++) {
             if((this.hand.get(i).getType().equals("Creature") && this.hand.get(i).getEffect().contains("Flash")) || this.hand.get(i).getType().equals("Instant")) {
                 String effectOfCard = this.hand.get(i).getEffect();
-                if (effectOfCard.matches("[cC]ounter target.*spell")) {
-                    Pattern pattern = Pattern.compile("[cC]ounter target (.*) spell");
+                if (effectOfCard.matches(".*[cC]ounter target.*spell.*")) {
+                    Pattern pattern = Pattern.compile(".*[cC]ounter target (.*) spell.*");
                     Matcher matcher = pattern.matcher(effectOfCard);
                     if (matcher.find()) {
                         if (matcher.group(1).contains(cardBeingPlayed.getType().toLowerCase()) && !matcher.group(1).contains("non")) {
@@ -123,5 +122,13 @@ public class Hand {
             }
         }
         return indexesOfCounterStrikes;
+    }
+
+    public ArrayList<String> getIndexAndNameOfAllCardsInHand() {
+        ArrayList<String> cardsInHand = new ArrayList<>();
+        for(int i = 0; i < this.hand.size(); i++) {
+            cardsInHand.add("\t" + (i + 1) + " - " + this.hand.get(i).getName());
+        }
+        return cardsInHand;
     }
 }

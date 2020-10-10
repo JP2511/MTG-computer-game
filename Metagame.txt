@@ -59,9 +59,12 @@ namesOfCardsInHand()		#prints a list of non-land cards with their respective ind
 namesOfLandsInHand()		#prints a list of lands with their respective index
 getCardFromHand(int)		#returns a card from the specified index of the hand
 
-canPayForCards(ArrayList<Integer>)       #create a list of indexes of cards from hand that the player are able to pay from a list of indexes of cards
-howToPayManaOfCard(Card)        	 #prints a message telling the player how to use their lands to pay for the card
+canPayCard(string, int, int, int, int, int)   #checks if the way the player wants to pay for the card or effect with the manacost specified is possible
+canPayForCards(ArrayList<Integer>)            #create a list of indexes of cards from hand that the player are able to pay from a list of indexes of cards
+isAbleToPay(String)                           #checks if the player has enough of the correct type lands to pay the mana the player is supposed to pay
+howToPayManaOfCard(Card)        	      #prints a message telling the player how to use their lands to pay for the card
 
+tapLands(int, int, int, int, int)             #taps the specified amount of each type of land
 untapAllCardsOnField()          #untaps all cards on the field
 showUntappedLandsPerColor()	#prints a message saying how many untapped lands of each color there are
 
@@ -94,6 +97,11 @@ getCardFromStack()                  #returns a card from the stack
 getLastCardFromCounterSpellStack()  #returns the last added card to the arrayList Of counter spells
 countCounterSpellsUsed()            #counts the number of cards in the counterSpellCards arraylist
 removeAllCounterSpells()            #empties the arrayList of CounterSpells
+
+getIndexAndNameOfAllCardsInHand()   #return an arrayList with the indexes and names of all cards in the hand
+getCyclingPrice(Card)               #returns the manaCost of the cycling effect for the specified card
+useCycling(int)			    #uses cycling on the card of the specified index (meaning it removes the card from the hand, tranfers it to the graveyard and moves card from the deck 
+				    #to the hand
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -174,20 +182,22 @@ createListOfIndexForOrderCards(int)           #creates a list of ordered numbers
 Hand:
 +list of cards
 
-sendToHand(Card)                 #sends the specified card to the hand
-sendToHand(ArrayList<Card>)      #sends the cards of the arrayList of cards to the hand            
+sendToHand(Card)                  #sends the specified card to the hand
+sendToHand(ArrayList<Card>)       #sends the cards of the arrayList of cards to the hand            
 removeFromHand()
-getCardFromHand(int)             #returns the card at the specified index of the hand
+getCardFromHand(int)              #returns the card at the specified index of the hand
 showHand()
 
-sizeOfHand()			 #returns the number of cards in the hand
+sizeOfHand()			  #returns the number of cards in the hand
 
-namesOfCardsInHand()             #prints a message telling the player how to use their lands to pay for the card
-namesOfLandsInHand()             #prints a message saying how many untapped lands of each color there are
+namesOfCardsInHand()              #prints a message telling the player how to use their lands to pay for the card
+namesOfLandsInHand()              #prints a message saying how many untapped lands of each color there are
 
-areThereLandsInHand()		 #returns true if there are lands in the hand
-areThereNonLandsCardsInHand()    #returns true if there is at least one nonland card in the hand
-checkForCounterSpell(Card)       #checks if there are counter spells that are able to counter the specified card and return a list of the possible counter spells
+areThereLandsInHand()		  #returns true if there are lands in the hand
+areThereNonLandsCardsInHand()     #returns true if there is at least one nonland card in the hand
+checkForCounterSpell(Card)        #checks if there are counter spells that are able to counter the specified card and return a list of the possible counter spells
+
+getIndexAndNameOfAllCardsInHand() #return an arrayList with the indexes and names of all cards in the hand
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

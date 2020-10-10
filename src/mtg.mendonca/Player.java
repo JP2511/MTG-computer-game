@@ -44,7 +44,7 @@ public class Player {
 
     public void mulligan() {    // returns the cards from the hand to the deck, shuffles the deck and draws one less card than the previous number of cards in the hand
         int numberOfCards = this.hand.sizeOfHand();
-        for(int i = 0; i < numberOfCards; i++) {
+        for (int i = 0; i < numberOfCards; i++) {
             moveCardFromHandToDeck(0);
         }
         this.deck.shuffleDeck();
@@ -59,79 +59,9 @@ public class Player {
         boolean isCardPlayed;
         Card cardToBePlayed = this.hand.getCardFromHand(i);
         String mana = cardToBePlayed.getManaCost();
-        int redMana = 0;
-        boolean redCorrect = true;
-        int greenMana = 0;
-        boolean greenCorrect = true;
-        int whiteMana = 0;
-        boolean whiteCorrect = true;
-        int blueMana = 0;
-        boolean blueCorrect = true;
-        int blackMana = 0;
-        boolean blackCorrect = true;
-        boolean numberCorrect = true;
 
-        if(mana.contains("R")) {
-            redMana = countCharInString(mana, 'R');
-            if(redMana <= this.field.countNumberOfUntappedColoredLands("Red") && numberOfRedLands >= redMana && numberOfRedLands <= this.field.countNumberOfUntappedColoredLands("Red")) {
-                redCorrect = true;
-            } else {
-                redCorrect = false;
-            }
-        }
-
-        if (mana.contains("G")) {
-            greenMana = countCharInString(mana, 'G');
-            if(greenMana <= this.field.countNumberOfUntappedColoredLands("Green") && numberOfGreenLands >= greenMana && numberOfGreenLands <= this.field.countNumberOfUntappedColoredLands("Green")) {
-                greenCorrect = true;
-            } else {
-                greenCorrect = false;
-            }
-        }
-
-        if (mana.contains("W")) {
-            whiteMana = countCharInString(mana, 'W');
-            if(whiteMana <= this.field.countNumberOfUntappedColoredLands("White") && numberOfWhiteLands >= whiteMana && numberOfWhiteLands <= this.field.countNumberOfUntappedColoredLands("White")) {
-                whiteCorrect = true;
-            } else {
-                whiteCorrect = false;
-            }
-        }
-
-        if (mana.contains("U")) {
-            blueMana = countCharInString(mana, 'U');
-            if(blueMana <= this.field.countNumberOfUntappedColoredLands("Blue") && numberOfBlueLands >= blueMana && numberOfBlueLands <= this.field.countNumberOfUntappedColoredLands("Blue")) {
-                blueCorrect = true;
-            } else {
-                blueCorrect = false;
-            }
-        }
-
-        if (mana.contains("B")) {
-            blackMana = countCharInString(mana, 'B');
-            if(blackMana <= this.field.countNumberOfUntappedColoredLands("Black") && numberOfBlackLands >= blackMana && numberOfBlackLands <= this.field.countNumberOfUntappedColoredLands("Black")) {
-                blackCorrect = true;
-            } else {
-                blackCorrect = false;
-            }
-        }
-
-        if (mana.matches(".*\\d.*")){
-            int number = Integer.parseInt(mana.replaceAll("[^0-9]", ""));
-            if(number <= this.field.countUntappedLand() - (redMana + greenMana + whiteMana + blueMana + blackMana)) {
-                numberCorrect = true;
-            } else {
-                numberCorrect = false;
-            }
-        }
-
-        // isManaEnough checks if the numberOfLands asked to tap is smaller or equal to the number of untapped lands for each color
-        boolean isManaEnough = numberOfRedLands <= this.field.countNumberOfUntappedColoredLands("Red") && numberOfGreenLands <= this.field.countNumberOfUntappedColoredLands("Green") &&
-                numberOfWhiteLands <= this.field.countNumberOfUntappedColoredLands("White") && numberOfBlueLands <= this.field.countNumberOfUntappedColoredLands("Blue") &&
-                numberOfBlackLands <= this.field.countNumberOfUntappedColoredLands("Black");
-
-        if(redCorrect && greenCorrect && whiteCorrect && blueCorrect && blackCorrect && numberCorrect && isManaEnough) {
-            if(isCardACounter) {
+        if (canPayCard(mana, numberOfRedLands, numberOfGreenLands, numberOfWhiteLands, numberOfBlueLands, numberOfBlackLands)) {
+            if (isCardACounter) {
                 this.stack.addCounterSpellsToStack(cardToBePlayed);
             } else {
                 this.stack.addToStack(cardToBePlayed);
@@ -142,7 +72,7 @@ public class Player {
 
             // shows card
             System.out.println(" ");
-            for(int j = 0; j < 15; j++) {
+            for (int j = 0; j < 15; j++) {
                 System.out.println(cardToBePlayed.getCard()[j]);
             }
 
@@ -155,7 +85,7 @@ public class Player {
     }
 
     public void moveCardFromHandToStack(int i) {
-        for(int j = 0; j < 15; j++) {
+        for (int j = 0; j < 15; j++) {
             System.out.println(this.hand.getCardFromHand(i).getCard()[j]);
         }
         this.stack.addToStack(this.hand.removeFromHand(i));
@@ -175,7 +105,7 @@ public class Player {
 
     public void playCardFromStackToField(int turn) {
         Card cardToBeAddedToField = this.stack.removeFromStack();
-        switch(cardToBeAddedToField.getType()) {
+        switch (cardToBeAddedToField.getType()) {
             case "Creature":
                 this.field.addCreatureToField((Creature) cardToBeAddedToField);
                 defineTheTurnACreatureWasPlayedOfTheLastAddedCreature(turn);
@@ -211,8 +141,8 @@ public class Player {
         switch (cardType) {
             case "Creature":
                 ArrayList<Card> arrayOfCreaturesAndEnchantments = this.field.removeCreatureFromField(index);
-                for(int i = 0; i < arrayOfCreaturesAndEnchantments.size(); i++) {
-                    if(arrayOfCreaturesAndEnchantments.get(i).getType() == "Creature") {
+                for (int i = 0; i < arrayOfCreaturesAndEnchantments.size(); i++) {
+                    if (arrayOfCreaturesAndEnchantments.get(i).getType() == "Creature") {
                         this.hand.sendToHand(arrayOfCreaturesAndEnchantments.get(i));
                     } else {
                         this.hand.sendToHand(arrayOfCreaturesAndEnchantments.get(i));
@@ -231,15 +161,15 @@ public class Player {
     }
 
     public void moveCardFromFieldToHand(String cardType, int indexOfCreature, int indexOfEnchantment) {
-        if(cardType.equals("Enchantment")) {
+        if (cardType.equals("Enchantment")) {
             this.hand.sendToHand(this.field.removeEnchantmentFromField(indexOfCreature, indexOfEnchantment));
         } else {
             System.out.println("Something wrong with the usage of player.moveCardFromFieldToHand (enchantment)");
         }
     }
 
-    public void moveCardFromFieldToHand(String cardType, String color)  {
-        if(cardType.equals("Land")) {
+    public void moveCardFromFieldToHand(String cardType, String color) {
+        if (cardType.equals("Land")) {
             this.hand.sendToHand(this.field.removeBasicLandFromField(color));
         } else {
             System.out.println("Something wrong with the usage of player.moveCardFromFieldToHand (land)");
@@ -250,12 +180,8 @@ public class Player {
         switch (cardType) {
             case "Creature":
                 ArrayList<Card> arrayOfCreaturesAndEnchantments = this.field.removeCreatureFromField(index);
-                for(int i = 0; i < arrayOfCreaturesAndEnchantments.size(); i++) {
-                    if(arrayOfCreaturesAndEnchantments.get(i).getType() == "Creature") {
-                        this.deck.addCards(arrayOfCreaturesAndEnchantments.get(i));
-                    } else {
-                        this.deck.addCards(arrayOfCreaturesAndEnchantments.get(i));
-                    }
+                for (int i = 0; i < arrayOfCreaturesAndEnchantments.size(); i++) {
+                    this.deck.addCards(arrayOfCreaturesAndEnchantments.get(i));
                 }
                 break;
             case "Artifact":
@@ -278,7 +204,7 @@ public class Player {
     }
 
     public void moveCardFromFieldToDeck(String cardType, String color) {
-        if(cardType.equals("Land")) {
+        if (cardType.equals("Land")) {
             this.deck.addCards(this.field.removeBasicLandFromField(color));
         } else {
             System.out.println("Something wrong with the usage of player.moveCardFromFieldToDeck (land)");
@@ -289,12 +215,8 @@ public class Player {
         switch (cardType) {
             case "Creature":
                 ArrayList<Card> arrayOfCreaturesAndEnchantments = this.field.removeCreatureFromField(index);
-                for(int i = 0; i < arrayOfCreaturesAndEnchantments.size(); i++) {
-                    if(arrayOfCreaturesAndEnchantments.get(i).getType() == "Creature") {
-                        this.graveyard.sendToGarbage(arrayOfCreaturesAndEnchantments.get(i));
-                    } else {
-                        this.graveyard.sendToGarbage(arrayOfCreaturesAndEnchantments.get(i));
-                    }
+                for (int i = 0; i < arrayOfCreaturesAndEnchantments.size(); i++) {
+                    this.graveyard.sendToGarbage(arrayOfCreaturesAndEnchantments.get(i));
                 }
                 break;
             case "Artifact":
@@ -309,7 +231,7 @@ public class Player {
     }
 
     public void moveCardFromFieldToGarbage(String cardType, int indexOfCreature, int indexOfEnchantment) {
-        if(cardType.equals("Enchantment")) {
+        if (cardType.equals("Enchantment")) {
             this.graveyard.sendToGarbage(this.field.removeEnchantmentFromField(indexOfCreature, indexOfEnchantment));
         } else {
             System.out.println("Something wrong with the usage of player.moveCardFromFieldToGarbage (enchantment)");
@@ -317,7 +239,7 @@ public class Player {
     }
 
     public void moveCardFromFieldToGarbage(String cardType, String color) {
-        if(cardType.equals("Land")) {
+        if (cardType.equals("Land")) {
             this.graveyard.sendToGarbage(this.field.removeBasicLandFromField(color));
         } else {
             System.out.println("Something wrong with the usage of player.moveCardFromFieldToGarbage (land)");
@@ -328,8 +250,8 @@ public class Player {
         switch (cardType) {
             case "Creature":
                 ArrayList<Card> arrayOfCreaturesAndEnchantments = this.field.removeCreatureFromField(index);
-                for(int i = 0; i < arrayOfCreaturesAndEnchantments.size(); i++) {
-                    if(arrayOfCreaturesAndEnchantments.get(i).getType() == "Creature") {
+                for (int i = 0; i < arrayOfCreaturesAndEnchantments.size(); i++) {
+                    if (arrayOfCreaturesAndEnchantments.get(i).getType() == "Creature") {
                         this.exile.exileCard(arrayOfCreaturesAndEnchantments.get(i));
                     } else {
                         this.graveyard.sendToGarbage(arrayOfCreaturesAndEnchantments.get(i));
@@ -348,7 +270,7 @@ public class Player {
     }
 
     public void moveCardFromFieldToExile(String cardType, int indexOfCreature, int indexOfEnchantment) {
-        if(cardType.equals("Enchantment")) {
+        if (cardType.equals("Enchantment")) {
             this.exile.exileCard(this.field.removeEnchantmentFromField(indexOfCreature, indexOfEnchantment));
         } else {
             System.out.println("Something wrong with the usage of player.moveCardFromFieldToExile (enchantment)");
@@ -356,7 +278,7 @@ public class Player {
     }
 
     public void moveCardFromFieldToExile(String cardType, String color) {
-        if(cardType.equals("Enchantment")) {
+        if (cardType.equals("Enchantment")) {
             this.exile.exileCard(this.field.removeBasicLandFromField(color));
         } else {
             System.out.println("Something wrong with the usage of player.moveCardFromFieldToExile (enchantment)");
@@ -377,14 +299,14 @@ public class Player {
 
     public void moveCardFromDeckToGarbage(int numberOfCardsToRemove) {
         ArrayList<Card> cardsToBeDiscarded = this.deck.drawOrRemoveCards(numberOfCardsToRemove);
-        for(int i = 0; i < cardsToBeDiscarded.size(); i++) {
+        for (int i = 0; i < cardsToBeDiscarded.size(); i++) {
             this.graveyard.sendToGarbage(cardsToBeDiscarded.get(i));
         }
     }
 
     public void moveCardFromDeckToExile(int numberOfCardsToRemove) {
         ArrayList<Card> cardsToBeDiscarded = this.deck.drawOrRemoveCards(numberOfCardsToRemove);
-        for(int i = 0; i < cardsToBeDiscarded.size(); i++) {
+        for (int i = 0; i < cardsToBeDiscarded.size(); i++) {
             this.exile.exileCard(cardsToBeDiscarded.get(i));
         }
     }
@@ -421,9 +343,93 @@ public class Player {
         return this.hand.getCardFromHand(index);
     }
 
+    public boolean canPayCard(String manaCost, int numberOfRedLands, int numberOfGreenLands, int numberOfWhiteLands, int numberOfBlueLands, int numberOfBlackLands) {
+        int possibleManaCosts = 1;
+        if(manaCost.contains("/")) {
+            possibleManaCosts += countCharInString(manaCost, "/".charAt(0));
+        } else {
+            manaCost += "/";
+        }
+        for(int i = 0; i < possibleManaCosts; i++) {
+            String mana = manaCost.split("/")[i];
+
+            int redMana = 0;
+            boolean redCorrect = true;
+            int greenMana = 0;
+            boolean greenCorrect = true;
+            int whiteMana = 0;
+            boolean whiteCorrect = true;
+            int blueMana = 0;
+            boolean blueCorrect = true;
+            int blackMana = 0;
+            boolean blackCorrect = true;
+            boolean numberCorrect = true;
+
+            if (mana.contains("R")) {
+                redMana = countCharInString(mana, 'R');
+                if (redMana <= this.field.countNumberOfUntappedColoredLands("Red") && numberOfRedLands >= redMana && numberOfRedLands <= this.field.countNumberOfUntappedColoredLands("Red")) {
+                    redCorrect = true;
+                } else {
+                    redCorrect = false;
+                }
+            }
+
+            if (mana.contains("G")) {
+                greenMana = countCharInString(mana, 'G');
+                if (greenMana <= this.field.countNumberOfUntappedColoredLands("Green") && numberOfGreenLands >= greenMana && numberOfGreenLands <= this.field.countNumberOfUntappedColoredLands("Green")) {
+                    greenCorrect = true;
+                } else {
+                    greenCorrect = false;
+                }
+            }
+
+            if (mana.contains("W")) {
+                whiteMana = countCharInString(mana, 'W');
+                whiteCorrect = whiteMana <= this.field.countNumberOfUntappedColoredLands("White") && numberOfWhiteLands >= whiteMana && numberOfWhiteLands <= this.field.countNumberOfUntappedColoredLands("White");
+            }
+
+            if (mana.contains("U")) {
+                blueMana = countCharInString(mana, 'U');
+                if (blueMana <= this.field.countNumberOfUntappedColoredLands("Blue") && numberOfBlueLands >= blueMana && numberOfBlueLands <= this.field.countNumberOfUntappedColoredLands("Blue")) {
+                    blueCorrect = true;
+                } else {
+                    blueCorrect = false;
+                }
+            }
+
+            if (mana.contains("B")) {
+                blackMana = countCharInString(mana, 'B');
+                if (blackMana <= this.field.countNumberOfUntappedColoredLands("Black") && numberOfBlackLands >= blackMana && numberOfBlackLands <= this.field.countNumberOfUntappedColoredLands("Black")) {
+                    blackCorrect = true;
+                } else {
+                    blackCorrect = false;
+                }
+            }
+
+            if (mana.matches(".*\\d.*")) {
+                int number = Integer.parseInt(mana.replaceAll("[^0-9]", ""));
+                if (number <= this.field.countUntappedLand() - (redMana + greenMana + whiteMana + blueMana + blackMana)) {
+                    numberCorrect = true;
+                } else {
+                    numberCorrect = false;
+                }
+            }
+
+            // isManaEnough checks if the numberOfLands asked to tap is smaller or equal to the number of untapped lands for each color
+            boolean isManaEnough = numberOfRedLands <= this.field.countNumberOfUntappedColoredLands("Red") && numberOfGreenLands <= this.field.countNumberOfUntappedColoredLands("Green") &&
+                    numberOfWhiteLands <= this.field.countNumberOfUntappedColoredLands("White") && numberOfBlueLands <= this.field.countNumberOfUntappedColoredLands("Blue") &&
+                    numberOfBlackLands <= this.field.countNumberOfUntappedColoredLands("Black");
+
+            if(redCorrect && greenCorrect && whiteCorrect && blueCorrect && blackCorrect && numberCorrect && isManaEnough) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public ArrayList<Integer> canPayForCards(ArrayList<Integer> availableCounterSpells) {
         ArrayList<Integer> counterSpellsThatCanBePayed = new ArrayList<>();
-        for(int i = 0; i < availableCounterSpells.size(); i++) {
+        for (int i = 0; i < availableCounterSpells.size(); i++) {
 
             String mana = this.hand.getCardFromHand(availableCounterSpells.get(i)).getManaCost();
             int redManaValue = 0;
@@ -439,91 +445,182 @@ public class Player {
             int anyManaValue = 0;
             boolean anyManaBoolean = true;
 
-            if(mana.contains("R")) {
+            if (mana.contains("R")) {
                 redManaValue = countCharInString(mana, 'R');
-                if(redManaValue > this.field.countNumberOfUntappedColoredLands("Red")) {
+                if (redManaValue > this.field.countNumberOfUntappedColoredLands("Red")) {
                     redBoolean = false;
                 }
             }
 
-            if(mana.contains("G")) {
+            if (mana.contains("G")) {
                 greenManaValue = countCharInString(mana, 'G');
-                if(greenManaValue > this.field.countNumberOfUntappedColoredLands("Green")) {
+                if (greenManaValue > this.field.countNumberOfUntappedColoredLands("Green")) {
                     greenBoolean = false;
                 }
             }
 
-            if(mana.contains("W")) {
+            if (mana.contains("W")) {
                 whiteManaValue = countCharInString(mana, 'W');
-                if(whiteManaValue > this.field.countNumberOfUntappedColoredLands("White")) {
+                if (whiteManaValue > this.field.countNumberOfUntappedColoredLands("White")) {
                     whiteBoolean = false;
                 }
             }
 
-            if(mana.contains("U")) {
+            if (mana.contains("U")) {
                 blueManaValue = countCharInString(mana, 'U');
-                if(blueManaValue > this.field.countNumberOfUntappedColoredLands("Blue")) {
+                if (blueManaValue > this.field.countNumberOfUntappedColoredLands("Blue")) {
                     blueBoolean = false;
                 }
             }
 
-            if(mana.contains("B")) {
+            if (mana.contains("B")) {
                 blackManaValue = countCharInString(mana, 'B');
-                if(blackManaValue > this.field.countNumberOfUntappedColoredLands("Black")) {
+                if (blackManaValue > this.field.countNumberOfUntappedColoredLands("Black")) {
                     blackBoolean = false;
                 }
             }
 
-            if(mana.matches(".*\\d.*")) {
+            if (mana.matches(".*\\d.*")) {
                 anyManaValue = Integer.parseInt(mana.replaceAll("[^0-9]", ""));
-                if(anyManaValue > (this.field.countUntappedLand() - redManaValue - greenManaValue - whiteManaValue - blueManaValue - blackManaValue)) {
+                if (anyManaValue > (this.field.countUntappedLand() - redManaValue - greenManaValue - whiteManaValue - blueManaValue - blackManaValue)) {
                     anyManaBoolean = false;
                 }
             }
 
-            if(redBoolean && greenBoolean && whiteBoolean && blueBoolean && blackBoolean && anyManaBoolean) {
+            if (redBoolean && greenBoolean && whiteBoolean && blueBoolean && blackBoolean && anyManaBoolean) {
                 counterSpellsThatCanBePayed.add(availableCounterSpells.get(i));
             }
         }
         return counterSpellsThatCanBePayed;
     }
 
-    public void howToPayManaOfCard(Card card) {
-        String mana = card.getManaCost();
-        int redManaValue = 0;
-        int greenManaValue = 0;
-        int whiteManaValue = 0;
-        int blueManaValue = 0;
-        int blackManaValue = 0;
-        int anyManaValue = 0;
-
-        if(mana.contains("R")) {
-            redManaValue = countCharInString(mana, 'R');
+    public boolean isAbleToPay(String manaCost) {
+        int possibleManaCosts = 1;
+        if(manaCost.contains("/")) {
+            possibleManaCosts += countCharInString(manaCost, "/".charAt(0));
+        } else {
+            manaCost += "/";
         }
+        for(int i = 0; i < possibleManaCosts; i++) {
+            String mana = manaCost.split("/")[i];
+            int redManaValue = 0;
+            boolean redBoolean = true;
+            int greenManaValue = 0;
+            boolean greenBoolean = true;
+            int whiteManaValue = 0;
+            boolean whiteBoolean = true;
+            int blueManaValue = 0;
+            boolean blueBoolean = true;
+            int blackManaValue = 0;
+            boolean blackBoolean = true;
+            int anyManaValue = 0;
+            boolean anyManaBoolean = true;
 
-        if(mana.contains("G")) {
-            greenManaValue = countCharInString(mana, 'G');
+            if (mana.contains("R")) {
+                redManaValue = countCharInString(mana, 'R');
+                if (redManaValue > this.field.countNumberOfUntappedColoredLands("Red")) {
+                    redBoolean = false;
+                }
+            }
+
+            if (mana.contains("G")) {
+                greenManaValue = countCharInString(mana, 'G');
+                if (greenManaValue > this.field.countNumberOfUntappedColoredLands("Green")) {
+                    greenBoolean = false;
+                }
+            }
+
+            if (mana.contains("W")) {
+                whiteManaValue = countCharInString(mana, 'W');
+                if (whiteManaValue > this.field.countNumberOfUntappedColoredLands("White")) {
+                    whiteBoolean = false;
+                }
+            }
+
+            if (mana.contains("U")) {
+                blueManaValue = countCharInString(mana, 'U');
+                if (blueManaValue > this.field.countNumberOfUntappedColoredLands("Blue")) {
+                    blueBoolean = false;
+                }
+            }
+
+            if (mana.contains("B")) {
+                blackManaValue = countCharInString(mana, 'B');
+                if (blackManaValue > this.field.countNumberOfUntappedColoredLands("Black")) {
+                    blackBoolean = false;
+                }
+            }
+
+            if (mana.matches(".*\\d.*")) {
+                anyManaValue = Integer.parseInt(mana.replaceAll("[^0-9]", ""));
+                if (anyManaValue > (this.field.countUntappedLand() - redManaValue - greenManaValue - whiteManaValue - blueManaValue - blackManaValue)) {
+                    anyManaBoolean = false;
+                }
+            }
+            if(redBoolean && greenBoolean && whiteBoolean && blueBoolean && blackBoolean && anyManaBoolean) {
+                return true;
+            }
         }
+        return false;
+    }
 
-        if(mana.contains("W")) {
-            whiteManaValue = countCharInString(mana, 'W');
+    public void howToPayManaOfCard(String manaCost) {
+        int possibleManaCosts = 1;
+        if(manaCost.contains("/")) {
+            possibleManaCosts += countCharInString(manaCost, "/".charAt(0));
+        } else {
+            manaCost += "/";
         }
+        for(int i = 0; i < possibleManaCosts; i++) {
+            String mana = manaCost.split("/")[i];
+            int redManaValue = 0;
+            int greenManaValue = 0;
+            int whiteManaValue = 0;
+            int blueManaValue = 0;
+            int blackManaValue = 0;
+            int anyManaValue = 0;
 
-        if(mana.contains("U")) {
-            blueManaValue = countCharInString(mana, 'U');
+            if (mana.contains("R")) {
+                redManaValue = countCharInString(mana, 'R');
+            }
+
+            if (mana.contains("G")) {
+                greenManaValue = countCharInString(mana, 'G');
+            }
+
+            if (mana.contains("W")) {
+                whiteManaValue = countCharInString(mana, 'W');
+            }
+
+            if (mana.contains("U")) {
+                blueManaValue = countCharInString(mana, 'U');
+            }
+
+            if (mana.contains("B")) {
+                blackManaValue = countCharInString(mana, 'B');
+            }
+
+            if (mana.matches(".*\\d.*")) {
+                anyManaValue = Integer.parseInt(mana.replaceAll("[^0-9]", ""));
+            }
+
+            String stringToPrint = "ou need to tap " + redManaValue + " mountain(s), " + greenManaValue + " forest(s), " + whiteManaValue +
+                    " plain(s), " + blueManaValue + " island(s), " + blackManaValue + " swamp(s) and " + anyManaValue + " of whatever " +
+                    "land(s) you choose.";
+            if(i == 0 && possibleManaCosts > 1) {
+                System.out.print("\nY" + stringToPrint);
+            } else if(i == 0 && possibleManaCosts <= 1) {
+                System.out.println("\nY" + stringToPrint);
+            } else if(possibleManaCosts - 1 > i) {
+                System.out.print("Or y" + stringToPrint);
+            } else {
+                System.out.println("Or y" + stringToPrint);
+            }
         }
+    }
 
-        if(mana.contains("B")) {
-            blackManaValue = countCharInString(mana, 'B');
-        }
-
-        if(mana.matches(".*\\d.*")) {
-            anyManaValue = Integer.parseInt(mana.replaceAll("[^0-9]", ""));
-        }
-
-        System.out.println("\nYou need to tap " + redManaValue + " mountain(s), " + greenManaValue + " forest(s), " + whiteManaValue +
-                " plain(s), " + blueManaValue + " island(s), " + blackManaValue + " swamp(s) and " + anyManaValue + " of whatever " +
-                "land(s) you choose.");
+    public void tapLands(int numberOfRedLands, int numberOfGreenLands, int numberOfWhiteLands, int numberOfBlueLands, int numberOfBlackLands) {
+        this.field.tapLands(numberOfRedLands, numberOfGreenLands, numberOfWhiteLands, numberOfBlueLands, numberOfBlackLands);
     }
 
     public void untapAllCardsOnField() {
@@ -536,8 +633,8 @@ public class Player {
 
     public int countCharInString(String string, char charToCount) {
         int numberOfTimesItAppears = 0;
-        for(int i = 0; i < string.length(); i++) {
-            if(string.charAt(i) == charToCount) {
+        for (int i = 0; i < string.length(); i++) {
+            if (string.charAt(i) == charToCount) {
                 numberOfTimesItAppears++;
             }
         }
@@ -626,8 +723,28 @@ public class Player {
 
     public void removeAllCounterSpells() {
         ArrayList<Card> counterSpellsToGraveyard = this.stack.removeAllCounterSpells();
-        for(int i = 0; i < counterSpellsToGraveyard.size(); i++) {
+        for (int i = 0; i < counterSpellsToGraveyard.size(); i++) {
             this.graveyard.sendToGarbage(counterSpellsToGraveyard.get(i));
         }
+    }
+
+    public ArrayList<String> getIndexAndNameOfAllCardsInHand() {
+        return this.hand.getIndexAndNameOfAllCardsInHand();
+    }
+
+    public String getCyclingPrice(Card cardWithCycling) {
+        String effectAfterCycling = cardWithCycling.getEffect().split("Cycling")[1];
+        if(effectAfterCycling.contains("<i>")) {
+            effectAfterCycling = effectAfterCycling.split("<i>")[0];
+        } else if(effectAfterCycling.contains(".")) {
+            effectAfterCycling = effectAfterCycling.split("\\.")[0];
+        }
+        return effectAfterCycling.trim();
+    }
+
+    public void useCycling(int indexOfCardWithCycling) {
+        Card cardWithCycling = this.hand.removeFromHand(indexOfCardWithCycling);
+        this.graveyard.sendToGarbage(cardWithCycling);
+        drawCards(1);
     }
 }

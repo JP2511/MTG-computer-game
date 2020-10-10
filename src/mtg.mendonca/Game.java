@@ -18,7 +18,6 @@ public class Game {
         String player1name = input.nextLine();
         System.out.print("Player Two: ");
         String player2name = input.nextLine();
-
         Player player1 = new Player(player1name, createDeck("Red"));
         Player player2 = new Player(player2name, createDeck("Blue"));
 
@@ -111,7 +110,7 @@ public class Game {
 
                         /*the player chooses to use the effect of a card, but it is still work in progress*/
                         case 1:
-                            System.out.println("Still in development...");
+                            useEffectOfCard(thisTurnsPlayer);
                             break;
 
                         /*the player chooses to see his or her own hand*/
@@ -171,8 +170,8 @@ public class Game {
                         System.out.println("You can choose one or more of the following creatures to attack: ");
                         ArrayList<Integer> indexOfCreaturesToAttack = new ArrayList<>();
                         System.out.println("\t0 - Don't want to choose anymore creatures to attack.");
-                        for (int j = 0; j < creaturesToUseToAttack.size(); j++) {
-                            System.out.println(creaturesToUseToAttack.get(j));
+                        for (String s : creaturesToUseToAttack) {
+                            System.out.println(s);
                         }
 
                         ArrayList<Integer> indexOfTargetOfAttack = new ArrayList<>();
@@ -553,7 +552,7 @@ public class Game {
 
                         /*the player chooses to use the effect of a card, but it is still work in progress*/
                         case 1:
-                            System.out.println("Still in development...");
+                            useEffectOfCard(thisTurnsPlayer);
                             break;
 
                         /*the player chooses to see his or her own hand*/
@@ -606,22 +605,21 @@ public class Game {
             case "Red":
                 for (int i = 0; i < 10; i++) {
                     cardsForTheDeck.add(new Land("Mountain A" + i, "Red", "", ""));
-                    cardsForTheDeck.add(new Creature("JoJo A" + i, "Red", "R", "Haste.Double Strike.", 1, 1, "Hamon Master"));
-                    cardsForTheDeck.add(new Creature("JoJo B"+ i, "Red", "R", "Haste.Double Strike.", 1, 1, "Hamon Master"));
+                    cardsForTheDeck.add(new Creature("JoJo A" + i, "Red", "R", "Haste. Double Strike.", 1, 1, "Hamon Master"));
+                    cardsForTheDeck.add(new Creature("JoJo B"+ i, "Red", "R", "Haste. First Strike..", 1, 1, "Hamon Master"));
                     cardsForTheDeck.add(new Land("Mountain B" + i, "Red", "", ""));
-
-                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Counter target spell"));
-                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Counter target spell"));
+                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Counter target spell. Cycling [R/U]."));
+                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Counter target spell. Cycling [R/U]."));
                 }
                 break;
             case "Blue":
                 for (int i = 0; i < 10; i++) {
                     cardsForTheDeck.add(new Land("Island A"+ i, "Blue", "", ""));
-                    cardsForTheDeck.add(new Creature("Dior A"+ i, "Blue", "U", "Flying", 1, 1, "Vampire"));
-                    cardsForTheDeck.add(new Creature("Dior B"+ i, "Blue", "U", "Reach", 1, 2, "Vampire"));
+                    cardsForTheDeck.add(new Creature("Dior A"+ i, "Blue", "U", "Flying. Flash. Counter target spell.", 1, 1, "Vampire"));
+                    cardsForTheDeck.add(new Creature("Dior B"+ i, "Blue", "U", "Reach.", 1, 2, "Vampire"));
                     cardsForTheDeck.add(new Land("Island B"+ i, "Blue", "", ""));
-                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Blue", "U", "Counter target spell"));
-                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Blue", "U", "Counter target spell"));
+                    cardsForTheDeck.add(new Creature("Dior A"+ i, "Blue", "U", "Deathtouch. Cycling UU", 1, 1, "Vampire"));
+                    cardsForTheDeck.add(new Creature("Dior A"+ i, "Blue", "U", "Vigilance", 1, 1, "Vampire"));
                 }
                 break;
         }
@@ -641,9 +639,9 @@ public class Game {
         for(int i = 0; i < orderedIndexes.length; i++) {
             int value = 1000;
             //finds which is the biggest value
-            for(int j = 0; j < unorderedIndexes.size(); j++) {
-                if(unorderedIndexes.get(j) < value) {
-                    value = unorderedIndexes.get(j);
+            for (Integer unorderedIndex : unorderedIndexes) {
+                if (unorderedIndex < value) {
+                    value = unorderedIndex;
                 }
             }
             orderedIndexes[i] = value;
@@ -666,8 +664,8 @@ public class Game {
     }
 
     public static boolean isItInsideArrayList(ArrayList<Integer> possibleOptions, int numberToCheck) {
-        for(int i = 0; i < possibleOptions.size(); i++) {
-            if(possibleOptions.get(i) == numberToCheck) {
+        for (Integer possibleOption : possibleOptions) {
+            if (possibleOption == numberToCheck) {
                 return true;
             }
         }
@@ -679,8 +677,8 @@ public class Game {
         if(addZero) {
             options.add(0);
         }
-        for(int i = 0; i < listOfOptionsNamesAndIndexes.size(); i++) {
-            options.add(Integer.parseInt(listOfOptionsNamesAndIndexes.get(i).split("\\t")[1].split(" - ")[0]));
+        for (String listOfOptionsNamesAndIndex : listOfOptionsNamesAndIndexes) {
+            options.add(Integer.parseInt(listOfOptionsNamesAndIndex.split("\\t")[1].split(" - ")[0]));
         }
         return options;
     }
@@ -739,7 +737,7 @@ public class Game {
                     System.out.println("\nThat was not the correct way of paying for the card. Try again.");
                 }
                 k += 1;
-                currentPlayer.howToPayManaOfCard(cardBeingPlayed);
+                currentPlayer.howToPayManaOfCard(cardBeingPlayed.getManaCost());
                 currentPlayer.showUntappedLandsPerColor();
 
                 //allows a player to choose how he or she will pay for the card being played
@@ -765,8 +763,8 @@ public class Game {
             System.out.println(currentPlayer.getName() + " played the above card:");
 
             //check if the other player has cards to counter the card the current player is playing
-            ArrayList<Integer> counterSpellsThatCanBePayed = new ArrayList<>();
-            if (cardBeingPlayed.getType().equals("Instant") && cardBeingPlayed.getEffect().matches("[cC]ounter target.*spell")) {
+            ArrayList<Integer> counterSpellsThatCanBePayed;
+            if ((cardBeingPlayed.getType().equals("Instant") && cardBeingPlayed.getEffect().matches(".*[cC]ounter target.*spell.*")) || (cardBeingPlayed.getType().equals("Creature") && cardBeingPlayed.getEffect().matches(".*[cC]ounter target.*spell.*") && ((Creature) cardBeingPlayed).getFlash())) {
                 counterSpellsThatCanBePayed = otherPlayer.canPayForCards(otherPlayer.checkForCounterSpell(currentPlayer.getLastCardFromCounterSpellStack()));
             } else {
                 counterSpellsThatCanBePayed = otherPlayer.canPayForCards(otherPlayer.checkForCounterSpell(currentPlayer.getCardFromStack()));
@@ -792,8 +790,8 @@ public class Game {
                     otherPlayer.removeAllCounterSpells();
                 } else {
                     System.out.println("\nYou have the following cards to counter the card played: ");
-                    for (int h = 0; h < counterSpellsThatCanBePayed.size(); h++) {
-                        System.out.println("\t" + counterSpellsThatCanBePayed.get(h) + " - " + otherPlayer.getCardFromHand(counterSpellsThatCanBePayed.get(h)).getName());
+                    for (Integer integer : counterSpellsThatCanBePayed) {
+                        System.out.println("\t" + integer + " - " + otherPlayer.getCardFromHand(integer).getName());
                     }
                     System.out.print("Choose a card to play: ");
                     int counterSpellChosen = returnUserInputIfValid(counterSpellsThatCanBePayed, "Your choice: ");
@@ -815,7 +813,7 @@ public class Game {
             }
         } else if(!cardBeingPlayed.getType().equals("Land") && !(currentPlayer.canPayForCards(cardToBePlayed).size() > 0)) {
             System.out.println("You can not pay for that card");
-            if(cardBeingPlayed.getType().equals("Instant") && cardBeingPlayed.getEffect().matches("[cC]ounter target.*spell")) {
+            if((cardBeingPlayed.getType().equals("Instant") && cardBeingPlayed.getEffect().matches(".*[cC]ounter target.*spell.*")) || (cardBeingPlayed.getType().equals("Creature") && cardBeingPlayed.getEffect().matches(".*[cC]ounter target.*spell.*") && ((Creature) cardBeingPlayed).getFlash())) {
                 //if the amount counter spells played by the current player is equal or bigger than the opponent, play card, else move cards to graveyard
                 if (playerThatPlayedTheCard.countCounterSpellsUsed() >= (playerThatPlayedTheCard == currentPlayer ? otherPlayer : currentPlayer).countCounterSpellsUsed()) {
                     //check which player is playing the card and playing it
@@ -831,6 +829,97 @@ public class Game {
         } else {
             currentPlayer.moveCardFromHandToStack(cardChosenToPlay);
             currentPlayer.playCardFromStackToField(turn);
+        }
+    }
+
+    public static void payForEffectOfCard(Player currentPlayer, String mana) {
+        currentPlayer.howToPayManaOfCard(mana);
+        currentPlayer.showUntappedLandsPerColor();
+
+        System.out.println("\nPlease choose how you would like to pay for the card.");
+        System.out.print("How many mountains (red lands) would you like to tap: ");
+        int redLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+        System.out.print("How many forests (green lands) would you like to tap: ");
+        int greenLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+        System.out.print("How many plains (white lands) would you like to tap: ");
+        int whiteLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+        System.out.print("How many islands (blue lands) would you like to tap: ");
+        int blueLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+        System.out.print("How many swamps (black lands) would you like to tap: ");
+        int blackLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+        while(!currentPlayer.canPayCard(mana, redLandsTotap, greenLandsTotap, whiteLandsTotap, blueLandsTotap, blackLandsTotap)) {
+            System.out.println("\nThat is not how you pay for the effect. Please try again.");
+            System.out.print("How many mountains (red lands) would you like to tap: ");
+            redLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+            System.out.print("How many forests (green lands) would you like to tap: ");
+            greenLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+            System.out.print("How many plains (white lands) would you like to tap: ");
+            whiteLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+            System.out.print("How many islands (blue lands) would you like to tap: ");
+            blueLandsTotap = returnUserInputCheckingOnlyIfInt();
+
+            System.out.print("How many swamps (black lands) would you like to tap: ");
+            blackLandsTotap = returnUserInputCheckingOnlyIfInt();
+        }
+        currentPlayer.tapLands(redLandsTotap, greenLandsTotap, whiteLandsTotap, blueLandsTotap, blackLandsTotap);
+    }
+
+    public static void useEffectOfCard(Player currentPlayer) {
+        System.out.println("\nWould you like to use the effect of a card from:");
+        System.out.println("\t0 - The hand");
+        System.out.println("\t1 - The field");
+        System.out.println("\t2 - The graveyard");
+        int locationChoice = returnUserInputIfValid(createSequentialArray(2), "Your choice: ");
+
+        switch(locationChoice) {
+            case 0:
+                ArrayList<String> cardsInHand = currentPlayer.getIndexAndNameOfAllCardsInHand();
+                if(cardsInHand.size() > 0) {
+                    System.out.println("\nChoose a card to use its effect: ");
+                    System.out.println("\t0 - I don't want to use the effect of any of these cards.");
+                    for(String cardNameAndIndex: cardsInHand) {
+                        System.out.println(cardNameAndIndex);
+                    }
+                    int cardChosen = returnUserInputIfValid(createAnArrayListOfChoices(cardsInHand, true), "Your choice: ");
+                    Card cardToUseEffects = currentPlayer.getCardFromHand(cardChosen - 1);
+
+                    ArrayList<String> effectsPossible = cardToUseEffects.getCardsHandEffects();
+                    if(effectsPossible.size() > 0) {
+                        System.out.println("\nChoose an effect to use: ");
+                        for (int j = 0; j < effectsPossible.size(); j++) {
+                            System.out.println("\t" + j + " - " + effectsPossible.get(j));
+                        }
+                        int effectChoice = returnUserInputIfValid(createSequentialArray(effectsPossible.size()), "Your choice: ");
+
+                        switch(effectsPossible.get(effectChoice)) {
+                            case "Cycling":
+                                String mana = currentPlayer.getCyclingPrice(cardToUseEffects);
+                                if(currentPlayer.isAbleToPay(mana)) {
+                                    payForEffectOfCard(currentPlayer, mana);
+                                    currentPlayer.useCycling(cardChosen - 1);
+                                } else {
+                                    System.out.println("\nYou can't pay for the effect you chose.");
+                                    break;
+                                }
+                                break;
+
+                        }
+                    } else {
+                        System.out.println("\nThis card doesn't have any playable effects.");
+                    }
+
+                } else {
+                    System.out.println("You don't have any cards in your hand.");
+                }
+                break;
         }
     }
 }

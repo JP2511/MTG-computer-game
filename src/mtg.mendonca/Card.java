@@ -3,7 +3,7 @@ package mtg.mendonca;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Card {
+public abstract class Card {
     private String name;
     private String color;
     private String manaCost;
@@ -12,27 +12,27 @@ public class Card {
     private boolean tapped = false;
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public String getColor() {
-        return color;
+        return this.color;
     }
 
     public String getManaCost() {
-        return manaCost;
+        return this.manaCost;
     }
 
     public String getType() {
-        return type;
+        return this.type;
     }
 
     public String getEffect() {
-        return effect;
+        return this.effect;
     }
 
     public boolean isTapped() {
-        return tapped;
+        return this.tapped;
     }
 
     public Card(String name, String color, String manaCost, String type, String effect) {
@@ -100,4 +100,6 @@ public class Card {
             System.out.println(carta[i]);
         }
     }
+
+    public abstract ArrayList<String> getCardsHandEffects();
 }

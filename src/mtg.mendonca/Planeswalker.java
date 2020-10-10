@@ -1,6 +1,8 @@
 package mtg.mendonca;
 
-public class Planeswalker extends Card{
+import java.util.ArrayList;
+
+public class Planeswalker extends Card {
     private int life;
     private boolean permanent;
     private boolean spell;
@@ -62,5 +64,11 @@ public class Planeswalker extends Card{
     public void looseLife(int number) {
         this.life -= number;
         System.out.println(getName() + " has lost " + number + " of life. And therefore it has a total of " + this.life + " of life.");
+    }
+
+    @Override
+    public ArrayList<String> getCardsHandEffects() {
+        ArrayList<String> effectsPossible = new ArrayList<>();
+        return effectsPossible;
     }
 }

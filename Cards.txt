@@ -22,6 +22,8 @@ untap()
 getCard()
 showCard()
 
+getCardsHandEffects()   #abstract function
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Creature:
@@ -41,6 +43,7 @@ Creature:
 +double-strike
 +first-strike
 +flash
++cycling
 
 get Attack
 get Defense
@@ -71,12 +74,15 @@ doDefese(creature)  #damage taken is permanent
 
 canAttack(int)                   # provided the number of the turn, it determines if a creature is able to attack this turn or not
 
+@Override:getCardsHandEffects()  # creates a list with all the effects possible to cast from the hand 
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Artifact:
 -características da carta
 +permanent
 +spell
++cycling
 
 set Permanent
 set spell
@@ -87,6 +93,8 @@ constructor for everything
 constructor for type, permanent and spell as default
 constructor with everything as default
 
+@Override:getCardsHandEffects()  # creates a list with all the effects possible to cast from the hand 
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Enchantment:
@@ -96,6 +104,7 @@ Enchantment:
 +spell
 +enchantedCreature               # defines to which creature the enchantment is applied
 +isEnchanted                     # determines if the enchantment is enchanted to a creature or not
++cycling
 
 set Permanent
 isPermanent()?
@@ -109,12 +118,15 @@ constructor for type, permanent and spell as default
 constructor with everything as default
 @Override: getCard()
 
+@Override:getCardsHandEffects()  # creates a list with all the effects possible to cast from the hand 
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Land:
 -características da carta
 +subType
 +permanent
++cycling
 
 set Permanent
 isPermanent()?
@@ -124,6 +136,8 @@ constructor for type and permanent as default
 constructor with everything as default
 
 @Override: getCard()
+
+@Override:getCardsHandEffects()  # creates a list with all the effects possible to cast from the hand 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -150,11 +164,14 @@ constructor with everything as default
 addLife()
 looseLife()
 
+@Override:getCardsHandEffects()  # creates a list with all the effects possible to cast from the hand
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Instant:
 -características da carta
 +spell
++cycling
 
 set Spell
 isSpell()?
@@ -162,12 +179,15 @@ isSpell()?
 constructor for everything
 constructor for type and spell as default
 constructor with everything as default
+
+@Override:getCardsHandEffects()  # creates a list with all the effects possible to cast from the hand 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Sorcery:
 -características da carta
 +spell
++cycling
 
 set Spell
 isSpell()?
@@ -175,4 +195,6 @@ isSpell()?
 constructor for everything
 constructor for type and spell as default
 constructor with everything as default
+
+@Override:getCardsHandEffects()  # creates a list with all the effects possible to cast from the hand 
 
