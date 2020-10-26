@@ -129,6 +129,10 @@ public class Player {
         }
     }
 
+    public boolean checkForCounterSpell() {
+        return this.stack.checkForCounterSpell();
+    }
+
     public void playCounterSpellFromStackToField() {
         this.field.addInstantOrSorceryToField(this.stack.playLastCounterSpell());
     }

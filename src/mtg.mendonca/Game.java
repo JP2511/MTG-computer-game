@@ -605,21 +605,21 @@ public class Game {
             case "Red":
                 for (int i = 0; i < 10; i++) {
                     cardsForTheDeck.add(new Land("Mountain A" + i, "Red", "", ""));
-                    cardsForTheDeck.add(new Creature("JoJo A" + i, "Red", "R", "Haste. Double Strike.", 1, 1, "Hamon Master"));
-                    cardsForTheDeck.add(new Creature("JoJo B"+ i, "Red", "R", "Haste. First Strike..", 1, 1, "Hamon Master"));
+                    cardsForTheDeck.add(new Creature("JoJo A" + i, "Red", "R", "Haste. Double Strike. JoJo A" + i + " enters the battlefield tapped.", 1, 1, "Hamon Master"));
+                    cardsForTheDeck.add(new Creature("JoJo B"+ i, "Red", "R", "Haste. gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggFirst Strike. JoJo B" + i + " enters the battlefield tapped.", 1, 1, "Hamon Master"));
                     cardsForTheDeck.add(new Land("Mountain B" + i, "Red", "", ""));
-                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Counter target spell. Cycling [R/U]."));
-                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Counter target spell. Cycling [R/U]."));
+                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Deathtouch. Cycling UU. A"));
+                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Deathtouch. Cycling UU. A"));
                 }
                 break;
             case "Blue":
                 for (int i = 0; i < 10; i++) {
                     cardsForTheDeck.add(new Land("Island A"+ i, "Blue", "", ""));
-                    cardsForTheDeck.add(new Creature("Dior A"+ i, "Blue", "U", "Flying. Flash. Counter target spell.", 1, 1, "Vampire"));
-                    cardsForTheDeck.add(new Creature("Dior B"+ i, "Blue", "U", "Reach.", 1, 2, "Vampire"));
+                    cardsForTheDeck.add(new Creature("Dior A"+ i, "Blue", "U", "Deathtouch. Cycling UU", 1, 1, "Vampire"));
+                    cardsForTheDeck.add(new Creature("Dior B"+ i, "Blue", "U", "Deathtouch. Cycling UU", 1, 2, "Vampire"));
                     cardsForTheDeck.add(new Land("Island B"+ i, "Blue", "", ""));
                     cardsForTheDeck.add(new Creature("Dior A"+ i, "Blue", "U", "Deathtouch. Cycling UU", 1, 1, "Vampire"));
-                    cardsForTheDeck.add(new Creature("Dior A"+ i, "Blue", "U", "Vigilance", 1, 1, "Vampire"));
+                    cardsForTheDeck.add(new Creature("Dior A"+ i, "Blue", "U", "Deathtouch. Cycling UU", 1, 1, "Vampire"));
                 }
                 break;
         }
@@ -807,7 +807,9 @@ public class Game {
                 } else {
                     playerThatPlayedTheCard.moveCardFromStackToGarbage();
                 }
-                currentPlayer.playCounterSpellFromStackToField();
+                if(currentPlayer.checkForCounterSpell()) {
+                    currentPlayer.playCounterSpellFromStackToField();
+                }
                 currentPlayer.removeAllCounterSpells();
                 otherPlayer.removeAllCounterSpells();
             }

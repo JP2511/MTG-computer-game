@@ -27,6 +27,10 @@ public class Stack {
         return this.counterSpellCards.get(this.counterSpellCards.size() - 1);
     }
 
+    public boolean checkForCounterSpell() {
+        return (this.counterSpellCards.size() > 0);
+    }
+
     public Card playLastCounterSpell() {
         Card counterSpell = this.counterSpellCards.get(this.counterSpellCards.size() - 1);
         this.counterSpellCards.remove(this.counterSpellCards.size() - 1);

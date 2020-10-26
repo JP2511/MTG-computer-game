@@ -22,6 +22,12 @@ public class Creature extends Card {
     private final boolean bloodRush = getEffect().contains("Bloodrush");
     private final boolean cycling = getEffect().contains("Cycling") && !getEffect().contains("Cyclicing abilities");
 
+    {
+        if(super.getEffect().contains(super.getName() + " enters the battlefield tapped")) {
+            super.tap();
+        }
+    }
+
     public int getAttack() {
         return this.attack;
     }
@@ -194,19 +200,25 @@ public class Creature extends Card {
         caracteristicas.add("Attack: " + this.attack);
         caracteristicas.add("Defense: " + this.defense);
         String efeito = "Effect: " + super.getEffect();
-        if(efeito.length()+4 > 33) {
+        if(efeito.length() + 4 > 33) {
             String a = "";
             for(int i = 0; i < efeito.length(); i++) {
-                if( a.length() < 29 & i != efeito.length()-1) {
+                if( a.length() < 29 && i != efeito.length()-1) {
                     a += efeito.charAt(i);
+                } else if(a.length() < 29 && i == efeito.length()-1) {
+                    caracteristicas.add(a + efeito.charAt(i));
                 } else {
                     caracteristicas.add(a);
                     a = "" + efeito.charAt(i);
+                    if(i == efeito.length() - 1) {
+                        caracteristicas.add(a);
+                    }
                 }
             }
         } else {
             caracteristicas.add(efeito);
         }
+
         if(isTapped())  {
             caracteristicas.add("T A P P E D -- TAPPED");
         }

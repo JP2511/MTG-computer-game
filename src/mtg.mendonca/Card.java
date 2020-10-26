@@ -63,9 +63,14 @@ public abstract class Card {
             for(int i = 0; i < efeito.length(); i++) {
                 if( a.length() < 29 & i != efeito.length()-1) {
                     a += efeito.charAt(i);
+                } else if(a.length() < 29 && i == efeito.length()-1) {
+                    caracteristicas.add(a + efeito.charAt(i));
                 } else {
                     caracteristicas.add(a);
-                    a = ""+efeito.charAt(i);
+                    a = "" + efeito.charAt(i);
+                    if(i == efeito.length() - 1) {
+                        caracteristicas.add(a);
+                    }
                 }
             }
         } else {

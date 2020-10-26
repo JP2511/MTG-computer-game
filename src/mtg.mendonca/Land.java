@@ -8,6 +8,12 @@ public class Land extends Card {
     private boolean permanent;
     private final boolean cycling = getEffect().contains("Cycling") && !getEffect().contains("Cyclicing abilities");
 
+    {
+        if(super.getEffect().contains(super.getName() + " enters the battlefield tapped")) {
+            super.tap();
+        }
+    }
+
     public void setPermanent(boolean permanent) {
         this.permanent = permanent;
     }
