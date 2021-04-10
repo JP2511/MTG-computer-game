@@ -229,6 +229,10 @@ public class Player {
             case "Planeswalker":
                 this.graveyard.sendToGarbage(this.field.removePlaneswalkerFromField(index));
                 break;
+            case "Instant":
+            case "Sorcery":
+                this.graveyard.sendToGarbage(this.field.removeInstantOrSorceryFromField());
+                break;
             default:
                 System.out.println("Something wrong with the usage of player.moveCardFromFieldToGarbage");
         }

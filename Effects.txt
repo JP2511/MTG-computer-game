@@ -1,0 +1,14 @@
+haste
+vigilance
+deathtouch
+flying
+reach
+first strike
+double strike
+flash
+
+cycling
+
+Counter spell
+
+enters the battlefield tapped

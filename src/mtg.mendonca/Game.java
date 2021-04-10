@@ -8,7 +8,9 @@ import java.util.concurrent.TimeUnit;
 public class Game {
 
     private static final Scanner input = new Scanner(System.in);
+
     public static void main(String[] args) throws InterruptedException {
+
         System.out.println("\n##############################################################################################################################################################");
         System.out.println("Welcome to the Magic The Gathering Arena RipOff Game!");
         System.out.println("For now only two players can play.");
@@ -605,11 +607,11 @@ public class Game {
             case "Red":
                 for (int i = 0; i < 10; i++) {
                     cardsForTheDeck.add(new Land("Mountain A" + i, "Red", "", ""));
-                    cardsForTheDeck.add(new Creature("JoJo A" + i, "Red", "R", "Haste. Double Strike. JoJo A" + i + " enters the battlefield tapped.", 1, 1, "Hamon Master"));
-                    cardsForTheDeck.add(new Creature("JoJo B"+ i, "Red", "R", "Haste. gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggFirst Strike. JoJo B" + i + " enters the battlefield tapped.", 1, 1, "Hamon Master"));
+                    cardsForTheDeck.add(new Creature("JoJo A" + i, "Red", "[R/U][R/U]", "Haste. Double Strike. JoJo A" + i + " enters the battlefield tapped.", 1, 1, "Hamon Master"));
+                    cardsForTheDeck.add(new Creature("JoJo B"+ i, "Red", "[R/U][R/U]", "Haste. gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggFirst Strike. JoJo B" + i + " enters the battlefield tapped.", 1, 1, "Hamon Master"));
                     cardsForTheDeck.add(new Land("Mountain B" + i, "Red", "", ""));
-                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Deathtouch. Cycling UU. A"));
-                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Deathtouch. Cycling UU. A"));
+                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Counter target creature spell."));
+                    cardsForTheDeck.add(new Instant("Sike, you thought" + i, "Red", "R", "Counter target creature spell."));
                 }
                 break;
             case "Blue":
@@ -758,7 +760,7 @@ public class Game {
                 int blackLandsTotap = returnUserInputCheckingOnlyIfInt();
 
                 //shows the card and asks the other player if they would like to counter the card being played
-                isThereEnoughMana = currentPlayer.playCardFromHandToStack(cardChosenToPlay, redLandsTotap, greenLandsTotap, whiteLandsTotap, blueLandsTotap, blackLandsTotap, cardBeingPlayed.getEffect().matches("[cC]ounter target.*spell"));
+                isThereEnoughMana = currentPlayer.playCardFromHandToStack(cardChosenToPlay, redLandsTotap, greenLandsTotap, whiteLandsTotap, blueLandsTotap, blackLandsTotap, cardBeingPlayed.getEffect().matches(".*[cC]ounter target.*spell.*"));
             }
             System.out.println(currentPlayer.getName() + " played the above card:");
 
@@ -786,6 +788,8 @@ public class Game {
                         playerThatPlayedTheCard.moveCardFromStackToGarbage();
                     }
                     currentPlayer.playCounterSpellFromStackToField();
+                    useInstantOnField(currentPlayer);
+
                     currentPlayer.removeAllCounterSpells();
                     otherPlayer.removeAllCounterSpells();
                 } else {
@@ -809,6 +813,7 @@ public class Game {
                 }
                 if(currentPlayer.checkForCounterSpell()) {
                     currentPlayer.playCounterSpellFromStackToField();
+                    useInstantOnField(currentPlayer);
                 }
                 currentPlayer.removeAllCounterSpells();
                 otherPlayer.removeAllCounterSpells();
@@ -825,6 +830,7 @@ public class Game {
                     playerThatPlayedTheCard.moveCardFromStackToGarbage();
                 }
                 otherPlayer.playCounterSpellFromStackToField();
+                useInstantOnField(otherPlayer);
                 currentPlayer.removeAllCounterSpells();
                 otherPlayer.removeAllCounterSpells();
             }
@@ -923,5 +929,10 @@ public class Game {
                 }
                 break;
         }
+    }
+
+    public static void useInstantOnField(Player currentPlayer) {
+        //insert here function to use effect
+        currentPlayer.moveCardFromFieldToGarbage("Instant", 0); //for instants there is no use for index, so I inserted a random number
     }
 }
