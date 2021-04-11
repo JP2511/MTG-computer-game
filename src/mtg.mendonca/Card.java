@@ -1,13 +1,11 @@
 package mtg.mendonca;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
 
+/**
+ * Class that has all the general card attributes and functionalities.
+ */
 public abstract class Card {
-    /**
-     * Class that has all the general card attributes and functionalities.
-     */
     
     private String name;
     private String color;
@@ -17,135 +15,77 @@ public abstract class Card {
     private boolean tapped;
 
 
+    /**
+     * Returns the name of the card.
+     *
+     * @return A string with the name of the card.
+     */
     public String getName() {
-        /**
-         * Returns the name of the card.
-         *
-         * Parameters
-         * ----------
-         * None.
-         *
-         * Returns
-         * -------
-         * string
-         *       Name of the card.
-         */
-
         return this.name;
     }
 
 
+    /**
+     * Returns the color of the card.
+     *
+     * @return A string with the color of the card.
+     */
     public String getColor() {
-        /**
-         * Returns the color of the card.
-         *
-         * Parameters
-         * ----------
-         * None.
-         *
-         * Returns
-         * -------
-         * string
-         *       Color of the card.
-         */
-
         return this.color;
     }
 
 
+    /**
+     * Returns the mana cost of the card.
+     *
+     * @return A string representation of the mana cost of the card.
+     */
     public String getManaCost() {
-        /**
-         * Returns the mana cost of the card.
-         *
-         * Parameters
-         * ----------
-         * None.
-         *
-         * Returns
-         * -------
-         * string
-         *       Mana cost of the card.
-         */
-
         return this.manaCost;
     }
 
 
+    /**
+     * Returns the type of the card.
+     *
+     * @return A string that represents that type of the card.
+     */
     public String getType() {
-        /**
-         * Returns the type of the card.
-         *
-         * Parameters
-         * ----------
-         * None.
-         *
-         * Returns
-         * -------
-         * string
-         *       Type of the card.
-         */
-
         return this.type;
     }
 
 
+    /**
+     * Returns the abilities of the card.
+     *
+     * @return A string with the abilities of the card.
+     */
     public String getEffect() {
-        /**
-         * Returns the abilities of the card.
-         *
-         * Parameters
-         * ----------
-         * None.
-         *
-         * Returns
-         * -------
-         * string
-         *       Abilities of the card.
-         */
-
         return this.effect;
     }
 
 
+    /**
+     * Determines if a card is tapped or not.
+     *
+     * @return A boolean with the value of true if the card is tapped and false if it's not.
+     */
     public boolean isTapped() {
-        /**
-         * Determines if a card is tapped or not.
-         *
-         * Parameters
-         * ----------
-         * None.
-         *
-         * Returns
-         * -------
-         * boolean
-         *       True if the card is tapped and false if it's not.
-         */
-
         return this.tapped;
     }
 
 
+    /**
+     * Class constructor.
+     *
+     * @param name A string that represents the name of the card that is being created.
+     * @param color A string that represents the color of the card that is being created.
+     * @param manaCost A string that represents the mana cost of the card that is being created.
+     * @param type A string that represents the type of the card that is being created.
+     * @param effect A string that represents the abilities of the card that is being created.
+     */
     public Card(String name, String color, String manaCost, String type, String effect) {
-        /**
-         * Class constructor.
-         *
-         * Parameters
-         * ----------
-         * name : string
-         *       Name of the card that is being created.
-         * color : string
-         *       Color of the card that is being created.
-         * manaCost : string
-         *       Mana cost of the card that is being created.
-         * type : string
-         *       Type of the card that is being created.
-         * effects : string
-         *       Abilities of the card that is being created.
-         *
-         * Returns
-         * -------
-         * None.
-         */
+
 
         this.name = name;
         this.color = color;
@@ -155,55 +95,30 @@ public abstract class Card {
     }
 
 
+    /**
+     * Taps the card. The class variable tapped is converted to true.
+     */
     public void tap() {
-        /**
-         * Taps the card. The class variable tapped is converted to true.
-         *
-         * Parameters
-         * ----------
-         * None.
-         *
-         * Returns
-         * -------
-         * None.
-         */
-
         this.tapped = true;
     }
 
 
+    /**
+     * Untaps the card. The class variable tapped is converted to false.
+     */
     public void untap() {
-        /**
-         * Untaps the card. The class variable tapped is converted to false.
-         *
-         * Parameters
-         * ----------
-         * None.
-         *
-         * Returns
-         * -------
-         * None.
-         */
-
         this.tapped = false;
     }
 
 
+    /**
+     * Creates a list with all the cards attributes.
+     *
+     * @return ArrayList<String> of the attributes of the card (name, color, mana cost, type and abilities).
+     */
     public ArrayList<String> getCardAttributes() {
-        /**
-         * Creates a list with all the cards attributes.
-         *
-         * Parameters
-         * ----------
-         * None.
-         *
-         * Returns
-         * -------
-         * ArrayList<String>
-         *       Attributes of the cards (name, color, mana cost, type and abilities).
-         */
 
-        ArrayList<String> attributes = new ArrayList();
+        ArrayList<String> attributes = new ArrayList<>();
 
         attributes.add("Name: " + this.name);
         attributes.add("Color: " + this.color);
@@ -215,23 +130,17 @@ public abstract class Card {
     }
 
 
+    /**
+     *    Creates a list with all the cards attributes. Each element of the list corresponds to a line with less
+     * than nChars characters. So lines that are longer than nChars are separated in multiple lines.
+     *
+     * @param attributes ArrayList<String> of the attributes of the cards (name, color, mana cost, type and abilities).
+     * @param nChars Maximum number of characters each line can have in the new arrayList. nChars must be bigger than 0.
+     *
+     * @return ArrayList<String> of the attributes of the cards formatted so that each line of the array has less than
+     * nChars characters.
+     */
     public ArrayList<String> formatCardAttributesSize(ArrayList<String> attributes, int nChars) {
-        /**
-         *    Creates a list with all the cards attributes. Each element of the list corresponds to a line with less
-         * than nChars characters. So lines that are longer than nChars are separated in multiple lines.
-         *
-         * Parameters
-         * ----------
-         * attributes : ArrayList<String>
-         *       Attributes of the cards (name, color, mana cost, type and abilities).
-         * nChars : integer
-         *       Maximum number of characters each line can have in the new arrayList.
-         *
-         * Returns
-         * -------
-         * ArrayList<String>
-         *       Attributes of the cards formatted so that each line of the array has less than nChars characters.
-         */
 
         ArrayList<String> formattedAttributes = new ArrayList();
 
@@ -252,23 +161,17 @@ public abstract class Card {
     }
 
 
+    /**
+     *    Resizes a string in accordance with the preferred size. If the string is too short, it adds whitespaces,
+     * if it is too long, it removes the extra characters and if it's the right size, it returns the same string.
+     *
+     * @param line String that is going to be formatted.
+     * @param size Integer that describes the size that the returned string must be. It must have a value bigger or
+     *             equal to 0.
+     *
+     * @return Formatted string (string with the correct size).
+     */
     public String sizeString(String line, int size) {
-        /**
-         *    Resizes a string in accordance with the preferred size. If the string is too short, it adds whitespaces,
-         * if it is too long, it removes the extra characters and if it's the right size, it returns the same string.
-         *
-         * Parameters
-         * ----------
-         * line : string
-         *       String that is going to be formatted.
-         * size : integer
-         *       Size that the returned string must be.
-         *
-         * Returns
-         * -------
-         * string
-         *       Formatted string (string with the correct size).
-         */
 
         if (line.length() < size) {
 
@@ -287,19 +190,12 @@ public abstract class Card {
     }
 
 
-    public String[] getCard() {  //creates a String array containing the contents of the card
-        /**
-         * Creates an array with the lines that are going to create the card in the terminal.
-         *
-         * Parameters
-         * ----------
-         * None.
-         *
-         * Returns
-         * -------
-         * array<String>
-         *       Lines that constitute the visualization of the card in the terminal.
-         */
+    /**
+     * Creates an array with the lines that are going to create the card in the terminal.
+     *
+     * @return An array of lines that constitute the visualization of the card in the terminal.
+     */
+    public String[] getCard() {
 
         ArrayList<String> formattedAttributes = formatCardAttributesSize(getCardAttributes(), 29);
         String[] carta = new String[15];
@@ -323,20 +219,12 @@ public abstract class Card {
     }
 
 
+    /**
+     * Prints the card to the terminal.
+     */
     public void showCard() {
-        /**
-         * Prints the card to the terminal.
-         *
-         * Parameters
-         * ----------
-         * None.
-         *
-         * Returns
-         * -------
-         * None.
-         */
-
         String[] carta = getCard();
+
         for(int i = 0; i < carta.length; i++) {
             System.out.println(carta[i]);
         }
