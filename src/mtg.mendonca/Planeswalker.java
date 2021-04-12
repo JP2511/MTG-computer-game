@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class Planeswalker extends Card {
     private int life;
     private boolean permanent;
-    private boolean spell;
     private boolean dead;
 
     public int getLife() {
@@ -24,13 +23,6 @@ public class Planeswalker extends Card {
         return permanent;
     }
 
-    public boolean isSpell() {
-        return spell;
-    }
-    public void setSpell(boolean spell) {
-        this.spell = spell;
-    }
-
     public boolean isDead() {
         return dead;
     }
@@ -39,16 +31,9 @@ public class Planeswalker extends Card {
         this.dead = dead;
     }
 
-    public Planeswalker(String name, String color, String manaCost, String type, String effect, int life, boolean permanent, boolean spell, boolean dead) {
-        super(name, color, manaCost, type, effect);
+    public Planeswalker(String name, String color, String manaCost, String effect, int life) {
+        super(name, color, manaCost, "Planeswalker", effect);
         this.life = life;
-        this.permanent = permanent;
-        this.spell = spell;
-        this.dead = dead;
-    }
-
-    public Planeswalker(String name, String color, String manaCost, String type, String effect, int life) {
-        this(name, color, manaCost, "Planeswalker", effect, life, false, false, false);
     }
 
     public Planeswalker() {

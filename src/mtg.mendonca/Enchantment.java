@@ -6,9 +6,8 @@ import java.util.List;
 public class Enchantment extends Card {
     private String subType;
     private boolean permanent;
-    private boolean spell;
     private Creature enchantedCreature;
-    private boolean isEnchanted = false;
+    private boolean isEnchanted;
     private final boolean cycling = getEffect().contains("Cycling") && !getEffect().contains("Cyclicing abilities");
 
     public void setPermanent(boolean permanent) {
@@ -19,30 +18,18 @@ public class Enchantment extends Card {
         return permanent;
     }
 
-    public boolean isSpell() {
-        return spell;
-    }
-
-    public void setSpell(boolean spell) {
-        this.spell = spell;
-    }
-
     public void enchantCreature(Creature creature) {
         this.enchantedCreature = creature;
         this.isEnchanted = true;
     }
 
-    public Enchantment(String name, String color, String manaCost, String type, String effect, String subType, boolean permanent, boolean spell) {
-        super(name, color, manaCost, type, effect);
-        this.subType = subType;
-        this.permanent = permanent;
-        this.spell = spell;
-    }
     public Enchantment(String name, String color, String manaCost, String effect, String subType) {
-        this(name, color, manaCost, "Enchantment", effect, subType, false, false);
+        super(name, color, manaCost, "Enchantment", effect);
+        this.subType = subType;
     }
+
     public Enchantment() {
-        this("No Name", "No Color", "0", "No Effect", "No Subtype");
+        this("No name", "No color", "0", "No effects", "No subtype");
     }
 
     @Override

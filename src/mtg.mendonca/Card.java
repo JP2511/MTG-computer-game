@@ -7,12 +7,15 @@ import java.util.ArrayList;
  */
 public abstract class Card {
     
-    private String name;
-    private String color;
-    private String manaCost;
-    private String type;
-    private String effect;
+    private final String name;
+    private final String color;
+    private final String manaCost;
+    private final String type;
+    private final String effect;
+
+    private boolean spell;
     private boolean tapped;
+
 
 
     /**
@@ -66,6 +69,16 @@ public abstract class Card {
 
 
     /**
+     * Determines if a card is a spell or not.
+     *
+     * @return A boolean with the value of true if the card is a spell and false if it's not.
+     */
+    public boolean isSpell() {
+        return this.spell;
+    }
+
+
+    /**
      * Determines if a card is tapped or not.
      *
      * @return A boolean with the value of true if the card is tapped and false if it's not.
@@ -86,12 +99,27 @@ public abstract class Card {
      */
     public Card(String name, String color, String manaCost, String type, String effect) {
 
-
         this.name = name;
         this.color = color;
         this.manaCost = manaCost;
         this.type = type;
         this.effect = effect;
+    }
+
+
+    /**
+     * Converts a card to a spell (this happens when the card is put into the stack).
+     */
+    public void convertToSpell() {
+        this.spell = true;
+    }
+
+
+    /**
+     * Removes the spell category from the card (this happens when the card leaves the stack).
+     */
+    public void removesSpellCategory() {
+        this.spell = false;
     }
 
 

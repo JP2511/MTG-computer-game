@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Artifact extends Card {
     private boolean permanent;
-    private boolean spell;
+
     private final boolean cycling = getEffect().contains("Cycling") && !getEffect().contains("Cyclicing abilities");
 
     {
@@ -21,22 +21,13 @@ public class Artifact extends Card {
         return permanent;
     }
 
-    public void setSpell(boolean spell) {
-        this.spell = spell;
-    }
-
-    public boolean isSpell() {
-        return spell;
-    }
-
-    public Artifact(String name, String color, String manaCost, String type, String effect, boolean permanent, boolean spell) {
-        super(name, color, manaCost, type, effect);
+    public Artifact(String name, String color, String manaCost, String effect, boolean permanent) {
+        super(name, color, manaCost, "Artifact", effect);
         this.permanent = permanent;
-        this.spell = spell;
     }
 
     public Artifact(String name, String color, String manaCost, String effect) {
-        this(name, color, manaCost, "artifact", effect, false, false);
+        this(name, color, manaCost, effect, false);
     }
 
     public Artifact() {

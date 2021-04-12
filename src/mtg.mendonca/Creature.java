@@ -9,7 +9,6 @@ public class Creature extends Card {
     private String subType;
     private boolean dead = false;
     private boolean permanent = false;
-    private boolean spell;
     private int turnInWhichItWasPlayed;
     private final boolean haste = getEffect().contains("Haste");
     private final boolean vigilance = getEffect().contains("Vigilance");
@@ -48,14 +47,6 @@ public class Creature extends Card {
         return this.permanent;
     }
 
-    public void setSpell(boolean spell) {
-        this.spell = spell;
-    }
-
-    public boolean isSpell() {
-        return this.spell;
-    }
-
     public boolean getVigilance() {
         return this.vigilance;
     }
@@ -88,22 +79,11 @@ public class Creature extends Card {
         this.turnInWhichItWasPlayed = turnNumber;
     }
 
-    public Creature(String name, String color, String manaCost, String type, String effect, int attack, int defense, String subType, boolean dead, boolean permanent, boolean spell) {
+    public Creature(String name, String color, String manaCost, String effect, int attack, int defense, String subType) {
         super(name, color, manaCost, "Creature", effect);
         this.attack = attack;
         this.defense = defense;
         this.subType = subType;
-        this.dead = dead;
-        this.permanent = permanent;
-        this.spell = spell;
-    }
-
-    public Creature(String name, String color, String manaCost, String effect, int attack, int defense, String subType) {
-        this(name, color, manaCost, "Creature", effect, attack, defense, subType, false, false, false);
-    }
-
-    public Creature() {
-        this("No Name", "No Color", "0", "No Effect", 0, 0, "No Subtype");
     }
 
     public void doDefense(int damageToTake, boolean hasDeathtouch) {

@@ -10,7 +10,7 @@ public class Field {
     private ArrayList<Planeswalker> planeswalkers = new ArrayList<>();
     private LinkedList<Land> basicLands = new LinkedList<>();
     private ArrayList<Card> instantAndSorcery = new ArrayList<>();
-    private Card temporaryEnchantment = new Enchantment();
+    private Enchantment temporaryEnchantment = new Enchantment();
 
     public ArrayList<Card> removeCreatureFromField(int i) {
         ArrayList<Card> cardsToRemove = new ArrayList<>();
