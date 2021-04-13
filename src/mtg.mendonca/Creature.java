@@ -8,7 +8,6 @@ public class Creature extends Card {
     private int defense;
     private String subType;
     private boolean dead = false;
-    private boolean permanent = false;
     private int turnInWhichItWasPlayed;
     private final boolean haste = getEffect().contains("Haste");
     private final boolean vigilance = getEffect().contains("Vigilance");
@@ -37,14 +36,6 @@ public class Creature extends Card {
 
     public boolean isDead() {
         return this.dead;
-    }
-
-    public void setPermanent(boolean permanent) {
-        this.permanent = permanent;
-    }
-
-    public boolean isPermanent() {
-        return this.permanent;
     }
 
     public boolean getVigilance() {

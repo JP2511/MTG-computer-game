@@ -3,7 +3,6 @@ package mtg.mendonca;
 import java.util.ArrayList;
 
 public class Artifact extends Card {
-    private boolean permanent;
 
     private final boolean cycling = getEffect().contains("Cycling") && !getEffect().contains("Cyclicing abilities");
 
@@ -13,21 +12,8 @@ public class Artifact extends Card {
         }
     }
 
-    public void setPermanent(boolean permanent) {
-        this.permanent = permanent;
-    }
-
-    public boolean isPermanent() {
-        return permanent;
-    }
-
-    public Artifact(String name, String color, String manaCost, String effect, boolean permanent) {
-        super(name, color, manaCost, "Artifact", effect);
-        this.permanent = permanent;
-    }
-
     public Artifact(String name, String color, String manaCost, String effect) {
-        this(name, color, manaCost, effect, false);
+        super(name, color, manaCost, "Artifact", effect);
     }
 
     public Artifact() {

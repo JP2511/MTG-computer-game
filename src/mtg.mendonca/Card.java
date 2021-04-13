@@ -14,8 +14,8 @@ public abstract class Card {
     private final String effect;
 
     private boolean spell;
+    private boolean permanent;
     private boolean tapped;
-
 
 
     /**
@@ -79,6 +79,16 @@ public abstract class Card {
 
 
     /**
+     * Determines if a card is a permanent or not.
+     *
+     * @return A boolean with the value of true if the card is a permanent and false if it's not.
+     */
+    public boolean isPermanent() {
+        return this.permanent;
+    }
+
+
+    /**
      * Determines if a card is tapped or not.
      *
      * @return A boolean with the value of true if the card is tapped and false if it's not.
@@ -119,6 +129,22 @@ public abstract class Card {
      * Removes the spell category from the card (this happens when the card leaves the stack).
      */
     public void removesSpellCategory() {
+        this.spell = false;
+    }
+
+
+    /**
+     * Converts a card to a permanent (this happens when the card is put into the battlefield).
+     */
+    public void convertToPermanent() {
+        this.spell = true;
+    }
+
+
+    /**
+     * Removes the permanent category from the card (this happens when the card leaves the battlefield).
+     */
+    public void removesPermanentCategory() {
         this.spell = false;
     }
 

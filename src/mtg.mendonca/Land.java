@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Land extends Card {
     private String subType;
-    private boolean permanent;
     private final boolean cycling = getEffect().contains("Cycling") && !getEffect().contains("Cyclicing abilities");
 
     {
@@ -14,22 +13,9 @@ public class Land extends Card {
         }
     }
 
-    public void setPermanent(boolean permanent) {
-        this.permanent = permanent;
-    }
-
-    public boolean isPermanent() {
-        return permanent;
-    }
-
-    public Land(String name, String color, String manaCost, String type, String effect, String subType, boolean permanent) {
-        super(name, color, manaCost, type, effect);
-        this.subType = subType;
-        this.permanent = permanent;
-    }
-
     public Land(String name, String color, String effect, String subType) {
-        this(name, color, "0", "Land", effect, subType, false);
+        super(name, color, "0", "Land", effect);
+        this.subType = subType;
     }
 
     public Land() {

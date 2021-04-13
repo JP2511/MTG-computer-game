@@ -5,18 +5,9 @@ import java.util.List;
 
 public class Enchantment extends Card {
     private String subType;
-    private boolean permanent;
     private Creature enchantedCreature;
     private boolean isEnchanted;
     private final boolean cycling = getEffect().contains("Cycling") && !getEffect().contains("Cyclicing abilities");
-
-    public void setPermanent(boolean permanent) {
-        this.permanent = permanent;
-    }
-
-    public boolean isPermanent() {
-        return permanent;
-    }
 
     public void enchantCreature(Creature creature) {
         this.enchantedCreature = creature;

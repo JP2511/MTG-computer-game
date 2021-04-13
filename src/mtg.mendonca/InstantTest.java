@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class InstantTest {
 
     /* -----------------------------------------------------------------------------------------------------------------
-     * Tests for the sizeString() function
+     * Tests for the getCardsHandEffects() function
      * -----------------------------------------------------------------------------------------------------------------
      */
 

@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class Planeswalker extends Card {
     private int life;
-    private boolean permanent;
     private boolean dead;
 
     public int getLife() {
@@ -13,14 +12,6 @@ public class Planeswalker extends Card {
 
     public void setLife(int life) {
         this.life = life;
-    }
-
-    public void setPermanent(boolean permanent) {
-        this.permanent = permanent;
-    }
-
-    public boolean isPermanent() {
-        return permanent;
     }
 
     public boolean isDead() {
