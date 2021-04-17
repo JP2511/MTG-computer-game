@@ -168,7 +168,8 @@ public abstract class Card {
     /**
      * Creates a list with all the cards attributes.
      *
-     * @return ArrayList<String> of the attributes of the card (name, color, mana cost, type and abilities).
+     * @return ArrayList<String> of the attributes of the card (name, color, mana cost, type and abilities) and with the
+     *      information regarding if it is tapped or not.
      */
     public ArrayList<String> getCardAttributes() {
 
@@ -178,6 +179,11 @@ public abstract class Card {
         attributes.add("Color: " + this.color);
         attributes.add("ManaCost: " + this.manaCost);
         attributes.add("Type: " + this.type);
+
+        if (isTapped()) {
+            attributes.add("TAPPED - T A P P E D");
+        }
+
         attributes.add("Effect: " + this.effect);
 
         return attributes;

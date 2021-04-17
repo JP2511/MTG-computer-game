@@ -1,7 +1,9 @@
 package mtg.mendonca;
 
 import java.util.ArrayList;
+import java.util.Hashtable;
 import java.util.List;
+import java.util.Set;
 
 public class Creature extends Card {
 
@@ -12,13 +14,19 @@ public class Creature extends Card {
     private int turnInWhichItWasPlayed;
     private boolean dead;
 
+
     /*   The value of defense during the turn. After the turn ends, it goes back to the value it had before it was
      * changed by temporary effects.
      */
     private int defenseDuringTurn;
 
-    // pairs of values that change the attack and defense temporarily, eg: "+1/+1" or "0/-2"
-    private ArrayList<String> counters = new ArrayList<>();
+    // Pairs of values that change the attack and defense indefinitly, eg: "+1/+1" or "0/-2"
+    private ArrayList<int[]> counters = new ArrayList<>();
+
+    /*   Pairs of values that change the attack and defense temporarily, for example, does added by a creature with
+     * bloodrush.
+     */
+    private Hashtable<Card, int[]> tempCounters = new Hashtable();
 
 
     // abilities a creature might have
@@ -43,25 +51,43 @@ public class Creature extends Card {
 
 
     /**
-     * Returns the attack of the card. It accounts for possibly added counters.
+     * Returns the attack of the card. It accounts for possibly added counters and the temporary counters.
      *
      * @return Integer that represents the attack of the creature.
      */
     public int getAttack() {
-        // counter mechanism missing
-        return this.attack;
+        int attackValue = this.attack;
+
+        for(int[] counter: this.counters) {
+            attackValue += counter[0];
+        }
+
+        for(Card key: this.tempCounters.keySet()) {
+            attackValue += this.tempCounters.get(key)[0];
+        }
+
+        return attackValue;
     }
 
 
     /**
      *   Returns the defense of the card. It accounts for the temporary damage taken to the card during the turn and
-     * also considers added counters.
+     * also considers the added counters and the temporary counters.
      *
      * @return Integer that represents the defense of the creature.
      */
     public int getDefense() {
-        // counter mechanism missing
-        return this.defenseDuringTurn;
+        int defenseValue = this.defenseDuringTurn;
+
+        for(int[] counter: this.counters) {
+            defenseValue += counter[1];
+        }
+
+        for(Card key: this.tempCounters.keySet()) {
+            defenseValue += this.tempCounters.get(key)[1];
+        }
+
+        return defenseValue;
     }
 
 
@@ -154,6 +180,47 @@ public class Creature extends Card {
      */
     public void setTurnInWhichItWasPlayed(int turnNumber) {
         this.turnInWhichItWasPlayed = turnNumber;
+    }
+
+
+    /**
+     * Adds an indefinite counter to the counters arrayList.
+     *
+     * @param pairOfValues Pair of values in a string separated by a '/' to add to the attack and to the defense in
+     *                their respective order.
+     */
+    public void addCounter(String pairOfValues) {
+        int[] counterValues = new int[2];
+
+        for (int i = 0; i < 2; i++) {
+            counterValues[i] = Integer.parseInt(pairOfValues.split("/")[i]);
+        }
+
+        this.counters.add(counterValues);
+    }
+
+
+    /**
+     * Adds an indefinite counter to the counters arrayList.
+     *
+     * @param keyCard Card responsible for adding the temporary counters to the creature.
+     * @param pairOfValues Pair of values in a string separated by a '/' to add to the attack and to the defense in
+     *                their respective order.
+     */
+    public void addTempCounter(Card keyCard, String pairOfValues) {
+        int[] counterValues = new int[2];
+
+        counterValues[0] = Integer.parseInt(pairOfValues.split("/")[0]);
+        counterValues[1] = Integer.parseInt(pairOfValues.split("/")[1]);
+
+        if (this.tempCounters.containsKey(keyCard)) {
+            int[] oldCounterValues = this.tempCounters.get(keyCard);
+
+            counterValues[0] += oldCounterValues[0];
+            counterValues[1] += oldCounterValues[1];
+        }
+
+        this.tempCounters.put(keyCard, counterValues);
     }
 
 
@@ -300,69 +367,6 @@ public class Creature extends Card {
 
 
     /**
-     * Creates an array with the lines that are going to create the creature in the terminal.
-     *
-     * @return An array of lines that constitute the visualization of the creature in the terminal.
-     */
-    @Override
-    public String[] getCard () {  //creates a String array containing the contents of the card
-        String[] carta = new String[15];
-        List caracteristicas = new ArrayList();
-        caracteristicas.add("Name: " + super.getName());
-        caracteristicas.add("Color: " + super.getColor());
-        caracteristicas.add("ManaCost: " + super.getManaCost());
-        caracteristicas.add("Type: " + super.getType());
-        caracteristicas.add("SubType: " + this.subType);
-        caracteristicas.add("Attack: " + this.attack);
-        caracteristicas.add("Defense: " + this.defense);
-        String efeito = "Effect: " + super.getEffect();
-        if(efeito.length() + 4 > 33) {
-            String a = "";
-            for(int i = 0; i < efeito.length(); i++) {
-                if( a.length() < 29 && i != efeito.length()-1) {
-                    a += efeito.charAt(i);
-                } else if(a.length() < 29 && i == efeito.length()-1) {
-                    caracteristicas.add(a + efeito.charAt(i));
-                } else {
-                    caracteristicas.add(a);
-                    a = "" + efeito.charAt(i);
-                    if(i == efeito.length() - 1) {
-                        caracteristicas.add(a);
-                    }
-                }
-            }
-        } else {
-            caracteristicas.add(efeito);
-        }
-
-        if(isTapped())  {
-            caracteristicas.add("T A P P E D -- TAPPED");
-        }
-
-        for(int i = 0; i<15; i++){
-            if(i==0 || i==14) {
-                carta[i] = "---------------------------------";
-            } else if (i > 1 & i <caracteristicas.size() + 2 ) {
-                String valor = "";
-                for(int j = 0; j < 33; j++){
-                    if(j==0 || j == 32){
-                        valor += "|";
-                    } else if( j > 1 && j < ((String) caracteristicas.get(i-2)).length() + 2) {
-                        valor += ((String) caracteristicas.get(i-2)).charAt(j-2);
-                    } else {
-                        valor += " ";
-                    }
-                }
-                carta[i] = valor;
-            } else {
-                carta[i] = "|                               |";
-            }
-        }
-        return carta;
-    }
-
-
-    /**
      * Determines if a creature is able to attack during the current time.
      *
      * @param turn An integer that represents the current turn.
@@ -370,7 +374,66 @@ public class Creature extends Card {
      * @return A boolean with the value of true if the creature is able to attack and false if it cannot.
      */
     public boolean canAttack(int turn) {
-       return (this.turnInWhichItWasPlayed != turn && !isTapped()) || (this.haste && !isTapped());
+        return (this.turnInWhichItWasPlayed != turn && !isTapped()) || (this.haste && !isTapped());
+    }
+
+
+    /**
+     * Creates a list with all the cards attributes.
+     *
+     * @return ArrayList<String> of the attributes of the card (name, color, mana cost, type, subtype, attack, defense
+     *     and abilities) and with the information regarding if it is tapped or not.
+     */
+    @Override
+    public ArrayList<String> getCardAttributes() {
+
+        ArrayList<String> attributes = new ArrayList<>();
+
+        attributes.add("Name: " + super.getName());
+        attributes.add("Color: " + super.getColor());
+        attributes.add("ManaCost: " + super.getManaCost());
+        attributes.add("Type: " + super.getType());
+        attributes.add("SubType: " + this.subType);
+        attributes.add("Attack: " + getAttack());
+        attributes.add("Defense: " + getDefense());
+
+        if (isTapped()) {
+            attributes.add("TAPPED - T A P P E D");
+        }
+
+        attributes.add("Effect: " + super.getEffect());
+
+        return attributes;
+    }
+
+
+    /**
+     * Creates an array with the lines that are going to create the creature in the terminal.
+     *
+     * @return An array of lines that constitute the visualization of the creature in the terminal.
+     */
+    @Override
+    public String[] getCard() {
+
+        ArrayList<String> formattedAttributes = super.formatCardAttributesSize(this.getCardAttributes(), 29);
+        String[] carta = new String[15];
+
+        for(int i = 0; i<15; i++){
+
+            if (i == 0 || i == 14) {
+                carta[i] = "---------------------------------";
+            } else if (i == 12 && formattedAttributes.size() > 10) {
+                carta[i] = "| " + sizeString(formattedAttributes.get(i-2), 26) + "... |";
+
+            } else if ((i > 1 && i < 13) && i-2 < formattedAttributes.size()) {
+                carta[i] = "| " + sizeString(formattedAttributes.get(i-2), 29) + " |";
+
+            } else {
+                carta[i] = "|                               |";
+            }
+        }
+
+        return carta;
     }
 
 
