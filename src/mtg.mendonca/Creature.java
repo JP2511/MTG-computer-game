@@ -266,7 +266,7 @@ public class Creature extends Card {
      *
      * @param damageToTake An integer that represents the temporary damage to be taken by the creature.
      * @param hasDeathtouch A boolean that determines if the damage taken by this creature is being delt by a creature
-     *                 with death touch.
+     *                 with deathtouch.
      */
     public void doDefense(int damageToTake, boolean hasDeathtouch) {
         if (super.isTapped()) {
@@ -274,7 +274,7 @@ public class Creature extends Card {
 
         } else {
             this.defenseDuringTurn -= damageToTake;
-            if (this.defenseDuringTurn <= 0 || hasDeathtouch) {
+            if (getDefense() <= 0 || hasDeathtouch) {
                 this.dead = true;
             }
         }
@@ -324,11 +324,10 @@ public class Creature extends Card {
 
 
     /**
-     *   Handles the first part of the attack phase. The attack phase is divided in early phase for creatures with
+     *   Handles the each part of the attack phase. The attack phase is divided in early phase for creatures with
      * first-strike and double strike and normal phase for cards with double-strike and cards without first-strike. It
-     * calculates the combined attack of the defending creatures to the attacking creature, it determines if any of the
-     * defending creatures have deathtouch and would therefore kill the attacking creature and it makes a list of the
-     * creatures that are going to defend during the normal phase of the attack phase.
+     * calculates the combined attack of the defending creatures to the attacking creature and it determines if any of
+     * the defending creatures have deathtouch and would therefore kill the attacking creature.
      *
      * @param defendingCreature ArrayList of the defending creatures.
      *
@@ -336,78 +335,57 @@ public class Creature extends Card {
      * @return A boolean with true if any of the defending creatures has deathtouch.
      * @return An arrayList of the creatures that are going to defend during the normal phase of the attack phase.
      */
-    public List firstStrikePhase(ArrayList<Creature> defendingCreature) {
+    public List attackInParts(ArrayList<Creature> defendingCreatures, boolean earlyPhase) {
         int sumDefendingCreaturesAttack = 0;
         boolean anyHasDeathtouch = false;
-        ArrayList<Creature> notFirstStrike = new ArrayList();
 
-        for (Creature defender: defendingCreature) {
-            if (defender.getFirstStrike() || defender.getDoubleStrike()) {
+        for (Creature defender: defendingCreatures) {
+            if ((earlyPhase ? defender.getFirstStrike() : !defender.getFirstStrike()) || defender.getDoubleStrike()) {
                 sumDefendingCreaturesAttack += defender.getAttack();
 
                 if (defender.getDeathtouch()) {
                     anyHasDeathtouch = true;
                 }
-                if (defender.getDoubleStrike()) {
-                    notFirstStrike.add(defender);
-                }
-            } else {
-                notFirstStrike.add(defender);
             }
         }
 
-        return List.of(sumDefendingCreaturesAttack, anyHasDeathtouch, notFirstStrike);
+        return List.of(sumDefendingCreaturesAttack, anyHasDeathtouch);
     }
+
 
     /**
-     * It handles the attack mechanism when the attacking creature is going to be defended by one or more creatures.
+     *   It fully handles the early phase of the attack phase. It applies the damage given from the defending creatures
+     * with first or double strike to the attacking creature and it applies the damage the attacking creature deals to
+     * the defending creatures. The damage given by the attacking creature is distributed to the defending creature as
+     * provided by the defendingCreaturesAndDamageToGive hashTable.
      *
-     * @param defendingCreatures A list of creatures that are going to defend against the damage that would be delt to
-     *                       a player or a planeswalker by the attacking creature.
-     * @param valueOfDamageToGive A list of values that correspond to the damage that each defending creature will
-     *                       receive. The specific damage is given to the defending creature with the same index on the
-     *                       defendingCreatures list.
+     * @param defendingCreaturesAndDamageToGive HashTable with the creatures that are going to defend the attacking
+     *                                     creature as keys and the damage the attacking creature is going to give to a
+     *                                     that defending creature during the early phase of the attack phase as the
+     *                                     associated value.
+     *
+     * @return A boolean with the value of true if the attacking creature survives this part of the attack phase.
      */
-    public void doAttack(ArrayList<Creature> defendingCreatures, ArrayList<Integer> valueOfDamageToGive) {
-        if(super.isTapped()){
-            System.out.println("You can not use this card to attack this turn.");
-        } else{
-            List resultOfFirstStrikePhase = firstStrikePhase(defendingCreatures);
+    public boolean earlyPhaseAttack(Hashtable<Creature, Integer> defendingCreaturesAndDamageToGive) {
+        List resultOfEarlyPhase = attackInParts((ArrayList<Creature>) defendingCreaturesAndDamageToGive.keys(),
+                                        true);
+        alterDefense((int) resultOfEarlyPhase.get(0));
 
-            int sumOfDefendingCreatureAttack = 0;
-            alterDefense((int) resultOfFirstStrikePhase.get(0));
-            if (getDefense() <= 0 || (boolean) resultOfFirstStrikePhase.get(1)) {
-                this.dead = true;
-            }
+        if (getDefense() <= 0 || (boolean) resultOfEarlyPhase.get(1)) {
+            this.dead = true;
+        }
 
-            // in the works
-
-            if(!this.dead) {
-                for (int i = 0; i < valueOfDamageToGive.size(); i++) {
-                    if (!defendingCreatures.get(i).getFirstStrike() && !defendingCreatures.get(i).isDead()) {
-                        if(this.firstStrike || this.doubleStrike) {
-                            defendingCreatures.get(i).doDefense(valueOfDamageToGive.get(i), this.deathtouch);
-                            if(!defendingCreatures.get(i).isDead() ) {
-                                if(this.doubleStrike) {
-                                    defendingCreatures.get(i).doDefense(valueOfDamageToGive.get(i), this.deathtouch);
-                                }
-                                sumOfDefendingCreatureAttack += defendingCreatures.get(i).getAttack();
-                            }
-                        } else {
-                            defendingCreatures.get(i).doDefense(valueOfDamageToGive.get(i), this.deathtouch);
-                            sumOfDefendingCreatureAttack += defendingCreatures.get(i).getAttack();
-                        }
-                        if(defendingCreatures.get(i).getDeathtouch()) {
-                            this.dead = true;
-                        }
-                    }
-                }
-                if (sumOfDefendingCreatureAttack >= this.defense) {
-                    this.dead = true;
-                }
+        if (getFirstStrike() || getDoubleStrike()) {
+            Enumeration defendingCreatures = defendingCreaturesAndDamageToGive.keys();
+            while(defendingCreatures.hasMoreElements()) {
+                Creature defender = (Creature) defendingCreatures.nextElement();
+                defender.alterDefense((int) defendingCreaturesAndDamageToGive.get(defender));
             }
         }
+        return this.dead;
     }
+
+
 
 
     /**
