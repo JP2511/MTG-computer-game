@@ -253,11 +253,31 @@ public class Creature extends Card {
     }
 
 
+    public Creature() {
+        this("No name", "No color", "0", "No effect", 0, 0,
+                "No subtype");
+    }
+
+
     /**
      * Resets the defenseDuringTurn value to the original defense value.
      */
     public void resetDefense() {
         this.defenseDuringTurn = this.defense;
+    }
+
+    /**
+     * Makes the creature die.
+     */
+    public void die() {
+        this.dead = true;
+    }
+
+    /**
+     * Resurrects the creature. Turns the dead variable back to false.
+     */
+    public void resurrect() {
+        this.dead = false;
     }
 
 
@@ -386,6 +406,39 @@ public class Creature extends Card {
     }
 
 
+    /**
+     *   It fully handles the normal phase of the attack phase. It applies the damage given from the defending creatures
+     * without first strike to the attacking creature and it applies the damage the attacking creature deals to
+     * the defending creatures. The damage given by the attacking creature is distributed to the defending creature as
+     * provided by the defendingCreaturesAndDamageToGive hashTable.
+     * *
+     *   This method is only supposed to be applied if the creature has survived the early phase of the attack phase.
+     *
+     * @param defendingCreaturesAndDamageToGive HashTable with the creatures that are going to defend the attacking
+     *                                     creature as keys and the damage the attacking creature is going to give to a
+     *                                     that defending creature during the normal phase of the attack phase as the
+     *                                     associated value.
+     *
+     * @return A boolean with the value of true if the attacking creature survives this part of the attack phase.
+     */
+    public boolean normalPhaseAttack(Hashtable<Creature, Integer> defendingCreaturesAndDamageToGive) {
+        List resultOfEarlyPhase = attackInParts((ArrayList<Creature>) defendingCreaturesAndDamageToGive.keys(),
+                true);
+        alterDefense((int) resultOfEarlyPhase.get(0));
+
+        if (getDefense() <= 0 || (boolean) resultOfEarlyPhase.get(1)) {
+            this.dead = true;
+        }
+
+        if (getFirstStrike() || getDoubleStrike()) {
+            Enumeration defendingCreatures = defendingCreaturesAndDamageToGive.keys();
+            while(defendingCreatures.hasMoreElements()) {
+                Creature defender = (Creature) defendingCreatures.nextElement();
+                defender.alterDefense((int) defendingCreaturesAndDamageToGive.get(defender));
+            }
+        }
+        return this.dead;
+    }
 
 
     /**
