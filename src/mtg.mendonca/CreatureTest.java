@@ -33,7 +33,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
      * and with one counter with defense == attack.
      */
     @Test
@@ -45,7 +45,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
      * and with one counter with defense != attack.
      */
     @Test
@@ -57,7 +57,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
      * different with one counter with defense == attack.
      */
     @Test
@@ -70,7 +70,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
      * different and with one counter with defense != attack.
      */
     @Test
@@ -83,7 +83,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
      * and with two counters with defense == attack.
      */
     @Test
@@ -96,7 +96,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
      * and with one counter with defense != attack and one counter with defense == attack.
      */
     @Test
@@ -109,7 +109,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
      * and with two counters with defense != attack.
      */
     @Test
@@ -122,7 +122,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
      * different with two counters with defense == attack.
      */
     @Test
@@ -136,7 +136,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
      * different and with one counter with defense != attack and one counter with defense == attack.
      */
     @Test
@@ -150,7 +150,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
      * different with two counters with defense != attack.
      */
     @Test
@@ -164,7 +164,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
      * and with one temporary counter with defense == attack.
      */
     @Test
@@ -176,7 +176,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
      * and with one temporary counter with defense != attack.
      */
     @Test
@@ -188,7 +188,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
      * different with one temporary counter with defense == attack.
      */
     @Test
@@ -201,7 +201,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
      * different and with one temporary counter with defense != attack.
      */
     @Test
@@ -214,7 +214,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
      * and with two temporary counters with defense == attack.
      */
     @Test
@@ -227,7 +227,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
      * and with one temporary counter with defense != attack and one temporary counter with defense == attack.
      */
     @Test
@@ -240,7 +240,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
      * and with two temporary counters with defense != attack.
      */
     @Test
@@ -253,7 +253,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
      * different and with two temporary counters with defense == attack.
      */
     @Test
@@ -267,7 +267,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
      * different and with one temporary counter with defense != attack and one temporary counter with defense == attack.
      */
     @Test
@@ -281,7 +281,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
      * different and with two temporary counters with defense != attack.
      */
     @Test
@@ -293,19 +293,516 @@ class CreatureTest {
         assertEquals(creature.getAttack(), 11);
     }
 
-    // missing tests with both temporary counters and normal counters
+
+    /**
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     * and with a counter and a temporary counter with defense == attack.
+     */
+    @Test
+    void getAttack_equal_counter_equal_temp_equal() {
+        Creature creature = new Creature();
+        creature.addCounter("+1/+1");
+        creature.addTempCounter(new Creature(), "+1/+1");
+        assertEquals(creature.getAttack(), 2);
+    }
+
+
+    /**
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     * and with one counter with defense == attack and one temporary counter with defense != attack.
+     */
+    @Test
+    void getAttack_equal_counter_equal_temp_different() {
+        Creature creature = new Creature();
+        creature.addCounter("+2/+2");
+        creature.addTempCounter(new Creature(),"+3/+2");
+        assertEquals(creature.getAttack(), 5);
+    }
+
+
+    /**
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     * and with one counter with defense != attack and one temporary counter with defense == attack.
+     */
+    @Test
+    void getAttack_equal_counter_different_temp_equal() {
+        Creature creature = new Creature();
+        creature.addCounter("+3/+2");
+        creature.addTempCounter(new Creature(),"+2/+2");
+        assertEquals(creature.getAttack(), 5);
+    }
+
+
+    /**
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     * and with a counter and a temporary counters with defense != attack.
+     */
+    @Test
+    void getAttack_equal_counter_different_temp_different() {
+        Creature creature = new Creature();
+        creature.addTempCounter(new Creature(), "+3/+1");
+        creature.addTempCounter(new Creature(), "+3/+1");
+        assertEquals(creature.getAttack(), 6);
+    }
+
+
+    /**
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     * different and with a counter and a temporary counter with defense == attack.
+     */
+    @Test
+    void getAttack_different_counter_equal_temp_equal() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");;
+        creature.addCounter("+1/+1");
+        creature.addTempCounter(new Creature(), "+1/+1");
+        assertEquals(creature.getAttack(), 7);
+    }
+
+
+    /**
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     * different and with one counter with defense == attack and one temporary counter with defense != attack.
+     */
+    @Test
+    void getAttack_different_counter_equal_temp_different() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addCounter("+2/+2");
+        creature.addTempCounter(new Creature(),"+3/+2");
+        assertEquals(creature.getAttack(), 10);
+    }
+
+
+    /**
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     * different and with one counter with defense != attack and one temporary counter with defense == attack.
+     */
+    @Test
+    void getAttack_different_counter_different_temp_equal() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addCounter("+3/+2");
+        creature.addTempCounter(new Creature(),"+2/+2");
+        assertEquals(creature.getAttack(), 10);
+    }
+
+
+    /**
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     * different and with a counter and a temporary counters with defense != attack.
+     */
+    @Test
+    void getAttack_different_counter_different_temp_different() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addTempCounter(new Creature(), "+3/+1");
+        creature.addTempCounter(new Creature(), "+3/+1");
+        assertEquals(creature.getAttack(), 11);
+    }
+
 
     /* -----------------------------------------------------------------------------------------------------------------
      * Tests for the getDefense() function
      * -----------------------------------------------------------------------------------------------------------------
      */
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with defense and defense
+     * equal.
+     */
     @Test
-    void getDefense() {
+    void getDefense_equal() {
+        Creature creature = new Creature();
+        assertEquals(creature.getDefense(), 0);
     }
 
+
+    /**
+     * Test for the defense function. Testing for the value of the defense with a creature with 0 defense.
+     */
     @Test
-    void isDead() {
+    void getDefense_different() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        assertEquals(creature.getDefense(), 6);
     }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with one counter with defense == attack.
+     */
+    @Test
+    void getDefense_equal_1counter_equal() {
+        Creature creature = new Creature();
+        creature.addCounter("+1/+1");
+        assertEquals(creature.getDefense(), 1);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with one counter with defense != attack.
+     */
+    @Test
+    void getDefense_equal_1counter_different() {
+        Creature creature = new Creature();
+        creature.addCounter("+3/+2");
+        assertEquals(creature.getDefense(), 2);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * different with one counter with defense == attack.
+     */
+    @Test
+    void getDefense_different_1counter_equal() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addCounter("+2/+2");
+        assertEquals(creature.getDefense(), 8);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * different and with one counter with defense != attack.
+     */
+    @Test
+    void getDefense_different_1counter_different() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addCounter("+4/+2");
+        assertEquals(creature.getDefense(), 8);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with two counters with defense == attack.
+     */
+    @Test
+    void getDefense_equal_2counter_equal_equal() {
+        Creature creature = new Creature();
+        creature.addCounter("+1/+1");
+        creature.addCounter("+2/+2");
+        assertEquals(creature.getDefense(), 3);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with one counter with defense != attack and one counter with defense == attack.
+     */
+    @Test
+    void getDefense_equal_1counter_different_equal() {
+        Creature creature = new Creature();
+        creature.addCounter("+3/+2");
+        creature.addCounter("+2/+2");
+        assertEquals(creature.getDefense(), 4);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with two counters with defense != attack.
+     */
+    @Test
+    void getDefense_equal_2counter_different_different() {
+        Creature creature = new Creature();
+        creature.addCounter("+3/+1");
+        creature.addCounter("+1/+5");
+        assertEquals(creature.getDefense(), 6);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * different with two counters with defense == attack.
+     */
+    @Test
+    void getDefense_different_2counter_equal_equal() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addCounter("+2/+2");
+        creature.addCounter("+4/+4");
+        assertEquals(creature.getDefense(), 12);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * different and with one counter with defense != attack and one counter with defense == attack.
+     */
+    @Test
+    void getDefense_different_2counter_different_equal() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addCounter("+4/+2");
+        creature.addCounter("+2/+2");
+        assertEquals(creature.getDefense(), 10);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * different with two counters with defense != attack.
+     */
+    @Test
+    void getDefense_different_2counter_different_different() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addCounter("+4/+2");
+        creature.addCounter("+2/+4");
+        assertEquals(creature.getDefense(), 12);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with one temporary counter with defense == attack.
+     */
+    @Test
+    void getDefense_equal_1temp_equal() {
+        Creature creature = new Creature();
+        creature.addTempCounter(new Creature(), "+1/+1");
+        assertEquals(creature.getDefense(), 1);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with one temporary counter with defense != attack.
+     */
+    @Test
+    void getDefense_equal_1temp_different() {
+        Creature creature = new Creature();
+        creature.addTempCounter(new Creature(),"+3/+2");
+        assertEquals(creature.getDefense(), 2);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * different with one temporary counter with defense == attack.
+     */
+    @Test
+    void getDefense_different_1temp_equal() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addTempCounter(new Creature(),"+2/+2");
+        assertEquals(creature.getDefense(), 8);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * different and with one temporary counter with defense != attack.
+     */
+    @Test
+    void getDefense_different_1temp_different() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addTempCounter(new Creature(),"+4/+2");
+        assertEquals(creature.getDefense(), 8);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with two temporary counters with defense == attack.
+     */
+    @Test
+    void getDefense_equal_2temp_equal_equal() {
+        Creature creature = new Creature();
+        creature.addTempCounter(new Creature(), "+1/+1");
+        creature.addTempCounter(new Creature(), "+1/+1");
+        assertEquals(creature.getDefense(), 2);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with one temporary counter with defense != attack and one temporary counter with defense == attack.
+     */
+    @Test
+    void getDefense_equal_1temp_equal_different() {
+        Creature creature = new Creature();
+        creature.addTempCounter(new Creature(),"+3/+2");
+        creature.addTempCounter(new Creature(),"+2/+2");
+        assertEquals(creature.getDefense(), 4);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with two temporary counters with defense != attack.
+     */
+    @Test
+    void getDefense_equal_2temp_different_different() {
+        Creature creature = new Creature();
+        creature.addTempCounter(new Creature(), "+3/+1");
+        creature.addTempCounter(new Creature(), "+3/+1");
+        assertEquals(creature.getDefense(), 2);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * different and with two temporary counters with defense == attack.
+     */
+    @Test
+    void getDefense_different_2temp_equal_equal() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addTempCounter(new Creature(), "+1/+1");
+        creature.addTempCounter(new Creature(), "+1/+1");
+        assertEquals(creature.getDefense(), 8);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * different and with one temporary counter with defense != attack and one temporary counter with defense == attack.
+     */
+    @Test
+    void getDefense_different_1temp_equal_different() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addTempCounter(new Creature(),"+3/+2");
+        creature.addTempCounter(new Creature(),"+2/+2");
+        assertEquals(creature.getDefense(), 10);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * different and with two temporary counters with defense != attack.
+     */
+    @Test
+    void getDefense_different_2temp_different_different() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addTempCounter(new Creature(), "+3/+1");
+        creature.addTempCounter(new Creature(), "+3/+1");
+        assertEquals(creature.getDefense(), 8);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with a counter and a temporary counter with defense == attack.
+     */
+    @Test
+    void getDefense_equal_counter_equal_temp_equal() {
+        Creature creature = new Creature();
+        creature.addCounter("+1/+1");
+        creature.addTempCounter(new Creature(), "+1/+1");
+        assertEquals(creature.getDefense(), 2);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with one counter with defense == attack and one temporary counter with defense != attack.
+     */
+    @Test
+    void getDefense_equal_counter_equal_temp_different() {
+        Creature creature = new Creature();
+        creature.addCounter("+2/+2");
+        creature.addTempCounter(new Creature(),"+3/+2");
+        assertEquals(creature.getDefense(), 4);
+    }
+
+
+    /**
+     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with one counter with defense != attack and one temporary counter with defense == attack.
+     */
+    @Test
+    void getDefense_equal_counter_different_temp_equal() {
+        Creature creature = new Creature();
+        creature.addCounter("+3/+2");
+        creature.addTempCounter(new Creature(),"+2/+2");
+        assertEquals(creature.getDefense(), 4);
+    }
+
+
+    /**
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
+     * and with a counter and a temporary counters with defense != attack.
+     */
+    @Test
+    void getAttack_equal_counter_different_temp_different() {
+        Creature creature = new Creature();
+        creature.addTempCounter(new Creature(), "+3/+1");
+        creature.addTempCounter(new Creature(), "+3/+1");
+        assertEquals(creature.getAttack(), 6);
+    }
+
+
+    /**
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     * different and with a counter and a temporary counter with defense == attack.
+     */
+    @Test
+    void getAttack_different_counter_equal_temp_equal() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");;
+        creature.addCounter("+1/+1");
+        creature.addTempCounter(new Creature(), "+1/+1");
+        assertEquals(creature.getAttack(), 7);
+    }
+
+
+    /**
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     * different and with one counter with defense == attack and one temporary counter with defense != attack.
+     */
+    @Test
+    void getAttack_different_counter_equal_temp_different() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addCounter("+2/+2");
+        creature.addTempCounter(new Creature(),"+3/+2");
+        assertEquals(creature.getAttack(), 5);
+    }
+
+
+    /**
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     * different and with one counter with defense != attack and one temporary counter with defense == attack.
+     */
+    @Test
+    void getAttack_different_counter_different_temp_equal() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addCounter("+3/+2");
+        creature.addTempCounter(new Creature(),"+2/+2");
+        assertEquals(creature.getAttack(), 10);
+    }
+
+
+    /**
+     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     * different and with a counter and a temporary counters with defense != attack.
+     */
+    @Test
+    void getAttack_different_counter_different_temp_different() {
+        Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
+                "Human");
+        creature.addTempCounter(new Creature(), "+3/+1");
+        creature.addTempCounter(new Creature(), "+3/+1");
+        assertEquals(creature.getAttack(), 11);
+    }
+
+
+    /* -----------------------------------------------------------------------------------------------------------------
+     * Tests for the getVigilance() function
+     * -----------------------------------------------------------------------------------------------------------------
+     */
 
     @Test
     void getVigilance() {
