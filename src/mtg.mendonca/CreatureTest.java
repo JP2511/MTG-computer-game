@@ -408,7 +408,7 @@ class CreatureTest {
      */
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with defense and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with defense and defense
      * equal.
      */
     @Test
@@ -419,7 +419,7 @@ class CreatureTest {
 
 
     /**
-     * Test for the defense function. Testing for the value of the defense with a creature with 0 defense.
+     * Test for the getDefense function. Testing for the value of the defense with a creature with 0 defense.
      */
     @Test
     void getDefense_different() {
@@ -430,7 +430,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * equal and with one counter with defense == attack.
      */
     @Test
@@ -442,7 +442,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * equal and with one counter with defense != attack.
      */
     @Test
@@ -454,7 +454,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different with one counter with defense == attack.
      */
     @Test
@@ -467,7 +467,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different and with one counter with defense != attack.
      */
     @Test
@@ -480,7 +480,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * equal and with two counters with defense == attack.
      */
     @Test
@@ -493,7 +493,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * equal and with one counter with defense != attack and one counter with defense == attack.
      */
     @Test
@@ -506,7 +506,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * equal and with two counters with defense != attack.
      */
     @Test
@@ -519,7 +519,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different with two counters with defense == attack.
      */
     @Test
@@ -533,7 +533,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different and with one counter with defense != attack and one counter with defense == attack.
      */
     @Test
@@ -547,7 +547,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different with two counters with defense != attack.
      */
     @Test
@@ -561,7 +561,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * equal and with one temporary counter with defense == attack.
      */
     @Test
@@ -573,7 +573,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * equal and with one temporary counter with defense != attack.
      */
     @Test
@@ -585,7 +585,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different with one temporary counter with defense == attack.
      */
     @Test
@@ -598,7 +598,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different and with one temporary counter with defense != attack.
      */
     @Test
@@ -611,7 +611,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * equal and with two temporary counters with defense == attack.
      */
     @Test
@@ -624,7 +624,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * equal and with one temporary counter with defense != attack and one temporary counter with defense == attack.
      */
     @Test
@@ -637,7 +637,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * equal and with two temporary counters with defense != attack.
      */
     @Test
@@ -650,7 +650,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different and with two temporary counters with defense == attack.
      */
     @Test
@@ -664,7 +664,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different and with one temporary counter with defense != attack and one temporary counter with defense == attack.
      */
     @Test
@@ -678,7 +678,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different and with two temporary counters with defense != attack.
      */
     @Test
@@ -692,7 +692,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * equal and with a counter and a temporary counter with defense == attack.
      */
     @Test
@@ -705,7 +705,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * equal and with one counter with defense == attack and one temporary counter with defense != attack.
      */
     @Test
@@ -718,7 +718,7 @@ class CreatureTest {
 
 
     /**
-     *   Test for the defense function. Testing for the value of the defense with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * equal and with one counter with defense != attack and one temporary counter with defense == attack.
      */
     @Test
@@ -731,71 +731,71 @@ class CreatureTest {
 
 
     /**
-     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense equal
-     * and with a counter and a temporary counters with defense != attack.
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
+     * equal and with a counter and a temporary counters with defense != attack.
      */
     @Test
-    void getAttack_equal_counter_different_temp_different() {
+    void getDefense_equal_counter_different_temp_different() {
         Creature creature = new Creature();
         creature.addTempCounter(new Creature(), "+3/+1");
         creature.addTempCounter(new Creature(), "+3/+1");
-        assertEquals(creature.getAttack(), 6);
+        assertEquals(creature.getDefense(), 2);
     }
 
 
     /**
-     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different and with a counter and a temporary counter with defense == attack.
      */
     @Test
-    void getAttack_different_counter_equal_temp_equal() {
+    void getDefense_different_counter_equal_temp_equal() {
         Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
                 "Human");;
         creature.addCounter("+1/+1");
         creature.addTempCounter(new Creature(), "+1/+1");
-        assertEquals(creature.getAttack(), 7);
+        assertEquals(creature.getDefense(), 8);
     }
 
 
     /**
-     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different and with one counter with defense == attack and one temporary counter with defense != attack.
      */
     @Test
-    void getAttack_different_counter_equal_temp_different() {
+    void getDefense_different_counter_equal_temp_different() {
         Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
                 "Human");
         creature.addCounter("+2/+2");
         creature.addTempCounter(new Creature(),"+3/+2");
-        assertEquals(creature.getAttack(), 5);
+        assertEquals(creature.getDefense(), 10);
     }
 
 
     /**
-     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different and with one counter with defense != attack and one temporary counter with defense == attack.
      */
     @Test
-    void getAttack_different_counter_different_temp_equal() {
+    void getDefense_different_counter_different_temp_equal() {
         Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
                 "Human");
         creature.addCounter("+3/+2");
         creature.addTempCounter(new Creature(),"+2/+2");
-        assertEquals(creature.getAttack(), 10);
+        assertEquals(creature.getDefense(), 10);
     }
 
 
     /**
-     *   Test for the attack function. Testing for the value of the attack with a creature with attack and defense
+     *   Test for the getDefense function. Testing for the value of the defense with a creature with attack and defense
      * different and with a counter and a temporary counters with defense != attack.
      */
     @Test
-    void getAttack_different_counter_different_temp_different() {
+    void getDefense_different_counter_different_temp_different() {
         Creature creature = new Creature("Creature", "Red", "2", "", 5, 6,
                 "Human");
         creature.addTempCounter(new Creature(), "+3/+1");
         creature.addTempCounter(new Creature(), "+3/+1");
-        assertEquals(creature.getAttack(), 11);
+        assertEquals(creature.getDefense(), 8);
     }
 
 
@@ -804,13 +804,82 @@ class CreatureTest {
      * -----------------------------------------------------------------------------------------------------------------
      */
 
+    /**
+     *   Test for the getVigilance function. It tests the getVigilance function when the creature doesn't have any
+     * effects.
+     */
     @Test
-    void getVigilance() {
+    void getVigilance_empty() {
+        Creature creature = new Creature("Name", "No color", "0", "", 0, 1,
+                "Human");
+        assertFalse(creature.getVigilance());
     }
+
+
+    /**
+     *   Test for the getVigilance function. It tests the getVigilance function when the creature has effects but not
+     * vigilance.
+     */
+    @Test
+    void getVigilance_eff_not_vigilance() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Flying.", 0,
+                1, "Human");
+        assertFalse(creature.getVigilance());
+    }
+
+
+    /**
+     *   Test for the getVigilance function. It tests the getVigilance function when the creature has vigilance.
+     */
+    @Test
+    void getVigilance_vigilance() {
+        Creature creature = new Creature("Name", "No color", "0", "Vigilance", 0,
+                1, "Human");
+        assertTrue(creature.getVigilance());
+    }
+
+
+    /**
+     *   Test for the getVigilance function. It tests the getVigilance function when the creature has vigilance and also
+     * other effects.
+     */
+    @Test
+    void getVigilance_effect_vigilance_effect() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Vigilance." +
+                "Double strike.", 0, 1, "Human");
+        assertTrue(creature.getVigilance());
+    }
+
+
+    /**
+     *   Test for the getVigilance function. It tests the getVigilance function when the creature has the word vigilance
+     * in the effects but broken down.
+     */
+    @Test
+    void getVigilance_Vigi_lance() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Vigi Rampage" +
+                "lance. Double strike.", 0, 1, "Human");
+        assertFalse(creature.getVigilance());
+    }
+
+
+    /* -----------------------------------------------------------------------------------------------------------------
+     * Tests for the getDeathtouch() function
+     * -----------------------------------------------------------------------------------------------------------------
+     */
 
     @Test
     void getDeathtouch() {
+        Creature creature = new Creature("Name", "No collor", "0", "", 0,1,
+                "");
+        assertFalse(creature.getDeathtouch());
     }
+
+
+    /* -----------------------------------------------------------------------------------------------------------------
+     * Tests for the getFlying() function
+     * -----------------------------------------------------------------------------------------------------------------
+     */
 
     @Test
     void getFlying() {
