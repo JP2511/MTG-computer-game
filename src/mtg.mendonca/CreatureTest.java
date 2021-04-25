@@ -863,15 +863,90 @@ class CreatureTest {
     }
 
 
+    /**
+     *   Test for the getVigilance function. It tests the getVigilance function when the creature has the word vigilance
+     * in the effects but it's all in lowercase.
+     */
+    @Test
+    void getVigilance_Vigilance_lower() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste and vigilance" +
+                ". Double strike.", 0, 1, "Human");
+        assertFalse(creature.getVigilance());
+    }
+
+
     /* -----------------------------------------------------------------------------------------------------------------
      * Tests for the getDeathtouch() function
      * -----------------------------------------------------------------------------------------------------------------
      */
 
+    /**
+     *   Test for the getDeathtouch function. It tests the getDeathtouch function when the creature doesn't have any
+     * effects.
+     */
     @Test
-    void getDeathtouch() {
-        Creature creature = new Creature("Name", "No collor", "0", "", 0,1,
-                "");
+    void getDeathtouch_empty() {
+        Creature creature = new Creature("Name", "No color", "0", "", 0, 1,
+                "Human");
+        assertFalse(creature.getDeathtouch());
+    }
+
+
+    /**
+     *   Test for the getDeathtouch function. It tests the getDeathtouch function when the creature has effects but not
+     * deathtouch.
+     */
+    @Test
+    void getDeathtouch_eff_not_Deathtouch() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Flying.", 0,
+                1, "Human");
+        assertFalse(creature.getDeathtouch());
+    }
+
+
+    /**
+     *   Test for the getDeathtouch function. It tests the getDeathtouch function when the creature has deathtouch.
+     */
+    @Test
+    void getDeathtouch_Deathtouch() {
+        Creature creature = new Creature("Name", "No color", "0", "Deathtouch", 0,
+                1, "Human");
+        assertTrue(creature.getDeathtouch());
+    }
+
+
+    /**
+     *   Test for the getDeathtouch function. It tests the getDeathtouch function when the creature has deathtouch and
+     * also other effects.
+     */
+    @Test
+    void getDeathtouch_effect_Deathtouch_effect() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Deathtouch." +
+                "Double strike.", 0, 1, "Human");
+        assertTrue(creature.getDeathtouch());
+    }
+
+
+    /**
+     *   Test for the getDeathtouch function. It tests the getDeathtouch function when the creature has the word
+     * deathtouch in the effects but broken down.
+     */
+    @Test
+    void getDeathtouch_Death_touch() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Death Rampage" +
+                "touch. Double strike.", 0, 1, "Human");
+        assertFalse(creature.getDeathtouch());
+    }
+
+
+    /**
+     *   Test for the getDeathtouch function. It tests the getDeathtouch function when the creature has the word
+     * deathtouch in the effects but it's all in lowercase.
+     */
+    @Test
+    void getDeathtouch_Deathtouch_lower() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste and deathtouch" +
+                ". Double strike.", 0, 1, "Human");
         assertFalse(creature.getDeathtouch());
     }
 
@@ -881,21 +956,110 @@ class CreatureTest {
      * -----------------------------------------------------------------------------------------------------------------
      */
 
+    /**
+     *   Test for the getFlying function. It tests the getFlying function when the creature doesn't have any
+     * effects.
+     */
     @Test
-    void getFlying() {
+    void getFlying_empty() {
+        Creature creature = new Creature("Name", "No color", "0", "", 0, 1,
+                "Human");
+        assertFalse(creature.getFlying());
     }
+
+
+    /**
+     *   Test for the getFlying function. It tests the getFlying function when the creature has effects but not flying.
+     */
+    @Test
+    void getFlying_eff_not_Flying() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Trample.",
+                0, 1, "Human");
+        assertFalse(creature.getFlying());
+    }
+
+
+    /**
+     *   Test for the getFlying function. It tests the getFlying function when the creature has flying.
+     */
+    @Test
+    void getFlying_Flying() {
+        Creature creature = new Creature("Name", "No color", "0", "Flying", 0,
+                1, "Human");
+        assertTrue(creature.getFlying());
+    }
+
+
+    /**
+     *   Test for the getFlying function. It tests the getFlying function when the creature has flying and also other
+     * effects.
+     */
+    @Test
+    void getFlying_effect_Flying_effect() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Flying." +
+                "Double strike.", 0, 1, "Human");
+        assertTrue(creature.getFlying());
+    }
+
+
+    /**
+     *   Test for the getFlying function. It tests the getFlying function when the creature has the word flying in the
+     * effects but broken down.
+     */
+    @Test
+    void getFlying_Fly_ing() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Fly Rampage" +
+                "ing. Double strike.", 0, 1, "Human");
+        assertFalse(creature.getFlying());
+    }
+
+
+    /**
+     *   Test for the getFlying function. It tests the getFlying function when the creature has the word flying in the
+     * effects but it's all in lowercase.
+     */
+    @Test
+    void getFlying_Flying_lower() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste and flying" +
+                ". Double strike.", 0, 1, "Human");
+        assertFalse(creature.getFlying());
+    }
+
+
+    /* -----------------------------------------------------------------------------------------------------------------
+     * Tests for the getReach() function
+     * -----------------------------------------------------------------------------------------------------------------
+     */
 
     @Test
     void getReach() {
     }
 
+
+    /* -----------------------------------------------------------------------------------------------------------------
+     * Tests for the getFirstStrike() function
+     * -----------------------------------------------------------------------------------------------------------------
+     */
+
     @Test
     void getFirstStrike() {
     }
 
+
+    /* -----------------------------------------------------------------------------------------------------------------
+     * Tests for the getDoubleStrike() function
+     * -----------------------------------------------------------------------------------------------------------------
+     */
+
     @Test
     void getDoubleStrike() {
     }
+
+
+    /* -----------------------------------------------------------------------------------------------------------------
+     * Tests for the getFlash() function
+     * -----------------------------------------------------------------------------------------------------------------
+     */
 
     @Test
     void getFlash() {
