@@ -27,16 +27,17 @@ public class Creature extends Card {
 
 
     // abilities a creature might have
-    private boolean haste = getEffect().contains("Haste");
-    private boolean vigilance = getEffect().contains("Vigilance");
-    private boolean deathtouch = getEffect().contains("Deathtouch");
-    private boolean flying = getEffect().contains("Flying");
-    private boolean reach = getEffect().contains("Reach");
-    private boolean firstStrike = getEffect().contains("First Strike");
-    private boolean doubleStrike = getEffect().contains("Double Strike");
-    private boolean flash = getEffect().contains("Flash");
-    private boolean bloodRush = getEffect().contains("Bloodrush");
-    private boolean cycling = getEffect().contains("Cycling") && !getEffect().contains("Cyclicing abilities");
+    private boolean haste = getEffect().matches(".*[Hh]aste.*");
+    private boolean vigilance = getEffect().matches(".*[Vv]igilance.*");
+    private boolean deathtouch = getEffect().matches(".*[Dd]eathtouch.*");
+    private boolean flying = getEffect().matches(".*[Ff]lying.*");
+    private boolean reach = getEffect().matches(".*[Rr]each.*");
+    private boolean firstStrike = getEffect().matches(".*[Ff]irst [Ss]trike.*");
+    private boolean doubleStrike = getEffect().matches(".*[Dd]ouble [Ss]trike.*");
+    private boolean flash = getEffect().matches(".*[Ff]lash.*");
+    private boolean bloodRush = getEffect().matches(".*[Bb]loodrush.*");
+    private boolean cycling = getEffect().matches(".*[Cc]ycling.*") &&
+            !getEffect().matches(".*[Cc]yclicing abilities.*");
 
 
     {
@@ -96,6 +97,16 @@ public class Creature extends Card {
      */
     public boolean isDead() {
         return this.dead;
+    }
+
+
+    /**
+     * Determines if the creature has haste.
+     *
+     * @return Boolean True if the creature has haste and false if the creature doesn't.
+     */
+    public boolean getHaste() {
+        return this.haste;
     }
 
 

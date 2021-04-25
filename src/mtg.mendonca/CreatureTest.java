@@ -800,6 +800,80 @@ class CreatureTest {
 
 
     /* -----------------------------------------------------------------------------------------------------------------
+     * Tests for the getHaste() function
+     * -----------------------------------------------------------------------------------------------------------------
+     */
+
+    /**
+     *   Test for the getHaste function. It tests the getHaste function when the creature doesn't have any effects.
+     */
+    @Test
+    void getHaste_empty() {
+        Creature creature = new Creature("Name", "No color", "0", "", 0, 1,
+                "Human");
+        assertFalse(creature.getHaste());
+    }
+
+
+    /**
+     *   Test for the getHaste function. It tests the getHaste function when the creature has effects but not haste.
+     */
+    @Test
+    void getHaste_eff_not_Haste() {
+        Creature creature = new Creature("Name", "No color", "0", "Flying. Trample.",
+                0, 1, "Human");
+        assertFalse(creature.getHaste());
+    }
+
+
+    /**
+     *   Test for the getHaste function. It tests the getHaste function when the creature has haste.
+     */
+    @Test
+    void getHaste_Haste() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste", 0,
+                1, "Human");
+        assertTrue(creature.getHaste());
+    }
+
+
+    /**
+     *   Test for the getHaste function. It tests the getHaste function when the creature has haste and also other
+     * effects.
+     */
+    @Test
+    void getHaste_effect_Haste_effect() {
+        Creature creature = new Creature("Name", "No color", "0", "Trample. Haste." +
+                "Double strike.", 0, 1, "Human");
+        assertTrue(creature.getHaste());
+    }
+
+
+    /**
+     *   Test for the getHaste function. It tests the getHaste function when the creature has the word haste in the
+     * effects but broken down.
+     */
+    @Test
+    void getHaste_Has_te() {
+        Creature creature = new Creature("Name", "No color", "0", "Trample. Has Rampage" +
+                "te. Double strike.", 0, 1, "Human");
+        assertFalse(creature.getHaste());
+    }
+
+
+    /**
+     *   Test for the getHaste function. It tests the getHaste function when the creature has the word haste in the
+     * effects but it's all in lowercase.
+     */
+    @Test
+    void getHaste_Haste_lower() {
+        Creature creature = new Creature("Name", "No color", "0", "Flying and haste." +
+                "Double strike.", 0, 1, "Human");
+        assertTrue(creature.getHaste());
+    }
+
+
+    /* -----------------------------------------------------------------------------------------------------------------
      * Tests for the getVigilance() function
      * -----------------------------------------------------------------------------------------------------------------
      */
@@ -871,7 +945,7 @@ class CreatureTest {
     void getVigilance_Vigilance_lower() {
         Creature creature = new Creature("Name", "No color", "0", "Haste and vigilance" +
                 ". Double strike.", 0, 1, "Human");
-        assertFalse(creature.getVigilance());
+        assertTrue(creature.getVigilance());
     }
 
 
@@ -947,7 +1021,7 @@ class CreatureTest {
     void getDeathtouch_Deathtouch_lower() {
         Creature creature = new Creature("Name", "No color", "0", "Haste and deathtouch" +
                 ". Double strike.", 0, 1, "Human");
-        assertFalse(creature.getDeathtouch());
+        assertTrue(creature.getDeathtouch());
     }
 
 
@@ -1022,7 +1096,7 @@ class CreatureTest {
     void getFlying_Flying_lower() {
         Creature creature = new Creature("Name", "No color", "0", "Haste and flying" +
                 ". Double strike.", 0, 1, "Human");
-        assertFalse(creature.getFlying());
+        assertTrue(creature.getFlying());
     }
 
 
@@ -1031,8 +1105,72 @@ class CreatureTest {
      * -----------------------------------------------------------------------------------------------------------------
      */
 
+    /**
+     *   Test for the getReach function. It tests the getReach function when the creature doesn't have any effects.
+     */
     @Test
-    void getReach() {
+    void getReach_empty() {
+        Creature creature = new Creature("Name", "No color", "0", "", 0, 1,
+                "Human");
+        assertFalse(creature.getReach());
+    }
+
+
+    /**
+     *   Test for the getReach function. It tests the getReach function when the creature has effects but not reach.
+     */
+    @Test
+    void getReach_eff_not_Reach() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Trample.",
+                0, 1, "Human");
+        assertFalse(creature.getReach());
+    }
+
+
+    /**
+     *   Test for the getReach function. It tests the getReach function when the creature has reach.
+     */
+    @Test
+    void getReach_Reach() {
+        Creature creature = new Creature("Name", "No color", "0", "Reach", 0,
+                1, "Human");
+        assertTrue(creature.getReach());
+    }
+
+
+    /**
+     *   Test for the getReach function. It tests the getReach function when the creature has reach and also other
+     * effects.
+     */
+    @Test
+    void getReach_effect_Reach_effect() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Reach." +
+                "Double strike.", 0, 1, "Human");
+        assertTrue(creature.getReach());
+    }
+
+
+    /**
+     *   Test for the getReach function. It tests the getReach function when the creature has the word reach in the
+     * effects but broken down.
+     */
+    @Test
+    void getReach_Re_ach() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Re Rampage" +
+                "ach. Double strike.", 0, 1, "Human");
+        assertFalse(creature.getReach());
+    }
+
+
+    /**
+     *   Test for the getReach function. It tests the getReach function when the creature has the word reach in the
+     * effects but it's all in lowercase.
+     */
+    @Test
+    void getReach_Reach_lower() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste and reach." +
+                "Double strike.", 0, 1, "Human");
+        assertTrue(creature.getReach());
     }
 
 
@@ -1041,8 +1179,87 @@ class CreatureTest {
      * -----------------------------------------------------------------------------------------------------------------
      */
 
+    /**
+     *   Test for the getFirstStrike function. It tests the getFirstStrike function when the creature doesn't have any
+     * effects.
+     */
     @Test
-    void getFirstStrike() {
+    void getFirstStrike_empty() {
+        Creature creature = new Creature("Name", "No color", "0", "", 0, 1,
+                "Human");
+        assertFalse(creature.getFirstStrike());
+    }
+
+
+    /**
+     *   Test for the getFirstStrike function. It tests the getFirstStrike function when the creature has effects but
+     * not first strike.
+     */
+    @Test
+    void getFirstStrike_eff_not_FirstStrike() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Flying.", 0,
+                1, "Human");
+        assertFalse(creature.getFirstStrike());
+    }
+
+
+    /**
+     *   Test for the getFirstStrike function. It tests the getFirstStrike function when the creature has first strike.
+     */
+    @Test
+    void getFirstStrike_FirstStrike() {
+        Creature creature = new Creature("Name", "No color", "0", "First Strike", 0,
+                1, "Human");
+        assertTrue(creature.getFirstStrike());
+    }
+
+
+    /**
+     *   Test for the getFirstStrike function. It tests the getFirstStrike function when the creature has first strike
+     * and also other effects.
+     */
+    @Test
+    void getFirstStrike_effect_FirstStrike_effect() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. First Strike." +
+                "Double strike.", 0, 1, "Human");
+        assertTrue(creature.getFirstStrike());
+    }
+
+
+    /**
+     *   Test for the getFirstStrike function. It tests the getFirstStrike function when the creature has the word
+     * first strike in the effects but broken down.
+     */
+    @Test
+    void getFirstStrike_Vigi_lance() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. First Rampage" +
+                "Strike. Double strike.", 0, 1, "Human");
+        assertFalse(creature.getFirstStrike());
+    }
+
+
+    /**
+     *   Test for the getFirstStrike function. It tests the getFirstStrike function when the creature has the word
+     * first strike in the effects but it's the first letter of the first word is in uppercase and the first letter of
+     * the last word is in lowercase.
+     */
+    @Test
+    void getFirstStrike_FirstStrike_upper_lower() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste and First strike" +
+                ". Double strike.", 0, 1, "Human");
+        assertTrue(creature.getFirstStrike());
+    }
+
+
+    /**
+     *   Test for the getFirstStrike function. It tests the getFirstStrike function when the creature has the word
+     * first strike in the effects but it's all in lowercase.
+     */
+    @Test
+    void getFirstStrike_FirstStrike_lower() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste and first strike" +
+                ". Double strike.", 0, 1, "Human");
+        assertTrue(creature.getFirstStrike());
     }
 
 
@@ -1065,12 +1282,14 @@ class CreatureTest {
     void getFlash() {
     }
 
-    @Test
-    void alterDefense() {
-    }
+
+    /* -----------------------------------------------------------------------------------------------------------------
+     * Tests for the alterDefense() function
+     * -----------------------------------------------------------------------------------------------------------------
+     */
 
     @Test
-    void setTurnInWhichItWasPlayed() {
+    void alterDefense() {
     }
 
     @Test
