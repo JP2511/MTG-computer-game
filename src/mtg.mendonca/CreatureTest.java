@@ -1231,7 +1231,7 @@ class CreatureTest {
      * first strike in the effects but broken down.
      */
     @Test
-    void getFirstStrike_Vigi_lance() {
+    void getFirstStrike_First_Strike() {
         Creature creature = new Creature("Name", "No color", "0", "Haste. First Rampage" +
                 "Strike. Double strike.", 0, 1, "Human");
         assertFalse(creature.getFirstStrike());
@@ -1246,6 +1246,19 @@ class CreatureTest {
     @Test
     void getFirstStrike_FirstStrike_upper_lower() {
         Creature creature = new Creature("Name", "No color", "0", "Haste and First strike" +
+                ". Double strike.", 0, 1, "Human");
+        assertTrue(creature.getFirstStrike());
+    }
+
+
+    /**
+     *   Test for the getFirstStrike function. It tests the getFirstStrike function when the creature has the word
+     * first strike in the effects but it's the first letter of the first word is in lowercase and the first letter of
+     * the last word is in uppercase.
+     */
+    @Test
+    void getFirstStrike_FirstStrike_lower_upper() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste and first Strike" +
                 ". Double strike.", 0, 1, "Human");
         assertTrue(creature.getFirstStrike());
     }
@@ -1268,8 +1281,101 @@ class CreatureTest {
      * -----------------------------------------------------------------------------------------------------------------
      */
 
+    /**
+     *   Test for the getDoubleStrike function. It tests the getDoubleStrike function when the creature doesn't have any
+     * effects.
+     */
     @Test
-    void getDoubleStrike() {
+    void getDoubleStrike_empty() {
+        Creature creature = new Creature("Name", "No color", "0", "", 0, 1,
+                "Human");
+        assertFalse(creature.getDoubleStrike());
+    }
+
+
+    /**
+     *   Test for the getDoubleStrike function. It tests the getDoubleStrike function when the creature has effects but
+     * not double strike.
+     */
+    @Test
+    void getDoubleStrike_eff_not_DoubleStrike() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Flying.", 0,
+                1, "Human");
+        assertFalse(creature.getDoubleStrike());
+    }
+
+
+    /**
+     *   Test for the getDoubleStrike function. It tests the getDoubleStrike function when the creature has double
+     * strike.
+     */
+    @Test
+    void getDoubleStrike_DoubleStrike() {
+        Creature creature = new Creature("Name", "No color", "0", "Double Strike", 0,
+                1, "Human");
+        assertTrue(creature.getDoubleStrike());
+    }
+
+
+    /**
+     *   Test for the getDoubleStrike function. It tests the getDoubleStrike function when the creature has double
+     * strike and also other effects.
+     */
+    @Test
+    void getDoubleStrike_effect_DoubleStrike_effect() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Double Strike." +
+                "First strike.", 0, 1, "Human");
+        assertTrue(creature.getDoubleStrike());
+    }
+
+
+    /**
+     *   Test for the getDoubleStrike function. It tests the getDoubleStrike function when the creature has the word
+     * double strike in the effects but broken down.
+     */
+    @Test
+    void getDoubleStrike_Double_Strike() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Double Rampage" +
+                "Strike. First strike.", 0, 1, "Human");
+        assertFalse(creature.getDoubleStrike());
+    }
+
+
+    /**
+     *   Test for the getDoubleStrike function. It tests the getDoubleStrike function when the creature has the word
+     * double strike in the effects but it's the first letter of the first word is in uppercase and the first letter of
+     * the last word is in lowercase.
+     */
+    @Test
+    void getDoubleStrike_DoubleStrike_upper_lower() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste and Double strike"+
+                ". Trample", 0, 1, "Human");
+        assertTrue(creature.getDoubleStrike());
+    }
+
+
+    /**
+     *   Test for the getDoubleStrike function. It tests the getDoubleStrike function when the creature has the word
+     * double strike in the effects but it's the first letter of the first word is in lowercase and the first letter of
+     * the last word is in uppercase.
+     */
+    @Test
+    void getDoubleStrike_DoubleStrike_lower_upper() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste and double Strike"+
+                ". Trample", 0, 1, "Human");
+        assertTrue(creature.getDoubleStrike());
+    }
+
+
+    /**
+     *   Test for the getDoubleStrike function. It tests the getDoubleStrike function when the creature has the word
+     * double strike in the effects but it's all in lowercase.
+     */
+    @Test
+    void getDoubleStrike_DoubleStrike_lower() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste and double strike"+
+                ". Trample.", 0, 1, "Human");
+        assertTrue(creature.getDoubleStrike());
     }
 
 
@@ -1278,8 +1384,72 @@ class CreatureTest {
      * -----------------------------------------------------------------------------------------------------------------
      */
 
+    /**
+     *   Test for the getFlash function. It tests the getFlash function when the creature doesn't have any effects.
+     */
     @Test
-    void getFlash() {
+    void getFlash_empty() {
+        Creature creature = new Creature("Name", "No color", "0", "", 0, 1,
+                "Human");
+        assertFalse(creature.getFlash());
+    }
+
+
+    /**
+     *   Test for the getFlash function. It tests the getFlash function when the creature has effects but not flash.
+     */
+    @Test
+    void getFlash_eff_not_Flash() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Trample.",
+                0, 1, "Human");
+        assertFalse(creature.getFlash());
+    }
+
+
+    /**
+     *   Test for the getFlash function. It tests the getFlash function when the creature has flash.
+     */
+    @Test
+    void getFlash_Flash() {
+        Creature creature = new Creature("Name", "No color", "0", "Flash", 0,
+                1, "Human");
+        assertTrue(creature.getFlash());
+    }
+
+
+    /**
+     *   Test for the getFlash function. It tests the getFlash function when the creature has flash and also other
+     * effects.
+     */
+    @Test
+    void getFlash_effect_Flash_effect() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Flash." +
+                "Double strike.", 0, 1, "Human");
+        assertTrue(creature.getFlash());
+    }
+
+
+    /**
+     *   Test for the getFlash function. It tests the getFlash function when the creature has the word flash in the
+     * effects but broken down.
+     */
+    @Test
+    void getFlash_Fla_sh() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste. Fla Rampage" +
+                "sh. Double strike.", 0, 1, "Human");
+        assertFalse(creature.getFlash());
+    }
+
+
+    /**
+     *   Test for the getFlash function. It tests the getFlash function when the creature has the word flash in the
+     * effects but it's all in lowercase.
+     */
+    @Test
+    void getFlash_Flash_lower() {
+        Creature creature = new Creature("Name", "No color", "0", "Haste and flash." +
+                "Double strike.", 0, 1, "Human");
+        assertTrue(creature.getFlash());
     }
 
 
